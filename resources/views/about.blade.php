@@ -1,0 +1,550 @@
+@extends('layouts.app')
+
+@section('content')
+
+      <!-- Hero area start -->
+      <section class="tp-breadcrumb-area">
+        <div class="tp-container">
+          <div class="tp-breadcrumb-wrapper">
+            <img src="{{ asset("assets/imgs/hero/about-bg.jpg") }}" alt="Image">
+            <div class="tp-breadcrumb-content">
+              <h1 class="tp-breadcrumb-title">About Company</h1>
+              <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> About Company</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero area end -->
+
+
+      <!-- About us area start -->
+      <section class="tp-about-area pt-150">
+        <div class="tp-about-wrapper">
+          <div class="tp-about-top plr-50">
+            <h2 class="sub-title">Who We Are</h2>
+            <h2 class="sec-title actova-word">
+              We’re an AI-first agency helping modern businesses turn complex
+              challenges into <span>intelligent, scalable systems.</span>
+            </h2>
+          </div>
+          <div class="tp-about-bottom plr-50">
+            <div class="tp-user-box">
+              <div class="images">
+                <img src="{{ asset("assets/imgs/about/man-2.png") }}" alt="User">
+                <img src="{{ asset("assets/imgs/about/man.png") }}" alt="User">
+                <img src="{{ asset("assets/imgs/about/man-3.png") }}" alt="User">
+              </div>
+              <div class="text">
+                <p><span>24K+</span> active users in world-wide.</p>
+              </div>
+            </div>
+            <div class="content-wrap">
+              <div class="tp-counter-wrapper-2">
+                <h3 class="tp-counter-active number">
+                  12<span class="suffix">+</span>
+                </h3>
+                <p class="text">
+                  We’ve 12+ years of experience to provide quality services.
+                </p>
+              </div>
+              <div class="content">
+                <h3 class="text">
+                  We believe that AI isn’t just tools, it's a force that
+                  amplifies human capability.
+                </h3>
+                <p>
+                  Whether you're an early-stage startup or a global
+                  enterprise, we help you unlock new capabilities, drive
+                  automation, and stay ahead of the curve. AI-first solutions
+                  built for real-world performance.
+                </p>
+                <div class="btn-wrapper tp-btn-animate">
+                  <a href="{{ route("service") }}" class="tp-btn-one">
+                    <span class="btn-wrap">
+                      <span class="text-one">Discover More</span>
+                      <span class="text-two">Discover More</span>
+                    </span>
+                    <span class="btn-icon">
+                      <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us area end -->
+
+
+      <!-- Text Slider Start -->
+      <div class="tp--marquee-text-area image-trail-animation pt-120 pb-120">
+        <div class="tp--marquee-text-inner" aria-hidden="true">
+          <div class="tp--marquee-text">Artificial Intelligence</div>
+          <div class="tp--marquee-text separator-img">
+            <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
+          </div>
+          <div class="tp--marquee-text">Neural Network</div>
+          <div class="tp--marquee-text separator-img">
+            <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
+          </div>
+          <div class="tp--marquee-text">Neural Network</div>
+          <div class="tp--marquee-text separator-img">
+            <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
+          </div>
+          <div class="tp--marquee-text">Neural Network</div>
+          <div class="tp--marquee-text separator-img">
+            <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
+          </div>
+          <div class="tp--marquee-text">Neural Network</div>
+          <div class="tp--marquee-text separator-img">
+            <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
+          </div>
+        </div>
+
+        <div class="image-trail-images">
+          <img class="content__img" src="{{ asset("assets/imgs/service/service-img-1.png") }}" alt="Trail Image 1">
+          <img class="content__img" src="{{ asset("assets/imgs/service/service-img-2.png") }}" alt="Trail Image 2">
+          <img class="content__img" src="{{ asset("assets/imgs/service/service-img-3.png") }}" alt="Trail Image 3">
+          <img class="content__img" src="{{ asset("assets/imgs/service/service-img-4.png") }}" alt="Trail Image 4">
+          <img class="content__img" src="{{ asset("assets/imgs/service/service-img-5.png") }}" alt="Trail Image 4">
+        </div>
+      </div>
+      <!-- Text Slider End -->
+
+
+      <!-- Service section Start -->
+      <section class="tp-service-area-3">
+        <div class="tp-container">
+          <div class="tp-service-inner-3">
+            <div class="title-wrap">
+              <h2 class="sec-title-2 text-move-animation">
+                AI Solutions Engineered with
+                <span>Accuracy, Speed, and Scalability.</span>
+              </h2>
+              <a href="{{ route("service") }}" class="actova-btn-light">
+                Discover More
+                <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                </svg>
+              </a>
+            </div>
+            <div class="tp-service-grid-3">
+              <div class="tp-service-card-3 tp-fade-animation">
+                <a href="#">
+                  <img src="{{ asset("assets/imgs/service/service-icon-7.png") }}" alt="Icon">
+                  <h3 class="title">Neural Network</h3>
+                  <p>
+                    Our models are engineered using advanced neural
+                    architectures to deliver faster.
+                  </p>
+                </a>
+              </div>
+              <div class="tp-service-card-3 tp-fade-animation" data-delay="0.7">
+                <a href="#">
+                  <img src="{{ asset("assets/imgs/service/service-icon-8.png") }}" alt="Icon">
+                  <h3 class="title">Machine Learning</h3>
+                  <p>
+                    Seamlessly connect, process, and act on live data
+                    streams—enabling instant decision-making.
+                  </p>
+                </a>
+              </div>
+              <div class="tp-service-card-3 tp-fade-animation" data-delay="0.9">
+                <a href="#">
+                  <img src="{{ asset("assets/imgs/service/service-icon-9.png") }}" alt="Icon">
+                  <h3 class="title">Data Analytics</h3>
+                  <p>
+                    Launch AI solutions in days—not months—with automated
+                    pipelines and streamlined workflows.
+                  </p>
+                </a>
+              </div>
+              <div class="tp-service-card-3 tp-fade-animation" data-delay="1.1">
+                <a href="#">
+                  <img src="{{ asset("assets/imgs/service/service-icon-10.png") }}" alt="Icon">
+                  <h3 class="title">AI Deployment</h3>
+                  <p>
+                    Protect your data with industry-standard encryption,
+                    frameworks, and end-to-end access control.
+                  </p>
+                </a>
+              </div>
+            </div>
+            <h4 class="cta-call">
+              <span>Free</span>To get free consultation our industries expert
+              <a href="{{ route("contact") }}">Book a Strategy Call
+                <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                </svg>
+              </a>
+            </h4>
+          </div>
+        </div>
+      </section>
+      <!-- Service section end -->
+
+
+      <!-- Actova Video section -->
+      <div class="tp-about-full-image">
+        <div class="content">
+          <p class="text-left">Actova</p>
+          <video autoplay loop muted playsinline>
+            <source src="{{ asset("assets/video/video-bg.mp4") }}" type="video/mp4">
+          </video>
+          <p class="text-right">2014-2025</p>
+        </div>
+      </div>
+      <!-- Actova Video section -->
+
+
+      <!-- Counter area start -->
+      <section class="tp-counter-area plr-50 pt-140 pb-120">
+        <div class="tp-counter-inner">
+          <h3 class="title">
+            We tackle the problems that slow businesses down.
+          </h3>
+          <div class="tp-counter-list">
+            <div class="tp-counter-wrapper">
+              <h3 class="tp-counter-active number">24K+</h3>
+              <p class="text">We’ve 24k+ quality AI projects delivery</p>
+            </div>
+            <div class="tp-counter-wrapper">
+              <h3 class="tp-counter-active number">70+</h3>
+              <p class="text">We’ve 70+ talented AI team members</p>
+            </div>
+            <div class="tp-counter-wrapper">
+              <h3 class="tp-counter-active number">95%</h3>
+              <p class="text">Manual Data Entry Costs Time & Accuracy</p>
+            </div>
+            <div class="tp-counter-wrapper">
+              <h3 class="tp-counter-active number">92%</h3>
+              <p class="text">NLP models automate 92% of entries</p>
+            </div>
+          </div>
+          <div class="tp-cta-wrapper">
+            <div class="cta-content">
+              <img src="{{ asset("assets/imgs/others/cta-icon.png") }}" alt="Icon">
+              <p>
+                Ready to explore what AI can do for your business? Not sure
+                where to start?
+              </p>
+            </div>
+            <div class="cta-btn tp-btn-animate">
+              <a href="{{ route("contact") }}" class="tp-btn-one">
+                <span class="btn-wrap">
+                  <span class="text-one">Book a Free Strategy Call</span>
+                  <span class="text-two">Book a Free Strategy Call</span>
+                </span>
+                <span class="btn-icon">
+                  <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Counter area end -->
+
+
+      <!-- Testimonial area start -->
+      <section class="tp-testimonial-area">
+        <div class="tp-testimonial-inner row">
+          <div class="col-xl-6 col-lg-5 col-12">
+            <div class="tp-testimonial-image">
+              <div class="img-reveal">
+                <img src="{{ asset("assets/imgs/testimonial/testimonial.jpg") }}" alt="Image">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-12">
+            <div class="tp-testimonial-wrapper">
+              <div class="swiper tp-testimonial-active">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-slide">
+                      <div class="reason">“ Reliable, Fast ”</div>
+                      <p>
+                        Their team guided us from idea to deployment in just 6
+                        weeks. The LLM integration reduced our
+                        <span>manual work by over 60%</span>, and their MLOps
+                        setup saved us serious technical debt.
+                      </p>
+                      <div class="author-info-wrap">
+                        <div class="author-img">
+                          <span class="icon">
+                            <svg width="30" height="24" viewBox="0 0 30 24" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.6408 0.750001V10.9387H20.7231C23.0579 10.9387 25.226 12.4961 25.4109 14.8944C25.4785 15.7722 25.452 16.64 25.2329 17.3099C24.5267 20.19 22.0548 20.4906 22.0548 20.4906V23.25C22.0548 23.25 30 22.17 30 13.53V0.750003L17.6408 0.750001ZM0.750001 0.75L0.75 10.9387H3.83229C6.16701 10.9387 8.33511 12.4961 8.51997 14.8944C8.58765 15.7722 8.56115 16.64 8.34207 17.3099C7.6358 20.19 5.16399 20.4906 5.16399 20.4906V23.25C5.16399 23.25 13.1092 22.17 13.1092 13.53V0.750001L0.750001 0.75Z" />
+                            </svg>
+                          </span>
+                          <img src="{{ asset("assets/imgs/testimonial/author.png") }}" alt="Author">
+                        </div>
+                        <div class="author-info">
+                          <h4 class="name">Jason Roy</h4>
+                          <h4 class="designation">Director of Gentech</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tp-testimonial-footer">
+                  <div class="tp-testimonial-ratings">
+                    <div class="rating-logo">
+                      <img src="{{ asset("assets/imgs/testimonial/logo-2.png") }}" alt="Brand Logo">
+                    </div>
+                    <div class="ratings">
+                      <img src="{{ asset("assets/imgs/testimonial/ratings.png") }}" alt="Ratings">
+                      <p>5.0 Rating, 24 Reviews</p>
+                    </div>
+                  </div>
+                  <div class="tp-testimonial-navigation">
+                    <div class="tp-tsm-prev">
+                      <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M2.68961 6.06897C3.75443 6.06897 4.62064 6.93519 4.62064 8C4.62064 9.06481 3.75443 9.93103 2.68961 9.93103C1.6248 9.93103 0.75858 9.06481 0.75858 8C0.75858 6.93519 1.6248 6.06897 2.68961 6.06897ZM5.99996 6.89656C4.93514 6.89656 4.06892 6.03034 4.06892 4.96553C4.06892 3.90072 4.93514 3.0345 5.99996 3.0345C7.06477 3.0345 7.93099 3.90072 7.93099 4.96553C7.93099 6.03034 7.06477 6.89656 5.99996 6.89656ZM9.3103 3.86206C8.24549 3.86206 7.37927 2.99584 7.37927 1.93103C7.37927 0.866219 8.24549 0 9.3103 0C10.3751 0 11.2413 0.866219 11.2413 1.93103C11.2413 2.99584 10.3751 3.86206 9.3103 3.86206ZM5.99996 9.10344C7.06477 9.10344 7.93099 9.96966 7.93099 11.0345C7.93099 12.0993 7.06477 12.9655 5.99996 12.9655C4.93514 12.9655 4.06892 12.0993 4.06892 11.0345C4.06892 9.96966 4.93514 9.10344 5.99996 9.10344ZM9.3103 12.1379C10.3751 12.1379 11.2413 13.0042 11.2413 14.069C11.2413 15.1338 10.3751 16 9.3103 16C8.24549 16 7.37927 15.1338 7.37927 14.069C7.37927 13.0041 8.24549 12.1379 9.3103 12.1379Z" />
+                      </svg>
+                    </div>
+                    <div class="tp-tsm-next">
+                      <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.31039 6.06897C8.24557 6.06897 7.37936 6.93519 7.37936 8C7.37936 9.06481 8.24557 9.93103 9.31039 9.93103C10.3752 9.93103 11.2414 9.06481 11.2414 8C11.2414 6.93519 10.3752 6.06897 9.31039 6.06897ZM6.00004 6.89656C7.06486 6.89656 7.93107 6.03034 7.93107 4.96553C7.93107 3.90072 7.06486 3.0345 6.00004 3.0345C4.93523 3.0345 4.06901 3.90072 4.06901 4.96553C4.06901 6.03034 4.93523 6.89656 6.00004 6.89656ZM2.6897 3.86206C3.75451 3.86206 4.62073 2.99584 4.62073 1.93103C4.62073 0.866219 3.75451 0 2.6897 0C1.62489 0 0.758667 0.866219 0.758667 1.93103C0.758667 2.99584 1.62489 3.86206 2.6897 3.86206ZM6.00004 9.10344C4.93523 9.10344 4.06901 9.96966 4.06901 11.0345C4.06901 12.0993 4.93523 12.9655 6.00004 12.9655C7.06486 12.9655 7.93107 12.0993 7.93107 11.0345C7.93107 9.96966 7.06486 9.10344 6.00004 9.10344ZM2.6897 12.1379C1.62489 12.1379 0.758667 13.0042 0.758667 14.069C0.758667 15.1338 1.62489 16 2.6897 16C3.75451 16 4.62073 15.1338 4.62073 14.069C4.62073 13.0041 3.75451 12.1379 2.6897 12.1379Z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial area end -->
+
+
+      <!-- Team area start -->
+      <section class="tp-team-area pt-140 pb-140">
+        <div class="tp-container">
+          <div class="tp-team-inner">
+            <div class="tp-ap-team-title-wrap">
+              <h3 class="sec-title-2 actova-word">
+                Meet With Our Legends
+              </h3>
+            </div>
+            <div class="tp-team-grid">
+              <div class="tp-team-card tp-fade-animation" data-delay="0.6">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/team-member-1.png") }}" alt="Team Member">
+                  <ul class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Mr. Hanrry Robertson</a></h3>
+                <p>Founder of Actova</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="0.8">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/team-member-2.png") }}" alt="Team Member">
+                  <ul class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Ruby Steele Bentley</a></h3>
+                <p>Co-Founder of Actova</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/team-member-3.png") }}" alt="Team Member">
+                  <ul class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Ava Monroe Archer</a></h3>
+                <p>Chef Marketing Officer</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="1.2">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/team-member-4.png") }}" alt="Team Member">
+                  <ul class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Mr. Jack Morgan</a></h3>
+                <p>Senior Product Desigenr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team area end -->
+
+
+      <!-- Contact area start -->
+      <section class="tp-contact-area">
+        <div class="tp-container">
+          <div class="tp-contact-inner">
+            <h2 class="title">Ready to Talk AI?</h2>
+            <p>
+              Have an idea, a challenge, or just exploring what AI can do for
+              your business? We’d love to hear from you.
+            </p>
+            <div class="tp-contact-btns tp-btn-animate">
+              <a href="mailto:infoactova@gmail.com" class="tp-btn-one">
+                <span class="btn-wrap">
+                  <span class="text-one">infoactova@gmail.com</span>
+                  <span class="text-two">infoactova@gmail.com</span>
+                </span>
+              </a>
+              <a href="tel:92354657678" class="tp-btn-one esf">
+                <span class="btn-wrap">
+                  <span class="text-one">+92 354 657 678</span>
+                  <span class="text-two">+92 354 657 678</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <video muted autoplay loop>
+          <source src="{{ asset("assets/video/cta-bg-video.mp4") }}" type="video/mp4">
+        </video>
+      </section>
+      <!-- Contact area end -->
+
+
+      <!-- FAQ area start -->
+      <section class="tp-faq-area-2 pt-140 pb-140">
+        <div class="container">
+          <div class="tp-faq-inner-2">
+            <div class="title-wrap">
+              <p class="rating">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.9634 5.09658C13.9185 4.95809 13.834 4.83583 13.7202 4.74498C13.6064 4.65413 13.4685 4.5987 13.3235 4.58557L9.2821 4.21867L7.68493 0.479344C7.56699 0.204616 7.29869 0.0273438 7.00004 0.0273438C6.70138 0.0273438 6.43297 0.204616 6.3158 0.479344L4.71863 4.21867L0.676602 4.58557C0.380273 4.61292 0.129362 4.81362 0.036665 5.09658C-0.0085039 5.2352 -0.0120174 5.38402 0.0265597 5.52461C0.0651368 5.6652 0.14411 5.79139 0.253696 5.88754L3.30868 8.56629L2.40793 12.5336C2.34203 12.8253 2.45523 13.127 2.69729 13.3019C2.82406 13.3941 2.97684 13.4438 3.13362 13.4437C3.26801 13.4437 3.39988 13.4072 3.51515 13.3381L7.00004 11.2544L10.4843 13.3381C10.6093 13.4129 10.7535 13.4493 10.899 13.4429C11.0445 13.4365 11.1849 13.3874 11.3028 13.3019C11.5448 13.127 11.6581 12.8253 11.5922 12.5336L10.6914 8.56632L13.7464 5.88757C13.856 5.79142 13.935 5.66524 13.9735 5.52464C14.0121 5.38405 14.0086 5.23522 13.9634 5.09661V5.09658Z"
+                    fill="#A1FF75" />
+                </svg>
+                4.5 Average Rating
+              </p>
+              <h2 class="sec-title-2">Frequently Ask & <br> Question</h2>
+            </div>
+            <div class="tp-faq-wrapper-2">
+              <div class="tp-faq-list">
+                <div class="tp-faq-item style-2">
+                  <h3 class="tp-faq-title">What is Actova AI?</h3>
+                  <div class="tp-faq-body">
+                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
+                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
+                      data insights, and provide real-time decision support.</p>
+                  </div>
+                </div>
+                <div class="tp-faq-item style-2">
+                  <h3 class="tp-faq-title">Who can use Actova AI?</h3>
+                  <div class="tp-faq-body">
+                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
+                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
+                      data insights, and provide real-time decision support.</p>
+                  </div>
+                </div>
+                <div class="tp-faq-item style-2">
+                  <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
+                  <div class="tp-faq-body">
+                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
+                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                  </div>
+                </div>
+                <div class="tp-faq-item style-2">
+                  <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
+                  <div class="tp-faq-body">
+                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
+                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
+                      data insights, and provide real-time decision support.</p>
+                  </div>
+                </div>
+                <div class="tp-faq-item style-2">
+                  <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
+                  <div class="tp-faq-body">
+                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
+                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                  </div>
+                </div>
+                <div class="tp-faq-item style-2">
+                  <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
+                  <div class="tp-faq-body">
+                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
+                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ area end -->
+
+
+      <!-- Footer area start -->
+@endsection
