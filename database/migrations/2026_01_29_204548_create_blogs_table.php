@@ -14,12 +14,11 @@ return new class extends Migration
         Schema::create('blogs', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('slug')->unique();
-            $table->text('content');
+            $table->string('slug')->nullable();
+            $table->text('content')->nullable();
             $table->string('image')->nullable();
-            $table->string('author')->nullable();
-            $table->string('category')->nullable();
-            $table->integer('read_time')->nullable();
+            $table->string('date')->nullable();
+            $table->string('read_time')->nullable();
             $table->boolean('status')->default(true);
             $table->timestamps();
         });

@@ -31,4 +31,15 @@ Route::get('/admin', function () {
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], function () {
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
+
+    // Settings
+    Route::get('/settings', [App\Http\Controllers\Admin\SettingController::class, 'index'])->name('settings.index');
+    Route::post('/settings', [App\Http\Controllers\Admin\SettingController::class, 'update'])->name('settings.update');
+
+    // Resources
+    Route::resource('services', App\Http\Controllers\Admin\ServiceController::class);
+    Route::resource('blogs', App\Http\Controllers\Admin\BlogController::class);
+    Route::resource('testimonials', App\Http\Controllers\Admin\TestimonialController::class);
+    Route::resource('faqs', App\Http\Controllers\Admin\FaqController::class);
+    Route::resource('plans', App\Http\Controllers\Admin\PlanController::class);
 });
