@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\Admin\AdminController;
+use Illuminate\Support\Facades\Auth;
 
+// Frontend Routes
 Route::controller(FrontendController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::get('/about', 'about')->name('about');
@@ -16,4 +19,16 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/blog-details', 'blogDetails')->name('blog-details');
     Route::get('/team-details', 'teamDetails')->name('team-details');
     Route::get('/projects-details', 'projectsDetails')->name('projects-details');
+});
+
+// Auth Routes
+Auth::routes();
+
+// Admin Routes
+Route::get('/admin', function () {
+    return redirect()->route('admin.dashboard');
+});
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], function () {
+    Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
 });
