@@ -155,45 +155,7 @@
                         </a>
                     </li>
 
-                    <li
-                        class="nav-item {{ request()->routeIs('admin.settings.*', 'admin.services.*', 'admin.testimonials.*', 'admin.faqs.*', 'admin.plans.*', 'admin.blogs.*') ? 'active' : '' }}">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#home-page-menu"
-                            aria-expanded="{{ request()->routeIs('admin.settings.*', 'admin.services.*', 'admin.testimonials.*', 'admin.faqs.*', 'admin.plans.*', 'admin.blogs.*') ? 'true' : 'false' }}"
-                            aria-controls="home-page-menu">
-                            <i class="icon-grid-2 menu-icon"></i>
-                            <span class="menu-title">Home Page</span>
-                            <i class="menu-arrow"></i>
-                        </a>
-                        <div class="collapse {{ request()->routeIs('admin.settings.*', 'admin.services.*', 'admin.testimonials.*', 'admin.faqs.*', 'admin.plans.*', 'admin.blogs.*') ? 'show' : '' }}"
-                            id="home-page-menu">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('admin.settings.*') ? 'active' : '' }}"
-                                        href="{{ route('admin.settings.index') }}">General Settings</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('admin.services.*') ? 'active' : '' }}"
-                                        href="{{ route('admin.services.index') }}">Services & Features</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('admin.testimonials.*') ? 'active' : '' }}"
-                                        href="{{ route('admin.testimonials.index') }}">Testimonials</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('admin.faqs.*') ? 'active' : '' }}"
-                                        href="{{ route('admin.faqs.index') }}">FAQs</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('admin.plans.*') ? 'active' : '' }}"
-                                        href="{{ route('admin.plans.index') }}">Pricing Plans</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('admin.blogs.*') ? 'active' : '' }}"
-                                        href="{{ route('admin.blogs.index') }}">Blog Posts</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
+                    {{-- Home Page dynamic menu removed --}}
                 </ul>
             </nav>
             <!-- partial -->
