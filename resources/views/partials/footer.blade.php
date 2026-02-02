@@ -94,7 +94,7 @@
                     <div class="tp-footer-widget location-widget">
                         <h2 class="title">LOCATION</h2>
                         <p>
-                            <a href="https://maps.app.goo.gl/jQGWAuChHHfaEkta9" target="_blank"> Actova
+                            <a href="https://maps.app.goo.gl/jQGWAuChHHfaEkta9" target="_blank"> AI Consultant
                                 Ltd, Suite 702, 1234
                                 Innovation Drive San Francisco, CA
                                 94107, United States</a>
