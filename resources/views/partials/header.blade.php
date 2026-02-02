@@ -44,15 +44,7 @@
                                                         solutions.</span>
                                                 </div>
                                             </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item" data-target="data">
-                                                <div class="tp-megamenu__sidebar-icon"><i class="fal fa-database"></i>
-                                                </div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Data & Analytics</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Scalable pipelines &
-                                                        BI.</span>
-                                                </div>
-                                            </a>
+
                                             <a href="#" class="tp-megamenu__sidebar-item"
                                                 data-target="integration">
                                                 <div class="tp-megamenu__sidebar-icon"><i class="fal fa-cogs"></i></div>
@@ -138,32 +130,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Main Content: Data -->
-                                        <div class="tp-megamenu__main" data-id="data">
-                                            <span class="tp-megamenu__main-title">DATA & ANALYTICS</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-database"></i>
-                                                    </div> Data Engineering
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-chart-pie"></i>
-                                                    </div> Predictive Analytics
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-lightbulb"></i>
-                                                    </div> Business Intelligence
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-chart-bar"></i>
-                                                    </div> Data Visualization
-                                                </a>
-                                            </div>
-                                        </div>
+
 
                                         <!-- Main Content: Integration -->
                                         <div class="tp-megamenu__main" data-id="integration">

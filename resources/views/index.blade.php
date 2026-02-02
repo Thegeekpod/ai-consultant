@@ -1710,4 +1710,319 @@
 
 
     <!-- Footer area start -->
+
+
+
+    <!-- Power area -->
+    <section class="tp-power-area pt-120">
+        <div class="container">
+            <div class="tp-power-title-wrap">
+                <h2 class="sub-title-3"><span>Actova</span> Actova AI Powered</h2>
+                <h2 class="sec-title-2 elastic-anim">Smarter Conversations. Faster Results.</h2>
+            </div>
+            <div class="tp-power-wrapper">
+                <div class="tp-power-img">
+                    <img src="assets/imgs/home-5/power-db.png" alt="Image" class="db-img" data-speed="0.95">
+
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/home-5/power-img.png" alt="Image" class="main-img">
+                        <img src="assets/imgs/home-5/power-shape.png" alt="Image" class="shape-img">
+                        <img src="assets/imgs/home-5/power-shape2.png" alt="Image" class="shape-img2"
+                            data-lag="0.05">
+                        <img src="assets/imgs/home-5/power-text.png" alt="Image" class="shape-text">
+                    </div>
+                </div>
+                <div class="tp-power-content">
+                    <p class="text">“ We are a next-generation AI solutions company dedicated to helping businesses
+                        scale
+                        smarter. ”</p>
+                    <p>We design AI-driven tools that reduce support costs, boost engagement, and unlock new growth
+                        opportunities. From startups to enterprises.</p>
+                    <ul>
+                        <li><span><i class="fal fa-check"></i></span> Custom AI Solutions</li>
+                        <li><span><i class="fal fa-check"></i></span> Neural Intelligence at Core</li>
+                        <li><span><i class="fal fa-check"></i></span> Human-Like Interaction</li>
+                        <li><span><i class="fal fa-check"></i></span> Data-First Security</li>
+                    </ul>
+                    <a href="about.html" class="actova-btn-primary">
+                        Get’s Started
+                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="text-wrapper">
+                <p>Let’s Create Something Intelligent Together! <a href="#">Get’s Started Now
+                        <span class="icon">
+                            <svg width="13" height="13" viewBox="0 0 13 13"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.18948 4.93104C8.32432 4.93104 7.62052 5.63484 7.62052 6.5C7.62052 7.36516 8.32432 8.06896 9.18948 8.06896C10.0546 8.06896 10.7584 7.36516 10.7584 6.5C10.7584 5.63484 10.0546 4.93104 9.18948 4.93104ZM6.49983 5.60346C7.36499 5.60346 8.06879 4.89965 8.06879 4.03449C8.06879 3.16933 7.36499 2.46553 6.49983 2.46553C5.63467 2.46553 4.93087 3.16933 4.93087 4.03449C4.93087 4.89965 5.63467 5.60346 6.49983 5.60346ZM3.81017 3.13793C4.67533 3.13793 5.37914 2.43412 5.37914 1.56896C5.37914 0.703803 4.67533 0 3.81017 0C2.94501 0 2.24121 0.703803 2.24121 1.56896C2.24121 2.43412 2.94501 3.13793 3.81017 3.13793ZM6.49983 7.39654C5.63467 7.39654 4.93087 8.10035 4.93087 8.96551C4.93087 9.83067 5.63467 10.5345 6.49983 10.5345C7.36499 10.5345 8.06879 9.83067 8.06879 8.96551C8.06879 8.10035 7.36499 7.39654 6.49983 7.39654ZM3.81017 9.86207C2.94501 9.86207 2.24121 10.5659 2.24121 11.431C2.24121 12.2962 2.94501 13 3.81017 13C4.67533 13 5.37914 12.2962 5.37914 11.431C5.37914 10.5659 4.67533 9.86207 3.81017 9.86207Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Power area -->
+    <!-- Feature section -->
+    <div class="tp-feature5-area">
+        <div class="tp-container-1715">
+            <div class="tp-feature5-top">
+                <div class="sub-title-3"><span>Features</span> Actova Powerful Analytics</div>
+                <h2 class="sec-title-2 elastic-anim">Value Proposition</h2>
+                <p>Actova chatbot helps businesses deliver instant answering customer questions to boosting sales &
+                    engagement.</p>
+            </div>
+            <div class="tp-feature5-list">
+                <div class="tp-feature5-item" style="background-image: url(assets/imgs/home-5/feature-bg.png);">
+                    <h2 class="title">Insightful Analytics</h2>
+                    <p>Gain clear insights into customer interactions with real-time analytics — track performance, measure
+                        satisfaction.</p>
+                    <img src="assets/imgs/home-5/feature-1.png" alt="Image" class="img">
+                    <img src="assets/imgs/home-5/feature-shape.png" alt="Image" class="shape-img">
+                </div>
+                <div class="tp-feature5-item" style="background-image: url(assets/imgs/home-5/feature-bg-2.png);">
+                    <h2 class="title">AI Automation Support.</h2>
+                    <p>Automate repetitive tasks and customer queries with AI-powered support — reducing response time,
+                        cutting costs, and customers support 24/7.</p>
+                    <img src="assets/imgs/home-5/feature-2.png" alt="Image" class="img">
+                </div>
+            </div>
+            <div class="tp-feature5-list-2">
+                <div class="tp-feature5-item-2">
+                    <img src="assets/imgs/home-5/feature-icon.png" alt="Icon">
+                    <h3 class="title">Seamless Integrations</h3>
+                    <p>Deliver instant assistance, with AI-powered automation that keeps your business available 24/7.</p>
+                    <a href="about.html" class="actova-btn-primary">
+                        Learn More
+                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="tp-feature5-item-2">
+                    <img src="assets/imgs/home-5/feature-icon2.png" alt="Icon">
+                    <h3 class="title">Multilingual Support</h3>
+                    <p>Break language barriers with AI-powered multilingual support — chat seamlessly in 50+ languages.</p>
+                    <a href="about.html" class="actova-btn-primary">
+                        Learn More
+                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="tp-feature5-item-2">
+                    <img src="assets/imgs/home-5/feature-icon3.png" alt="Icon">
+                    <h3 class="title">24/7 Auto Support</h3>
+                    <p>Deliver instant assistance, with AI-powered automation that keeps your business available 24/7.</p>
+                    <a href="about.html" class="actova-btn-primary">
+                        Learn More
+                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature section -->
+    <!-- Integrations section -->
+    <section class="tp-integration5-area pb-130">
+        <div class="container">
+            <div class="tp-integration5-titlebox">
+                <h2 class="sub-title-3"><span>Integration</span> Powerful Integrations</h2>
+                <h2 class="sec-title-2 elastic-anim">Integrations</h2>
+                <p>Actova chatbot helps businesses deliver instant answering customer questions to boosting sales &
+                    engagement.</p>
+            </div>
+
+            <div class="tp-integration5-list">
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon2.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon3.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon4.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon5.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon6.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon7.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon8.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon9.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon10.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon11.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon12.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon13.png" alt="Icon"></div>
+                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon14.png" alt="Icon"></div>
+            </div>
+
+            <div class="view-all-btn">
+                <a href="projects-details.html" class="actova-btn-secondary">
+                    View All Integrations
+                    <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Integrations section -->
+
+    <!-- Service area start -->
+    <section class="tp-service-area pb-120 pt-120 plr-50">
+        <div class="tp-service-inner">
+            <div class="title-wrap">
+                <h2 class="sec-title actova-word">
+                    We design <span> infrastructure </span> & Develop artificial intelligence
+                    systems that <span>solve real-world problems.</span>
+                </h2>
+                <div class="tp-btn-animate">
+                    <a href="service.html" class="tp-btn-one">
+                        <span class="btn-wrap">
+                            <span class="text-one">View All Solution</span>
+                            <span class="text-two">View All Solution</span>
+                        </span>
+                        <span class="btn-icon">
+                            <svg width="9" height="13" viewBox="0 0 9 13"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="tp-service-grid">
+                <div class="tp-service-card tp-fade-animation" data-delay="0.6">
+                    <div class="card-inner" data-background="assets/imgs/service/shape-1.png">
+                        <div class="content">
+                            <img src="assets/imgs/service/service-icon-1.png" alt="Image" class="icon">
+                            <h3 class="title">
+                                <a href="service-details.html">ML & Neural Network Development.</a>
+                            </h3>
+                            <p>
+                                We design, train, and deploy machine learning models
+                                tailored to your business needs.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-service-card tp-fade-animation" data-delay="0.8">
+                    <div class="card-inner" data-background="assets/imgs/service/service-icon-2.png">
+                        <div class="content">
+                            <h3 class="title">
+                                <a href="service-details.html">MLOps & <br>
+                                    AI Infrastructure</a>
+                            </h3>
+                            <p>
+                                We help you move beyond experiments and into production by
+                                setting up the right infrastructure.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-service-card tp-fade-animation" data-delay="1">
+                    <div class="card-inner">
+                        <div class="content">
+                            <img src="assets/imgs/service/service-icon-3.png" alt="Image" class="icon">
+                            <h3 class="title">
+                                <a href="service-details.html">AI Strategy & <br>
+                                    Consulting</a>
+                            </h3>
+                            <p>
+                                We help you define your AI roadmap — from feasibility and
+                                use case discovery.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-service-card tp-fade-animation" data-delay="1.2">
+                    <div class="card-inner" data-background="assets/imgs/service/service-icon-4.png">
+                        <div class="content">
+                            <img src="assets/imgs/service/shape-2.png" alt="Image" class="shape">
+                            <h3 class="title">
+                                <a href="service-details.html">Custom AI Product Development</a>
+                            </h3>
+                            <p>
+                                End-to-end design and development of AI-powered SaaS,
+                                dashboards, and internal tools — including front-end and API
+                                integrations.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service area end -->
 @endsection
