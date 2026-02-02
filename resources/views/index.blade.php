@@ -6,19 +6,19 @@
         <div class="tp-hero4-content">
             <div class="ai-builder">
                 <img src="{{ asset('assets/imgs/hero/icon.png') }}" alt="Icon">
-                Intelligent AI Builder
+                Intelligent AI Engineering
             </div>
-            <h1 class="title">Next-Gen AI <span>Engine</span></h1>
-            <p class="text">All-in-One AI platform to create content and monetize instantly.</p>
+            <h1 class="title">Certified AI <span>Consultant</span></h1>
+            <p class="text">End-to-End AI Consulting to Automate, Optimize, and Scale Business Operations.</p>
             <div class="tp-user-box-2">
                 <div class="images">
                     <img src="{{ asset('assets/imgs/about/man-2.png') }}" alt="User">
                     <img src="{{ asset('assets/imgs/about/man.png') }}" alt="User">
                     <img src="{{ asset('assets/imgs/about/man-3.png') }}" alt="User">
-                    <span class="total">245+</span>
+                    <span class="total">100+</span>
                 </div>
                 <div class="text">
-                    <p>Join Over <span>2.4 Million</span> Sites Powered by Us</p>
+                    <p>We Have Already Powered <span>100+ Businesses</span> with AI</p>
                 </div>
             </div>
             <div class="tp-hero4-ai-content">
@@ -75,7 +75,7 @@
                     <img src="{{ asset('assets/imgs/hero/mid-img.png') }}" alt="Image" class="image">
                     <div class="box-wrap">
                         <img src="{{ asset('assets/imgs/hero/voice.gif') }}" alt="GIF" class="gif">
-                        <p>Generate AI content. launch. earn — all in one platform.</p>
+                        <p>Full-Scale Enterprise AI Consulting- From Design to Deployment.</p>
                     </div>
                 </div>
                 <div class="right-svg">
@@ -152,11 +152,11 @@
 
 
     <!-- Brand area start -->
-    <section class="tp-brand-area-4 pt-130 pb-110">
+    <section class="tp-brand-area-4 pt-130">
         <div class="tp-container-1715">
             <div class="tp-brand-inner">
                 <div class="title-wrap">
-                    <h2 class="title">More than 2.5M+ User Choose AI Consultant</h2>
+                    <h2 class="title">We’re the Preferred AI Consulting Partner for 100+ Businesses</h2>
                 </div>
                 <div class="tp-brand-slider">
                     <div class="tp-brand-logo-4">
@@ -193,15 +193,67 @@
     </section>
     <!-- Brand area end -->
 
+        <section class="tp-power-area pt-120">
+        <div class="container">
+            <div class="tp-power-title-wrap">
+
+                <h2 class="sec-title-2 elastic-anim">Trusted AI Partner. Driving Business Growth.</h2>
+            </div>
+            <div class="tp-power-wrapper">
+                <div class="tp-power-img">
+                
+
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/home-5/power-img.png" alt="Image" class="main-img">
+                        <img src="assets/imgs/home-5/power-shape.png" alt="Image" class="shape-img">
+                        <img src="assets/imgs/home-5/power-shape2.png" alt="Image" class="shape-img2"
+                            data-lag="0.05">
+                        <img src="assets/imgs/home-5/power-text.png" alt="Image" class="shape-text">
+                    </div>
+                </div>
+                <div class="tp-power-content">
+                    <p class="text">“We are the AI partner for businesses ready to scale with intelligence and precision.”</p>
+                    <p>We design AI-driven tools that reduce support costs, boost engagement, and unlock new growth
+                        opportunities. From startups to enterprises.</p><br> 
+                        <p>Our solutions are built for real-world impact- quick to deploy, simple to integrate, and delivering clear results in weeks, not months. We turn advanced AI into practical systems that quietly automate support, sales conversations, content marketing, and operations.</p>
+                    <ul>
+                        <li><span><i class="fal fa-check"></i></span> Custom AI Solutions</li>
+                     
+                        <li><span><i class="fal fa-check"></i></span> Human-Like Interaction</li>
+                        <li><span><i class="fal fa-check"></i></span> Data-First Security</li>
+                    </ul>
+                    <a href="about.html" class="actova-btn-primary">
+                        Get’s Started
+                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="text-wrapper">
+                <p>Let’s Create Something Intelligent Together! <a href="#">Get’s Started Now
+                        <span class="icon">
+                            <svg width="13" height="13" viewBox="0 0 13 13"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.18948 4.93104C8.32432 4.93104 7.62052 5.63484 7.62052 6.5C7.62052 7.36516 8.32432 8.06896 9.18948 8.06896C10.0546 8.06896 10.7584 7.36516 10.7584 6.5C10.7584 5.63484 10.0546 4.93104 9.18948 4.93104ZM6.49983 5.60346C7.36499 5.60346 8.06879 4.89965 8.06879 4.03449C8.06879 3.16933 7.36499 2.46553 6.49983 2.46553C5.63467 2.46553 4.93087 3.16933 4.93087 4.03449C4.93087 4.89965 5.63467 5.60346 6.49983 5.60346ZM3.81017 3.13793C4.67533 3.13793 5.37914 2.43412 5.37914 1.56896C5.37914 0.703803 4.67533 0 3.81017 0C2.94501 0 2.24121 0.703803 2.24121 1.56896C2.24121 2.43412 2.94501 3.13793 3.81017 3.13793ZM6.49983 7.39654C5.63467 7.39654 4.93087 8.10035 4.93087 8.96551C4.93087 9.83067 5.63467 10.5345 6.49983 10.5345C7.36499 10.5345 8.06879 9.83067 8.06879 8.96551C8.06879 8.10035 7.36499 7.39654 6.49983 7.39654ZM3.81017 9.86207C2.94501 9.86207 2.24121 10.5659 2.24121 11.431C2.24121 12.2962 2.94501 13 3.81017 13C4.67533 13 5.37914 12.2962 5.37914 11.431C5.37914 10.5659 4.67533 9.86207 3.81017 9.86207Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a></p>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Capability area start -->
-    <section class="tp-capability2-area">
+    <section class="tp-capability2-area pt-120">
         <div class="tp-container-1715">
             <div class="tp-capability-titlebox">
-                <h2 class="sec-title-2">Core AI Capabilities</h2>
-                <p>AI Consultant delivers high-performance, neural-optimized services tailored to your industry, your data,
-                    and
-                    your goals</p>
+                <h2 class="sec-title-2">Our Core AI Capabilities</h2>
+                <p>At AI Consultant, we deliver high-performance, neural-optimized AI services tailored to your industry, your data, and your business objectives.</p>
             </div>
 
             <div class="tp-capability2-grid">
@@ -229,8 +281,8 @@
                                 <li><a href="#">Adapt</a></li>
                             </ul>
                         </div>
-                        <h3 class="title">AI Copilot Development.</h3>
-                        <p>We build task-specific AI copilots that enhance workflows, automate actions, and act</p>
+                        <h3 class="title">Agentic AI Development.</h3>
+                        <p>We design and deploy Agentic AI systems that plan, act, adapt, and automate enterprise workflows.</p>
                     </div>
                 </div>
                 <div class="card-wrap wrap-2">
@@ -240,7 +292,7 @@
                     </div>
                     <div class="tp-capability2-card card-3">
                         <p>Innovation</p>
-                        <h3 class="text">AI Consultant</h3>
+                        <h3 class="text">AI</h3>
                         <img src="{{ asset('assets/imgs/capability/img-4.png') }}" alt="Image">
                     </div>
                 </div>
@@ -249,11 +301,11 @@
                         <div class="img-wrap">
                             <img src="{{ asset('assets/imgs/capability/img-5.png') }}" alt="Image">
                             <div class="templates">150+</div>
-                            <div class="feature one">SEO-Friendly</div>
-                            <div class="feature two">User-Centric Design</div>
+                            <div class="feature one">Enterprise-Grade AI</div>
+                            <div class="feature two">Workflow-Centric</div>
                         </div>
-                        <h3 class="title">150+ Ready Custom Template.</h3>
-                        <p>We build task-specific AI copilots that enhance workflows, automate actions, and act</p>
+                        <h3 class="title">Applied AI Integration.</h3>
+                        <p>We integrate applied AI across enterprise platforms and workflows for secure, scalable operations.</p>
                     </div>
                 </div>
             </div>
@@ -272,7 +324,7 @@
                                         fill="#020202" />
                                 </svg>
                             </span>
-                            <p>SEO friendly content</p>
+                            <p>Workflow AI Automation</p>
                         </div>
                         <div class="item-group group-1">
                             <div class="content-item">
@@ -324,7 +376,7 @@
                                         </defs>
                                     </svg>
                                 </span>
-                                <p>Powered by ChatGPT</p>
+                                <p>Powered by Top LLMs</p>
                             </div>
                         </div>
                         <div class="ai-item">
@@ -343,7 +395,7 @@
                                             fill="#020202" />
                                     </svg>
                                 </span>
-                                <p>Data. Decoded</p>
+                                <p>Real-Time Intelligence</p>
                             </div>
                             <div class="content-item">
                                 <span class="icon">
@@ -357,12 +409,12 @@
                                             fill="#020202" />
                                     </svg>
                                 </span>
-                                <p>Predictive Power</p>
+                                <p>Scalable AI Systems</p>
                             </div>
                         </div>
                     </div>
-                    <h3 class="title">Predictive & Real-Time Analytics</h3>
-                    <p>Neural models that detect trends, risks, and opportunities in real time.</p>
+                    <h3 class="title">We Solve Real Business Problems</h3>
+                    <p>Applying practical AI to solve business challenges and improve efficiency..</p>
                 </div>
                 <div class="tp-capability2-card card-6">
                     <div class="content-wrap">
@@ -374,8 +426,8 @@
                                             <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
                                         </span>
                                         <div class="content">
-                                            <h4 class="text">Context-Aware</h4>
-                                            <p>100% Accurate translations.</p>
+                                            <h4 class="text">AI Strategy Roadmap</h4>
+                                            <p>Aligned AI strategy & roadmap for growth.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -385,8 +437,8 @@
                                             <img src="{{ asset('assets/imgs/capability/icon-8.png') }}" alt="Icon">
                                         </span>
                                         <div class="content">
-                                            <h4 class="text">Global Reach</h4>
-                                            <p>Engage audiences in their own language.</p>
+                                            <h4 class="text">Process Automation</h4>
+                                            <p>Automate repetitive tasks to improve efficiency.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -396,8 +448,8 @@
                                             <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
                                         </span>
                                         <div class="content">
-                                            <h4 class="text">Voice & Text Ready</h4>
-                                            <p>Copilots, & voice assistants</p>
+                                            <h4 class="text">Custom AI Development</h4>
+                                            <p>Tailored AI solutions for unique business needs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -407,8 +459,8 @@
                                             <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
                                         </span>
                                         <div class="content">
-                                            <h4 class="text">Context-Aware</h4>
-                                            <p>100% Accurate translations.</p>
+                                            <h4 class="text">AI Integration</h4>
+                                            <p>Seamlessly integrate AI into existing workflows.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -418,8 +470,8 @@
                                             <img src="{{ asset('assets/imgs/capability/icon-8.png') }}" alt="Icon">
                                         </span>
                                         <div class="content">
-                                            <h4 class="text">Global Reach</h4>
-                                            <p>Engage audiences in their own language.</p>
+                                            <h4 class="text">AI Audit & Optimization</h4>
+                                            <p>Improve existing AI systems for better performance.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -429,8 +481,8 @@
                                             <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
                                         </span>
                                         <div class="content">
-                                            <h4 class="text">Voice & Text Ready</h4>
-                                            <p>Copilots, & voice assistants</p>
+                                            <h4 class="text">Training & Enablement</h4>
+                                            <p>Empower your team with AI skills and knowledge.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -438,18 +490,160 @@
                         </div>
                     </div>
 
-                    <h3 class="title">Multi-lingual Support</h3>
-                    <p>Neural models that detect trends, risks, and opportunities in real time.</p>
+                    <h3 class="title">End-to-End AI Consulting</h3>
+                    <p>From strategy to implementation, we support your AI journey at every stage.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Capability area end -->
 
+    <section class="tp-service-area pb-120 pt-120 plr-50">
+        <div class="tp-service-inner">
+            <div class="title-wrap">
+                <h2 class="sec-title actova-word">
+                    We design <span> infrastructure </span> & Integrate artificial intelligence
+                    systems that <span>solve real-world problems.</span>
+                </h2>
+                <div class="tp-btn-animate">
+                    <a href="service.html" class="tp-btn-one">
+                        <span class="btn-wrap">
+                            <span class="text-one">Contact for Consultation</span>
+                            <span class="text-two">Contact for Consultation</span>
+                        </span>
+                        <span class="btn-icon">
+                            <svg width="9" height="13" viewBox="0 0 9 13"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="tp-service-grid">
+                <div class="tp-service-card tp-fade-animation" data-delay="0.6">
+                    <div class="card-inner" data-background="assets/imgs/service/shape-1.png">
+                        <div class="content">
+                            <img src="assets/imgs/service/service-icon-1.png" alt="Image" class="icon">
+                            <h3 class="title">
+                                <a href="service-details.html">AI Strategy & Consulting.</a>
+                            </h3>
+                            <p>
+                                Strategic AI guidance- identifying high-impact use cases, validating feasibility, and building your long-term AI roadmap.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-service-card tp-fade-animation" data-delay="0.8">
+                    <div class="card-inner" data-background="assets/imgs/service/service-icon-2.png">
+                        <div class="content">
+                            <h3 class="title">
+                                <a href="service-details.html">Custom AI <br>
+                                    Product Dev.</a>
+                            </h3>
+                            <p>
+                                Full-cycle development of AI-native SaaS, internal tools, intelligent dashboards, and seamless integrations.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-service-card tp-fade-animation" data-delay="1">
+                    <div class="card-inner">
+                        <div class="content">
+                            <img src="assets/imgs/service/service-icon-3.png" alt="Image" class="icon">
+                            <h3 class="title">
+                                <a href="service-details.html">Business Process <br>
+                                    Automation</a>
+                            </h3>
+                            <p>
+                                End-to-end automation of repetitive workflows, internal operations and cross-department processes- powered by practical AI that reduces manual work.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-service-card tp-fade-animation" data-delay="1.2">
+                    <div class="card-inner" data-background="assets/imgs/service/service-icon-4.png">
+                        <div class="content">
+                            <img src="assets/imgs/service/shape-2.png" alt="Image" class="shape">
+                            <h3 class="title">
+                                <a href="service-details.html">AI-Powered Customer Experience</a>
+                            </h3>
+                            <p>
+                                Intelligent chat, voice, helpdesk and conversational systems that deliver 24/7 support, faster resolutions, and more human-like customer interactions.
+                            </p>
+                        </div>
+                        <div class="service-btn">
+                            <a href="service-details.html" class="tp-btn-one">
+                                <span class="btn-wrap">
+                                    <span class="text-one">View Details</span>
+                                    <span class="text-two">View Details</span>
+                                </span>
+                                <span class="btn-icon">
+                                    <svg width="9" height="13" viewBox="0 0 9 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service area end -->
+
     <!-- Text slider start -->
     <div class="tp--marquee-text-style-2 pb-110 pt-130">
         <div class="text-wrapper">
-            <p>Let’s Create Something Intelligent Together! <a href="#">Get’s Started Now
+            <p>Start Your AI Transformation! <a href="#">Talk to AI Consultants
                     <span class="icon">
                         <svg width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -461,18 +655,20 @@
 
         <div class="tp--marquee-text-area">
             <div class="tp--marquee-text-inner inner-2" aria-hidden="true">
-                <div class="tp--marquee-text-2">Help desk</div>
-                <div class="tp--marquee-text-2">Voice generator</div>
-                <div class="tp--marquee-text-2">Landing page</div>
-                <div class="tp--marquee-text-2">SEO Content</div>
-                <div class="tp--marquee-text-2">Virtual assistant</div>
-                <div class="tp--marquee-text-2">Text.ai</div>
-                <div class="tp--marquee-text-2">Image generator</div>
-                <div class="tp--marquee-text-2">Voice generator</div>
-                <div class="tp--marquee-text-2">Landing page</div>
-                <div class="tp--marquee-text-2">SEO Content</div>
-                <div class="tp--marquee-text-2">Virtual assistant</div>
-                <div class="tp--marquee-text-2">Text.ai</div>
+                <div class="tp--marquee-text-2">Voice & Call Automation</div>
+                <div class="tp--marquee-text-2">Virtual AI Assistants</div>
+                <div class="tp--marquee-text-2">Lead Capture & Follow-Ups</div>
+                <div class="tp--marquee-text-2">AI-Powered Chatbots</div>
+                <div class="tp--marquee-text-2">AI SEO Automation</div>
+                <div class="tp--marquee-text-2">Smart Landing Pages</div>
+                <div class="tp--marquee-text-2">AI Agentic Workflows</div>
+                <div class="tp--marquee-text-2">CRM & WhatsApp Automation</div>
+                <div class="tp--marquee-text-2">Appointment Scheduling AI</div>
+                <div class="tp--marquee-text-2">Sales & Support Automation</div>
+                <div class="tp--marquee-text-2">Business Process Automation</div>
+                <div class="tp--marquee-text-2">AI Integration & Setup</div>
+                <div class="tp--marquee-text-2">AI Strategy Consulting</div>
+                <div class="tp--marquee-text-2">AI Audit & Optimization</div>
             </div>
         </div>
     </div>
@@ -483,8 +679,8 @@
     <section class="tp-feature2-area">
         <div class="tp-container-1715">
             <div class="tp-feature2-titlebox">
-                <h2 class="sec-title-2">Our Advance <br> Features & Performance</h2>
-                <p>AI models fine-tuned for unmatched accuracy and performance in real-world applications.</p>
+                <h2 class="sec-title-2">AI Revolution <br> for Modern Businesses</h2>
+                <p>Turning artificial intelligence into your biggest competitive advantage.</p>
             </div>
             <div class="tp-feature2-wrapper">
                 <div class="tp-feature2-left">
@@ -495,11 +691,8 @@
                                 <span class="number">01</span>
                             </div>
                             <div class="content">
-                                <h3 class="title">AI Consultant Voice Chat</h3>
-                                <p>AI Consultant Voice Chat delivers real-time, natural interactions powered by neural
-                                    speech
-                                    recognition &
-                                    language intelligence.</p>
+                                <h3 class="title">AI-Powered Chatbots</h3>
+                                <p>We create intelligent chatbots that automate support, capture leads, answer queries instantly, and enhance customer engagement.</p>
                             </div>
                         </div>
                         <div class="tp-feature2-item" data-target="feature2">
@@ -508,8 +701,8 @@
                                 <span class="number">02</span>
                             </div>
                             <div class="content">
-                                <h3 class="title">AI Text Generator</h3>
-                                <p>Real-time, natural interactions powered by neural speech recognition.</p>
+                                <h3 class="title">AI SEO Automation</h3>
+                                <p>We automate SEO content creation, optimization, and publishing workflows to improve rankings and drive organic traffic.</p>
                             </div>
                         </div>
                         <div class="tp-feature2-item" data-target="feature3">
@@ -517,13 +710,14 @@
                                 <span class="number">03</span>
                             </div>
                             <div class="content">
-                                <h3 class="title">AI Image Generator</h3>
-                                <p>Real-time, natural interactions powered by neural speech recognition.</p>
+                                <h3 class="title">Smart Landing Pages</h3>
+                                <p>We design and develop high-converting landing pages using AI to personalize content, optimize layouts, and accelerate lead generation.</p>
                             </div>
                         </div>
+
                     </div>
                     <a href="contact.html" class="actova-btn-light">
-                        Start Building Today
+                        Tell Us Your Need
                         <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
@@ -535,13 +729,13 @@
                 <div class="tp-feature2-right">
                     <div class="pin-wrapper">
                         <div class="tp-feature2-image active" id="feature1">
-                            <img src="{{ asset('assets/imgs/feature/img-1.png') }}" alt="Voice Chat">
+                            <img src="{{ asset('assets/imgs/feature/img-1.webp') }}" alt="Voice Chat">
                         </div>
                         <div class="tp-feature2-image" id="feature2">
-                            <img src="{{ asset('assets/imgs/feature/img-2.png') }}" alt="Text Generator">
+                            <img src="{{ asset('assets/imgs/feature/img-2.webp') }}" alt="Text Generator">
                         </div>
                         <div class="tp-feature2-image" id="feature3">
-                            <img src="{{ asset('assets/imgs/feature/img-3.png') }}" alt="Image Generator">
+                            <img src="{{ asset('assets/imgs/feature/img-3.webp') }}" alt="Image Generator">
                         </div>
                     </div>
                 </div>
@@ -575,8 +769,8 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h3 class="title">Real-Time <br> Intelligence.</h3>
-                            <p>Process live data instantly to make faster, smarter decisions.</p>
+                            <h3 class="title">AI-Powered <br> Customer Support.</h3>
+                            <p>Intelligent 24/7 help desk, voice agents, and chatbots handle inquiries, solve issues, & deliver consistent brand experience.</p>
                         </div>
                     </div>
                     <div class="tp-addons-item">
@@ -596,8 +790,8 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h3 class="title">Automation <br> Systems.</h3>
-                            <p>Process live data instantly to make faster, smarter decisions.</p>
+                            <h3 class="title">Intelligent <br> Sales & Leads.</h3>
+                            <p>Automatic lead capture, qualification, personalized follow-ups, and AI appointment booking convert more visitors effortlessly.</p>
                         </div>
                     </div>
                     <div class="tp-addons-item">
@@ -623,8 +817,8 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h3 class="title">Video <br> Generate</h3>
-                            <p>Process live data instantly to make faster, smarter decisions.</p>
+                            <h3 class="title">AI-Led <br> Marketing.</h3>
+                            <p>SEO-optimized content, AI creatives, social posting, high-converting landing pages that adapt to visitors and improve conversion rates.</p>
                         </div>
                     </div>
                     <div class="tp-addons-item">
@@ -640,8 +834,8 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h3 class="title">AI Copilot <br> (Assistants).</h3>
-                            <p>Process live data instantly to make faster, smarter decisions.</p>
+                            <h3 class="title">Smart Business <br> Operations.</h3>
+                            <p>AI Chat, Voice process automation and deep AI integration streamline workflows, eliminate manual tasks, reduce errors.</p>
                         </div>
                     </div>
                 </div>
@@ -667,7 +861,7 @@
         <div class="container">
             <div class="tp-integration-titlebox">
                 <h2 class="sec-title-2">Integrations</h2>
-                <p>AI models fine-tuned for unmatched accuracy and performance in real-world applications..</p>
+                <p>We integrate AI models with your workflow for unmatched accuracy and performance in real-world applications.</p>
             </div>
 
             <div class="tp-integration-wrapper">
@@ -734,7 +928,7 @@
                             </div>
                         </div>
 
-                        <p class="int-text">100 of apps integrate on "AI Consultant"</p>
+                        <p class="int-text">Streamline your business with AI.</p>
                     </div>
                     <div class="tp-integration-right">
                         <div class="tp-integration-item item-4">
@@ -757,562 +951,14 @@
             </div>
 
             <div class="tp-integration-help">
-                <a href="#">Need More Help? Browse the Docs or Connect With Our Team</a>
+                <a href="#">Want to Scale with AI? Ask AI Consultant for Free</a>
             </div>
         </div>
     </section>
     <!-- Integration area end -->
 
 
-    <!-- Price area start -->
-    <section class="tp-price__area pb-130">
-        <div class="tp-price-outer pt-120 pb-120">
-            <div class="container">
-                <div class="tp-price-titlebox text-center">
-                    <h2 class="sec-title-2">Flexible Plan</h2>
-                    <p>Choose a plan that scales with your goals. Whether you’re just starting out or running a global
-                        enterprise.</p>
-                </div>
-
-                <div class="tp-price-wrapper">
-                    <div class="tp-price-toggle-wrapper">
-                        <div class="toggle-btn-wrap">
-                            <span>Monthly</span>
-                            <div class="tp-price-toggle-btn"></div>
-                            <span>Yearly Save 10%</span>
-                        </div>
-                    </div>
-
-                    <div class="tp-price-table">
-                        <div class="tp-price-list monthly active">
-                            <div class="tp-price-plan">
-                                <div class="tp-price-header">
-                                    <p class="plan-name">Starter</p>
-                                </div>
-                                <div class="tp-price-amount"><span>$12</span> /month</div>
-                                <p class="tp-price-desc">Perfect for freelancers, creators, and small teams.</p>
-                                <div class="tp-price-feature">
-                                    <ul>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_688" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_689)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Access to Core AI Tools
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_684" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_686)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            5K AI Content Generations.
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_685" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_682)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            3 Team Members
-                                        </li>
-                                        <li class="disable">
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_677" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_667)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Standard Support
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="actova-btn-light">
-                                    Join Starter Plan
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                        </path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="tp-price-plan popular">
-                                <div class="ribbon">
-                                    <p>
-                                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M1.2928 10.3513H5.6614L1.96636 17.0046C1.76098 17.3745 2.24428 17.739 2.54344 17.4399L12.9644 7.02326C13.194 6.79358 13.032 6.401 12.7073 6.4001L7.64374 6.3866L11.2247 1.01774C11.3863 0.775095 11.2126 0.450195 10.921 0.450195H5.86606C5.72764 0.450195 5.60128 0.528495 5.53954 0.652335L0.966097 9.82334C0.938344 9.87899 0.925271 9.94082 0.928117 10.0029C0.930963 10.0651 0.949635 10.1254 0.982362 10.1783C1.01509 10.2312 1.06078 10.2749 1.11511 10.3051C1.16944 10.3354 1.23061 10.3513 1.2928 10.3513Z"
-                                                fill="#020202" />
-                                        </svg>
-                                        Most Popular
-                                    </p>
-                                </div>
-                                <div class="tp-price-header">
-                                    <p class="plan-name">Premium</p>
-                                </div>
-                                <div class="tp-price-amount"><span>$39</span> /month</div>
-                                <p class="tp-price-desc">Perfect for growing businesses, startups, and creators.</p>
-                                <div class="tp-price-feature">
-                                    <ul>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_68997" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_647)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Everything in Starter
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_387" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2476_687)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            50K AI Generations / month
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2468_687" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2498_687)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Unlimited Projects
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2474_687" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2475_687)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Advanced Analytics
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2479_687" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2472_687)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Priority Email Support
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="actova-btn-primary">
-                                    Join Premium Plan
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                        </path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="tp-price-plan">
-                                <div class="tp-price-header">
-                                    <p class="plan-name">Enterprise</p>
-                                </div>
-                                <div class="tp-price-amount"><span>$89</span> /month</div>
-                                <p class="tp-price-desc">Built for large-scale organizations that need AI power.</p>
-                                <div class="tp-price-feature">
-                                    <ul>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_3478_687" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2438_687)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Unlimited Generations
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2468_627" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_537)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Dedicated Account Manager
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_2478_187" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_2478_187)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            SLA & Enterprise-Grade Security
-                                        </li>
-                                        <li class="disable">
-                                            <span class="icon">
-                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_8478_687" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="12"
-                                                        height="12">
-                                                        <rect width="12" height="12" fill="#D9D9D9" />
-                                                    </mask>
-                                                    <g mask="url(#mask0_8478_687)">
-                                                        <path
-                                                            d="M9.39174 2.82232L4.54294 7.67106L2.32065 5.44872C1.98596 5.11403 1.44322 5.11397 1.10848 5.44866C0.773736 5.7834 0.773736 6.32609 1.10848 6.66083L3.93682 9.48929C4.09755 9.65004 4.31556 9.74036 4.54288 9.74037H4.54294C4.77025 9.74037 4.98825 9.65003 5.14899 9.48935L10.6039 4.03455C10.9386 3.6998 10.9386 3.15712 10.6039 2.82237C10.2692 2.48763 9.72648 2.48757 9.39174 2.82232Z"
-                                                            fill="#020202" />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                            Custom Integrations
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="actova-btn-light">
-                                    Join Enterprise Plan
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                        </path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="tp-price-list annual">
-                            <div class="tp-price-plan">
-                                <div class="tp-price-header">
-                                    <p class="plan-name">Starter</p>
-                                </div>
-                                <div class="tp-price-amount"><span>$119</span> /year</div>
-                                <p class="tp-price-desc">Perfect for freelancers, creators, and small teams.</p>
-                                <div class="tp-price-feature">
-                                    <ul>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Access to Core AI Tools
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            5K AI Content Generations.
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            3 Team Members
-                                        </li>
-                                        <li class="disable">
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Standard Support
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="actova-btn-light">
-                                    Join Starter Plan
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                        </path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="tp-price-plan popular">
-                                <div class="ribbon">
-                                    <p>
-                                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M1.2928 10.3513H5.6614L1.96636 17.0046C1.76098 17.3745 2.24428 17.739 2.54344 17.4399L12.9644 7.02326C13.194 6.79358 13.032 6.401 12.7073 6.4001L7.64374 6.3866L11.2247 1.01774C11.3863 0.775095 11.2126 0.450195 10.921 0.450195H5.86606C5.72764 0.450195 5.60128 0.528495 5.53954 0.652335L0.966097 9.82334C0.938344 9.87899 0.925271 9.94082 0.928117 10.0029C0.930963 10.0651 0.949635 10.1254 0.982362 10.1783C1.01509 10.2312 1.06078 10.2749 1.11511 10.3051C1.16944 10.3354 1.23061 10.3513 1.2928 10.3513Z"
-                                                fill="#020202" />
-                                        </svg>
-                                        Most Popular
-                                    </p>
-                                </div>
-                                <div class="tp-price-header">
-                                    <p class="plan-name">Premium</p>
-                                </div>
-                                <div class="tp-price-amount"><span>$399</span> /year</div>
-                                <p class="tp-price-desc">Perfect for growing businesses, startups, and creators.</p>
-                                <div class="tp-price-feature">
-                                    <ul>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Everything in Starter
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            50K AI Generations / month
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Unlimited Projects
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Advanced Analytics
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Priority Email Support
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="actova-btn-primary">
-                                    Join Premium Plan
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                        </path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="tp-price-plan">
-                                <div class="tp-price-header">
-                                    <p class="plan-name">Enterprise</p>
-                                </div>
-                                <div class="tp-price-amount"><span>$899</span> /year</div>
-                                <p class="tp-price-desc">Built for large-scale organizations that need AI power.</p>
-                                <div class="tp-price-feature">
-                                    <ul>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Unlimited Generations
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Dedicated Account Manager
-                                        </li>
-                                        <li>
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            SLA & Enterprise-Grade Security
-                                        </li>
-                                        <li class="disable">
-                                            <span class="icon">
-                                                <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.39174 0.822318L4.54294 5.67106L2.32065 3.44872C1.98596 3.11403 1.44322 3.11397 1.10848 3.44866C0.773736 3.7834 0.773736 4.32609 1.10848 4.66083L3.93682 7.48929C4.09755 7.65004 4.31556 7.74036 4.54288 7.74037H4.54294C4.77025 7.74037 4.98825 7.65003 5.14899 7.48935L10.6039 2.03455C10.9386 1.6998 10.9386 1.15712 10.6039 0.822375C10.2692 0.487632 9.72648 0.487575 9.39174 0.822318Z"
-                                                        fill="#020202" />
-                                                </svg>
-                                            </span>
-                                            Custom Integrations
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="actova-btn-light">
-                                    Join Enterprise Plan
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                        </path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Price end -->
+   
 
 
     <!-- Testimonial slider start -->
@@ -1328,7 +974,7 @@
                     </svg>
                     4.5 Average Rating
                 </p>
-                <h2 class="sec-title-2">Trusted by 20K Users in World-wide</h2>
+                <h2 class="sec-title-2">Trusted by Top Businesses across India</h2>
             </div>
             <div class="tp-testimonial-inner-4">
                 <div class="tp-testimonial-wrapper-4">
@@ -1460,20 +1106,20 @@
             <div class="tp-counter-list-2">
                 <div class="tp-counter-item-2">
                     <div class="tp-counter-wrapper-2">
-                        <h3 class="tp-counter-active number">20K <span class="suffix">+</span></h3>
-                        <p class="text">Active Users in <br> World-wide</p>
+                        <h3 class="tp-counter-active number">100 <span class="suffix">+</span></h3>
+                        <p class="text">Happy Clientbase <br>Across India</p>
                     </div>
                 </div>
                 <div class="tp-counter-item-2">
                     <div class="tp-counter-wrapper-2">
-                        <h3 class="tp-counter-active number">50K <span class="suffix">+</span></h3>
+                        <h3 class="tp-counter-active number">200 <span class="suffix">+</span></h3>
                         <p class="text">Recent Projects <br> Delivered.</p>
                     </div>
                 </div>
                 <div class="tp-counter-item-2">
                     <div class="tp-counter-wrapper-2">
-                        <h3 class="tp-counter-active number">50 <span class="suffix">+</span></h3>
-                        <p class="text">Countries Actova <br> is Launched.</p>
+                        <h3 class="tp-counter-active number">10 <span class="suffix">+</span></h3>
+                        <p class="text">Experts Working <br> With Us</p>
                     </div>
                 </div>
             </div>
@@ -1623,57 +1269,39 @@
                 <div class="tp-faq-wrapper-2">
                     <div class="tp-faq-list">
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">What is Actova AI?</h3>
+                            <h3 class="tp-faq-title">What Exactly Does AI Consultant Company Do?</h3>
                             <div class="tp-faq-body">
-                                <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova
-                                    helps
-                                    automate repetitive workflows, generate high-quality content in multiple formats,
-                                    deliver deep
-                                    data insights, and provide real-time decision support.</p>
+                                <p>We help businesses adopt and implement AI effectively. We provide strategy, custom AI solutions, process automation, customer experience tools (chatbots, voice agents), sales & marketing automation, and full AI integration- turning AI into measurable business results.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">Who can use Actova AI?</h3>
+                            <h3 class="tp-faq-title">What Types of Businesses Do You Work With?</h3>
                             <div class="tp-faq-body">
-                                <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova
-                                    helps
-                                    automate repetitive workflows, generate high-quality content in multiple formats,
-                                    deliver deep
-                                    data insights, and provide real-time decision support.</p>
+                                <p>We work with startups, small & medium businesses, scale-ups, and enterprises across many industries including e-commerce, education, healthcare, real estate, logistics, financial services, SaaS, professional services, manufacturing, and more.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
+                            <h3 class="tp-faq-title">Do You Build Custom Machine Learning / Deep Learning Models From Scratch?</h3>
                             <div class="tp-faq-body">
-                                <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom
-                                    hybrid
-                                    architectures based on the use case—vision, speech, language, or forecasting.</p>
+                                <p>No. We focus on practical, high-ROI AI implementations using proven models, APIs, fine-tuned LLMs, and ready-to-deploy AI tools. We deliver fast value instead of long research-oriented model development.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
+                            <h3 class="tp-faq-title">What Platforms and Tools Do You Commonly Use?</h3>
                             <div class="tp-faq-body">
-                                <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova
-                                    helps
-                                    automate repetitive workflows, generate high-quality content in multiple formats,
-                                    deliver deep
-                                    data insights, and provide real-time decision support.</p>
+                                <p>We work with leading AI & automation platforms including: OpenAI, Anthropic, Google Gemini, LangChain, Make.com, n8n, Voiceflow, ElevenLabs, Twilio, WhatsApp Business API, Zapier, Dialogflow, Bubble, Webflow, Airtable, Notion, HubSpot, Zoho, Salesforce, and many others - chosen based on your needs and existing stack.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
+                            <h3 class="tp-faq-title">Do You Provide Ongoing Support After Launch?</h3>
                             <div class="tp-faq-body">
-                                <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom
-                                    hybrid
-                                    architectures based on the use case—vision, speech, language, or forecasting.</p>
+                                <p>Yes. Every project includes a post-launch optimization & support period (usually 30–90 days). After that we offer flexible monthly support plans so your AI systems stay up-to-date, performant, and aligned with your growing business.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
+                            <h3 class="tp-faq-title">How Do We Get Started with AI?</h3>
                             <div class="tp-faq-body">
-                                <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom
-                                    hybrid
-                                    architectures based on the use case—vision, speech, language, or forecasting.</p>
+                                <p>Just book a free 20–30 minute discovery call. We’ll discuss your current challenges, goals, and priorities- then give you an honest opinion whether AI can help, what kind of solution makes sense, and rough timeline & investment range. No pressure, no obligation.</p>
                             </div>
                         </div>
                     </div>
@@ -1714,315 +1342,8 @@
 
 
     <!-- Power area -->
-    <section class="tp-power-area pt-120">
-        <div class="container">
-            <div class="tp-power-title-wrap">
-                <h2 class="sub-title-3"><span>Actova</span> Actova AI Powered</h2>
-                <h2 class="sec-title-2 elastic-anim">Smarter Conversations. Faster Results.</h2>
-            </div>
-            <div class="tp-power-wrapper">
-                <div class="tp-power-img">
-                    <img src="assets/imgs/home-5/power-db.png" alt="Image" class="db-img" data-speed="0.95">
 
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/home-5/power-img.png" alt="Image" class="main-img">
-                        <img src="assets/imgs/home-5/power-shape.png" alt="Image" class="shape-img">
-                        <img src="assets/imgs/home-5/power-shape2.png" alt="Image" class="shape-img2"
-                            data-lag="0.05">
-                        <img src="assets/imgs/home-5/power-text.png" alt="Image" class="shape-text">
-                    </div>
-                </div>
-                <div class="tp-power-content">
-                    <p class="text">“ We are a next-generation AI solutions company dedicated to helping businesses
-                        scale
-                        smarter. ”</p>
-                    <p>We design AI-driven tools that reduce support costs, boost engagement, and unlock new growth
-                        opportunities. From startups to enterprises.</p>
-                    <ul>
-                        <li><span><i class="fal fa-check"></i></span> Custom AI Solutions</li>
-                        <li><span><i class="fal fa-check"></i></span> Neural Intelligence at Core</li>
-                        <li><span><i class="fal fa-check"></i></span> Human-Like Interaction</li>
-                        <li><span><i class="fal fa-check"></i></span> Data-First Security</li>
-                    </ul>
-                    <a href="about.html" class="actova-btn-primary">
-                        Get’s Started
-                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div class="text-wrapper">
-                <p>Let’s Create Something Intelligent Together! <a href="#">Get’s Started Now
-                        <span class="icon">
-                            <svg width="13" height="13" viewBox="0 0 13 13"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9.18948 4.93104C8.32432 4.93104 7.62052 5.63484 7.62052 6.5C7.62052 7.36516 8.32432 8.06896 9.18948 8.06896C10.0546 8.06896 10.7584 7.36516 10.7584 6.5C10.7584 5.63484 10.0546 4.93104 9.18948 4.93104ZM6.49983 5.60346C7.36499 5.60346 8.06879 4.89965 8.06879 4.03449C8.06879 3.16933 7.36499 2.46553 6.49983 2.46553C5.63467 2.46553 4.93087 3.16933 4.93087 4.03449C4.93087 4.89965 5.63467 5.60346 6.49983 5.60346ZM3.81017 3.13793C4.67533 3.13793 5.37914 2.43412 5.37914 1.56896C5.37914 0.703803 4.67533 0 3.81017 0C2.94501 0 2.24121 0.703803 2.24121 1.56896C2.24121 2.43412 2.94501 3.13793 3.81017 3.13793ZM6.49983 7.39654C5.63467 7.39654 4.93087 8.10035 4.93087 8.96551C4.93087 9.83067 5.63467 10.5345 6.49983 10.5345C7.36499 10.5345 8.06879 9.83067 8.06879 8.96551C8.06879 8.10035 7.36499 7.39654 6.49983 7.39654ZM3.81017 9.86207C2.94501 9.86207 2.24121 10.5659 2.24121 11.431C2.24121 12.2962 2.94501 13 3.81017 13C4.67533 13 5.37914 12.2962 5.37914 11.431C5.37914 10.5659 4.67533 9.86207 3.81017 9.86207Z">
-                                </path>
-                            </svg>
-                        </span>
-                    </a></p>
-            </div>
-        </div>
-    </section>
-    <!-- Power area -->
-    <!-- Feature section -->
-    <div class="tp-feature5-area">
-        <div class="tp-container-1715">
-            <div class="tp-feature5-top">
-                <div class="sub-title-3"><span>Features</span> Actova Powerful Analytics</div>
-                <h2 class="sec-title-2 elastic-anim">Value Proposition</h2>
-                <p>Actova chatbot helps businesses deliver instant answering customer questions to boosting sales &
-                    engagement.</p>
-            </div>
-            <div class="tp-feature5-list">
-                <div class="tp-feature5-item" style="background-image: url(assets/imgs/home-5/feature-bg.png);">
-                    <h2 class="title">Insightful Analytics</h2>
-                    <p>Gain clear insights into customer interactions with real-time analytics — track performance, measure
-                        satisfaction.</p>
-                    <img src="assets/imgs/home-5/feature-1.png" alt="Image" class="img">
-                    <img src="assets/imgs/home-5/feature-shape.png" alt="Image" class="shape-img">
-                </div>
-                <div class="tp-feature5-item" style="background-image: url(assets/imgs/home-5/feature-bg-2.png);">
-                    <h2 class="title">AI Automation Support.</h2>
-                    <p>Automate repetitive tasks and customer queries with AI-powered support — reducing response time,
-                        cutting costs, and customers support 24/7.</p>
-                    <img src="assets/imgs/home-5/feature-2.png" alt="Image" class="img">
-                </div>
-            </div>
-            <div class="tp-feature5-list-2">
-                <div class="tp-feature5-item-2">
-                    <img src="assets/imgs/home-5/feature-icon.png" alt="Icon">
-                    <h3 class="title">Seamless Integrations</h3>
-                    <p>Deliver instant assistance, with AI-powered automation that keeps your business available 24/7.</p>
-                    <a href="about.html" class="actova-btn-primary">
-                        Learn More
-                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-                <div class="tp-feature5-item-2">
-                    <img src="assets/imgs/home-5/feature-icon2.png" alt="Icon">
-                    <h3 class="title">Multilingual Support</h3>
-                    <p>Break language barriers with AI-powered multilingual support — chat seamlessly in 50+ languages.</p>
-                    <a href="about.html" class="actova-btn-primary">
-                        Learn More
-                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-                <div class="tp-feature5-item-2">
-                    <img src="assets/imgs/home-5/feature-icon3.png" alt="Icon">
-                    <h3 class="title">24/7 Auto Support</h3>
-                    <p>Deliver instant assistance, with AI-powered automation that keeps your business available 24/7.</p>
-                    <a href="about.html" class="actova-btn-primary">
-                        Learn More
-                        <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Feature section -->
-    <!-- Integrations section -->
-    <section class="tp-integration5-area pb-130">
-        <div class="container">
-            <div class="tp-integration5-titlebox">
-                <h2 class="sub-title-3"><span>Integration</span> Powerful Integrations</h2>
-                <h2 class="sec-title-2 elastic-anim">Integrations</h2>
-                <p>Actova chatbot helps businesses deliver instant answering customer questions to boosting sales &
-                    engagement.</p>
-            </div>
-
-            <div class="tp-integration5-list">
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon2.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon3.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon4.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon5.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon6.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon7.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon8.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon9.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon10.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon11.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon12.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon13.png" alt="Icon"></div>
-                <div class="tp-integration5-item"><img src="assets/imgs/home-5/int-icon14.png" alt="Icon"></div>
-            </div>
-
-            <div class="view-all-btn">
-                <a href="projects-details.html" class="actova-btn-secondary">
-                    View All Integrations
-                    <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                        </path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Integrations section -->
-
+ 
     <!-- Service area start -->
-    <section class="tp-service-area pb-120 pt-120 plr-50">
-        <div class="tp-service-inner">
-            <div class="title-wrap">
-                <h2 class="sec-title actova-word">
-                    We design <span> infrastructure </span> & Develop artificial intelligence
-                    systems that <span>solve real-world problems.</span>
-                </h2>
-                <div class="tp-btn-animate">
-                    <a href="service.html" class="tp-btn-one">
-                        <span class="btn-wrap">
-                            <span class="text-one">View All Solution</span>
-                            <span class="text-two">View All Solution</span>
-                        </span>
-                        <span class="btn-icon">
-                            <svg width="9" height="13" viewBox="0 0 9 13"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="tp-service-grid">
-                <div class="tp-service-card tp-fade-animation" data-delay="0.6">
-                    <div class="card-inner" data-background="assets/imgs/service/shape-1.png">
-                        <div class="content">
-                            <img src="assets/imgs/service/service-icon-1.png" alt="Image" class="icon">
-                            <h3 class="title">
-                                <a href="service-details.html">ML & Neural Network Development.</a>
-                            </h3>
-                            <p>
-                                We design, train, and deploy machine learning models
-                                tailored to your business needs.
-                            </p>
-                        </div>
-                        <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
-                                <span class="btn-wrap">
-                                    <span class="text-one">View Details</span>
-                                    <span class="text-two">View Details</span>
-                                </span>
-                                <span class="btn-icon">
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tp-service-card tp-fade-animation" data-delay="0.8">
-                    <div class="card-inner" data-background="assets/imgs/service/service-icon-2.png">
-                        <div class="content">
-                            <h3 class="title">
-                                <a href="service-details.html">MLOps & <br>
-                                    AI Infrastructure</a>
-                            </h3>
-                            <p>
-                                We help you move beyond experiments and into production by
-                                setting up the right infrastructure.
-                            </p>
-                        </div>
-                        <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
-                                <span class="btn-wrap">
-                                    <span class="text-one">View Details</span>
-                                    <span class="text-two">View Details</span>
-                                </span>
-                                <span class="btn-icon">
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tp-service-card tp-fade-animation" data-delay="1">
-                    <div class="card-inner">
-                        <div class="content">
-                            <img src="assets/imgs/service/service-icon-3.png" alt="Image" class="icon">
-                            <h3 class="title">
-                                <a href="service-details.html">AI Strategy & <br>
-                                    Consulting</a>
-                            </h3>
-                            <p>
-                                We help you define your AI roadmap — from feasibility and
-                                use case discovery.
-                            </p>
-                        </div>
-                        <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
-                                <span class="btn-wrap">
-                                    <span class="text-one">View Details</span>
-                                    <span class="text-two">View Details</span>
-                                </span>
-                                <span class="btn-icon">
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tp-service-card tp-fade-animation" data-delay="1.2">
-                    <div class="card-inner" data-background="assets/imgs/service/service-icon-4.png">
-                        <div class="content">
-                            <img src="assets/imgs/service/shape-2.png" alt="Image" class="shape">
-                            <h3 class="title">
-                                <a href="service-details.html">Custom AI Product Development</a>
-                            </h3>
-                            <p>
-                                End-to-end design and development of AI-powered SaaS,
-                                dashboards, and internal tools — including front-end and API
-                                integrations.
-                            </p>
-                        </div>
-                        <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
-                                <span class="btn-wrap">
-                                    <span class="text-one">View Details</span>
-                                    <span class="text-two">View Details</span>
-                                </span>
-                                <span class="btn-icon">
-                                    <svg width="9" height="13" viewBox="0 0 9 13"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Service area end -->
+    
 @endsection
