@@ -10,10 +10,28 @@
             </div>
             <div class="col-md-6 text-end">
                 <a href="{{ route('admin.menus.index') }}" class="btn btn-secondary">
-                    <i class="fas fa-arrow-left"></i> Back to List
+                    <i class="fa fa-arrow-left"></i> Back to List
                 </a>
             </div>
         </div>
+
+        @if (session('error'))
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {{ session('error') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        @endif
+
+        @if ($errors->any())
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <ul class="mb-0">
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        @endif
 
         <div class="card">
             <div class="card-body">
@@ -85,7 +103,7 @@
                                 <label for="icon" class="form-label">Icon Class</label>
                                 <input type="text" class="form-control @error('icon') is-invalid @enderror"
                                     id="icon" name="icon" value="{{ old('icon', $menu->icon) }}"
-                                    placeholder="e.g., fal fa-home">
+                                    placeholder="e.g., fa fa-home">
                                 @error('icon')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
@@ -123,7 +141,8 @@
                             <div class="mb-3">
                                 <label for="order" class="form-label">Order</label>
                                 <input type="number" class="form-control @error('order') is-invalid @enderror"
-                                    id="order" name="order" value="{{ old('order', $menu->order) }}" min="0">
+                                    id="order" name="order" value="{{ old('order', $menu->order) }}"
+                                    min="0">
                                 @error('order')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
@@ -135,7 +154,7 @@
                                 <label class="form-label d-block">Status</label>
                                 <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="is_active" name="is_active"
-                                        {{ old('is_active', $menu->is_active) ? 'checked' : '' }}>
+                                        value="1" {{ old('is_active', $menu->is_active) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="is_active">
                                         Active
                                     </label>
@@ -156,7 +175,7 @@
                     <div class="d-flex justify-content-end gap-2">
                         <a href="{{ route('admin.menus.index') }}" class="btn btn-secondary">Cancel</a>
                         <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-save"></i> Update Menu
+                            <i class="fa fa-save"></i> Update Menu
                         </button>
                     </div>
                 </form>

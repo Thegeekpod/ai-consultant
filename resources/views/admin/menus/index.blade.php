@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-6 text-end">
                 <a href="{{ route('admin.menus.create') }}" class="btn btn-primary">
-                    <i class="fas fa-plus"></i> Add New Menu
+                    <i class="fa fa-plus"></i> Add New Menu
                 </a>
             </div>
         </div>
@@ -18,6 +18,24 @@
         @if (session('success'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 {{ session('success') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        @endif
+
+        @if (session('error'))
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {{ session('error') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        @endif
+
+        @if ($errors->any())
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <ul class="mb-0">
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
         @endif
@@ -71,7 +89,7 @@
                                     </td>
                                     <td>
                                         <a href="{{ route('admin.menus.edit', $menu) }}" class="btn btn-sm btn-warning">
-                                            <i class="fas fa-edit"></i>
+                                            <i class="fa fa-edit"></i>
                                         </a>
                                         <form action="{{ route('admin.menus.destroy', $menu) }}" method="POST"
                                             class="d-inline"
@@ -79,7 +97,7 @@
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger">
-                                                <i class="fas fa-trash"></i>
+                                                <i class="fa fa-trash"></i>
                                             </button>
                                         </form>
                                     </td>
@@ -90,7 +108,7 @@
                                         <tr class="table-secondary">
                                             <td class="ps-4">{{ $child->order }}</td>
                                             <td class="ps-4">
-                                                <i class="fas fa-level-up-alt fa-rotate-90 text-muted me-2"></i>
+                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
                                                 @if ($child->icon)
                                                     <i class="{{ $child->icon }}"></i>
                                                 @endif
@@ -121,14 +139,14 @@
                                             <td>
                                                 <a href="{{ route('admin.menus.edit', $child) }}"
                                                     class="btn btn-sm btn-warning">
-                                                    <i class="fas fa-edit"></i>
+                                                    <i class="fa fa-edit"></i>
                                                 </a>
                                                 <form action="{{ route('admin.menus.destroy', $child) }}" method="POST"
                                                     class="d-inline" onsubmit="return confirm('Are you sure?');">
                                                     @csrf
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-sm btn-danger">
-                                                        <i class="fas fa-trash"></i>
+                                                        <i class="fa fa-trash"></i>
                                                     </button>
                                                 </form>
                                             </td>
@@ -139,8 +157,8 @@
                                                 <tr class="table-light">
                                                     <td class="ps-5">{{ $grandchild->order }}</td>
                                                     <td class="ps-5">
-                                                        <i class="fas fa-level-up-alt fa-rotate-90 text-muted me-2"></i>
-                                                        <i class="fas fa-level-up-alt fa-rotate-90 text-muted me-2"></i>
+                                                        <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
+                                                        <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
                                                         @if ($grandchild->icon)
                                                             <i class="{{ $grandchild->icon }}"></i>
                                                         @endif
@@ -168,7 +186,7 @@
                                                     <td>
                                                         <a href="{{ route('admin.menus.edit', $grandchild) }}"
                                                             class="btn btn-sm btn-warning">
-                                                            <i class="fas fa-edit"></i>
+                                                            <i class="fa fa-edit"></i>
                                                         </a>
                                                         <form action="{{ route('admin.menus.destroy', $grandchild) }}"
                                                             method="POST" class="d-inline"
@@ -176,7 +194,7 @@
                                                             @csrf
                                                             @method('DELETE')
                                                             <button type="submit" class="btn btn-sm btn-danger">
-                                                                <i class="fas fa-trash"></i>
+                                                                <i class="fa fa-trash"></i>
                                                             </button>
                                                         </form>
                                                     </td>
