@@ -154,8 +154,12 @@
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
-
-                    {{-- Home Page dynamic menu removed --}}
+                    <li class="nav-item {{ request()->routeIs('admin.menus.*') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('admin.menus.index') }}">
+                            <i class="icon-layout menu-icon"></i>
+                            <span class="menu-title">Menu Management</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <!-- partial -->

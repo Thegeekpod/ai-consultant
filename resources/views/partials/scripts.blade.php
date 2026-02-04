@@ -12,6 +12,6 @@
 <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
 <script src="{{ asset('assets/js/vanilla-tilt.min.js') }}"></script>
 <script src="{{ asset('assets/js/actova-cursor.js') }}"></script>
-<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}?v={{ time() }}"></script>
 
 @stack('scripts')

@@ -14,462 +14,122 @@
                     <div class="tp-main__menu d-flex justify-content-center">
                         <nav>
                             <ul>
-                                <li><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('about') }}">About</a></li>
-
-                                <!-- Services Mega Menu -->
-                                <li class="has-megamenu">
-                                    <a href="{{ route('service') }}">Services <i class="fal fa-chevron-down"></i></a>
-                                    <div class="tp-megamenu">
-                                        <!-- Sidebar -->
-                                        <div class="tp-megamenu__sidebar">
-                                            <span class="tp-megamenu__sidebar-title">Expertise</span>
-                                            <a href="#" class="tp-megamenu__sidebar-item active"
-                                                data-target="strategy">
-                                                <div class="tp-megamenu__sidebar-icon"><i class="fal fa-analytics"></i>
+                                @foreach ($menus as $menu)
+                                    @if ($menu->children->isEmpty())
+                                        <li><a href="{{ $menu->url }}">{{ $menu->name }}</a></li>
+                                    @elseif($menu->slug == 'services' || $menu->slug == 'solutions')
+                                        <li class="has-megamenu">
+                                            <a href="{{ $menu->url }}">{{ $menu->name }} <i
+                                                    class="fal fa-chevron-down"></i></a>
+                                            <div class="tp-megamenu">
+                                                <!-- Sidebar -->
+                                                <div class="tp-megamenu__sidebar">
+                                                    <span class="tp-megamenu__sidebar-title">
+                                                        {{ $menu->slug == 'services' ? 'Expertise' : 'Categories' }}
+                                                    </span>
+                                                    @foreach ($menu->children as $index => $child)
+                                                        <a href="#"
+                                                            class="tp-megamenu__sidebar-item {{ $index === 0 ? 'active' : '' }}"
+                                                            data-target="{{ $child->slug }}">
+                                                            @if ($child->icon)
+                                                                <div class="tp-megamenu__sidebar-icon"><i
+                                                                        class="{{ $child->icon }}"></i></div>
+                                                            @endif
+                                                            <div class="tp-megamenu__sidebar-info">
+                                                                <span
+                                                                    class="tp-megamenu__sidebar-name">{{ $child->name }}</span>
+                                                                @if ($child->description)
+                                                                    <span
+                                                                        class="tp-megamenu__sidebar-desc">{{ $child->description }}</span>
+                                                                @endif
+                                                            </div>
+                                                        </a>
+                                                    @endforeach
                                                 </div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">AI Strategy &
-                                                        Consulting</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Strategic planning &
-                                                        enterprise adoption.</span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item"
-                                                data-target="development">
-                                                <div class="tp-megamenu__sidebar-icon"><i class="fal fa-code"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">AI Development</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Custom LLMs & software
-                                                        solutions.</span>
-                                                </div>
-                                            </a>
 
-                                            <a href="#" class="tp-megamenu__sidebar-item"
-                                                data-target="integration">
-                                                <div class="tp-megamenu__sidebar-icon"><i class="fal fa-cogs"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">AI Integration & Ops</span>
-                                                    <span class="tp-megamenu__sidebar-desc">MLOps & system
-                                                        integration.</span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item" data-target="training">
-                                                <div class="tp-megamenu__sidebar-icon"><i
-                                                        class="fal fa-chalkboard-teacher"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Training & Support</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Fine-tuning & team
-                                                        workshops.</span>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <!-- Main Content: Strategy -->
-                                        <div class="tp-megamenu__main active" data-id="strategy">
-                                            <span class="tp-megamenu__main-title">STRATEGY & CONSULTING</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-clipboard-check"></i></div>
-                                                    AI Readiness Assessment
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-map-marked-alt"></i></div>
-                                                    AI Roadmap & Planning
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-rocket"></i>
-                                                    </div>
-                                                    Digital Transformation Consulting
-                                                </a>
-                                            </div>
-                                            <div class="tp-megamenu__footer">
-                                                <div class="tp-megamenu__footer-content">
-                                                    <span class="tp-megamenu__footer-text1">Looking for AI
-                                                        Development?</span>
-                                                    <span class="tp-megamenu__footer-text2">Explore our custom LLM and
-                                                        Machine Learning solutions.</span>
-                                                </div>
-                                                <a href="#" class="tp-megamenu__footer-btn">Learn More</a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Main Content: Development -->
-                                        <div class="tp-megamenu__main" data-id="development">
-                                            <span class="tp-megamenu__main-title">AI DEVELOPMENT</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-brain"></i>
-                                                    </div>
-                                                    Custom AI Model Development
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-laptop-code"></i></div>
-                                                    Machine Learning Solutions
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-comments"></i>
-                                                    </div>
-                                                    Generative AI (Chatbots, Copilots)
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-eye"></i></div>
-                                                    NLP & Computer Vision
-                                                </a>
-                                            </div>
-                                            <div class="tp-megamenu__footer">
-                                                <div class="tp-megamenu__footer-content">
-                                                    <span class="tp-megamenu__footer-text1">Need a prototype?</span>
-                                                    <span class="tp-megamenu__footer-text2">Get a working MVP in 4
-                                                        weeks.</span>
-                                                </div>
-                                                <a href="#" class="tp-megamenu__footer-btn">Start Building</a>
-                                            </div>
-                                        </div>
-
-
-
-                                        <!-- Main Content: Integration -->
-                                        <div class="tp-megamenu__main" data-id="integration">
-                                            <span class="tp-megamenu__main-title">AI INTEGRATION & OPS</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-plug"></i>
-                                                    </div> API & System Integration
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-cogs"></i>
-                                                    </div> MLOps & Model Deployment
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-heartbeat"></i>
-                                                    </div> AI Monitoring & Optimization
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Main Content: Training -->
-                                        <div class="tp-megamenu__main" data-id="training">
-                                            <span class="tp-megamenu__main-title">TRAINING & SUPPORT</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-chalkboard"></i></div> AI Training for Teams
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-sliders-h"></i>
-                                                    </div> Model Fine-Tuning
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-life-ring"></i>
-                                                    </div> Ongoing Support & Maintenance
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-
-                                <!-- Solutions Mega Menu -->
-                                <li class="has-megamenu">
-                                    <a href="#">Solutions <i class="fal fa-chevron-down"></i></a>
-                                    <div class="tp-megamenu">
-                                        <!-- Sidebar -->
-                                        <div class="tp-megamenu__sidebar">
-                                            <span class="tp-megamenu__sidebar-title">Categories</span>
-                                            <a href="#" class="tp-megamenu__sidebar-item active"
-                                                data-target="automation">
-                                                <div class="tp-megamenu__sidebar-icon"><i class="fal fa-robot"></i>
-                                                </div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Automation</span>
-                                                    <span class="tp-megamenu__sidebar-desc">RPA & Intelligent
-                                                        workflows.</span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item"
-                                                data-target="customer">
-                                                <div class="tp-megamenu__sidebar-icon"><i
-                                                        class="fal fa-user-headset"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Customer Experience</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Chatbots &
-                                                        Personalization.</span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item"
-                                                data-target="marketing">
-                                                <div class="tp-megamenu__sidebar-icon"><i
-                                                        class="fal fa-chart-line"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Marketing & Sales</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Lead scoring &
-                                                        Analytics.</span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item"
-                                                data-target="operations">
-                                                <div class="tp-megamenu__sidebar-icon"><i
-                                                        class="fal fa-industry-alt"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Operations</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Forecasting &
-                                                        Inventory.</span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="tp-megamenu__sidebar-item"
-                                                data-target="security">
-                                                <div class="tp-megamenu__sidebar-icon"><i
-                                                        class="fal fa-shield-check"></i></div>
-                                                <div class="tp-megamenu__sidebar-info">
-                                                    <span class="tp-megamenu__sidebar-name">Security &
-                                                        Compliance</span>
-                                                    <span class="tp-megamenu__sidebar-desc">Fraud & Anomaly
-                                                        detection.</span>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <!-- Content: Automation -->
-                                        <div class="tp-megamenu__main active" data-id="automation">
-                                            <span class="tp-megamenu__main-title">AUTOMATION SOLUTIONS</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-microchip"></i></div> Intelligent Process
-                                                    Automation (IPA)
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-cogs"></i>
-                                                    </div> Robotic Process Automation (RPA)
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-project-diagram"></i></div> Workflow
-                                                    Automation
-                                                </a>
-                                            </div>
-                                            <div class="tp-megamenu__footer">
-                                                <div class="tp-megamenu__footer-content">
-                                                    <span class="tp-megamenu__footer-text1">Need custom
-                                                        automation?</span>
-                                                    <span class="tp-megamenu__footer-text2">Talk to our experts.</span>
-                                                </div>
-                                                <a href="#" class="tp-megamenu__footer-btn">Book a Demo</a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Content: Customer -->
-                                        <div class="tp-megamenu__main" data-id="customer">
-                                            <span class="tp-megamenu__main-title">CUSTOMER EXPERIENCE</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-comments"></i></div> AI Chatbots & Virtual
-                                                    Assistants
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-user-friends"></i></div> Personalization
-                                                    Engines
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-microphone"></i></div> Voice AI Solutions
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Content: Marketing -->
-                                        <div class="tp-megamenu__main" data-id="marketing">
-                                            <span class="tp-megamenu__main-title">MARKETING & SALES</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-bullseye"></i></div> AI-Powered Lead Scoring
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-thumbs-up"></i></div> Recommendation Systems
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-chart-area"></i></div> Marketing Analytics
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Content: Operations -->
-                                        <div class="tp-megamenu__main" data-id="operations">
-                                            <span class="tp-megamenu__main-title">OPERATIONS</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-chart-line"></i></div> Demand Forecasting
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-boxes"></i>
-                                                    </div> Inventory Optimization
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-search-plus"></i></div> Quality Control (AI
-                                                    Vision)
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Content: Security -->
-                                        <div class="tp-megamenu__main" data-id="security">
-                                            <span class="tp-megamenu__main-title">SECURITY & COMPLIANCE</span>
-                                            <div class="tp-megamenu__grid">
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-lock"></i>
-                                                    </div> Fraud Detection
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i
-                                                            class="fal fa-exclamation-triangle"></i></div> Anomaly
-                                                    Detection
-                                                </a>
-                                                <a href="#" class="tp-megamenu__grid-item">
-                                                    <div class="tp-megamenu__grid-icon"><i class="fal fa-shield"></i>
-                                                    </div> Risk Assessment Systems
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-
-                                <!-- Industries Mega Menu -->
-                                <li class="has-megamenu">
-                                    <a href="#">Industries <i class="fal fa-chevron-down"></i></a>
-                                    <div class="tp-megamenu tp-megamenu-industries">
-
-                                        <!-- Left Side: 2-Column Grid of Industries -->
-                                        <div class="tp-megamenu-industries__content">
-
-                                            <!-- Column 1 -->
-                                            <div class="tp-megamenu-industries__col">
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-microchip"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">Technology</span>
-                                                        <span class="tp-megamenu-industries__desc">SaaS, IT Services,
-                                                            and Startups.</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-shopping-cart"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">Retail &
-                                                            E-Com</span>
-                                                        <span class="tp-megamenu-industries__desc">Customer insights &
-                                                            inventory forecasting.</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-stethoscopes"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">Healthcare</span>
-                                                        <span class="tp-megamenu-industries__desc">Diagnostics &
-                                                            patient data analytics.</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-university"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">Finance &
-                                                            Banking</span>
-                                                        <span class="tp-megamenu-industries__desc">Fraud detection &
-                                                            algorithmic trading.</span>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <!-- Column 2 -->
-                                            <div class="tp-megamenu-industries__col">
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-industry"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
+                                                <!-- Main Content -->
+                                                @foreach ($menu->children as $index => $child)
+                                                    <div class="tp-megamenu__main {{ $index === 0 ? 'active' : '' }}"
+                                                        data-id="{{ $child->slug }}">
                                                         <span
-                                                            class="tp-megamenu-industries__title">Manufacturing</span>
-                                                        <span class="tp-megamenu-industries__desc">Predictive
-                                                            maintenance & quality control.</span>
+                                                            class="tp-megamenu__main-title">{{ strtoupper($child->name) }}</span>
+                                                        <div class="tp-megamenu__grid">
+                                                            @foreach ($child->children as $grandchild)
+                                                                <a href="{{ $grandchild->url }}"
+                                                                    class="tp-megamenu__grid-item">
+                                                                    @if ($grandchild->icon)
+                                                                        <div class="tp-megamenu__grid-icon"><i
+                                                                                class="{{ $grandchild->icon }}"></i>
+                                                                        </div>
+                                                                    @endif
+                                                                    {{ $grandchild->name }}
+                                                                </a>
+                                                            @endforeach
+                                                        </div>
+                                                        <!-- Optional Footer specifically for Services/Solutions could be dynamic too or hardcoded if specific -->
                                                     </div>
-                                                </a>
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-graduation-cap"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">Education</span>
-                                                        <span class="tp-megamenu-industries__desc">Adaptive learning &
-                                                            AI tutors.</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-building"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">Real Estate</span>
-                                                        <span class="tp-megamenu-industries__desc">Price prediction &
-                                                            property analytics.</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#" class="tp-megamenu-industries__item">
-                                                    <div class="tp-megamenu-industries__icon">
-                                                        <i class="fal fa-arrow-right"></i>
-                                                    </div>
-                                                    <div class="tp-megamenu-industries__text">
-                                                        <span class="tp-megamenu-industries__title">View All
-                                                            Industries</span>
-                                                        <span class="tp-megamenu-industries__desc">Explore our full
-                                                            sector expertise.</span>
-                                                    </div>
-                                                </a>
+                                                @endforeach
                                             </div>
+                                        </li>
+                                    @elseif($menu->slug == 'industries')
+                                        <li class="has-megamenu">
+                                            <a href="{{ $menu->url }}">{{ $menu->name }} <i
+                                                    class="fal fa-chevron-down"></i></a>
+                                            <div class="tp-megamenu tp-megamenu-industries">
+                                                <div class="tp-megamenu-industries__content">
+                                                    @foreach ($menu->children->chunk(4) as $chunk)
+                                                        <div class="tp-megamenu-industries__col">
+                                                            @foreach ($chunk as $child)
+                                                                <a href="{{ $child->url }}"
+                                                                    class="tp-megamenu-industries__item">
+                                                                    @if ($child->icon)
+                                                                        <div class="tp-megamenu-industries__icon">
+                                                                            <i class="{{ $child->icon }}"></i>
+                                                                        </div>
+                                                                    @endif
+                                                                    <div class="tp-megamenu-industries__text">
+                                                                        <span
+                                                                            class="tp-megamenu-industries__title">{{ $child->name }}</span>
+                                                                        @if ($child->description)
+                                                                            <span
+                                                                                class="tp-megamenu-industries__desc">{{ $child->description }}</span>
+                                                                        @endif
+                                                                    </div>
+                                                                </a>
+                                                            @endforeach
+                                                        </div>
+                                                    @endforeach
+                                                </div>
 
-                                        </div>
-
-                                        <!-- Right Side: Featured Card -->
-                                        <div class="tp-megamenu-industries__featured">
-                                            <span class="tp-megamenu-industries__featured-top">Highlight</span>
-                                            <div class="tp-megamenu-industries__card">
-                                                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400"
-                                                    alt="Industry 4.0">
-                                                <div class="tp-megamenu-industries__play-btn">
-                                                    <i class="fas fa-play"></i>
+                                                <!-- Right Side: Featured Card (Kept Static as designed, or could be dynamic later) -->
+                                                <div class="tp-megamenu-industries__featured">
+                                                    <span class="tp-megamenu-industries__featured-top">Highlight</span>
+                                                    <div class="tp-megamenu-industries__card">
+                                                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400"
+                                                            alt="Industry 4.0">
+                                                        <div class="tp-megamenu-industries__play-btn">
+                                                            <i class="fas fa-play"></i>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="tp-megamenu-industries__link">
+                                                        Industry 4.0 Report <i class="far fa-long-arrow-right"></i>
+                                                    </a>
                                                 </div>
                                             </div>
-                                            <a href="#" class="tp-megamenu-industries__link">
-                                                Industry 4.0 Report <i class="far fa-long-arrow-right"></i>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </li>
-
-                                <li><a href="{{ route('projects') }}">Success Stories</a></li>
-                                {{-- <li><a href="{{ route('blog') }}">Blog</a></li> --}}
+                                        </li>
+                                    @else
+                                        <!-- Fallback for other dropdowns if any -->
+                                        <li class="has-dropdown">
+                                            <a href="{{ $menu->url }}">{{ $menu->name }} <i
+                                                    class="fal fa-chevron-down"></i></a>
+                                            <ul class="tp-submenu">
+                                                @foreach ($menu->children as $child)
+                                                    <li><a href="{{ $child->url }}">{{ $child->name }}</a></li>
+                                                @endforeach
+                                            </ul>
+                                        </li>
+                                    @endif
+                                @endforeach
                             </ul>
                         </nav>
                     </div>

@@ -19,6 +19,10 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/blog-details', 'blogDetails')->name('blog-details');
     Route::get('/team-details', 'teamDetails')->name('team-details');
     Route::get('/projects-details', 'projectsDetails')->name('projects-details');
+    Route::get('/tools', 'tools')->name('tools');
+    Route::get('/tools/ai-readiness', 'aiReadiness')->name('tools.readiness');
+    Route::get('/tools/ai-audit', 'aiAudit')->name('tools.audit');
+    Route::post('/tools/run-audit', 'runAudit')->name('tools.run-audit');
 });
 
 // Auth Routes
@@ -31,4 +35,8 @@ Route::get('/admin', function () {
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], function () {
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
+
+    // Menu Management
+    Route::resource('menus', \App\Http\Controllers\Admin\MenuController::class);
+    Route::post('menus/update-order', [\App\Http\Controllers\Admin\MenuController::class, 'updateOrder'])->name('menus.update-order');
 });
