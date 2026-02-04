@@ -28,8 +28,7 @@
                             @elseif($menu->slug == 'industries')
                                 <!-- Industries (Simplified list for mobile) -->
                                 <li class="has-dropdown">
-                                    <a href="{{ $menu->url }}">{{ $menu->name }}<button
-                                            class="dropdown-toggle-btn"><i class="far fa-angle-right"></i></button></a>
+                                    <a href="{{ $menu->url }}">{{ $menu->name }}</a>
                                     <ul class="tp-submenu">
                                         @foreach ($menu->children as $child)
                                             <li><a href="{{ $child->url }}">{{ $child->name }}</a></li>
@@ -39,14 +38,11 @@
                             @else
                                 <!-- Services & Solutions (Deeply nested) -->
                                 <li class="has-dropdown">
-                                    <a href="{{ $menu->url }}">{{ $menu->name }}<button
-                                            class="dropdown-toggle-btn"><i class="far fa-angle-right"></i></button></a>
+                                    <a href="{{ $menu->url }}">{{ $menu->name }}</a>
                                     <ul class="tp-submenu">
                                         @foreach ($menu->children as $child)
                                             <li class="has-dropdown">
-                                                <a href="#">{{ $child->name }}<button
-                                                        class="dropdown-toggle-btn"><i
-                                                            class="far fa-angle-right"></i></button></a>
+                                                <a href="#">{{ $child->name }}</a>
                                                 <ul class="tp-submenu">
                                                     @foreach ($child->children as $grandchild)
                                                         <li><a

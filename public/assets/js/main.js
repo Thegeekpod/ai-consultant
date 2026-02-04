@@ -44,6 +44,45 @@
   });
 
 
+  ////////////////////////////////////////////////////
+  // 03. Menu Controls JS
+  if ($('.tp-main-menu-content').length && $('.tp-main-menu-mobile').length) {
+    let navContent = document.querySelector(".tp-main-menu-content").outerHTML;
+    let mobileNavContainer = document.querySelector(".tp-main-menu-mobile");
+    mobileNavContainer.innerHTML = navContent;
+
+
+    let arrow = $(".tp-main-menu-mobile .has-dropdown > a");
+
+    arrow.each(function () {
+      let self = $(this);
+
+      // Check if button already exists to avoid duplicates
+      if (self.find(".dropdown-toggle-btn").length === 0) {
+        let arrowBtn = document.createElement("BUTTON");
+        arrowBtn.classList.add("dropdown-toggle-btn");
+        arrowBtn.innerHTML = "<i class='far fa-angle-right'></i>";
+
+        self.append(function () {
+          return arrowBtn;
+        });
+      }
+
+      self.find("button").on("click", function (e) {
+        e.preventDefault();
+        let self = $(this);
+        self.toggleClass("dropdown-opened");
+        self.parent().toggleClass("expanded");
+        self.parent().parent().addClass("dropdown-opened").siblings().removeClass("dropdown-opened");
+        self.parent().parent().children(".tp-submenu").slideToggle();
+
+      });
+
+    });
+  }
+  ////////////////////////////////////////////////////
+
+
   /////////////////////////////////////////////////////
   // 11. Register Plugins
   gsap.registerPlugin(ScrollSmoother, ScrollTrigger, SplitText, ScrambleTextPlugin);
@@ -2032,37 +2071,7 @@
 
 
   ////////////////////////////////////////////////////
-  // 03. Menu Controls JS
-  if ($('.tp-main-menu-content').length && $('.tp-main-menu-mobile').length) {
-    let navContent = document.querySelector(".tp-main-menu-content").outerHTML;
-    let mobileNavContainer = document.querySelector(".tp-main-menu-mobile");
-    mobileNavContainer.innerHTML = navContent;
 
-
-    let arrow = $(".tp-main-menu-mobile .has-dropdown > a");
-
-    arrow.each(function () {
-      let self = $(this);
-      let arrowBtn = document.createElement("BUTTON");
-      arrowBtn.classList.add("dropdown-toggle-btn");
-      arrowBtn.innerHTML = "<i class='far fa-angle-right'></i>";
-
-      self.append(function () {
-        return arrowBtn;
-      });
-
-      self.find("button").on("click", function (e) {
-        e.preventDefault();
-        let self = $(this);
-        self.toggleClass("dropdown-opened");
-        self.parent().toggleClass("expanded");
-        self.parent().parent().addClass("dropdown-opened").siblings().removeClass("dropdown-opened");
-        self.parent().parent().children(".tp-submenu").slideToggle();
-
-      });
-
-    });
-  }
 
 
 
