@@ -265,4 +265,31 @@ class FrontendController extends Controller
             ], 500);
         }
     }
+
+    public function solutions()
+    {
+        if (view()->exists('solutions')) {
+            return view('solutions');
+        }
+        return view('service');
+    }
+
+    public function industries()
+    {
+        if (view()->exists('industries')) {
+            return view('industries');
+        }
+        return view('index');
+    }
+
+    public function dynamicPage($category, $slug)
+    {
+        $viewPath = "{$category}.{$slug}";
+
+        if (view()->exists($viewPath)) {
+            return view($viewPath);
+        }
+
+        abort(404);
+    }
 }

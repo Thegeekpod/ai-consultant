@@ -19,7 +19,7 @@ class MenuSeeder extends Seeder
         $home = Menu::create([
             'name' => 'Home',
             'slug' => 'home',
-            'url' => route('home'),
+            'url' => '/',
             'menu_type' => 'main',
             'order' => 1,
         ]);
@@ -27,7 +27,7 @@ class MenuSeeder extends Seeder
         $about = Menu::create([
             'name' => 'About',
             'slug' => 'about',
-            'url' => route('about'),
+            'url' => '/about',
             'menu_type' => 'main',
             'order' => 2,
         ]);
@@ -36,7 +36,7 @@ class MenuSeeder extends Seeder
         $services = Menu::create([
             'name' => 'Services',
             'slug' => 'services',
-            'url' => route('service'),
+            'url' => '/service',
             'menu_type' => 'main',
             'order' => 3,
         ]);
@@ -45,7 +45,7 @@ class MenuSeeder extends Seeder
         $strategy = Menu::create([
             'name' => 'AI Strategy & Consulting',
             'slug' => 'strategy-consulting',
-            'url' => '#',
+            'url' => '/services/strategy-consulting',
             'parent_id' => $services->id,
             'icon' => 'fal fa-analytics',
             'description' => 'Strategic planning & enterprise adoption.',
@@ -56,7 +56,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'AI Readiness Assessment',
             'slug' => 'ai-readiness-assessment',
-            'url' => '#',
+            'url' => '/services/ai-readiness-assessment',
             'parent_id' => $strategy->id,
             'icon' => 'fal fa-clipboard-check',
             'menu_type' => 'services',
@@ -66,7 +66,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'AI Roadmap & Planning',
             'slug' => 'ai-roadmap-planning',
-            'url' => '#',
+            'url' => '/services/ai-roadmap-planning',
             'parent_id' => $strategy->id,
             'icon' => 'fal fa-map-marked-alt',
             'menu_type' => 'services',
@@ -76,7 +76,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Digital Transformation Consulting',
             'slug' => 'digital-transformation',
-            'url' => '#',
+            'url' => '/services/digital-transformation',
             'parent_id' => $strategy->id,
             'icon' => 'fal fa-rocket',
             'menu_type' => 'services',
@@ -87,7 +87,7 @@ class MenuSeeder extends Seeder
         $development = Menu::create([
             'name' => 'AI Development',
             'slug' => 'ai-development',
-            'url' => '#',
+            'url' => '/services/ai-development',
             'parent_id' => $services->id,
             'icon' => 'fal fa-code',
             'description' => 'Custom LLMs & software solutions.',
@@ -98,7 +98,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Custom AI Model Development',
             'slug' => 'custom-ai-model',
-            'url' => '#',
+            'url' => '/services/custom-ai-model',
             'parent_id' => $development->id,
             'icon' => 'fal fa-brain',
             'menu_type' => 'services',
@@ -108,7 +108,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Machine Learning Solutions',
             'slug' => 'machine-learning',
-            'url' => '#',
+            'url' => '/services/machine-learning',
             'parent_id' => $development->id,
             'icon' => 'fal fa-laptop-code',
             'menu_type' => 'services',
@@ -118,7 +118,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Generative AI (Chatbots, Copilots)',
             'slug' => 'generative-ai',
-            'url' => '#',
+            'url' => '/services/generative-ai',
             'parent_id' => $development->id,
             'icon' => 'fal fa-comments',
             'menu_type' => 'services',
@@ -128,7 +128,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'NLP & Computer Vision',
             'slug' => 'nlp-computer-vision',
-            'url' => '#',
+            'url' => '/services/nlp-computer-vision',
             'parent_id' => $development->id,
             'icon' => 'fal fa-eye',
             'menu_type' => 'services',
@@ -139,7 +139,7 @@ class MenuSeeder extends Seeder
         $integration = Menu::create([
             'name' => 'AI Integration & Ops',
             'slug' => 'ai-integration-ops',
-            'url' => '#',
+            'url' => '/services/ai-integration-ops',
             'parent_id' => $services->id,
             'icon' => 'fal fa-cogs',
             'description' => 'MLOps & system integration.',
@@ -150,7 +150,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'API & System Integration',
             'slug' => 'api-system-integration',
-            'url' => '#',
+            'url' => '/services/api-system-integration',
             'parent_id' => $integration->id,
             'icon' => 'fal fa-plug',
             'menu_type' => 'services',
@@ -160,7 +160,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'MLOps & Model Deployment',
             'slug' => 'mlops-deployment',
-            'url' => '#',
+            'url' => '/services/mlops-deployment',
             'parent_id' => $integration->id,
             'icon' => 'fal fa-cogs',
             'menu_type' => 'services',
@@ -170,7 +170,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'AI Monitoring & Optimization',
             'slug' => 'ai-monitoring',
-            'url' => '#',
+            'url' => '/services/ai-monitoring',
             'parent_id' => $integration->id,
             'icon' => 'fal fa-heartbeat',
             'menu_type' => 'services',
@@ -181,7 +181,7 @@ class MenuSeeder extends Seeder
         $training = Menu::create([
             'name' => 'Training & Support',
             'slug' => 'training-support',
-            'url' => '#',
+            'url' => '/services/training-support',
             'parent_id' => $services->id,
             'icon' => 'fal fa-chalkboard-teacher',
             'description' => 'Fine-tuning & team workshops.',
@@ -192,7 +192,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'AI Training for Teams',
             'slug' => 'ai-training-teams',
-            'url' => '#',
+            'url' => '/services/ai-training-teams',
             'parent_id' => $training->id,
             'icon' => 'fal fa-chalkboard',
             'menu_type' => 'services',
@@ -202,7 +202,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Model Fine-Tuning',
             'slug' => 'model-fine-tuning',
-            'url' => '#',
+            'url' => '/services/model-fine-tuning',
             'parent_id' => $training->id,
             'icon' => 'fal fa-sliders-h',
             'menu_type' => 'services',
@@ -212,7 +212,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Ongoing Support & Maintenance',
             'slug' => 'ongoing-support',
-            'url' => '#',
+            'url' => '/services/ongoing-support',
             'parent_id' => $training->id,
             'icon' => 'fal fa-life-ring',
             'menu_type' => 'services',
@@ -223,7 +223,7 @@ class MenuSeeder extends Seeder
         $solutions = Menu::create([
             'name' => 'Solutions',
             'slug' => 'solutions',
-            'url' => '#',
+            'url' => '/solutions',
             'menu_type' => 'main',
             'order' => 4,
         ]);
@@ -232,7 +232,7 @@ class MenuSeeder extends Seeder
         $automation = Menu::create([
             'name' => 'Automation',
             'slug' => 'automation',
-            'url' => '#',
+            'url' => '/solutions/automation',
             'parent_id' => $solutions->id,
             'icon' => 'fal fa-robot',
             'description' => 'RPA & Intelligent workflows.',
@@ -243,7 +243,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Intelligent Process Automation (IPA)',
             'slug' => 'ipa',
-            'url' => '#',
+            'url' => '/solutions/ipa',
             'parent_id' => $automation->id,
             'icon' => 'fal fa-microchip',
             'menu_type' => 'solutions',
@@ -253,7 +253,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Robotic Process Automation (RPA)',
             'slug' => 'rpa',
-            'url' => '#',
+            'url' => '/solutions/rpa',
             'parent_id' => $automation->id,
             'icon' => 'fal fa-cogs',
             'menu_type' => 'solutions',
@@ -263,7 +263,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Workflow Automation',
             'slug' => 'workflow-automation',
-            'url' => '#',
+            'url' => '/solutions/workflow-automation',
             'parent_id' => $automation->id,
             'icon' => 'fal fa-project-diagram',
             'menu_type' => 'solutions',
@@ -274,7 +274,7 @@ class MenuSeeder extends Seeder
         $customer = Menu::create([
             'name' => 'Customer Experience',
             'slug' => 'customer-experience',
-            'url' => '#',
+            'url' => '/solutions/customer-experience',
             'parent_id' => $solutions->id,
             'icon' => 'fal fa-user-headset',
             'description' => 'Chatbots & Personalization.',
@@ -285,7 +285,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'AI Chatbots & Virtual Assistants',
             'slug' => 'ai-chatbots',
-            'url' => '#',
+            'url' => '/solutions/ai-chatbots',
             'parent_id' => $customer->id,
             'icon' => 'fal fa-comments',
             'menu_type' => 'solutions',
@@ -295,7 +295,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Personalization Engines',
             'slug' => 'personalization-engines',
-            'url' => '#',
+            'url' => '/solutions/personalization-engines',
             'parent_id' => $customer->id,
             'icon' => 'fal fa-user-friends',
             'menu_type' => 'solutions',
@@ -305,7 +305,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Voice AI Solutions',
             'slug' => 'voice-ai',
-            'url' => '#',
+            'url' => '/solutions/voice-ai',
             'parent_id' => $customer->id,
             'icon' => 'fal fa-microphone',
             'menu_type' => 'solutions',
@@ -316,7 +316,7 @@ class MenuSeeder extends Seeder
         $marketing = Menu::create([
             'name' => 'Marketing & Sales',
             'slug' => 'marketing-sales',
-            'url' => '#',
+            'url' => '/solutions/marketing-sales',
             'parent_id' => $solutions->id,
             'icon' => 'fal fa-chart-line',
             'description' => 'Lead scoring & Analytics.',
@@ -327,7 +327,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'AI-Powered Lead Scoring',
             'slug' => 'lead-scoring',
-            'url' => '#',
+            'url' => '/solutions/lead-scoring',
             'parent_id' => $marketing->id,
             'icon' => 'fal fa-bullseye',
             'menu_type' => 'solutions',
@@ -337,7 +337,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Recommendation Systems',
             'slug' => 'recommendation-systems',
-            'url' => '#',
+            'url' => '/solutions/recommendation-systems',
             'parent_id' => $marketing->id,
             'icon' => 'fal fa-thumbs-up',
             'menu_type' => 'solutions',
@@ -347,7 +347,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Marketing Analytics',
             'slug' => 'marketing-analytics',
-            'url' => '#',
+            'url' => '/solutions/marketing-analytics',
             'parent_id' => $marketing->id,
             'icon' => 'fal fa-chart-area',
             'menu_type' => 'solutions',
@@ -358,7 +358,7 @@ class MenuSeeder extends Seeder
         $operations = Menu::create([
             'name' => 'Operations',
             'slug' => 'operations',
-            'url' => '#',
+            'url' => '/solutions/operations',
             'parent_id' => $solutions->id,
             'icon' => 'fal fa-industry-alt',
             'description' => 'Forecasting & Inventory.',
@@ -369,7 +369,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Demand Forecasting',
             'slug' => 'demand-forecasting',
-            'url' => '#',
+            'url' => '/solutions/demand-forecasting',
             'parent_id' => $operations->id,
             'icon' => 'fal fa-chart-line',
             'menu_type' => 'solutions',
@@ -379,7 +379,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Inventory Optimization',
             'slug' => 'inventory-optimization',
-            'url' => '#',
+            'url' => '/solutions/inventory-optimization',
             'parent_id' => $operations->id,
             'icon' => 'fal fa-boxes',
             'menu_type' => 'solutions',
@@ -389,7 +389,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Quality Control (AI Vision)',
             'slug' => 'quality-control',
-            'url' => '#',
+            'url' => '/solutions/quality-control',
             'parent_id' => $operations->id,
             'icon' => 'fal fa-search-plus',
             'menu_type' => 'solutions',
@@ -400,7 +400,7 @@ class MenuSeeder extends Seeder
         $security = Menu::create([
             'name' => 'Security & Compliance',
             'slug' => 'security-compliance',
-            'url' => '#',
+            'url' => '/solutions/security-compliance',
             'parent_id' => $solutions->id,
             'icon' => 'fal fa-shield-check',
             'description' => 'Fraud & Anomaly detection.',
@@ -411,7 +411,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Fraud Detection',
             'slug' => 'fraud-detection',
-            'url' => '#',
+            'url' => '/solutions/fraud-detection',
             'parent_id' => $security->id,
             'icon' => 'fal fa-lock',
             'menu_type' => 'solutions',
@@ -421,7 +421,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Anomaly Detection',
             'slug' => 'anomaly-detection',
-            'url' => '#',
+            'url' => '/solutions/anomaly-detection',
             'parent_id' => $security->id,
             'icon' => 'fal fa-exclamation-triangle',
             'menu_type' => 'solutions',
@@ -431,7 +431,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Risk Assessment Systems',
             'slug' => 'risk-assessment',
-            'url' => '#',
+            'url' => '/solutions/risk-assessment',
             'parent_id' => $security->id,
             'icon' => 'fal fa-shield',
             'menu_type' => 'solutions',
@@ -442,7 +442,7 @@ class MenuSeeder extends Seeder
         $industries = Menu::create([
             'name' => 'Industries',
             'slug' => 'industries',
-            'url' => '#',
+            'url' => '/industries',
             'menu_type' => 'main',
             'order' => 5,
         ]);
@@ -451,7 +451,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Technology',
             'slug' => 'technology',
-            'url' => '#',
+            'url' => '/industries/technology',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-microchip',
             'description' => 'SaaS, IT Services, and Startups.',
@@ -462,7 +462,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Retail & E-Com',
             'slug' => 'retail-ecommerce',
-            'url' => '#',
+            'url' => '/industries/retail-ecommerce',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-shopping-cart',
             'description' => 'Customer insights & inventory forecasting.',
@@ -473,7 +473,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Healthcare',
             'slug' => 'healthcare',
-            'url' => '#',
+            'url' => '/industries/healthcare',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-stethoscopes',
             'description' => 'Diagnostics & patient data analytics.',
@@ -484,7 +484,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Finance & Banking',
             'slug' => 'finance-banking',
-            'url' => '#',
+            'url' => '/industries/finance-banking',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-university',
             'description' => 'Fraud detection & algorithmic trading.',
@@ -495,7 +495,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Manufacturing',
             'slug' => 'manufacturing',
-            'url' => '#',
+            'url' => '/industries/manufacturing',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-industry',
             'description' => 'Predictive maintenance & quality control.',
@@ -506,7 +506,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Education',
             'slug' => 'education',
-            'url' => '#',
+            'url' => '/industries/education',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-graduation-cap',
             'description' => 'Adaptive learning & AI tutors.',
@@ -517,7 +517,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Real Estate',
             'slug' => 'real-estate',
-            'url' => '#',
+            'url' => '/industries/real-estate',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-building',
             'description' => 'Price prediction & property analytics.',
@@ -528,7 +528,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'View All Industries',
             'slug' => 'view-all-industries',
-            'url' => '#',
+            'url' => '/industries',
             'parent_id' => $industries->id,
             'icon' => 'fal fa-arrow-right',
             'description' => 'Explore our full sector expertise.',
@@ -540,7 +540,7 @@ class MenuSeeder extends Seeder
         Menu::create([
             'name' => 'Success Stories',
             'slug' => 'success-stories',
-            'url' => route('projects'),
+            'url' => '/projects',
             'menu_type' => 'main',
             'order' => 6,
         ]);

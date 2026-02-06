@@ -23,6 +23,11 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/tools/ai-readiness', 'aiReadiness')->name('tools.readiness');
     Route::get('/tools/ai-audit', 'aiAudit')->name('tools.audit');
     Route::post('/tools/run-audit', 'runAudit')->name('tools.run-audit');
+
+    // Dynamic Pages
+    Route::get('/solutions', 'solutions')->name('solutions');
+    Route::get('/industries', 'industries')->name('industries');
+    Route::get('/{category}/{slug}', 'dynamicPage')->name('dynamic.page');
 });
 
 // Auth Routes
