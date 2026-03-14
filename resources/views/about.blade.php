@@ -8,7 +8,7 @@
           <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset("assets/imgs/hero/about-bg.jpg") }}" alt="Image">
             <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title">About Company</h1>
+              <h1 class="tp-breadcrumb-title">About AI Consultant</h1>
               <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> About Company</p>
             </div>
           </div>
@@ -23,8 +23,8 @@
           <div class="tp-about-top plr-50">
             <h2 class="sub-title">Who We Are</h2>
             <h2 class="sec-title actova-word">
-              We’re an AI-first agency helping modern businesses turn complex
-              challenges into <span>intelligent, scalable systems.</span>
+              We are a leading AI consulting agency empowering organizations with
+               <span>intelligent AI-powered systems.</span>
             </h2>
           </div>
           <div class="tp-about-bottom plr-50">
@@ -35,28 +35,26 @@
                 <img src="{{ asset("assets/imgs/about/man-3.png") }}" alt="User">
               </div>
               <div class="text">
-                <p><span>24K+</span> active users in world-wide.</p>
+                <p><span>100+</span> businesses empowered with AI.</p>
               </div>
             </div>
             <div class="content-wrap">
               <div class="tp-counter-wrapper-2">
                 <h3 class="tp-counter-active number">
-                  12<span class="suffix">+</span>
+                  8<span class="suffix">+</span>
                 </h3>
                 <p class="text">
-                  We’ve 12+ years of experience to provide quality services.
+                  Years of commitment & excellence to quality services.
                 </p>
               </div>
               <div class="content">
                 <h3 class="text">
-                  We believe that AI isn’t just tools, it's a force that
-                  amplifies human capability.
+                  We Help Businesses Unlock The True Potential of Artificial Intelligence.
                 </h3>
                 <p>
-                  Whether you're an early-stage startup or a global
-                  enterprise, we help you unlock new capabilities, drive
-                  automation, and stay ahead of the curve. AI-first solutions
-                  built for real-world performance.
+                  Whether you're a growing startup or an established enterprise, we help you unlock new 
+                  possibilities, accelerate automation, and stay ahead in a fast-moving world
+                  with AI-first solutions designed for real-world impact.
                 </p>
                 <div class="btn-wrapper tp-btn-animate">
                   <a href="{{ route("service") }}" class="tp-btn-one">
@@ -91,7 +89,7 @@
           <div class="tp--marquee-text separator-img">
             <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
           </div>
-          <div class="tp--marquee-text">Neural Network</div>
+          <div class="tp--marquee-text">Machine Learning</div>
           <div class="tp--marquee-text separator-img">
             <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
           </div>
@@ -99,7 +97,7 @@
           <div class="tp--marquee-text separator-img">
             <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
           </div>
-          <div class="tp--marquee-text">Neural Network</div>
+          <div class="tp--marquee-text">Deep Learning</div>
           <div class="tp--marquee-text separator-img">
             <img src="{{ asset("assets/imgs/marquee/text-separator.png") }}" alt="Image">
           </div>
@@ -122,8 +120,8 @@
           <div class="tp-service-inner-3">
             <div class="title-wrap">
               <h2 class="sec-title-2 text-move-animation">
-                AI Solutions Engineered with
-                <span>Accuracy, Speed, and Scalability.</span>
+                AI Solutions Built for
+                <span>Speed, Efficiency, and Scale.</span>
               </h2>
               <a href="{{ route("service") }}" class="actova-btn-light">
                 Discover More
@@ -137,30 +135,30 @@
               <div class="tp-service-card-3 tp-fade-animation">
                 <a href="#">
                   <img src="{{ asset("assets/imgs/service/service-icon-7.png") }}" alt="Icon">
-                  <h3 class="title">Neural Network</h3>
+                  <h3 class="title">AI Workflow Automation</h3>
                   <p>
-                    Our models are engineered using advanced neural
-                    architectures to deliver faster.
+                    Automate repetitive tasks and business processes with AI-powered 
+                    workflows that save time and improve operational efficiency.
                   </p>
                 </a>
               </div>
               <div class="tp-service-card-3 tp-fade-animation" data-delay="0.7">
                 <a href="#">
                   <img src="{{ asset("assets/imgs/service/service-icon-8.png") }}" alt="Icon">
-                  <h3 class="title">Machine Learning</h3>
+                  <h3 class="title">AI Integration</h3>
                   <p>
-                    Seamlessly connect, process, and act on live data
-                    streams—enabling instant decision-making.
+                    Seamlessly integrate modern AI tools with your existing systems,
+                     apps, and platforms to create smarter and more connected operations.
                   </p>
                 </a>
               </div>
               <div class="tp-service-card-3 tp-fade-animation" data-delay="0.9">
                 <a href="#">
                   <img src="{{ asset("assets/imgs/service/service-icon-9.png") }}" alt="Icon">
-                  <h3 class="title">Data Analytics</h3>
+                  <h3 class="title">Data Intelligence</h3>
                   <p>
-                    Launch AI solutions in days—not months—with automated
-                    pipelines and streamlined workflows.
+                    Transform your business data into actionable insights that help teams
+                     make faster and more informed financial and management decisions.
                   </p>
                 </a>
               </div>
@@ -169,8 +167,8 @@
                   <img src="{{ asset("assets/imgs/service/service-icon-10.png") }}" alt="Icon">
                   <h3 class="title">AI Deployment</h3>
                   <p>
-                    Protect your data with industry-standard encryption,
-                    frameworks, and end-to-end access control.
+                    Build and deploy AI solutions quickly and optimize them for performance, scalability,
+                     and real-world business use.
                   </p>
                 </a>
               </div>
@@ -190,41 +188,31 @@
       <!-- Service section end -->
 
 
-      <!-- Actova Video section -->
-      <div class="tp-about-full-image">
-        <div class="content">
-          <p class="text-left">Actova</p>
-          <video autoplay loop muted playsinline>
-            <source src="{{ asset("assets/video/video-bg.mp4") }}" type="video/mp4">
-          </video>
-          <p class="text-right">2014-2025</p>
-        </div>
-      </div>
-      <!-- Actova Video section -->
+
 
 
       <!-- Counter area start -->
       <section class="tp-counter-area plr-50 pt-140 pb-120">
         <div class="tp-counter-inner">
           <h3 class="title">
-            We tackle the problems that slow businesses down.
+            Eliminating the Barriers to Business Efficiency
           </h3>
           <div class="tp-counter-list">
             <div class="tp-counter-wrapper">
-              <h3 class="tp-counter-active number">24K+</h3>
-              <p class="text">We’ve 24k+ quality AI projects delivery</p>
+              <h3 class="tp-counter-active number">100+</h3>
+              <p class="text">AI Projects Delivered Successfully</p>
             </div>
             <div class="tp-counter-wrapper">
-              <h3 class="tp-counter-active number">70+</h3>
-              <p class="text">We’ve 70+ talented AI team members</p>
+              <h3 class="tp-counter-active number">10+</h3>
+              <p class="text">A Team of 10+ AI Automation Experts</p>
             </div>
             <div class="tp-counter-wrapper">
-              <h3 class="tp-counter-active number">95%</h3>
-              <p class="text">Manual Data Entry Costs Time & Accuracy</p>
+              <h3 class="tp-counter-active number">65%</h3>
+              <p class="text">Effciency Acheived Across Industries</p>
             </div>
             <div class="tp-counter-wrapper">
-              <h3 class="tp-counter-active number">92%</h3>
-              <p class="text">NLP models automate 92% of entries</p>
+              <h3 class="tp-counter-active number">100%</h3>
+              <p class="text">Of Our AI Models Works with Efficiency</p>
             </div>
           </div>
           <div class="tp-cta-wrapper">
@@ -447,22 +435,22 @@
       <section class="tp-contact-area">
         <div class="tp-container">
           <div class="tp-contact-inner">
-            <h2 class="title">Ready to Talk AI?</h2>
+            <h2 class="title">Ready to Transform with AI?</h2>
             <p>
-              Have an idea, a challenge, or just exploring what AI can do for
-              your business? We’d love to hear from you.
+              Whether you have an idea, a challenge, or want to explore AI opportunities,
+               our team is here to help you get started.
             </p>
             <div class="tp-contact-btns tp-btn-animate">
               <a href="mailto:infoactova@gmail.com" class="tp-btn-one">
                 <span class="btn-wrap">
-                  <span class="text-one">infoactova@gmail.com</span>
-                  <span class="text-two">infoactova@gmail.com</span>
+                  <span class="text-one">tapspal09@gmail.com</span>
+                  <span class="text-two">tapspal09@gmail.com</span>
                 </span>
               </a>
               <a href="tel:92354657678" class="tp-btn-one esf">
                 <span class="btn-wrap">
-                  <span class="text-one">+92 354 657 678</span>
-                  <span class="text-two">+92 354 657 678</span>
+                  <span class="text-one">+91 7044690945</span>
+                  <span class="text-two">+91 7044690945</span>
                 </span>
               </a>
             </div>
@@ -487,57 +475,46 @@
                     d="M13.9634 5.09658C13.9185 4.95809 13.834 4.83583 13.7202 4.74498C13.6064 4.65413 13.4685 4.5987 13.3235 4.58557L9.2821 4.21867L7.68493 0.479344C7.56699 0.204616 7.29869 0.0273438 7.00004 0.0273438C6.70138 0.0273438 6.43297 0.204616 6.3158 0.479344L4.71863 4.21867L0.676602 4.58557C0.380273 4.61292 0.129362 4.81362 0.036665 5.09658C-0.0085039 5.2352 -0.0120174 5.38402 0.0265597 5.52461C0.0651368 5.6652 0.14411 5.79139 0.253696 5.88754L3.30868 8.56629L2.40793 12.5336C2.34203 12.8253 2.45523 13.127 2.69729 13.3019C2.82406 13.3941 2.97684 13.4438 3.13362 13.4437C3.26801 13.4437 3.39988 13.4072 3.51515 13.3381L7.00004 11.2544L10.4843 13.3381C10.6093 13.4129 10.7535 13.4493 10.899 13.4429C11.0445 13.4365 11.1849 13.3874 11.3028 13.3019C11.5448 13.127 11.6581 12.8253 11.5922 12.5336L10.6914 8.56632L13.7464 5.88757C13.856 5.79142 13.935 5.66524 13.9735 5.52464C14.0121 5.38405 14.0086 5.23522 13.9634 5.09661V5.09658Z"
                     fill="#A1FF75" />
                 </svg>
-                4.5 Average Rating
+                4.8 Average Rating
               </p>
               <h2 class="sec-title-2">Frequently Ask & <br> Question</h2>
             </div>
             <div class="tp-faq-wrapper-2">
               <div class="tp-faq-list">
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What is Actova AI?</h3>
-                  <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Who can use Actova AI?</h3>
-                  <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
-                  <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
-                  <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
-                  <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
-                  <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
-                  </div>
-                </div>
+              <div class="tp-faq-item style-2">
+  <h3 class="tp-faq-title">What is AI Consultant?</h3>
+  <div class="tp-faq-body">
+    <p>AI Consultant is an AI consulting agency focused on helping businesses simplify their operations using practical AI solutions. We work closely with companies to automate workflows, connect systems, and build intelligent processes that save time and improve efficiency.</p>
+  </div>
+</div>
+
+<div class="tp-faq-item style-2">
+  <h3 class="tp-faq-title">Why did we start AI Consultant?</h3>
+  <div class="tp-faq-body">
+    <p>We started AI Consultant after seeing how many businesses struggle with repetitive work and inefficient systems. Our goal is to help organizations use AI in a practical way so teams can focus on important tasks instead of spending time on manual processes.</p>
+  </div>
+</div>
+
+<div class="tp-faq-item style-2">
+  <h3 class="tp-faq-title">How do we help businesses use AI?</h3>
+  <div class="tp-faq-body">
+    <p>We analyze how your business currently operates and identify areas where AI can make a real impact. By integrating AI tools and automation into existing workflows, we help companies reduce manual work, improve productivity, and operate more efficiently.</p>
+  </div>
+</div>
+
+<div class="tp-faq-item style-2">
+  <h3 class="tp-faq-title">Who do we typically work with?</h3>
+  <div class="tp-faq-body">
+    <p>We work with startups, growing businesses, and established companies that want to modernize their operations. Our clients are usually teams looking to automate processes, improve decision-making, and scale their business using intelligent systems.</p>
+  </div>
+</div>
+
+<div class="tp-faq-item style-2">
+  <h3 class="tp-faq-title">What makes AI Consultant different?</h3>
+  <div class="tp-faq-body">
+    <p>Our focus is on practical AI implementation. Instead of complex experimental systems, we use reliable AI technologies to solve real business problems and deliver solutions that teams can easily adopt and use every day.</p>
+  </div>
+</div>
               </div>
             </div>
           </div>
