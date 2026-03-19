@@ -18,15 +18,9 @@
 
     @include('partials.header')
 
-    <div id="smooth-wrapper">
-        <div id="smooth-content">
+    @yield('content')
 
-            @yield('content')
-
-            @include('partials.footer')
-
-        </div>
-    </div>
+    @include('partials.footer')
 
     @include('partials.scripts')
 

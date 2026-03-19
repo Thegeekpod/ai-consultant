@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use App\Models\AuditLead;
+use App\Models\ContactLead;
 
 class FrontendController extends Controller
 {
@@ -59,6 +60,21 @@ class FrontendController extends Controller
     public function blogDetails()
     {
         return view('blog-details');
+    }
+
+    public function contactStore(Request $request)
+    {
+        $request->validate([
+            'full_name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'message' => 'required|string',
+            'page_url' => 'nullable|string|max:500',
+        ]);
+
+        ContactLead::create($request->all());
+
+        return redirect()->back()->with('success', 'Your enquiry has been submitted successfully!');
     }
 
     public function teamDetails()

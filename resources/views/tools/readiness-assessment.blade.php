@@ -1,129 +1,255 @@
 @extends('layouts.app')
 
+@section('title', 'AI Readiness Assessment - Deep Dive')
+
+@push('css')
+    <style>
+        .tp-tools-hero-area {
+            background: linear-gradient(180deg, rgba(161, 255, 117, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+            padding: 100px 0 60px;
+        }
+
+        .tp-tool-card {
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.03);
+            position: relative;
+        }
+
+        .tp-tool-progress-wrapper {
+            background: #f0f0f0;
+            height: 6px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .tp-tool-progress-bar {
+            background: var(--tp-theme-1);
+            height: 100%;
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .quiz-option-btn {
+            width: 100%;
+            text-align: left;
+            padding: 16px 20px;
+            background: #fcfcfc;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .quiz-option-btn:hover {
+            border-color: var(--tp-theme-1);
+            background: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .tp-tool-form-input {
+            width: 100%;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+
+        .tp-tool-result-score {
+            font-size: 56px;
+            font-weight: 800;
+            color: var(--tp-theme-1);
+            line-height: 1;
+        }
+
+        .tp-tool-category-item {
+            margin-bottom: 20px;
+        }
+
+        .tp-tool-category-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .tp-tool-category-bar-bg {
+            background: #f0f0f0;
+            height: 4px;
+            border-radius: 10px;
+        }
+
+        .tp-tool-category-bar-fill {
+            background: var(--tp-theme-1);
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.8s ease;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .next-steps-box {
+            background: #f8fbf8;
+            border: 1px solid #eef5ee;
+            border-radius: 16px;
+            padding: 25px;
+        }
+
+        .retake-btn {
+            background: none;
+            border: none;
+            color: #666;
+            text-decoration: underline;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 10px;
+            transition: color 0.2s;
+        }
+
+        .retake-btn:hover {
+            color: var(--tp-theme-1);
+        }
+    </style>
+@endpush
+
 @section('content')
-    <!-- Hero area start -->
-    <section class="tp-hero4-area pt-150 pb-80 tp-tools-hero-area">
+    <section class="tp-tools-hero-area text-center">
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-xl-10 text-center">
-                    <div class="tp-hero4-content">
-                        <h1 class="title mb-30 tp-tools-hero-title">AI Readiness <span>Assessment</span></h1>
-                        <p class="text mb-40 tp-tools-hero-text">
-                            Deep dive into your organization's AI maturity across Data, Strategy, and Technology.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <h1 class="tp-section-title-2 mb-10">AI Readiness <span>Deep Dive</span></h1>
+            <p class="mb-0">Benchmark your business against industry standards.</p>
         </div>
     </section>
-    <!-- Hero area end -->
 
-    <!-- Tool Area Start -->
     <section class="tp-tool-detail-area pb-120">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="tp-tool-card">
                         <div id="quiz-wrapper">
-                            <!-- Progress Bar -->
+                            <!-- Progress -->
                             <div id="quiz-progress-container" style="display:none;">
+                                <div id="quiz-step-label" class="mb-5"
+                                    style="font-size: 12px; font-weight: 700; color: #888; text-transform: uppercase;">
+                                    Question 1 / 10</div>
                                 <div class="tp-tool-progress-wrapper">
                                     <div id="quiz-progress-bar" class="tp-tool-progress-bar"></div>
                                 </div>
-                                <div class="text-end mb-20">
-                                    <small id="quiz-step-label" style="font-weight: 600; color: #666;"></small>
-                                </div>
                             </div>
 
-                            <div id="quiz-intro" class="text-center">
-                                <div class="mb-40">
-                                    <span class="tp-tool-icon-wrapper readiness">
-                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                            stroke="#007bff" stroke-width="2" stroke-linecap="round"
+                            <!-- Intro -->
+                            <div id="quiz-intro" class="text-center fade-in">
+                                <div class="mb-30">
+                                    <div class="mx-auto" style="width: 60px; height: 60px; color: var(--tp-theme-1);">
+                                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
                                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                                             <polyline points="14 2 14 8 20 8"></polyline>
                                             <line x1="16" y1="13" x2="8" y2="13"></line>
                                             <line x1="16" y1="17" x2="8" y2="17"></line>
-                                            <polyline points="10 9 9 9 8 9"></polyline>
                                         </svg>
-                                    </span>
+                                    </div>
                                 </div>
-                                <h3>Take the Deep Assessment</h3>
-                                <p class="mb-30">Answer 10 targeted questions to receive a comprehensive breakdown of your
-                                    AI capabilities.</p>
-                                <button id="start-quiz-btn" class="tp-btn-two tp-btn-anim">
-                                    <div class="tp-btn-text">Start Deep Assessment</div>
-                                    <span>
-                                        <svg width="9" height="13" viewBox="0 0 9 13"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z">
-                                            </path>
-                                        </svg>
+                                <h3 class="mb-15">Discover Your AI Potential</h3>
+                                <p class="mb-30">This assessment evaluates your Data, Strategy, Technology, and Culture to
+                                    provide a personalized maturity score.</p>
+                                <button id="start-quiz-btn" class="tp-btn-one">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Start Deep Assessment</span>
+                                        <span class="text-two">Start Deep Assessment</span>
                                     </span>
                                 </button>
                             </div>
 
-                            <div id="quiz-questions" style="display:none;">
-                                <div class="question-step mb-20">
-                                    <div class="mb-10 text-primary"
-                                        style="font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 13px;">
-                                        Category: <span id="q-category"></span>
-                                    </div>
-                                    <h4 class="mb-25" id="q-text">Question Text</h4>
-                                    <div class="options" id="q-options">
-                                        <!-- Options injected here -->
-                                    </div>
-                                </div>
+                            <!-- Quiz -->
+                            <div id="quiz-questions" style="display:none;" class="fade-in">
+                                <span id="q-category" class="mb-10 d-inline-block"
+                                    style="font-size: 11px; font-weight: 800; color: var(--tp-theme-1); text-transform: uppercase; letter-spacing: 1px;">Category</span>
+                                <h4 id="q-text" class="mb-30">Question Text</h4>
+                                <div id="q-options"></div>
                             </div>
 
-                            <!-- Lead Capture Step -->
-                            <div id="quiz-lead-capture" style="display:none;">
-                                <div class="text-center mb-40">
-                                    <h3>Almost there!</h3>
-                                    <p>Where should we send your detailed AI Maturity Report?</p>
-                                </div>
+                            <!-- Lead Capture Step (Middle Step) -->
+                            <div id="quiz-lead-capture" style="display:none;" class="fade-in">
                                 <form id="quiz-lead-form">
-                                    <div class="mb-20">
-                                        <label class="tp-tool-form-label">Full Name</label>
-                                        <input type="text" id="lead-name" class="tp-tool-form-input"
-                                            placeholder="John Doe" required>
+                                    <div class="text-center mb-35">
+                                        <h3 class="mb-10">Step Finalized!</h3>
+                                        <p>Enter your details to generate your AI Maturity report.</p>
                                     </div>
-                                    <div class="mb-30">
-                                        <label class="tp-tool-form-label">Business Email</label>
-                                        <input type="email" id="lead-email" class="tp-tool-form-input"
-                                            placeholder="john@company.com" required>
+
+                                    <div class="row">
+                                        <div class="col-md-12 mb-15">
+                                            <input type="text" id="lead-name" class="tp-tool-form-input"
+                                                placeholder="Full Name" required>
+                                        </div>
+                                        <div class="col-md-6 mb-15">
+                                            <input type="email" id="lead-email" class="tp-tool-form-input"
+                                                placeholder="Email Address" required>
+                                        </div>
+                                        <div class="col-md-6 mb-15">
+                                            <input type="text" id="lead-phone" class="tp-tool-form-input"
+                                                placeholder="Phone Number" required>
+                                        </div>
                                     </div>
-                                    <div class="text-center">
-                                        <button type="submit" class="tp-btn-two">Get Full Report</button>
+                                    <div class="text-center mt-10">
+                                        <button type="submit" class="tp-btn-one">
+                                            <span class="btn-wrap">
+                                                <span class="text-one">See My Result</span>
+                                                <span class="text-two">See My Result</span>
+                                            </span>
+                                        </button>
                                     </div>
                                 </form>
                             </div>
 
-                            <div id="quiz-results" style="display:none;">
-                                <div class="tp-tool-result-box">
-                                    <div class="text-center mb-40">
-                                        <h4 class="mb-10">AI Maturity Score: <span id="final-score"
-                                                class="tp-tool-result-score">0</span>/100</h4>
-                                        <p id="final-msg" class="mb-0" style="font-weight: 500;"></p>
-                                    </div>
-
-                                    <div class="tp-tool-category-scores mb-40">
-                                        <!-- Category scores injected here -->
-                                        <div id="category-results-container"></div>
-                                    </div>
-
-                                    <div class="recommendations p-25"
-                                        style="background: #fff; border-radius: 12px; border: 1px solid #e0e0e0;">
-                                        <h5 class="mb-15">Key Recommendations:</h5>
-                                        <ul id="recommendations-list"
-                                            style="list-style: disc; padding-left: 20px; color: #555;">
-                                        </ul>
+                            <!-- Results Section -->
+                            <div id="quiz-results" class="fade-in" style="display: none;">
+                                <div class="text-center mb-40 border-bottom pb-30">
+                                    <span style="font-size: 14px; font-weight: 700; color: #888;">AI MATURITY SCORE</span>
+                                    <div class="tp-tool-result-score mt-10"><span id="final-score">0</span><small
+                                            style="font-size: 20px; color: #ccc;">/100</small></div>
+                                    <div id="final-msg-badge" class="mt-15 d-inline-block"
+                                        style="padding: 4px 16px; border-radius: 50px; background: #f0f0f0; font-size: 13px; font-weight: 700;">
                                     </div>
                                 </div>
-                                <div class="text-center mt-30">
-                                    <button id="restart-quiz-btn" class="tp-btn-two">Restart Assessment</button>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div id="category-results-container"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="next-steps-box">
+                                            <h5 class="mb-15" style="font-size: 16px;">Immediate Next Steps:</h5>
+                                            <ul id="recommendations-list" style="list-style: none; padding-left: 0;"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-40">
+                                    <button id="restart-quiz-btn" class="retake-btn">Retake Assessment</button>
                                 </div>
                             </div>
                         </div>
@@ -133,68 +259,77 @@
         </div>
     </section>
 
-    <!-- Inline Scripts -->
+    <!-- Hidden Internal Submission Form -->
+    <form id="internal-submission-form" action="{{ route('contact.store') }}" method="POST" style="display:none;">
+        @csrf
+        <input type="hidden" name="full_name" id="sub-name">
+        <input type="hidden" name="email" id="sub-email">
+        <input type="hidden" name="phone" id="sub-phone">
+        <input type="hidden" name="page_url" value="{{ url()->current() }}">
+        <textarea name="message" id="sub-message"></textarea>
+    </form>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const questions = [{
                     cat: "Strategy",
-                    q: "Do you have a defined AI roadmap for the next 12-24 months?",
-                    options: ["Comprehensive Roadmap", "Loose Idea / Draft", "No Roadmap"],
-                    scores: [10, 5, 0]
+                    q: "Does your leadership have an AI roadmap?",
+                    options: ["Fully Defined", "Partial Idea", "Exploring", "None"],
+                    scores: [10, 7, 3, 0]
                 },
                 {
                     cat: "Data",
-                    q: "How centralized and cleaned is your company data?",
-                    options: ["Fully Centralized & Clean", "Partially Organized", "Data is Siloed/Messy"],
-                    scores: [10, 6, 2]
+                    q: "Current state of business data?",
+                    options: ["Centralized & Clean", "Siloed but clean", "Siloed & Messy", "Not tracked"],
+                    scores: [10, 6, 2, 0]
                 },
                 {
                     cat: "Technology",
-                    q: "Are you already using Generative AI (LLMs) in your internal workflows?",
-                    options: ["Extensively", "Testing/PoC Phase", "Not at all"],
-                    scores: [10, 7, 0]
-                },
-                {
-                    cat: "Data",
-                    q: "How do you handle data security and privacy for AI models?",
-                    options: ["Strict Protocols in Place", "Basic Security", "No specific AI data policy"],
-                    scores: [10, 4, 0]
+                    q: "Are you using any AI tools currently?",
+                    options: ["Extensive production", "Testing pilots", "Ad-hoc use", "No use"],
+                    scores: [10, 7, 4, 0]
                 },
                 {
                     cat: "Culture",
-                    q: "How open is your leadership to investing in AI automation?",
-                    options: ["Highly Supportive", "Cautious but interested", "Resistance to change"],
-                    scores: [10, 5, 0]
+                    q: "How open is your team to AI?",
+                    options: ["Highly Enthusiastic", "Neutral", "Skeptical", "Resistant"],
+                    scores: [10, 5, 2, 0]
                 },
                 {
                     cat: "Strategy",
-                    q: "Is there a dedicated budget for AI research and implementation?",
-                    options: ["Yes, annual budget allocated", "Ad-hoc basis", "No budget"],
-                    scores: [10, 5, 0]
+                    q: "Is there a budget for AI?",
+                    options: ["Fixed Annual", "Project-based", "Ad-hoc", "None"],
+                    scores: [10, 7, 3, 0]
+                },
+                {
+                    cat: "Data",
+                    q: "Do you have data privacy policies?",
+                    options: ["Robust/AI specific", "Standard", "Minimal", "None"],
+                    scores: [10, 6, 2, 0]
                 },
                 {
                     cat: "Technology",
-                    q: "What is your primary tech stack's cloud readiness?",
-                    options: ["Fully Cloud-Native", "Hybrid (On-prem & Cloud)", "100% On-premise"],
-                    scores: [10, 7, 2]
-                },
-                {
-                    cat: "Strategy",
-                    q: "Have you identified specific KPIs to measure AI ROI?",
-                    options: ["Yes, clearly defined", "Vague ideas", "No metrics"],
-                    scores: [10, 5, 0]
-                },
-                {
-                    cat: "Data",
-                    q: "How often is your training data refreshed for AI models?",
-                    options: ["Real-time / Daily", "Monthly / Quarterly", "Never / Static"],
-                    scores: [10, 6, 2]
+                    q: "Legacy systems vs Cloud?",
+                    options: ["100% Cloud Native", "Hybrid", "Mostly Legacy", "All Legacy"],
+                    scores: [10, 7, 3, 0]
                 },
                 {
                     cat: "Culture",
-                    q: "Does your team have the internal skills to manage AI systems?",
-                    options: ["Yes, specialized team", "General IT knowledge", "Need external help"],
-                    scores: [10, 6, 3]
+                    q: "Internal AI skills availability?",
+                    options: ["Specialized Team", "IT knows basics", "Need training", "No skills"],
+                    scores: [10, 6, 3, 0]
+                },
+                {
+                    cat: "Data",
+                    q: "How often are data audits done?",
+                    options: ["Continuous", "Monthly", "Yearly", "Never"],
+                    scores: [10, 7, 4, 0]
+                },
+                {
+                    cat: "Strategy",
+                    q: "Are ROI metrics defined for AI?",
+                    options: ["Clearly Defined", "Loosely defined", "Vague", "None"],
+                    scores: [10, 7, 3, 0]
                 }
             ];
 
@@ -226,7 +361,7 @@
                 quizLeadForm: document.getElementById('quiz-lead-form'),
                 quizResults: document.getElementById('quiz-results'),
                 finalScoreSpan: document.getElementById('final-score'),
-                finalMsg: document.getElementById('final-msg'),
+                finalMsgBadge: document.getElementById('final-msg-badge'),
                 categoryResultsContainer: document.getElementById('category-results-container'),
                 recommendationsList: document.getElementById('recommendations-list'),
                 restartBtn: document.getElementById('restart-quiz-btn')
@@ -249,17 +384,40 @@
                 };
                 elements.quizResults.style.display = 'none';
                 elements.quizIntro.style.display = 'block';
-                elements.quizProgressContainer.style.display = 'none';
             });
 
             elements.quizLeadForm.addEventListener('submit', (e) => {
                 e.preventDefault();
+
+                // 1. Get user data
+                const name = document.getElementById('lead-name').value;
+                const email = document.getElementById('lead-email').value;
+                const phone = document.getElementById('lead-phone').value;
+                const totalScore = Object.values(categoryScores).reduce((a, b) => a + b, 0);
+
+                // 2. Prep internal submission (background)
+                document.getElementById('sub-name').value = name;
+                document.getElementById('sub-email').value = email;
+                document.getElementById('sub-phone').value = phone;
+                document.getElementById('sub-message').value =
+                    `AI READINESS ASSESSMENT RESULT:\nTotal Score: ${totalScore}/100\nBreakdown: Strategy: ${categoryScores.Strategy}, Data: ${categoryScores.Data}, Tech: ${categoryScores.Technology}, Culture: ${categoryScores.Culture}`;
+
+                // 3. Submit to server via background fetch (or similar) to avoid page reload logic issues
+                fetch(document.getElementById('internal-submission-form').action, {
+                    method: 'POST',
+                    body: new FormData(document.getElementById('internal-submission-form')),
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest'
+                    }
+                });
+
+                // 4. Immediately SHOW results on the page
                 elements.quizLeadCapture.style.display = 'none';
-                showResults();
+                showResultsScreen();
             });
 
             function updateProgress() {
-                const progress = ((currentQ) / questions.length) * 100;
+                const progress = (currentQ / questions.length) * 100;
                 elements.quizProgressBar.style.width = `${progress}%`;
                 elements.quizStepLabel.textContent = `Question ${currentQ + 1} of ${questions.length}`;
             }
@@ -268,19 +426,19 @@
                 if (currentQ >= questions.length) {
                     elements.quizQuestions.style.display = 'none';
                     elements.quizProgressContainer.style.display = 'none';
-                    elements.quizLeadCapture.style.display = 'block';
+                    elements.quizLeadCapture.style.display = 'block'; // Show FORM before RESULTS
                     return;
                 }
                 updateProgress();
                 const data = questions[currentQ];
                 elements.questionText.textContent = data.q;
                 elements.questionCategory.textContent = data.cat;
-
                 elements.optionsContainer.innerHTML = '';
                 data.options.forEach((opt, index) => {
                     const btn = document.createElement('button');
-                    btn.textContent = opt;
-                    btn.className = 'quiz-option-btn';
+                    btn.className = 'quiz-option-btn fade-in';
+                    btn.innerHTML =
+                        `<span>${opt}</span> <i class="fa fa-chevron-right" style="font-size: 11px; color: #ccc;"></i>`;
                     btn.addEventListener('click', () => {
                         categoryScores[data.cat] += data.scores[index];
                         currentQ++;
@@ -290,66 +448,59 @@
                 });
             }
 
-            function showResults() {
+            function showResultsScreen() {
                 elements.quizResults.style.display = 'block';
 
                 const totalScore = Object.values(categoryScores).reduce((a, b) => a + b, 0);
                 elements.finalScoreSpan.textContent = totalScore;
 
-                let msg = "";
+                let badgeText = "";
                 let recs = [];
                 if (totalScore > 80) {
-                    msg = "AI Leader: You are ready for high-impact AI integration.";
-                    recs = ["Focus on custom LLM fine-tuning", "Explore Autonomous Agents",
-                        "Optimise AI-first business models"
+                    badgeText = "AI FRONT-RUNNER";
+                    recs = ["Scale autonomous agent pilots", "Establish AI Governance board",
+                        "Optimize custom LLM workflows"
                     ];
                 } else if (totalScore > 50) {
-                    msg = "AI Explorer: You have strong foundations, focus on specific pilots.";
-                    recs = ["Implement RAG systems for Data QA", "Standardize AI security policies",
-                        "Launch high-ROI automation pilots"
+                    badgeText = "AI EVOLVER";
+                    recs = ["Formalize data clean-up", "Start departmental AI pilots",
+                        "Enable cloud-native data hub"
                     ];
                 } else {
-                    msg = "AI Beginner: Start with modernization and data cleaning.";
-                    recs = ["Centralize data infrastructure", "Begin leadership AI training",
-                        "Audit your tech stack for cloud readiness"
+                    badgeText = "AI BEGINNER";
+                    recs = ["Modernize legacy systems", "Launch AI literacy workshops",
+                        "Centralize business metadata"
                     ];
                 }
-                elements.finalMsg.textContent = msg;
+                elements.finalMsgBadge.textContent = badgeText;
 
-                // Category results
+                // Categories
                 elements.categoryResultsContainer.innerHTML = '';
                 for (let cat in categoryScores) {
                     const score = categoryScores[cat];
                     const possible = totalPossiblePerCat[cat];
                     const percent = (score / possible) * 100;
-
                     const catHtml = `
                         <div class="tp-tool-category-item">
                             <div class="tp-tool-category-header">
                                 <span>${cat}</span>
-                                <span>${score}/${possible}</span>
+                                <span style="color: var(--tp-theme-1);">${score}/${possible}</span>
                             </div>
                             <div class="tp-tool-category-bar-bg">
-                                <div class="tp-tool-category-bar-fill" style="width: 0%"></div>
+                                <div class="tp-tool-category-bar-fill" style="width: ${percent}%"></div>
                             </div>
                         </div>
                     `;
                     elements.categoryResultsContainer.insertAdjacentHTML('beforeend', catHtml);
-
-                    // Trigger animation
-                    setTimeout(() => {
-                        const fills = elements.categoryResultsContainer.querySelectorAll(
-                            '.tp-tool-category-bar-fill');
-                        fills[fills.length - 1].style.width = `${percent}%`;
-                    }, 100);
                 }
 
-                // Recommendations
+                // Recs
                 elements.recommendationsList.innerHTML = '';
                 recs.forEach(r => {
                     const li = document.createElement('li');
-                    li.className = 'mb-10';
-                    li.textContent = r;
+                    li.className = 'mb-12 d-flex align-items-center gap-10';
+                    li.innerHTML =
+                        `<i class="fa fa-check-circle" style="color: var(--tp-theme-1); font-size: 14px;"></i> <span style="font-size: 14px;">${r}</span>`;
                     elements.recommendationsList.appendChild(li);
                 });
             }

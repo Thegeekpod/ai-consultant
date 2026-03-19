@@ -85,17 +85,23 @@
 
   /////////////////////////////////////////////////////
   // 11. Register Plugins
-  gsap.registerPlugin(ScrollSmoother, ScrollTrigger, SplitText, ScrambleTextPlugin);
+  gsap.registerPlugin(ScrollTrigger, SplitText, ScrambleTextPlugin);
 
+  /*
   if (device_width > 767) {
-    const smoother = ScrollSmoother.create({
+    smoother = ScrollSmoother.create({
       smooth: 1.2,
       effects: device_width < 1025 ? false : true,
       smoothTouch: 0.5,
       normalizeScroll: false,
       ignoreMobileResize: true,
     });
+
+    window.addEventListener('load', () => {
+      if (smoother) smoother.refresh();
+    });
   }
+  */
   /////////////////////////////////////////////////////
 
   /////////////////////////////////////////////////////
@@ -2261,56 +2267,8 @@
 
 
   ////////////////////////////////////////////////////
-  // 63. Footer text animation
-  const footerText6 = document.querySelector(".tp-footer6-text");
-  const footerText6Reveal = footerText6?.querySelector(".text-reveal");
-
-  if (footerText6 && footerText6Reveal) {
-
-    let FT6mouseX = 0, FT6mouseY = 0;
-    let FT6currentX = 0, FT6currentY = 0;
-    let FT6IsInside = false;
-
-    function FooterText6GetRadius() {
-      const width = window.innerWidth;
-
-      if (width < 500) return 40;
-      if (width < 992) return 70;
-      if (width < 1200) return 90;
-      if (width < 1500) return 120;
-      return 160;
-    }
-
-    footerText6.addEventListener("mousemove", (e) => {
-      const rect = footerText6.getBoundingClientRect();
-      FT6mouseX = e.clientX - rect.left;
-      FT6mouseY = e.clientY - rect.top;
-
-      if (!FT6IsInside) {
-        footerText6Reveal.style.opacity = 1;
-        FT6IsInside = true;
-      }
-    });
-
-    footerText6.addEventListener("mouseleave", () => {
-      footerText6Reveal.style.opacity = 0;
-      FT6IsInside = false;
-    });
-
-    function FooterText6Animation() {
-      const radius = FooterText6GetRadius();
-
-      FT6currentX += (FT6mouseX - FT6currentX) * 0.15;
-      FT6currentY += (FT6mouseY - FT6currentY) * 0.15;
-
-      footerText6Reveal.style.clipPath = `circle(${radius}px at ${FT6currentX}px ${FT6currentY}px)`;
-
-      requestAnimationFrame(FooterText6Animation);
-    }
-
-    FooterText6Animation();
-
-  }
+  // Footer text animation removed (Requested by user)
+  ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
 
 

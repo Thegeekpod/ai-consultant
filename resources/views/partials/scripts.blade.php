@@ -6,7 +6,7 @@
 <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ asset('assets/js/counter.js') }}"></script>
 <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
-<script src="{{ asset('assets/js/ScrollSmoother.min.js') }}"></script>
+
 <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
 <script src="{{ asset('assets/js/ScrambleTextPlugin.min.js') }}"></script>
 <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>

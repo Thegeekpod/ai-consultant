@@ -12,6 +12,7 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/service', 'service')->name('service');
     Route::get('/blog', 'blog')->name('blog');
     Route::get('/contact', 'contact')->name('contact');
+    Route::post('/contact', 'contactStore')->name('contact.store');
     Route::get('/projects', 'projects')->name('projects');
     Route::get('/team', 'team')->name('team');
     Route::get('/faq', 'faq')->name('faq');
@@ -27,8 +28,10 @@ Route::controller(FrontendController::class)->group(function () {
     // Dynamic Pages
     Route::get('/solutions', 'solutions')->name('solutions');
     Route::get('/industries', 'industries')->name('industries');
-    Route::get('/{category}/{slug}', 'dynamicPage')->name('dynamic.page');
 });
+
+// NOTE: The wildcard dynamic route is defined LAST to prevent it from
+// swallowing admin/auth routes that are registered above.
 
 // Auth Routes
 Auth::routes();
@@ -44,4 +47,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     // Menu Management
     Route::resource('menus', \App\Http\Controllers\Admin\MenuController::class);
     Route::post('menus/update-order', [\App\Http\Controllers\Admin\MenuController::class, 'updateOrder'])->name('menus.update-order');
+
+    // Contact Leads
+    Route::resource('contact-leads', \App\Http\Controllers\Admin\ContactLeadController::class)->only(['index', 'destroy']);
+});
+
+// Dynamic catch-all — must be LAST so it doesn't intercept admin/auth routes
+Route::controller(FrontendController::class)->group(function () {
+    Route::get('/{category}/{slug}', 'dynamicPage')->name('dynamic.page');
 });

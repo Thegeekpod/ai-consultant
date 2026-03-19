@@ -160,6 +160,12 @@
                             <span class="menu-title">Menu Management</span>
                         </a>
                     </li>
+                    <li class="nav-item {{ request()->routeIs('admin.contact-leads.*') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('admin.contact-leads.index') }}">
+                            <i class="fa fa-envelope menu-icon"></i>
+                            <span class="menu-title">Contact Leads</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <!-- partial -->
