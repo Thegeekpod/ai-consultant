@@ -15,7 +15,7 @@
     <!-- Hero area end -->
 
 
-    <!-- Contact start -->
+   <!-- Contact start -->
     <section class="tp-contact-page-area pt-130 pb-140">
         <div class="tp-contact-bg-color">
             <svg width="1243" height="1243" viewBox="0 0 1243 1243" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,27 +34,27 @@
         </div>
         <div class="contact-top">
             <div class="container">
-                <h2 class="sec-title-3">Let’s Collaborate to Make Somethings Grate!</h2>
+                <h2 class="sec-title-3">Let's Collaborate to Make Something Great!</h2>
                 <div class="tp-contact-list">
                     <div class="tp-contact-type">
-                        <div class="icon"><i class="fal fa-paper-plane"></i></div>
+                        <div class="icon"><i class="fal fa-phone"></i></div>
                         <div class="info">
-                            <p>General Inquiries</p>
-                            <a href="mailto:info@exampleactova.com">info@exampleactova.com</a>
-                        </div>
-                    </div>
-                    <div class="tp-contact-type">
-                        <div class="icon"><i class="fal fa-envelope-open"></i></div>
-                        <div class="info">
-                            <p>Career Inquiries</p>
-                            <a href="mailto:info@examplecareer.com">info@examplecareer.com</a>
+                            <p>Phone (Primary)</p>
+                            <a href="tel:+919635462491">+91 96354 62491</a>
                         </div>
                     </div>
                     <div class="tp-contact-type">
                         <div class="icon"><i class="fal fa-phone"></i></div>
                         <div class="info">
-                            <p>Phone (US)</p>
-                            <a href="tel:141555501996775">1 (415) 555-0199 6775</a>
+                            <p>Phone (Secondary)</p>
+                            <a href="tel:+917044690945">+91 70446 90945</a>
+                        </div>
+                    </div>
+                    <div class="tp-contact-type">
+                        <div class="icon"><i class="fal fa-location"></i></div>
+                        <div class="info">
+                            <p>Location</p>
+                            <a href="#">Durgapur, West Bengal, India</a>
                         </div>
                     </div>
                 </div>
@@ -67,15 +67,17 @@
                         <div class="tp-contact-location">
                             <div class="icon"><i class="fal fa-location"></i></div>
                             <div class="info">
-                                <p>Head Office (USA)</p>
-                                <a href="#">Actova AI Solutions,123 Innovation Drive, San Francisco, CA 94105, USA</a>
+                                <p>Office</p>
+                                <a href="#">AI Consultant,
+                                    Durgapur, West Bengal, India</a>
                             </div>
                         </div>
                         <div class="tp-contact-location">
-                            <div class="icon"><i class="fal fa-map"></i></div>
+                            <div class="icon"><i class="fal fa-phone"></i></div>
                             <div class="info">
-                                <p>Regional Office (Asia)</p>
-                                <a href="#">Actova AI Solutions,123 Innovation Drive, Malaysia, CA 94105, Malaysia</a>
+                                <p>Call Us</p>
+                                <a href="tel:+919635462491">+91 96354 62491</a><br>
+                                <a href="tel:+917044690945">+91 70446 90945</a>
                             </div>
                         </div>
                         <div class="tp-live-chat">
@@ -89,7 +91,7 @@
                             </div>
                             <div class="info">
                                 <p>Live Chat</p>
-                                <a href="#">Available Mon–Fri, 09:00 – 18:00 (GMT).</a>
+                                <a href="#">Available Mon–Fri, 09:00 – 18:00 (IST).</a>
                             </div>
                         </div>
                     </div>
@@ -109,11 +111,11 @@
                             <div class="field-group d-block">
                                 <input type="number" name="phone" placeholder="Phone Number" required>
                             </div>
-                            <textarea name="message" placeholder="Write Short a Note..." required></textarea>
+                            <textarea name="message" placeholder="Write a Short Note..." required></textarea>
 
                             <label for="privacy_policy">
                                 <input type="checkbox" name="privacy_policy" id="privacy_policy" required>
-                                I agree to receive follow-up emails about my request & privacy policy
+                                I agree to receive follow-up messages about my request & privacy policy
                             </label>
 
                             <button type="submit" class="actova-btn-secondary">
@@ -134,13 +136,7 @@
     <!-- Contact end -->
 
 
-    <!-- Map start -->
-    <div class="tp-map-area">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.35196272633!2d-73.97950600000001!3d40.697141499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1760979896904!5m2!1sen!2sbd"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <!-- Map end -->
+
 
 
     <!-- Footer area start -->
