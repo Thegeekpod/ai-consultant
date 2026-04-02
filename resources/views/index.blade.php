@@ -149,31 +149,31 @@
         </div>
     </section>
     <!-- Hero area end -->
-<br>
+    <br>
 
-        <div class="tp-cta-wrapper">
-            <div class="cta-content">
-              <img src="{{ asset("assets/imgs/others/cta-icon.png") }}" alt="Icon">
-              <p>
+    <div class="tp-cta-wrapper">
+        <div class="cta-content">
+            <img src="{{ asset('assets/imgs/others/cta-icon.png') }}" alt="Icon">
+            <p>
                 Ready to explore what AI can do for your business? Not sure
                 where to start?
-              </p>
-            </div>
-            <div class="cta-btn tp-btn-animate">
-              <a href="{{ route("contact") }}" class="tp-btn-one">
+            </p>
+        </div>
+        <div class="cta-btn tp-btn-animate">
+            <a href="{{ route('contact') }}" class="tp-btn-one">
                 <span class="btn-wrap">
-                  <span class="text-one">Book a Free Strategy Call</span>
-                  <span class="text-two">Book a Free Strategy Call</span>
+                    <span class="text-one">Book a Free Strategy Call</span>
+                    <span class="text-two">Book a Free Strategy Call</span>
                 </span>
                 <span class="btn-icon">
-                  <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                  </svg>
+                    <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                    </svg>
                 </span>
-              </a>
-            </div>
-          </div>
+            </a>
+        </div>
+    </div>
 
 
     <!-- Brand area start -->
@@ -218,14 +218,15 @@
     </section>
     <!-- Brand area end -->
 
-       
+
 
     <!-- Capability area start -->
     <section class="tp-capability2-area pt-120">
         <div class="tp-container-1715">
             <div class="tp-capability-titlebox">
                 <h2 class="sec-title-2">Our Core AI Capabilities</h2>
-                <p>At AI Consultant, we deliver high-performance, neural-optimized AI services tailored to your industry, your data, and your business objectives.</p>
+                <p>At AI Consultant, we deliver high-performance, neural-optimized AI services tailored to your industry,
+                    your data, and your business objectives.</p>
             </div>
 
             <div class="tp-capability2-grid">
@@ -254,7 +255,8 @@
                             </ul>
                         </div>
                         <h3 class="title">Agentic AI Development.</h3>
-                        <p>We design and deploy Agentic AI systems that plan, act, adapt, and automate enterprise workflows.</p>
+                        <p>We design and deploy Agentic AI systems that plan, act, adapt, and automate enterprise workflows.
+                        </p>
                     </div>
                 </div>
                 <div class="card-wrap wrap-2">
@@ -277,7 +279,8 @@
                             <div class="feature two">Workflow-Centric</div>
                         </div>
                         <h3 class="title">Applied AI Integration.</h3>
-                        <p>We integrate applied AI across enterprise platforms and workflows for secure, scalable operations.</p>
+                        <p>We integrate applied AI across enterprise platforms and workflows for secure, scalable
+                            operations.</p>
                     </div>
                 </div>
             </div>
@@ -484,8 +487,7 @@
                             <span class="text-two">Contact for Consultation</span>
                         </span>
                         <span class="btn-icon">
-                            <svg width="9" height="13" viewBox="0 0 9 13"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
                             </svg>
@@ -502,7 +504,8 @@
                                 <a href="service-details.html">AI Strategy & Consulting.</a>
                             </h3>
                             <p>
-                                Strategic AI guidance- identifying high-impact use cases, validating feasibility, and building your long-term AI roadmap.
+                                Strategic AI guidance- identifying high-impact use cases, validating feasibility, and
+                                building your long-term AI roadmap.
                             </p>
                         </div>
                         <div class="service-btn">
@@ -530,7 +533,8 @@
                                     Product Dev.</a>
                             </h3>
                             <p>
-                                Full-cycle development of AI-native SaaS, internal tools, intelligent dashboards, and seamless integrations.
+                                Full-cycle development of AI-native SaaS, internal tools, intelligent dashboards, and
+                                seamless integrations.
                             </p>
                         </div>
                         <div class="service-btn">
@@ -559,7 +563,8 @@
                                     Automation</a>
                             </h3>
                             <p>
-                                End-to-end automation of repetitive workflows, internal operations and cross-department processes- powered by practical AI that reduces manual work.
+                                End-to-end automation of repetitive workflows, internal operations and cross-department
+                                processes- powered by practical AI that reduces manual work.
                             </p>
                         </div>
                         <div class="service-btn">
@@ -587,7 +592,8 @@
                                 <a href="service-details.html">AI-Powered Customer Experience</a>
                             </h3>
                             <p>
-                                Intelligent chat, voice, helpdesk and conversational systems that deliver 24/7 support, faster resolutions, and more human-like customer interactions.
+                                Intelligent chat, voice, helpdesk and conversational systems that deliver 24/7 support,
+                                faster resolutions, and more human-like customer interactions.
                             </p>
                         </div>
                         <div class="service-btn">
@@ -664,7 +670,8 @@
                             </div>
                             <div class="content">
                                 <h3 class="title">AI-Powered Chatbots</h3>
-                                <p>We create intelligent chatbots that automate support, capture leads, answer queries instantly, and enhance customer engagement.</p>
+                                <p>We create intelligent chatbots that automate support, capture leads, answer queries
+                                    instantly, and enhance customer engagement.</p>
                             </div>
                         </div>
                         <div class="tp-feature2-item" data-target="feature2">
@@ -674,7 +681,8 @@
                             </div>
                             <div class="content">
                                 <h3 class="title">AI SEO Automation</h3>
-                                <p>We automate SEO content creation, optimization, and publishing workflows to improve rankings and drive organic traffic.</p>
+                                <p>We automate SEO content creation, optimization, and publishing workflows to improve
+                                    rankings and drive organic traffic.</p>
                             </div>
                         </div>
                         <div class="tp-feature2-item" data-target="feature3">
@@ -683,7 +691,8 @@
                             </div>
                             <div class="content">
                                 <h3 class="title">Smart Landing Pages</h3>
-                                <p>We design and develop high-converting landing pages using AI to personalize content, optimize layouts, and accelerate lead generation.</p>
+                                <p>We design and develop high-converting landing pages using AI to personalize content,
+                                    optimize layouts, and accelerate lead generation.</p>
                             </div>
                         </div>
 
@@ -742,7 +751,8 @@
                         </div>
                         <div class="content">
                             <h3 class="title">AI-Powered <br> Customer Support.</h3>
-                            <p>Intelligent 24/7 help desk, voice agents, and chatbots handle inquiries, solve issues, & deliver consistent brand experience.</p>
+                            <p>Intelligent 24/7 help desk, voice agents, and chatbots handle inquiries, solve issues, &
+                                deliver consistent brand experience.</p>
                         </div>
                     </div>
                     <div class="tp-addons-item">
@@ -763,7 +773,8 @@
                         </div>
                         <div class="content">
                             <h3 class="title">Intelligent <br> Sales & Leads.</h3>
-                            <p>Automatic lead capture, qualification, personalized follow-ups, and AI appointment booking convert more visitors effortlessly.</p>
+                            <p>Automatic lead capture, qualification, personalized follow-ups, and AI appointment booking
+                                convert more visitors effortlessly.</p>
                         </div>
                     </div>
                     <div class="tp-addons-item">
@@ -790,7 +801,8 @@
                         </div>
                         <div class="content">
                             <h3 class="title">AI-Led <br> Marketing.</h3>
-                            <p>SEO-optimized content, AI creatives, social posting, high-converting landing pages that adapt to visitors and improve conversion rates.</p>
+                            <p>SEO-optimized content, AI creatives, social posting, high-converting landing pages that adapt
+                                to visitors and improve conversion rates.</p>
                         </div>
                     </div>
                     <div class="tp-addons-item">
@@ -807,7 +819,8 @@
                         </div>
                         <div class="content">
                             <h3 class="title">Smart Business <br> Operations.</h3>
-                            <p>AI Chat, Voice process automation and deep AI integration streamline workflows, eliminate manual tasks, reduce errors.</p>
+                            <p>AI Chat, Voice process automation and deep AI integration streamline workflows, eliminate
+                                manual tasks, reduce errors.</p>
                         </div>
                     </div>
                 </div>
@@ -833,7 +846,8 @@
         <div class="container">
             <div class="tp-integration-titlebox">
                 <h2 class="sec-title-2">Integrations</h2>
-                <p>We integrate AI models with your workflow for unmatched accuracy and performance in real-world applications.</p>
+                <p>We integrate AI models with your workflow for unmatched accuracy and performance in real-world
+                    applications.</p>
             </div>
 
             <div class="tp-integration-wrapper">
@@ -930,7 +944,7 @@
     <!-- Integration area end -->
 
 
-   
+
 
 
     <!-- Testimonial slider start -->
@@ -977,8 +991,7 @@
                                             reduced our manual work by over 60%.”</span></p>
                                     <div class="author-info-wrap">
                                         <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}"
-                                                alt="Author">
+                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
                                         </div>
                                         <div class="author-info">
                                             <h4 class="name">Jason Roy</h4>
@@ -996,8 +1009,7 @@
                                             reduced our manual work by over 60%.”</span></p>
                                     <div class="author-info-wrap">
                                         <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}"
-                                                alt="Author">
+                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
                                         </div>
                                         <div class="author-info">
                                             <h4 class="name">Jason Roy</h4>
@@ -1015,8 +1027,7 @@
                                             reduced our manual work by over 60%.”</span></p>
                                     <div class="author-info-wrap">
                                         <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}"
-                                                alt="Author">
+                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
                                         </div>
                                         <div class="author-info">
                                             <h4 class="name">Jason Roy</h4>
@@ -1034,8 +1045,7 @@
                                             reduced our manual work by over 60%.”</span></p>
                                     <div class="author-info-wrap">
                                         <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}"
-                                                alt="Author">
+                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
                                         </div>
                                         <div class="author-info">
                                             <h4 class="name">Jason Roy</h4>
@@ -1110,113 +1120,52 @@
             </div>
 
             <div class="tp-blog-list">
-                <div class="tp-blog-item-3">
-                    <a href="blog-details.html" class="thumb">
-                        <img src="{{ asset('assets/imgs/blog/blog-6.jpg') }}" alt="Thumbnail"
-                            style="filter:url(#distortion1)">
-                        <svg width="0" height="0">
-                            <filter id="distortion1">
-                                <feTurbulence type="fractalNoise" baseFrequency="0.03 0.06" numOctaves="2"
-                                    seed="2" result="noise" />
-                                <feDisplacementMap in="SourceGraphic" in2="noise" scale="0"
-                                    xChannelSelector="R" yChannelSelector="B" result="displacement" />
-                                <feMerge>
-                                    <feMergeNode in="SourceGraphic" />
-                                    <feMergeNode in="displacement" />
-                                </feMerge>
-                            </filter>
-                        </svg>
-                    </a>
-                    <div class="content">
-                        <ul class="meta">
-                            <li>10 July, 25</li>
-                            <li>2 min read</li>
-                        </ul>
-                        <h2 class="title">
-                            <a href="blog-details.html">Beyond ChatGPT: What’s Next for Generative AI?</a>
-                        </h2>
-                        <a href="blog-details.html" class="actova-btn-light">
-                            Read More
-                            <svg width="9" height="13" viewBox="0 0 9 13"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                @forelse($latestBlogs as $blog)
+                    <div class="tp-blog-item-3">
+                        <a href="{{ route('blog-details', $blog->slug) }}" class="thumb">
+                            @if ($blog->image)
+                                <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}"
+                                    style="filter:url(#distortion{{ $loop->iteration }}); width: 100%; height: 230px; object-fit: cover;">
+                            @else
+                                <img src="{{ asset('assets/imgs/blog/blog-post-1.jpg') }}" alt="Default Thumbnail"
+                                    style="filter:url(#distortion{{ $loop->iteration }})">
+                            @endif
+                            <svg width="0" height="0">
+                                <filter id="distortion{{ $loop->iteration }}">
+                                    <feTurbulence type="fractalNoise" baseFrequency="0.03 0.06" numOctaves="2"
+                                        seed="{{ $loop->iteration + 1 }}" result="noise" />
+                                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="0"
+                                        xChannelSelector="R" yChannelSelector="B" result="displacement" />
+                                    <feMerge>
+                                        <feMergeNode in="SourceGraphic" />
+                                        <feMergeNode in="displacement" />
+                                    </feMerge>
+                                </filter>
                             </svg>
                         </a>
+                        <div class="content">
+                            <ul class="meta">
+                                <li>{{ $blog->created_at->format('d M, Y') }}</li>
+                                <li>{{ ceil(str_word_count(strip_tags($blog->description)) / 200) }} min read</li>
+                            </ul>
+                            <h2 class="title">
+                                <a href="{{ route('blog-details', $blog->slug) }}">{{ $blog->title }}</a>
+                            </h2>
+                            <a href="{{ route('blog-details', $blog->slug) }}" class="actova-btn-light">
+                                Read More
+                                <svg width="9" height="13" viewBox="0 0 9 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="tp-blog-item-3">
-                    <a href="blog-details.html" class="thumb">
-                        <img src="{{ asset('assets/imgs/blog/blog-7.jpg') }}" alt="Thumbnail"
-                            style="filter:url(#distortion2)">
-                        <svg width="0" height="0">
-                            <filter id="distortion2">
-                                <feTurbulence type="fractalNoise" baseFrequency="0.03 0.06" numOctaves="2"
-                                    seed="3" result="noise" />
-                                <feDisplacementMap in="SourceGraphic" in2="noise" scale="0"
-                                    xChannelSelector="R" yChannelSelector="B" result="displacement" />
-                                <feMerge>
-                                    <feMergeNode in="SourceGraphic" />
-                                    <feMergeNode in="displacement" />
-                                </feMerge>
-                            </filter>
-                        </svg>
-                    </a>
-                    <div class="content">
-                        <ul class="meta">
-                            <li>05 July, 25</li>
-                            <li>2 min read</li>
-                        </ul>
-                        <h2 class="title">
-                            <a href="blog-details.html">From Data to Decisions: The Power of Predictive Analytics.</a>
-                        </h2>
-                        <a href="blog-details.html" class="actova-btn-light">
-                            Read More
-                            <svg width="9" height="13" viewBox="0 0 9 13"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="tp-blog-item-3">
-                    <a href="blog-details.html" class="thumb">
-                        <img src="{{ asset('assets/imgs/blog/blog-8.jpg') }}" alt="Thumbnail"
-                            style="filter:url(#distortion3)">
-                        <svg width="0" height="0">
-                            <filter id="distortion3">
-                                <feTurbulence type="fractalNoise" baseFrequency="0.03 0.06" numOctaves="2"
-                                    seed="4" result="noise" />
-                                <feDisplacementMap in="SourceGraphic" in2="noise" scale="0"
-                                    xChannelSelector="R" yChannelSelector="B" result="displacement" />
-                                <feMerge>
-                                    <feMergeNode in="SourceGraphic" />
-                                    <feMergeNode in="displacement" />
-                                </feMerge>
-                            </filter>
-                        </svg>
-                    </a>
-                    <div class="content">
-                        <ul class="meta">
-                            <li>30 June, 25</li>
-                            <li>2 min read</li>
-                        </ul>
-                        <h2 class="title">
-                            <a href="blog-details.html">The Rise of Multilingual AI Breaking Barriers Worldwide.</a>
-                        </h2>
-                        <a href="blog-details.html" class="actova-btn-light">
-                            Read More
-                            <svg width="9" height="13" viewBox="0 0 9 13"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                @empty
+                    <p>No insights found.</p>
+                @endforelse
             </div>
+
         </div>
     </section>
     <!-- Blog area end -->
@@ -1243,37 +1192,53 @@
                         <div class="tp-faq-item style-2">
                             <h3 class="tp-faq-title">What Exactly Does AI Consultant Company Do?</h3>
                             <div class="tp-faq-body">
-                                <p>We help businesses adopt and implement AI effectively. We provide strategy, custom AI solutions, process automation, customer experience tools (chatbots, voice agents), sales & marketing automation, and full AI integration- turning AI into measurable business results.</p>
+                                <p>We help businesses adopt and implement AI effectively. We provide strategy, custom AI
+                                    solutions, process automation, customer experience tools (chatbots, voice agents), sales
+                                    & marketing automation, and full AI integration- turning AI into measurable business
+                                    results.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
                             <h3 class="tp-faq-title">What Types of Businesses Do You Work With?</h3>
                             <div class="tp-faq-body">
-                                <p>We work with startups, small & medium businesses, scale-ups, and enterprises across many industries including e-commerce, education, healthcare, real estate, logistics, financial services, SaaS, professional services, manufacturing, and more.</p>
+                                <p>We work with startups, small & medium businesses, scale-ups, and enterprises across many
+                                    industries including e-commerce, education, healthcare, real estate, logistics,
+                                    financial services, SaaS, professional services, manufacturing, and more.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">Do You Build Custom Machine Learning / Deep Learning Models From Scratch?</h3>
+                            <h3 class="tp-faq-title">Do You Build Custom Machine Learning / Deep Learning Models From
+                                Scratch?</h3>
                             <div class="tp-faq-body">
-                                <p>No. We focus on practical, high-ROI AI implementations using proven models, APIs, fine-tuned LLMs, and ready-to-deploy AI tools. We deliver fast value instead of long research-oriented model development.</p>
+                                <p>No. We focus on practical, high-ROI AI implementations using proven models, APIs,
+                                    fine-tuned LLMs, and ready-to-deploy AI tools. We deliver fast value instead of long
+                                    research-oriented model development.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
                             <h3 class="tp-faq-title">What Platforms and Tools Do You Commonly Use?</h3>
                             <div class="tp-faq-body">
-                                <p>We work with leading AI & automation platforms including: OpenAI, Anthropic, Google Gemini, LangChain, Make.com, n8n, Voiceflow, ElevenLabs, Twilio, WhatsApp Business API, Zapier, Dialogflow, Bubble, Webflow, Airtable, Notion, HubSpot, Zoho, Salesforce, and many others - chosen based on your needs and existing stack.</p>
+                                <p>We work with leading AI & automation platforms including: OpenAI, Anthropic, Google
+                                    Gemini, LangChain, Make.com, n8n, Voiceflow, ElevenLabs, Twilio, WhatsApp Business API,
+                                    Zapier, Dialogflow, Bubble, Webflow, Airtable, Notion, HubSpot, Zoho, Salesforce, and
+                                    many others - chosen based on your needs and existing stack.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
                             <h3 class="tp-faq-title">Do You Provide Ongoing Support After Launch?</h3>
                             <div class="tp-faq-body">
-                                <p>Yes. Every project includes a post-launch optimization & support period (usually 30–90 days). After that we offer flexible monthly support plans so your AI systems stay up-to-date, performant, and aligned with your growing business.</p>
+                                <p>Yes. Every project includes a post-launch optimization & support period (usually 30–90
+                                    days). After that we offer flexible monthly support plans so your AI systems stay
+                                    up-to-date, performant, and aligned with your growing business.</p>
                             </div>
                         </div>
                         <div class="tp-faq-item style-2">
                             <h3 class="tp-faq-title">How Do We Get Started with AI?</h3>
                             <div class="tp-faq-body">
-                                <p>Just book a free 20–30 minute discovery call. We’ll discuss your current challenges, goals, and priorities- then give you an honest opinion whether AI can help, what kind of solution makes sense, and rough timeline & investment range. No pressure, no obligation.</p>
+                                <p>Just book a free 20–30 minute discovery call. We’ll discuss your current challenges,
+                                    goals, and priorities- then give you an honest opinion whether AI can help, what kind of
+                                    solution makes sense, and rough timeline & investment range. No pressure, no obligation.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1283,8 +1248,8 @@
         <div class="tp-faq-bg-pattern">
             <svg width="1920" height="550" viewBox="0 0 1920 550" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0_954_98" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                    width="1920" height="550">
+                <mask id="mask0_954_98" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920"
+                    height="550">
                     <rect width="1920" height="550" fill="#D9D9D9" />
                 </mask>
                 <g mask="url(#mask0_954_98)">
@@ -1315,7 +1280,6 @@
 
     <!-- Power area -->
 
- 
+
     <!-- Service area start -->
-    
 @endsection

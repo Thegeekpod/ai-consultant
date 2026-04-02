@@ -9,12 +9,15 @@ use Illuminate\Support\Facades\Mail;
 use App\Models\AuditLead;
 use App\Models\ContactLead;
 
+use App\Models\Blog;
+use App\Models\BlogCategory;
+
 class FrontendController extends Controller
 {
     public function index()
     {
-        // Homepage is now static - no database queries needed
-        return view('index');
+        $latestBlogs = Blog::where('is_active', true)->latest()->take(3)->get();
+        return view('index', compact('latestBlogs'));
     }
 
     public function about()
@@ -29,7 +32,10 @@ class FrontendController extends Controller
 
     public function blog()
     {
-        return view('blog');
+        $blogs = Blog::with('category')->where('is_active', true)->latest()->paginate(5);
+        $latestPosts = Blog::where('is_active', true)->latest()->take(3)->get();
+        $categories = BlogCategory::where('is_active', true)->orderBy('name')->get();
+        return view('blog', compact('blogs', 'latestPosts', 'categories'));
     }
 
     public function contact()
@@ -57,9 +63,11 @@ class FrontendController extends Controller
         return view('service-details');
     }
 
-    public function blogDetails()
+    public function blogDetails($slug)
     {
-        return view('blog-details');
+        $blog = Blog::with('category')->where('slug', $slug)->where('is_active', true)->firstOrFail();
+        $latestPosts = Blog::where('is_active', true)->where('id', '!=', $blog->id)->latest()->take(2)->get();
+        return view('blog-details', compact('blog', 'latestPosts'));
     }
 
     public function terms()

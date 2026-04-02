@@ -166,6 +166,24 @@
                             <span class="menu-title">Contact Leads</span>
                         </a>
                     </li>
+                    <li class="nav-item {{ request()->routeIs('admin.blogs.*') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('admin.blogs.index') }}">
+                            <i class="fa fa-newspaper-o menu-icon"></i>
+                            <span class="menu-title">Blogs</span>
+                        </a>
+                    </li>
+                    <li class="nav-item {{ Request::is('admin/blog-categories*') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{ route('admin.blog-categories.index') }}">
+                        <i class="ti-tag menu-icon"></i>
+                        <span class="menu-title">Blog Categories</span>
+                    </a>
+                </li>
+                <li class="nav-item {{ Request::is('admin/seo-settings*') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{ route('admin.seo-settings.index') }}">
+                        <i class="ti-search menu-icon"></i>
+                        <span class="menu-title">SEO Settings</span>
+                    </a>
+                </li>
                 </ul>
             </nav>
             <!-- partial -->
@@ -211,6 +229,7 @@
     <script src="{{ asset('admin/assets/js/dashboard.js') }}"></script>
     <script src="{{ asset('admin/assets/js/Chart.roundedBarCharts.js') }}"></script>
     <!-- End custom js for this page-->
+    @stack('scripts')
 </body>
 
 </html>

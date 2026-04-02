@@ -9,7 +9,7 @@
       <stop offset="100%" style="stop-color:#0728E4;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="0" y="32" class="logo-text" font-size="34">
+  <text x="0" y="32" class="logo-text" font-size="32">
     <tspan fill="#000000">AI</tspan> 
     <tspan fill="url(#blue_grad)">CONSULTANT</tspan>
   </text>
