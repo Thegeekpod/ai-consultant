@@ -29,53 +29,44 @@
                 </svg>
                 4.5 Average Rating
               </p>
-              <h2 class="sec-title-2">Frequently Ask & <br> Question</h2>
+              <h2 class="sec-title-2">Frequently Asked <br> Questions</h2>
             </div>
             <div class="tp-faq-wrapper-2">
               <div class="tp-faq-list">
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What is Actova AI?</h3>
+                  <h3 class="tp-faq-title">What is AI Consultant?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>AI Consultant is a next-generation AI agency and technology provider built to empower businesses of every size. We help automate repetitive workflows, generate high-quality content, deliver deep data insights, and provide real-time decision support.</p>
                   </div>
                 </div>
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Who can use Actova AI?</h3>
+                  <h3 class="tp-faq-title">Who can benefit from AI Consultant services?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>Our services are designed for startups, SMEs, and enterprises looking to leverage artificial intelligence for growth. Whether you need process automation, custom AI models, or strategic consulting, we have a solution for you.</p>
                   </div>
                 </div>
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
+                  <h3 class="tp-faq-title">What technologies do you specialize in?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>We specialize in state-of-the-art AI architectures including Transformers (LLMs), CNNs for vision, RNNs for time-series, and custom Generative AI solutions tailored to specific business needs.</p>
                   </div>
                 </div>
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
+                  <h3 class="tp-faq-title">Do you offer custom pricing?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>Yes, we provide flexible pricing models based on the complexity and scale of the project. Contact us for a personalized quote or a free strategy call.</p>
                   </div>
                 </div>
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
+                  <h3 class="tp-faq-title">Can AI Consultant integrate with my existing tools?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>Absolutely. Our AI solutions are designed to be "interoperable," meaning they can integrate seamlessly with your existing CRM, ERP, and communication platforms like Slack, Gmail, and Discord.</p>
                   </div>
                 </div>
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
+                  <h3 class="tp-faq-title">How do I get started?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>You can start by booking a free strategy call through our contact page. Our experts will analyze your needs and provide a roadmap for your AI transformation journey.</p>
                   </div>
                 </div>
               </div>
@@ -85,6 +76,4 @@
       </section>
       <!-- FAQ area end -->
 
-
-      <!-- Footer area start -->
 @endsection

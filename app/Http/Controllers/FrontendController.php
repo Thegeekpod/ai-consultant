@@ -62,6 +62,16 @@ class FrontendController extends Controller
         return view('blog-details');
     }
 
+    public function terms()
+    {
+        return view('terms');
+    }
+
+    public function privacy()
+    {
+        return view('privacy');
+    }
+
     public function contactStore(Request $request)
     {
         $request->validate([
@@ -73,6 +83,13 @@ class FrontendController extends Controller
         ]);
 
         ContactLead::create($request->all());
+
+        if ($request->ajax() || $request->wantsJson()) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Your enquiry has been submitted successfully!'
+            ]);
+        }
 
         return redirect()->back()->with('success', 'Your enquiry has been submitted successfully!');
     }

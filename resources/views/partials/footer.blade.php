@@ -42,16 +42,16 @@
                 <ul>
                     <li><a href="{{ route('blog') }}">News & Insight</a></li>
                     <li><a href="{{ route('faq') }}">Faq & Help</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="{{ route('terms') }}">Terms & Conditions</a></li>
+                    <li><a href="{{ route('privacy') }}">Privacy & Policy</a></li>
                 </ul>
             </div>
             <div class="tp-footer-widget quick-link-widget">
                 <h2 class="title-2">Contact Info</h2>
                 <ul>
-                    <li><a href="mailto:[EMAIL_ADDRESS]">[EMAIL_ADDRESS]</a></li>
-                    <li><a href="tel:+1234567890">+1234567890</a></li>
-                    <li><a href="#">123 Main St, Anytown, USA</a></li>
+                    {{-- <li><a href="mailto:[EMAIL_ADDRESS]">[EMAIL_ADDRESS]</a></li> --}}
+                    <li><a href="tel:+919635462491">+919635462491</a></li>
+                    <li><a href="#">Durgapur, West Bengal, India</a></li>
                 </ul>
             </div>
         </div>

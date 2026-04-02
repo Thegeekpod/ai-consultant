@@ -1,7 +1,38 @@
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 #smooth-wrapper {
   height: 100%;
   overflow: hidden;
 }
 #smooth-content {
   will-change: transform;
+}
+
+/* Fix horizontal overflow caused by wide SVGs and backgrounds */
+.tp-hero-bg-color,
+.tp-faq-bg-pattern,
+.tp-contact-bg-color,
+.tp--marquee-text-area {
+  overflow: hidden !important;
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.tp-hero-bg-color svg,
+.tp-faq-bg-pattern svg {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  overflow: hidden;
 }

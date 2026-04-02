@@ -20,6 +20,8 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/blog-details', 'blogDetails')->name('blog-details');
     Route::get('/team-details', 'teamDetails')->name('team-details');
     Route::get('/projects-details', 'projectsDetails')->name('projects-details');
+    Route::get('/terms', 'terms')->name('terms');
+    Route::get('/privacy', 'privacy')->name('privacy');
     Route::get('/tools', 'tools')->name('tools');
     Route::get('/tools/ai-readiness', 'aiReadiness')->name('tools.readiness');
     Route::get('/tools/ai-audit', 'aiAudit')->name('tools.audit');

@@ -5,5 +5,5 @@
       .logo-text { font-family: 'Space Grotesk', sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: -1.5px; }
     </style>
   </defs>
-  <text x="0" y="48" class="logo-text" font-size="48" fill="#FFFFFF">AI <tspan fill="#A1FF75">CONSULTANT</tspan></text>
+  <text x="0" y="48" class="logo-text" font-size="47" fill="#FFFFFF">AI <tspan fill="#A1FF75">CONSULTANT</tspan></text>
 </svg>
