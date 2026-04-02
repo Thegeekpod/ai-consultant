@@ -7,8 +7,8 @@
           <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset("assets/imgs/hero/service-bg.jpg") }}" alt="Image">
             <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title">Service Details Page</h1>
-              <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> Service Details Page </p>
+              <h1 class="tp-breadcrumb-title">Service Details</h1>
+              <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> Service Details</p>
             </div>
           </div>
         </div>
@@ -21,9 +21,9 @@
         <div class="tp-service-details-header">
           <div class="container">
             <div class="title-wrap">
-              <h2 class="sub-title">AI Custom Solution</h2>
+              <h2 class="sub-title">Advanced Expertise</h2>
               <h3 class="sec-title-3 actova-word">
-                Custom Neural Architecture Design is the process <span>of building AI models from the ground up</span>
+                Tailored AI solutions <span>built to scale your operations</span> and drive real business value.
               </h3>
             </div>
             <div class="what-we-offer">What We Offer</div>
@@ -34,16 +34,15 @@
           <div class="tp-service-faq-list">
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">1. Neural Architecture</h3>
+                <h3 class="tp-service-faq-title">1. Strategic AI Auditing</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We perform deep technical audits of your current infrastructure and data maturity to identify the most lucrative AI opportunities.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset("assets/imgs/service/service-icon-12.png") }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">100%</h3>
+                        <p class="text">Data Confidentiality</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -56,16 +55,15 @@
             </div>
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">2. Model Optimization & Pruning</h3>
+                <h3 class="tp-service-faq-title">2. Custom LLM Implementation</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>Deployment of custom-tuned Large Language Models for automated customer support, document analysis, and internal knowledge bases.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset("assets/imgs/service/service-icon-12.png") }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">95%</h3>
+                        <p class="text">Reduction in Manual Task Time</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -78,16 +76,15 @@
             </div>
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">3. Multi-Modal AI Design</h3>
+                <h3 class="tp-service-faq-title">3. Intelligent Workflow Automation</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>Integrating AI into your existing workflows using tools like Zapier, Make, and custom APIs to create autonomous business processes.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset("assets/imgs/service/service-icon-12.png") }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">40%</h3>
+                        <p class="text">Increase in Operational Speed</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -100,16 +97,15 @@
             </div>
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">4. Scalable Cloud AI Solutions</h3>
+                <h3 class="tp-service-faq-title">4. Data Governance & Security</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>Ensuring your AI implementations are compliant, secure, and privacy-first, protecting your proprietary business data.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset("assets/imgs/service/service-icon-12.png") }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">24/7</h3>
+                        <p class="text">Performance Monitoring</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -129,10 +125,8 @@
               <img src="{{ asset("assets/imgs/service/service-details-3.jpg") }}" alt="">
               <img src="{{ asset("assets/imgs/service/service-details-4.jpg") }}" alt="">
             </div>
-            <h2 class="title">Use Cases</h2>
-            <p>Custom Neural Architecture Design is the process of building AI models from the ground up, specifically
-              tailored to your business needs. Instead of relying only on pre-trained or generic models, Actova
-              engineers and optimizes neural networks that match your data, objectives, and industry challenges.</p>
+            <h2 class="title">Strategic Use Cases</h2>
+            <p>At AI Consultant, we specialize in bridging the gap between cutting-edge artificial intelligence and real-world business results. Our approach is data-driven, security-focused, and results-oriented. We don't just build models; we build solutions that integrate seamlessly into your unique industry landscape.</p>
           </div>
         </div>
       </section>
@@ -143,47 +137,33 @@
       <section class="tp-how-work-area plr-50">
         <div class="tp-how-work-inner">
           <div class="title-wrap">
-            <h2 class="sub-title">How We Work</h2>
+            <h2 class="sub-title">Process</h2>
             <h3 class="sec-title-2 esf actova-word">
-              AI solutions, delivered with <span>speed and clarity.</span>
+              AI solutions, delivered with <span>speed and precision.</span>
             </h3>
           </div>
 
           <div class="tp-how-work-steps">
             <div class="tp-how-work-step">
               <div class="step">Step-01</div>
-              <h3 class="title">Discovery & Strategy</h3>
+              <h3 class="title">Audit & Strategy</h3>
               <p>
-                We dive deep into your business goals, existing systems, and
-                data readiness to define the valuable AI use cases.
+                Comprehensive analysis of your systems and defining high-impact AI use cases.
               </p>
             </div>
             <div class="tp-how-work-step">
               <div class="step">Step-02</div>
-              <h3 class="title">Full System Build</h3>
+              <h3 class="title">Engineering</h3>
               <p>
-                Once validated, we engineer the end-to-end solution — from
-                data pipelines to model training and front-end integration.
+                Building and fine-tuning custom models and integrating them into your product.
               </p>
             </div>
             <div class="tp-how-work-step">
               <div class="step">Step-03</div>
-              <h3 class="title">Deployment & Handoff</h3>
+              <h3 class="title">Optimization</h3>
               <p>
-                Post-launch, we stay involved to fine-tune, retrain, and
-                improve performance as your data and business evolve.
+                Continuous monitoring and retraining to ensure peak performance as you scale.
               </p>
-            </div>
-          </div>
-          <div class="tp-watch-video">
-            <div class="text-wrap">
-              <p>Watch Full Process Video -</p>
-            </div>
-            <div class="video-wrap">
-              <div class="tp-video-popup-wrapper">
-                <a href="https://www.youtube.com/watch?v=CGpJtO914zY" class="tp-video-popup"><i
-                    class="fal fa-play"></i></a>
-              </div>
             </div>
           </div>
         </div>
@@ -204,53 +184,20 @@
                 </svg>
                 4.5 Average Rating
               </p>
-              <h2 class="sec-title-2">Frequently Ask & <br> Question</h2>
+              <h2 class="sec-title-2">Frequently Asked <br> Questions</h2>
             </div>
             <div class="tp-faq-wrapper-2">
               <div class="tp-faq-list">
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What is Actova AI?</h3>
+                  <h3 class="tp-faq-title">What is AI Consultant?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>AI Consultant is a next-generation AI agency and technology provider built to empower businesses of every size. We help automate repetitive workflows, generate high-quality content, deliver deep data insights, and provide real-time decision support.</p>
                   </div>
                 </div>
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Who can use Actova AI?</h3>
+                  <h3 class="tp-faq-title">How do I get started?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
-                  <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
-                  <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
-                  <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
-                  <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>You can start by booking a free strategy call or auditing your website using our AI Audit tool. Our experts will then reach out with a custom roadmap.</p>
                   </div>
                 </div>
               </div>
@@ -260,6 +207,4 @@
       </section>
       <!-- FAQ area end -->
 
-
-      <!-- Footer area start -->
 @endsection

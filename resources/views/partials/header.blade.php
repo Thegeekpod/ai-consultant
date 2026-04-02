@@ -1,12 +1,12 @@
 <!-- header-top-area-start -->
 <header>
     <div class="tp-header-top-area tp-header__style-4 tp-header__transparent">
-        <div class="contianer-fluid">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="tp-main__logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/imgs/logo/logo-dark.svg') }}" alt="">
+                            <img src="{{ asset('assets/imgs/logo/logo-dark.svg') }}" alt="" style="max-width: 100%; height: auto;">
                         </a>
                     </div>
                 </div>

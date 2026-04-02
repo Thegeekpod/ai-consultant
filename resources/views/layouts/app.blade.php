@@ -7,7 +7,7 @@
 
 <body>
 
-    @include('partials.preloader')
+    {{-- @include('partials.preloader') --}}
 
     <!-- Scroll to top -->
     <button id="scroll_top" class="scroll--top">
@@ -23,6 +23,7 @@
     @include('partials.footer')
 
     @include('partials.scripts')
+    @include('partials.lead-popup')
 
 </body>
 
