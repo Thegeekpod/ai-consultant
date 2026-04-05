@@ -481,7 +481,7 @@
                     systems that <span>solve real-world problems.</span>
                 </h2>
                 <div class="tp-btn-animate">
-                    <a href="service.html" class="tp-btn-one">
+                    <a href="/contact" class="tp-btn-one">
                         <span class="btn-wrap">
                             <span class="text-one">Contact for Consultation</span>
                             <span class="text-two">Contact for Consultation</span>
@@ -501,15 +501,15 @@
                         <div class="content">
                             <img src="assets/imgs/service/service-icon-1.png" alt="Image" class="icon">
                             <h3 class="title">
-                                <a href="service-details.html">AI Strategy & Consulting.</a>
+                                <a href="/services/digital-transformation">AI Strategy & AI Consulting.</a>
                             </h3>
                             <p>
-                                Strategic AI guidance- identifying high-impact use cases, validating feasibility, and
+                                Strategic AI consulting- identifying high-impact use cases, validating feasibility, and
                                 building your long-term AI roadmap.
                             </p>
                         </div>
                         <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
+                            <a href="/services/digital-transformation" class="tp-btn-one">
                                 <span class="btn-wrap">
                                     <span class="text-one">View Details</span>
                                     <span class="text-two">View Details</span>
@@ -529,7 +529,7 @@
                     <div class="card-inner" data-background="assets/imgs/service/service-icon-2.png">
                         <div class="content">
                             <h3 class="title">
-                                <a href="service-details.html">Custom AI <br>
+                                <a href="/services/custom-ai-model">Custom AI <br>
                                     Product Dev.</a>
                             </h3>
                             <p>
@@ -538,7 +538,7 @@
                             </p>
                         </div>
                         <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
+                            <a href="/services/custom-ai-model" class="tp-btn-one">
                                 <span class="btn-wrap">
                                     <span class="text-one">View Details</span>
                                     <span class="text-two">View Details</span>
@@ -559,7 +559,7 @@
                         <div class="content">
                             <img src="assets/imgs/service/service-icon-3.png" alt="Image" class="icon">
                             <h3 class="title">
-                                <a href="service-details.html">Business Process <br>
+                                <a href="/solutions/workflow-automation">Business Process <br>
                                     Automation</a>
                             </h3>
                             <p>
@@ -568,7 +568,7 @@
                             </p>
                         </div>
                         <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
+                            <a href="/solutions/workflow-automation" class="tp-btn-one">
                                 <span class="btn-wrap">
                                     <span class="text-one">View Details</span>
                                     <span class="text-two">View Details</span>
@@ -589,7 +589,7 @@
                         <div class="content">
                             <img src="assets/imgs/service/shape-2.png" alt="Image" class="shape">
                             <h3 class="title">
-                                <a href="service-details.html">AI-Powered Customer Experience</a>
+                                <a href="/solutions/ai-chatbots">AI-Powered Customer Experience</a>
                             </h3>
                             <p>
                                 Intelligent chat, voice, helpdesk and conversational systems that deliver 24/7 support,
@@ -597,7 +597,7 @@
                             </p>
                         </div>
                         <div class="service-btn">
-                            <a href="service-details.html" class="tp-btn-one">
+                            <a href="/solutions/ai-chatbots" class="tp-btn-one">
                                 <span class="btn-wrap">
                                     <span class="text-one">View Details</span>
                                     <span class="text-two">View Details</span>
@@ -621,7 +621,7 @@
     <!-- Text slider start -->
     <div class="tp--marquee-text-style-2 pb-110 pt-130">
         <div class="text-wrapper">
-            <p>Start Your AI Transformation! <a href="#">Talk to AI Consultants
+            <p>Start Your AI Transformation! <a href="/contact">Talk to AI Consultants
                     <span class="icon">
                         <svg width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -697,7 +697,7 @@
                         </div>
 
                     </div>
-                    <a href="contact.html" class="actova-btn-light">
+                    <a href="/contact" class="actova-btn-light">
                         Tell Us Your Need
                         <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -722,123 +722,79 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><br></br><br></br>
     <!-- Feature area end -->
 
-    <!-- Addons area start -->
-    <section class="tp-addons-area pb-130">
-        <div class="tp-container-1715">
-            <div class="tp-addons-wrapper">
-                <div class="tp-addons-list">
-                    <div class="tp-addons-item">
-                        <div class="icon">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_2478_901)">
-                                    <path
-                                        d="M29.0004 12.5862V5.13526C29.4927 4.93691 29.9145 4.59585 30.2115 4.15591C30.5086 3.71597 30.6672 3.19725 30.6672 2.66643C30.6674 2.31618 30.5985 1.96932 30.4646 1.64569C30.3306 1.32206 30.1342 1.02802 29.8865 0.78037C29.6388 0.532722 29.3448 0.33633 29.0211 0.202427C28.6975 0.0685247 28.3506 -0.000262187 28.0003 7.50965e-07C27.6501 -5.17835e-05 27.3034 0.0688786 26.9798 0.202856C26.6563 0.336833 26.3623 0.533233 26.1146 0.780839C25.867 1.02845 25.6705 1.32241 25.5365 1.64594C25.4025 1.96947 25.3335 2.31624 25.3335 2.66643C25.3335 3.78645 26.0239 4.73966 27.0003 5.13526V10.0989C24.1331 7.15249 20.2658 5.33327 16.0002 5.33327C11.7345 5.33327 7.8689 7.15249 5.00006 10.1001V5.13526C5.49226 4.93671 5.91389 4.59559 6.21082 4.15569C6.50775 3.71578 6.66643 3.19717 6.66648 2.66643C6.66669 2.31621 6.59787 1.96939 6.46394 1.64578C6.33001 1.32218 6.13361 1.02815 5.88597 0.780512C5.63833 0.532869 5.3443 0.336469 5.0207 0.202542C4.6971 0.068616 4.35027 -0.000209591 4.00005 7.50965e-07C3.64987 -5.17925e-05 3.30312 0.0688817 2.97959 0.202864C2.65606 0.336846 2.36209 0.533252 2.11448 0.780864C1.86687 1.02848 1.67046 1.32244 1.53648 1.64597C1.4025 1.9695 1.33356 2.31626 1.33362 2.66643C1.33362 3.78645 2.02362 4.73966 3.00004 5.13526V12.5874C1.11921 15.4282 0 18.9026 0 22.6667C0 27.8231 7.16409 32.0004 16.0002 32.0004C24.8391 32.0004 32.0004 27.8231 32.0004 22.6667C32.0004 18.901 30.8804 15.4282 29.0004 12.5862ZM16.0002 25.3331C10.4749 25.3331 6.00007 24.1395 6.00007 22.6667C6.00007 19.5414 6.76328 16.7134 8.0001 14.6666C13.3386 16.5102 19.0626 16.3774 24.0003 14.6666C25.2375 16.7134 26.0003 19.5418 26.0003 22.6667C26.0003 24.1395 21.5227 25.3331 16.0002 25.3331Z"
-                                        fill="#020202" />
-                                    <path
-                                        d="M22.6669 21.0002C22.6669 21.9222 21.9221 22.6666 21 22.6666C20.078 22.6666 19.3332 21.9222 19.3332 21.0002C19.3332 20.079 20.078 19.333 21 19.333C21.9221 19.333 22.6669 20.079 22.6669 21.0002ZM12.6663 21.0002C12.6663 21.9222 11.9211 22.6666 10.9999 22.6666C10.0787 22.6666 9.3335 21.9222 9.3335 21.0002C9.3335 20.079 10.0787 19.333 10.9999 19.333C11.9211 19.333 12.6663 20.079 12.6663 21.0002Z"
-                                        fill="#020202" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2478_901">
-                                        <rect width="32" height="32" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
-                        <div class="content">
-                            <h3 class="title">AI-Powered <br> Customer Support.</h3>
-                            <p>Intelligent 24/7 help desk, voice agents, and chatbots handle inquiries, solve issues, &
-                                deliver consistent brand experience.</p>
-                        </div>
-                    </div>
-                    <div class="tp-addons-item">
-                        <div class="icon">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_6831_893)">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M12.433 5.19535V13.3443C12.4329 13.3651 12.4246 13.385 12.4099 13.3997C12.3952 13.4144 12.3753 13.4227 12.3545 13.4228H11.1035C11.0827 13.4229 11.0628 13.4311 11.048 13.4459C11.0333 13.4606 11.025 13.4805 11.025 13.5013V17.9128C11.025 17.9432 11.0411 17.9692 11.0684 17.9829C11.5316 18.215 11.8496 18.6939 11.8496 19.2473C11.8496 20.0279 11.2169 20.6606 10.4363 20.6606C9.65577 20.6606 9.02305 20.0278 9.02305 19.2473C9.02305 18.6939 9.34115 18.215 9.80437 17.9829C9.83155 17.9693 9.84775 17.9432 9.84775 17.9128V13.5013C9.84775 13.4581 9.81255 13.4228 9.76925 13.4228H8.12576C8.10495 13.4228 8.08502 13.4145 8.07032 13.3998C8.05561 13.385 8.04735 13.3651 8.04733 13.3443V5.19528L12.433 5.19535ZM26.7879 10.4166H25.1288V14.3355C25.421 15.253 25.5787 16.2305 25.5787 17.2448C25.5787 22.5353 21.2899 26.8242 15.9994 26.8242C10.7089 26.8242 6.42004 22.5353 6.42004 17.2448C6.42004 16.254 6.57061 15.2984 6.84995 14.3995V10.4167H5.21085C5.20914 10.4274 5.20523 10.4377 5.19934 10.4468C4.42956 11.6666 3.87341 13.0087 3.55479 14.4154C3.55197 14.4287 3.54564 14.4411 3.53646 14.4511C3.52728 14.4612 3.51558 14.4687 3.50256 14.4727L1.8789 15.0003C1.49396 15.1254 1.24414 15.4692 1.24414 15.8739V18.6159C1.24414 19.0207 1.49396 19.3644 1.8789 19.4895L3.50248 20.017C3.52958 20.0258 3.54851 20.0466 3.55479 20.0744C3.87342 21.4811 4.42957 22.8232 5.19934 24.043C5.21448 24.067 5.21585 24.0951 5.2029 24.1205L4.42749 25.6424C4.24376 26.003 4.31022 26.4227 4.59638 26.709L6.53526 28.6478C6.82149 28.934 7.24118 29.0005 7.60182 28.8168L9.12373 28.0414C9.1358 28.035 9.14935 28.032 9.16298 28.0326C9.1766 28.0333 9.18982 28.0375 9.20125 28.0449C10.421 28.8147 11.7631 29.3709 13.1699 29.6895C13.1976 29.6958 13.2184 29.7147 13.2272 29.7417L13.7547 31.3654C13.8798 31.7503 14.2236 32.0001 14.6283 32.0001H17.3703C17.7751 32.0001 18.1189 31.7504 18.2439 31.3654L18.7715 29.7418C18.7803 29.7148 18.8011 29.6958 18.8288 29.6895C20.2355 29.3709 21.5776 28.8147 22.7974 28.0449C22.8215 28.0298 22.8496 28.0284 22.8749 28.0414L24.3968 28.8168C24.7575 29.0005 25.1772 28.9341 25.4634 28.6478L27.4023 26.709C27.6884 26.4227 27.755 26.003 27.5712 25.6424L26.7958 24.1205C26.7894 24.1084 26.7864 24.0949 26.787 24.0812C26.7876 24.0676 26.7919 24.0544 26.7993 24.043C27.5691 22.8232 28.1253 21.4811 28.4439 20.0744C28.4501 20.0466 28.4691 20.0258 28.4962 20.017L30.1198 19.4895C30.5047 19.3644 30.7545 19.0207 30.7545 18.6159V15.8739C30.7545 15.4691 30.5048 15.1253 30.1198 15.0003L28.4962 14.4727C28.4832 14.4687 28.4714 14.4612 28.4622 14.4511C28.4531 14.4411 28.4467 14.4287 28.4439 14.4154C28.1252 13.0087 27.5691 11.6666 26.7993 10.4468C26.7935 10.4376 26.7896 10.4273 26.7879 10.4166ZM23.9515 0V13.3444C23.9515 13.3876 23.9163 13.4229 23.8731 13.4229H22.2296C22.2088 13.4229 22.1888 13.4312 22.1741 13.4459C22.1594 13.4606 22.1511 13.4806 22.1511 13.5014V17.9128C22.1511 17.9433 22.1672 17.9693 22.1944 17.983C22.6577 18.215 22.9758 18.694 22.9758 19.2474C22.9758 20.0279 22.343 20.6607 21.5625 20.6607C20.7819 20.6607 20.1492 20.0279 20.1492 19.2474C20.1492 18.694 20.4672 18.215 20.9305 17.983C20.9577 17.9694 20.9738 17.9433 20.9738 17.9128V13.5014C20.9738 13.4581 20.9386 13.4229 20.8953 13.4229H19.2519C19.2311 13.4228 19.2112 13.4145 19.1964 13.3998C19.1817 13.3851 19.1734 13.3652 19.1734 13.3444V0H23.9515ZM13.6422 2.84072H17.996V13.3443C17.996 13.3875 17.9608 13.4228 17.9176 13.4228H16.6665C16.6457 13.4229 16.6258 13.4311 16.6111 13.4459C16.5964 13.4606 16.5881 13.4805 16.588 13.5013V22.1889C16.588 22.2194 16.6042 22.2455 16.6314 22.2591C17.0946 22.4911 17.4127 22.9701 17.4127 23.5235C17.4127 24.304 16.7799 24.9368 15.9994 24.9368C15.2189 24.9368 14.5861 24.304 14.5861 23.5235C14.5861 22.9701 14.9042 22.4911 15.3674 22.2591C15.3947 22.2455 15.4108 22.2194 15.4108 22.1889V13.5012C15.4108 13.458 15.3756 13.4227 15.3323 13.4227H13.6888C13.668 13.4227 13.648 13.4144 13.6333 13.3997C13.6186 13.385 13.6103 13.365 13.6103 13.3442V3.23353C13.6103 3.09803 13.6213 2.96646 13.6422 2.84072Z"
-                                        fill="#020202" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_6831_893">
-                                        <rect width="32" height="32" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
-                        <div class="content">
-                            <h3 class="title">Intelligent <br> Sales & Leads.</h3>
-                            <p>Automatic lead capture, qualification, personalized follow-ups, and AI appointment booking
-                                convert more visitors effortlessly.</p>
-                        </div>
-                    </div>
-                    <div class="tp-addons-item">
-                        <div class="icon">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_6831_885)">
-                                    <path
-                                        d="M21.4909 14.2768C21.4451 14.2494 13.6944 10.2631 13.6441 10.2357C13.3423 10.059 12.999 9.96591 12.6493 9.96591C12.2996 9.96591 11.9562 10.059 11.6544 10.2357C11.0316 10.5957 10.6602 11.2403 10.6602 11.9603V20.0401C10.6602 20.7601 11.0316 21.4047 11.6544 21.7647C11.9721 21.9475 12.3207 22.0367 12.6624 22.0367C12.9916 22.0367 13.3138 21.9544 13.5961 21.7898L21.4909 17.7236C22.1137 17.3625 22.4851 16.7179 22.4851 16.0002C22.4851 15.2825 22.1137 14.6379 21.4909 14.2768ZM27.3205 4.68607C27.106 4.47178 26.8152 4.35146 26.5121 4.35156C26.2089 4.35167 25.9182 4.4722 25.7039 4.68665C25.4896 4.90109 25.3693 5.19188 25.3694 5.49504C25.3695 5.7982 25.4901 6.0889 25.7045 6.30319C28.2907 8.8883 29.7147 12.3317 29.7147 16.0002C29.7147 19.6687 28.2907 23.1121 25.7045 25.6972C25.5953 25.8026 25.5083 25.9287 25.4484 26.0681C25.3885 26.2076 25.357 26.3575 25.3556 26.5093C25.3543 26.661 25.3832 26.8115 25.4407 26.952C25.4982 27.0924 25.583 27.22 25.6903 27.3273C25.7976 27.4346 25.9252 27.5195 26.0657 27.577C26.2061 27.6344 26.3566 27.6633 26.5084 27.662C26.6601 27.6607 26.8101 27.6292 26.9495 27.5693C27.0889 27.5094 27.2151 27.4223 27.3205 27.3132C30.3376 24.2972 32.0004 20.279 32.0004 16.0002C32.0004 11.7214 30.3387 7.70317 27.3205 4.68607Z"
-                                        fill="#020202" />
-                                    <path
-                                        d="M24.0374 7.9706C23.9319 7.86144 23.8058 7.77438 23.6664 7.71449C23.527 7.65459 23.377 7.62306 23.2253 7.62174C23.0735 7.62043 22.923 7.64934 22.7826 7.7068C22.6421 7.76427 22.5145 7.84913 22.4072 7.95643C22.2999 8.06374 22.215 8.19134 22.1576 8.33179C22.1001 8.47224 22.0712 8.62273 22.0725 8.77447C22.0738 8.92622 22.1054 9.07618 22.1653 9.21561C22.2252 9.35504 22.3122 9.48115 22.4214 9.58657C25.9585 13.1225 25.9585 18.8779 22.4214 22.4138C22.3122 22.5192 22.2252 22.6453 22.1653 22.7848C22.1054 22.9242 22.0738 23.0742 22.0725 23.2259C22.0712 23.3777 22.1001 23.5281 22.1576 23.6686C22.215 23.809 22.2999 23.9366 22.4072 24.0439C22.5145 24.1513 22.6421 24.2361 22.7826 24.2936C22.923 24.351 23.0735 24.38 23.2253 24.3786C23.377 24.3773 23.527 24.3458 23.6664 24.2859C23.8058 24.226 23.9319 24.1389 24.0374 24.0298C26.179 21.8881 27.3584 19.0367 27.3584 16.0002C27.3584 12.9637 26.179 10.1123 24.0374 7.9706ZM6.29476 6.30319C6.40094 6.19709 6.48519 6.07111 6.54268 5.93244C6.60017 5.79378 6.62979 5.64515 6.62985 5.49504C6.6299 5.34493 6.60039 5.19628 6.54299 5.05757C6.48559 4.91887 6.40144 4.79283 6.29533 4.68665C6.18923 4.58047 6.06325 4.49622 5.92458 4.43873C5.78592 4.38123 5.63729 4.35162 5.48718 4.35156C5.33707 4.35151 5.18842 4.38102 5.04971 4.43842C4.91101 4.49581 4.78497 4.57997 4.67879 4.68607C1.66169 7.70317 0 11.7225 0 16.0002C0 20.2778 1.66169 24.2972 4.67879 27.3143C4.78467 27.4208 4.91057 27.5053 5.04924 27.563C5.1879 27.6207 5.3366 27.6503 5.48677 27.6503C5.63695 27.6503 5.78565 27.6207 5.92431 27.563C6.06298 27.5053 6.18887 27.4208 6.29476 27.3143C6.40102 27.2082 6.48531 27.0821 6.54283 26.9434C6.60034 26.8046 6.62994 26.6559 6.62994 26.5057C6.62994 26.3556 6.60034 26.2068 6.54283 26.0681C6.48531 25.9294 6.40102 25.8033 6.29476 25.6972C0.948557 20.351 0.948557 11.6494 6.29476 6.30319Z"
-                                        fill="#020202" />
-                                    <path
-                                        d="M9.57965 7.97133C9.36533 7.75708 9.0747 7.63672 8.77166 7.63672C8.46862 7.63672 8.17799 7.75708 7.96367 7.97133C5.82199 10.113 4.64258 12.9644 4.64258 16.0009C4.64258 19.0374 5.82199 21.8888 7.96367 24.0305C8.06956 24.137 8.19546 24.2215 8.33412 24.2792C8.47278 24.3369 8.62148 24.3665 8.77166 24.3665C8.92184 24.3665 9.07053 24.3369 9.2092 24.2792C9.34786 24.2215 9.47376 24.137 9.57965 24.0305C9.7939 23.8162 9.91425 23.5256 9.91425 23.2225C9.91425 22.9195 9.7939 22.6289 9.57965 22.4145C7.86996 20.7049 6.92826 18.4272 6.92826 16.0009C6.92826 13.5747 7.86996 11.297 9.57965 9.5873C9.7939 9.37299 9.91425 9.08235 9.91425 8.77931C9.91425 8.47627 9.7939 8.18564 9.57965 7.97133Z"
-                                        fill="#020202" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_6831_885">
-                                        <rect width="32" height="32" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
-                        <div class="content">
-                            <h3 class="title">AI-Led <br> Marketing.</h3>
-                            <p>SEO-optimized content, AI creatives, social posting, high-converting landing pages that adapt
-                                to visitors and improve conversion rates.</p>
-                        </div>
-                    </div>
-                    <div class="tp-addons-item">
-                        <div class="icon">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M16.3319 2H15.6719C12.9105 2 10.6719 4.23858 10.6719 7V15.9C10.6719 18.6614 12.9105 20.9 15.6719 20.9H16.3319C19.0933 20.9 21.3319 18.6614 21.3319 15.9V7C21.3319 4.23858 19.0933 2 16.3319 2Z"
-                                    fill="#020202" />
-                                <path
-                                    d="M25.3319 13.793C25.0667 13.793 24.8124 13.8983 24.6248 14.0859C24.4373 14.2734 24.3319 14.5278 24.3319 14.793C24.3319 17.0025 23.4542 19.1215 21.8918 20.6839C20.3295 22.2462 18.2104 23.124 16.0009 23.124C13.7914 23.124 11.6724 22.2462 10.11 20.6839C8.54765 19.1215 7.66992 17.0025 7.66992 14.793C7.66992 14.5278 7.56456 14.2734 7.37703 14.0859C7.18949 13.8983 6.93514 13.793 6.66992 13.793C6.40471 13.793 6.15035 13.8983 5.96281 14.0859C5.77528 14.2734 5.66992 14.5278 5.66992 14.793C5.67346 17.3585 6.63029 19.8312 8.35461 21.7309C10.0789 23.6306 12.4477 24.8217 15.0009 25.073V28H11.6679C11.4027 28 11.1484 28.1053 10.9608 28.2929C10.7733 28.4804 10.6679 28.7348 10.6679 29C10.6679 29.2652 10.7733 29.5195 10.9608 29.7071C11.1484 29.8946 11.4027 30 11.6679 30H20.3339C20.5991 30 20.8535 29.8946 21.041 29.7071C21.2286 29.5195 21.3339 29.2652 21.3339 29C21.3339 28.7348 21.2286 28.4804 21.041 28.2929C20.8535 28.1053 20.5991 28 20.3339 28H17.0009V25.073C19.5542 24.8217 21.9229 23.6306 23.6472 21.7309C25.3716 19.8312 26.3284 17.3585 26.3319 14.793C26.3319 14.5278 26.2266 14.2734 26.039 14.0859C25.8515 13.8983 25.5971 13.793 25.3319 13.793Z"
-                                    fill="#020202" />
-                            </svg>
-                        </div>
-                        <div class="content">
-                            <h3 class="title">Smart Business <br> Operations.</h3>
-                            <p>AI Chat, Voice process automation and deep AI integration streamline workflows, eliminate
-                                manual tasks, reduce errors.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tp-addons-together">
-                    <p>Let’s Create Something Intelligent Together! <a href="contact.html">Get’s Started Now
-                            <span class="icon">
-                                <svg width="13" height="13" viewBox="0 0 13 13"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.19046 4.93104C8.3253 4.93104 7.6215 5.63484 7.6215 6.5C7.6215 7.36516 8.3253 8.06896 9.19046 8.06896C10.0556 8.06896 10.7594 7.36516 10.7594 6.5C10.7594 5.63484 10.0556 4.93104 9.19046 4.93104ZM6.5008 5.60346C7.36597 5.60346 8.06977 4.89965 8.06977 4.03449C8.06977 3.16933 7.36597 2.46553 6.5008 2.46553C5.63564 2.46553 4.93184 3.16933 4.93184 4.03449C4.93184 4.89965 5.63564 5.60346 6.5008 5.60346ZM3.81115 3.13793C4.67631 3.13793 5.38011 2.43412 5.38011 1.56896C5.38011 0.703803 4.67631 0 3.81115 0C2.94599 0 2.24219 0.703803 2.24219 1.56896C2.24219 2.43412 2.94599 3.13793 3.81115 3.13793ZM6.5008 7.39654C5.63564 7.39654 4.93184 8.10035 4.93184 8.96551C4.93184 9.83067 5.63564 10.5345 6.5008 10.5345C7.36597 10.5345 8.06977 9.83067 8.06977 8.96551C8.06977 8.10035 7.36597 7.39654 6.5008 7.39654ZM3.81115 9.86207C2.94599 9.86207 2.24219 10.5659 2.24219 11.431C2.24219 12.2962 2.94599 13 3.81115 13C4.67631 13 5.38011 12.2962 5.38011 11.431C5.38011 10.5659 4.67631 9.86207 3.81115 9.86207Z" />
-                                </svg>
-                            </span>
-                        </a></p>
-                </div>
+                <!-- Service section Start -->
+      <section class="tp-service-area-3">
+        <div class="tp-container">
+          <div class="tp-service-inner-3">
+            <div class="title-wrap">
+              <h2 class="sec-title-2 text-move-animation">
+                AI Solutions Built for
+                <span>Speed, Efficiency, and Scale.</span>
+              </h2>
+              <a href="{{ route("service") }}" class="actova-btn-light">
+                Discover More
+                <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                </svg>
+              </a>
             </div>
+            <div class="tp-service-grid-3">
+              <div class="tp-service-card-3 tp-fade-animation">
+                <a href="#">
+                  <img src="{{ asset("/assets/imgs/service/service-icon-7.png") }}" alt="Icon">
+                  <h3 class="title">AI Workflow Automation</h3>
+                  <p>
+                    Our AI developers seamlessly integrate AI solutions using NLP and machine learning with your existing systems for smarter operations.
+                  </p>
+                </a>
+              </div>
+              <div class="tp-service-card-3 tp-fade-animation" data-delay="0.7">
+                <a href="#">
+                  <img src="{{ asset("/assets/imgs/service/service-icon-8.png") }}" alt="Icon">
+                  <h3 class="title">AI Integration</h3>
+                  <p>
+                    Seamlessly integrate modern AI tools with your existing systems,
+                     apps, and platforms to create smarter and more connected operations.
+                  </p>
+                </a>
+              </div>
+              <div class="tp-service-card-3 tp-fade-animation" data-delay="0.9">
+                <a href="#">
+                  <img src="{{ asset("/assets/imgs/service/service-icon-9.png") }}" alt="Icon">
+                  <h3 class="title">Data Intelligence</h3>
+                  <p>
+                    Leverage predictive analytics and machine learning to turn data into actionable insights for faster decision-making for businesses.
+                  </p>
+                </a>
+              </div>
+              <div class="tp-service-card-3 tp-fade-animation" data-delay="1.1">
+                <a href="#">
+                  <img src="{{ asset("/assets/imgs/service/service-icon-10.png") }}" alt="Icon">
+                  <h3 class="title">AI Deployment</h3>
+                  <p>
+                    Deploy future-proof agentic AI solutions powered by deep learning, NLP, and predictive analytics for scalable real-world performance.
+                  </p>
+                </a>
+              </div>
+            </div>
+            <h4 class="cta-call">
+              <span>Free</span>To get free consultation our industries expert
+              <a href="{{ route("contact") }}">Book a Strategy Call
+                <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                </svg>
+              </a>
+            </h4>
+          </div>
         </div>
-    </section>
-    <!-- Addons area end -->
+      </section><br><br>
+      <!-- Service section end -->
+
 
 
     <!-- Integration area start -->
@@ -943,143 +899,171 @@
     </section>
     <!-- Integration area end -->
 
-
-
-
-
     <!-- Testimonial slider start -->
-    <div class="tp-testimonial-area-4 pb-130">
-        <div class="container">
-            <div class="tp-testimonial-titlebox">
-                <p>
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M13.9634 5.09658C13.9185 4.95809 13.834 4.83583 13.7202 4.74498C13.6064 4.65413 13.4685 4.5987 13.3235 4.58557L9.2821 4.21867L7.68493 0.479344C7.56699 0.204616 7.29869 0.0273438 7.00004 0.0273438C6.70138 0.0273438 6.43297 0.204616 6.3158 0.479344L4.71863 4.21867L0.676602 4.58557C0.380273 4.61292 0.129362 4.81362 0.036665 5.09658C-0.0085039 5.2352 -0.0120174 5.38402 0.0265597 5.52461C0.0651368 5.6652 0.14411 5.79139 0.253696 5.88754L3.30868 8.56629L2.40793 12.5336C2.34203 12.8253 2.45523 13.127 2.69729 13.3019C2.82406 13.3941 2.97684 13.4438 3.13362 13.4437C3.26801 13.4437 3.39988 13.4072 3.51515 13.3381L7.00004 11.2544L10.4843 13.3381C10.6093 13.4129 10.7535 13.4493 10.899 13.4429C11.0445 13.4365 11.1849 13.3874 11.3028 13.3019C11.5448 13.127 11.6581 12.8253 11.5922 12.5336L10.6914 8.56632L13.7464 5.88757C13.856 5.79142 13.935 5.66524 13.9735 5.52464C14.0121 5.38405 14.0086 5.23522 13.9634 5.09661V5.09658Z"
-                            fill="#A1FF75" />
-                    </svg>
-                    4.5 Average Rating
-                </p>
-                <h2 class="sec-title-2">Trusted by Top Businesses across India</h2>
-            </div>
-            <div class="tp-testimonial-inner-4">
-                <div class="tp-testimonial-wrapper-4">
-                    <div class="swiper tp-testimonial4-active">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide--one">
-                                <div class="tp-testimonial-slide-4">
-                                    <div class="reason">(Premium Support)</div>
-                                    <p>“ Their team guided us from idea to deployment in just 6 weeks. <span>The LLM
-                                            integration
-                                            reduced our manual work by over 60%.”</span></p>
-                                    <div class="author-info-wrap">
-                                        <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
-                                        </div>
-                                        <div class="author-info">
-                                            <h4 class="name">Jason Roy</h4>
-                                            <h4 class="designation">Director of Gentech</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiper-slide--two">
-                                <div class="tp-testimonial-slide-4">
-                                    <div class="reason">(Premium Support)</div>
-                                    <p>“ Their team guided us from idea to deployment in just 6 weeks. <span>The LLM
-                                            integration
-                                            reduced our manual work by over 60%.”</span></p>
-                                    <div class="author-info-wrap">
-                                        <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
-                                        </div>
-                                        <div class="author-info">
-                                            <h4 class="name">Jason Roy</h4>
-                                            <h4 class="designation">Director of Gentech</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<div class="tp-testimonial-area-4 pb-130">
+    <div class="container">
+        <div class="tp-testimonial-titlebox">
+            <p>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.9634 5.09658C13.9185 4.95809 13.834 4.83583 13.7202 4.74498C13.6064 4.65413 13.4685 4.5987 13.3235 4.58557L9.2821 4.21867L7.68493 0.479344C7.56699 0.204616 7.29869 0.0273438 7.00004 0.0273438C6.70138 0.0273438 6.43297 0.204616 6.3158 0.479344L4.71863 4.21867L0.676602 4.58557C0.380273 4.61292 0.129362 4.81362 0.036665 5.09658C-0.0085039 5.2352 -0.0120174 5.38402 0.0265597 5.52461C0.0651368 5.6652 0.14411 5.79139 0.253696 5.88754L3.30868 8.56629L2.40793 12.5336C2.34203 12.8253 2.45523 13.127 2.69729 13.3019C2.82406 13.3941 2.97684 13.4438 3.13362 13.4437C3.26801 13.4437 3.39988 13.4072 3.51515 13.3381L7.00004 11.2544L10.4843 13.3381C10.6093 13.4129 10.7535 13.4493 10.899 13.4429C11.0445 13.4365 11.1849 13.3874 11.3028 13.3019C11.5448 13.127 11.6581 12.8253 11.5922 12.5336L10.6914 8.56632L13.7464 5.88757C13.856 5.79142 13.935 5.66524 13.9735 5.52464C14.0121 5.38405 14.0086 5.23522 13.9634 5.09661V5.09658Z"
+                        fill="#A1FF75" />
+                </svg>
+                4.5 Average Rating
+            </p>
+            <h2 class="sec-title-2">Trusted by Top Global Businesses</h2>
+        </div>
+        <div class="tp-testimonial-inner-4">
+            <div class="tp-testimonial-wrapper-4">
+                <div class="swiper tp-testimonial4-active">
+                    <div class="swiper-wrapper">
 
-                            <div class="swiper-slide swiper-slide--three">
-                                <div class="tp-testimonial-slide-4">
-                                    <div class="reason">(Premium Support)</div>
-                                    <p>“ Their team guided us from idea to deployment in just 6 weeks. <span>The LLM
-                                            integration
-                                            reduced our manual work by over 60%.”</span></p>
-                                    <div class="author-info-wrap">
-                                        <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
-                                        </div>
-                                        <div class="author-info">
-                                            <h4 class="name">Jason Roy</h4>
-                                            <h4 class="designation">Director of Gentech</h4>
-                                        </div>
+                        <!-- Indian 1 -->
+                        <div class="swiper-slide swiper-slide--one">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" We hired them as our <span>AI consultant for our fintech platform</span> and the results were beyond expectations. Their AI consulting process was structured, transparent, and delivered a fraud detection model that cut false positives by 47% within the first quarter."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--four">
-                                <div class="tp-testimonial-slide-4">
-                                    <div class="reason">(Premium Support)</div>
-                                    <p>“ Their team guided us from idea to deployment in just 6 weeks. <span>The LLM
-                                            integration
-                                            reduced our manual work by over 60%.”</span></p>
-                                    <div class="author-info-wrap">
-                                        <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
-                                        </div>
-                                        <div class="author-info">
-                                            <h4 class="name">Jason Roy</h4>
-                                            <h4 class="designation">Director of Gentech</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--five">
-                                <div class="tp-testimonial-slide-4">
-                                    <div class="reason">(Premium Support)</div>
-                                    <p>“ Their team guided us from idea to deployment in just 6 weeks. <span>The LLM
-                                            integration
-                                            reduced our manual work by over 60%.”</span></p>
-                                    <div class="author-info-wrap">
-                                        <div class="author-img">
-                                            <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
-                                        </div>
-                                        <div class="author-info">
-                                            <h4 class="name">Jason Roy</h4>
-                                            <h4 class="designation">Director of Gentech</h4>
-                                        </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Arjun Mehta</h4>
+                                        <h4 class="designation">CTO, PaySmart India</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Indian 2 -->
+                        <div class="swiper-slide swiper-slide--two">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" As a healthcare startup, we needed an <span>AI consultant who truly understood our domain.</span> Their AI consulting team mapped our entire patient data workflow and built a predictive diagnosis tool that our doctors now rely on daily."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Priya Nair</h4>
+                                        <h4 class="designation">Co-Founder, MediAI Solutions</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Indian 3 -->
+                        <div class="swiper-slide swiper-slide--three">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" Their <span>AI consulting services helped us automate our entire supply chain reporting</span> process. What used to take our team 3 days every week now runs automatically overnight. The AI consultant assigned to us was knowledgeable, responsive, and results-driven."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Rahul Singhania</h4>
+                                        <h4 class="designation">Head of Operations, LogiNext Technologies</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Indian 4 -->
+                        <div class="swiper-slide swiper-slide--four">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" We approached them with zero AI experience and a very specific business problem. Their <span>AI consultant walked us through every step</span> — from data readiness to model deployment. The AI consulting engagement paid for itself within two months."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Sneha Kulkarni</h4>
+                                        <h4 class="designation">Director of Growth, RetailEdge India</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- US 1 -->
+                        <div class="swiper-slide swiper-slide--five">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" Finding the right <span>AI consultant for an enterprise-level NLP project</span> is not easy. This team stood out immediately. Their AI consulting methodology was rigorous — they audited our existing data, identified gaps, and built a solution that reduced customer support tickets by 55%."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Daniel Carter</h4>
+                                        <h4 class="designation">VP of Engineering, NovaBridge Inc.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- US 2 -->
+                        <div class="swiper-slide swiper-slide--six">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" We had worked with two other vendors before finding this team. The difference was night and day. <span>Their AI consulting approach actually started with our business outcomes</span>, not the technology. Our AI consultant delivered a recommendation engine that increased our average order value by 34%."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Michelle Torres</h4>
+                                        <h4 class="designation">Chief Product Officer, ShopStream US</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- US 3 -->
+                        <div class="swiper-slide swiper-slide--seven">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" I was skeptical about outsourcing something as critical as AI strategy, but their <span>AI consultant quickly earned our trust</span> with deep technical knowledge and clear communication. The AI consulting engagement resulted in a computer vision QA system that eliminated 80% of manual inspection on our production line."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Robert Haines</h4>
+                                        <h4 class="designation">Plant Manager, PrecisionTech</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <!-- Add Navigation  -->
-                <div class="tp-testimonial-navigation-4">
-                    <div class="tsm4-btn-next">
-                        <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M9.31051 6.06897C8.2457 6.06897 7.37948 6.93519 7.37948 8C7.37948 9.06481 8.2457 9.93103 9.31051 9.93103C10.3753 9.93103 11.2415 9.06481 11.2415 8C11.2415 6.93519 10.3753 6.06897 9.31051 6.06897ZM6.00016 6.89656C7.06498 6.89656 7.9312 6.03034 7.9312 4.96553C7.9312 3.90072 7.06498 3.0345 6.00016 3.0345C4.93535 3.0345 4.06913 3.90072 4.06913 4.96553C4.06913 6.03034 4.93535 6.89656 6.00016 6.89656ZM2.68982 3.86206C3.75463 3.86206 4.62085 2.99584 4.62085 1.93103C4.62085 0.866219 3.75463 0 2.68982 0C1.62501 0 0.758789 0.866219 0.758789 1.93103C0.758789 2.99584 1.62501 3.86206 2.68982 3.86206ZM6.00016 9.10344C4.93535 9.10344 4.06913 9.96966 4.06913 11.0345C4.06913 12.0993 4.93535 12.9655 6.00016 12.9655C7.06498 12.9655 7.9312 12.0993 7.9312 11.0345C7.9312 9.96966 7.06498 9.10344 6.00016 9.10344ZM2.68982 12.1379C1.62501 12.1379 0.758789 13.0042 0.758789 14.069C0.758789 15.1338 1.62501 16 2.68982 16C3.75463 16 4.62085 15.1338 4.62085 14.069C4.62085 13.0041 3.75463 12.1379 2.68982 12.1379Z"
-                                fill="#020202" />
-                        </svg>
-                    </div>
-                    <div class="tsm4-btn-prev">
-                        <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M2.68949 6.06897C3.7543 6.06897 4.62052 6.93519 4.62052 8C4.62052 9.06481 3.7543 9.93103 2.68949 9.93103C1.62468 9.93103 0.758458 9.06481 0.758458 8C0.758458 6.93519 1.62468 6.06897 2.68949 6.06897ZM5.99983 6.89656C4.93502 6.89656 4.0688 6.03034 4.0688 4.96553C4.0688 3.90072 4.93502 3.0345 5.99983 3.0345C7.06465 3.0345 7.93087 3.90072 7.93087 4.96553C7.93087 6.03034 7.06465 6.89656 5.99983 6.89656ZM9.31018 3.86206C8.24537 3.86206 7.37915 2.99584 7.37915 1.93103C7.37915 0.866219 8.24537 0 9.31018 0C10.375 0 11.2412 0.866219 11.2412 1.93103C11.2412 2.99584 10.375 3.86206 9.31018 3.86206ZM5.99983 9.10344C7.06465 9.10344 7.93087 9.96966 7.93087 11.0345C7.93087 12.0993 7.06465 12.9655 5.99983 12.9655C4.93502 12.9655 4.0688 12.0993 4.0688 11.0345C4.0688 9.96966 4.93502 9.10344 5.99983 9.10344ZM9.31018 12.1379C10.375 12.1379 11.2412 13.0042 11.2412 14.069C11.2412 15.1338 10.375 16 9.31018 16C8.24537 16 7.37915 15.1338 7.37915 14.069C7.37915 13.0041 8.24537 12.1379 9.31018 12.1379Z"
-                                fill="#020202" />
-                        </svg>
-                    </div>
+            </div>
+            <!-- Add Navigation  -->
+            <div class="tp-testimonial-navigation-4">
+                <div class="tsm4-btn-next">
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.31051 6.06897C8.2457 6.06897 7.37948 6.93519 7.37948 8C7.37948 9.06481 8.2457 9.93103 9.31051 9.93103C10.3753 9.93103 11.2415 9.06481 11.2415 8C11.2415 6.93519 10.3753 6.06897 9.31051 6.06897ZM6.00016 6.89656C7.06498 6.89656 7.9312 6.03034 7.9312 4.96553C7.9312 3.90072 7.06498 3.0345 6.00016 3.0345C4.93535 3.0345 4.06913 3.90072 4.06913 4.96553C4.06913 6.03034 4.93535 6.89656 6.00016 6.89656ZM2.68982 3.86206C3.75463 3.86206 4.62085 2.99584 4.62085 1.93103C4.62085 0.866219 3.75463 0 2.68982 0C1.62501 0 0.758789 0.866219 0.758789 1.93103C0.758789 2.99584 1.62501 3.86206 2.68982 3.86206ZM6.00016 9.10344C4.93535 9.10344 4.06913 9.96966 4.06913 11.0345C4.06913 12.0993 4.93535 12.9655 6.00016 12.9655C7.06498 12.9655 7.9312 12.0993 7.9312 11.0345C7.9312 9.96966 7.06498 9.10344 6.00016 9.10344ZM2.68982 12.1379C1.62501 12.1379 0.758789 13.0042 0.758789 14.069C0.758789 15.1338 1.62501 16 2.68982 16C3.75463 16 4.62085 15.1338 4.62085 14.069C4.62085 13.0041 3.75463 12.1379 2.68982 12.1379Z"
+                            fill="#020202" />
+                    </svg>
+                </div>
+                <div class="tsm4-btn-prev">
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.68949 6.06897C3.7543 6.06897 4.62052 6.93519 4.62052 8C4.62052 9.06481 3.7543 9.93103 2.68949 9.93103C1.62468 9.93103 0.758458 9.06481 0.758458 8C0.758458 6.93519 1.62468 6.06897 2.68949 6.06897ZM5.99983 6.89656C4.93502 6.89656 4.0688 6.03034 4.0688 4.96553C4.0688 3.90072 4.93502 3.0345 5.99983 3.0345C7.06465 3.0345 7.93087 3.90072 7.93087 4.96553C7.93087 6.03034 7.06465 6.89656 5.99983 6.89656ZM9.31018 3.86206C8.24537 3.86206 7.37915 2.99584 7.37915 1.93103C7.37915 0.866219 8.24537 0 9.31018 0C10.375 0 11.2412 0.866219 11.2412 1.93103C11.2412 2.99584 10.375 3.86206 9.31018 3.86206ZM5.99983 9.10344C7.06465 9.10344 7.93087 9.96966 7.93087 11.0345C7.93087 12.0993 7.06465 12.9655 5.99983 12.9655C4.93502 12.9655 4.0688 12.0993 4.0688 11.0345C4.0688 9.96966 4.93502 9.10344 5.99983 9.10344ZM9.31018 12.1379C10.375 12.1379 11.2412 13.0042 11.2412 14.069C11.2412 15.1338 10.375 16 9.31018 16C8.24537 16 7.37915 15.1338 7.37915 14.069C7.37915 13.0041 8.24537 12.1379 9.31018 12.1379Z"
+                            fill="#020202" />
+                    </svg>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial slider end -->
+</div>
+<!-- Testimonial slider end -->
 
 
     <!-- Fun fact area start -->
@@ -1089,18 +1073,18 @@
                 <div class="tp-counter-item-2">
                     <div class="tp-counter-wrapper-2">
                         <h3 class="tp-counter-active number">100 <span class="suffix">+</span></h3>
-                        <p class="text">Happy Clientbase <br>Across India</p>
+                        <p class="text">Happy Cliens <br>Across Globe</p>
                     </div>
                 </div>
                 <div class="tp-counter-item-2">
                     <div class="tp-counter-wrapper-2">
                         <h3 class="tp-counter-active number">200 <span class="suffix">+</span></h3>
-                        <p class="text">Recent Projects <br> Delivered.</p>
+                        <p class="text">Projects <br> Delivered.</p>
                     </div>
                 </div>
                 <div class="tp-counter-item-2">
                     <div class="tp-counter-wrapper-2">
-                        <h3 class="tp-counter-active number">10 <span class="suffix">+</span></h3>
+                        <h3 class="tp-counter-active number">30 <span class="suffix">+</span></h3>
                         <p class="text">Experts Working <br> With Us</p>
                     </div>
                 </div>
@@ -1108,6 +1092,99 @@
         </div>
     </section>
     <!-- Fun fact area end -->
+
+
+          <!-- Team area start -->
+      <section class="tp-team-area pt-140 pb-140">
+        <div class="tp-container">
+          <div class="tp-team-inner">
+            <div class="tp-ap-team-title-wrap">
+              <h3 class="sec-title-2 actova-word">
+                Meet AI Consulting Experts
+              </h3>
+            </div>
+            <div class="tp-team-grid">
+              <div class="tp-team-card tp-fade-animation" data-delay="0.6">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/tapas-d-paul.webp") }}" alt="Team Member">
+                  <ul class="social-media">
+                    <li>
+                      <a href="https://www.facebook.com/tapas.pal.773981">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/tapas-pal-b37854223/">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Tapas Paul</a></h3>
+                <p>AI Consultant</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="0.8">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team//supriyo-day.webp") }}" alt="AI Consultant">
+                  <ul class="social-media">
+                    <li>
+                      <a href="https://www.linkedin.com/in/supriyo-kumar-dey-07b2771b4/">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/supriyo-kumar-dey-07b2771b4/">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Supriyo Dey</a></h3>
+                <p>AI Consultant</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/pradipta-bhuia.webp") }}" alt="AI Developer">
+                  <ul class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Pradipta Bhuian</a></h3>
+                <p>AI Consultant</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="1.2">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/jyoti-mishra.webp") }}" alt="AI Consultant">
+                  <ul class="social-media">
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=100071993373063">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/jyoti-mishra-535a28243/">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Jyoti Mishra</a></h3>
+                <p>AI Consultant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team area end -->
 
 
     <!-- Blog area start -->
@@ -1189,8 +1266,17 @@
                 </div>
                 <div class="tp-faq-wrapper-2">
                     <div class="tp-faq-list">
+
+                                <div class="tp-faq-item style-2">
+                                <h3 class="tp-faq-title">What is an AI Consultant?</h3>
+                                <div class="tp-faq-body">
+                                    <p>An Artificial Intelligence (AI) Consultant bridges the gap between complex AI technologies and business goals, enabling companies to adopt AI for efficiency, revenue growth, and innovation. Rather than simply building AI tools, an AI consultant first analyzes where AI can create the most value in your business- whether that's reducing costs, improving customer experience, or automating manual processes and then designs a practical roadmap from strategy to execution.</p>
+                                    <p>AI consultants typically bring expertise across three areas: technical knowledge (machine learning, data engineering, model deployment), business strategy (ROI analysis, process mapping, change management), and industry context (understanding the regulations, risks, and competitive dynamics of your sector). They act as a bridge between your business leadership and your technical teams- or serve as your technical team entirely if you don't have one in-house.</p>
+                                    <p>Businesses work with AI consultants at different stages: during initial exploration ("Is AI right for us?"), during vendor or tool evaluation ("Which solution should we choose?"), or during active development and deployment ("How do we build and launch this correctly?"). The engagement can be short-term advisory or long-term embedded partnership depending on your needs.</p>
+                                </div>
+                                </div>
                         <div class="tp-faq-item style-2">
-                            <h3 class="tp-faq-title">What Exactly Does AI Consultant Company Do?</h3>
+                            <h3 class="tp-faq-title">What Exactly Does AI Consulting Agency Do?</h3>
                             <div class="tp-faq-body">
                                 <p>We help businesses adopt and implement AI effectively. We provide strategy, custom AI
                                     solutions, process automation, customer experience tools (chatbots, voice agents), sales

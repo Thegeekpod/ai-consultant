@@ -318,76 +318,61 @@
       <!-- Testimonial area end -->
 
 
-      <!-- Team area start -->
+          <!-- Team area start -->
       <section class="tp-team-area pt-140 pb-140">
         <div class="tp-container">
           <div class="tp-team-inner">
             <div class="tp-ap-team-title-wrap">
               <h3 class="sec-title-2 actova-word">
-                Meet With Our Legends
+                Meet AI Consulting Experts
               </h3>
             </div>
             <div class="tp-team-grid">
               <div class="tp-team-card tp-fade-animation" data-delay="0.6">
                 <div class="image">
-                  <img src="{{ asset("assets/imgs/team/team-member-1.png") }}" alt="Team Member">
+                  <img src="{{ asset("assets/imgs/team/tapas-d-paul.webp") }}" alt="Team Member">
                   <ul class="social-media">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/tapas.pal.773981">
                         <i class="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/tapas-pal-b37854223/">
                         <i class="fab fa-linkedin-in"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Mr. Hanrry Robertson</a></h3>
-                <p>Founder of Actova</p>
+                <h3 class="title"><a href="{{ route("team-details") }}">Tapas Paul</a></h3>
+                <p>AI Consultant</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="0.8">
                 <div class="image">
-                  <img src="{{ asset("assets/imgs/team/team-member-2.png") }}" alt="Team Member">
+                  <img src="{{ asset("assets/imgs/team//supriyo-day.webp") }}" alt="AI Consultant">
                   <ul class="social-media">
                     <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/supriyo-kumar-dey-07b2771b4/">
                         <i class="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/supriyo-kumar-dey-07b2771b4/">
                         <i class="fab fa-linkedin-in"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Ruby Steele Bentley</a></h3>
-                <p>Co-Founder of Actova</p>
+                <h3 class="title"><a href="{{ route("team-details") }}">Supriyo Dey</a></h3>
+                <p>AI Consultant</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="1">
                 <div class="image">
-                  <img src="{{ asset("assets/imgs/team/team-member-3.png") }}" alt="Team Member">
+                  <img src="{{ asset("assets/imgs/team/pradipta-bhuia.webp") }}" alt="AI Developer">
                   <ul class="social-media">
                     <li>
                       <a href="#">
                         <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -397,32 +382,27 @@
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Ava Monroe Archer</a></h3>
-                <p>Chef Marketing Officer</p>
+                <h3 class="title"><a href="{{ route("team-details") }}">Pradipta Bhuian</a></h3>
+                <p>AI Consultant</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="1.2">
                 <div class="image">
-                  <img src="{{ asset("assets/imgs/team/team-member-4.png") }}" alt="Team Member">
+                  <img src="{{ asset("assets/imgs/team/jyoti-mishra.webp") }}" alt="AI Consultant">
                   <ul class="social-media">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=100071993373063">
                         <i class="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/jyoti-mishra-535a28243/">
                         <i class="fab fa-linkedin-in"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Mr. Jack Morgan</a></h3>
-                <p>Senior Product Desigenr</p>
+                <h3 class="title"><a href="{{ route("team-details") }}">Jyoti Mishra</a></h3>
+                <p>AI Consultant</p>
               </div>
             </div>
           </div>

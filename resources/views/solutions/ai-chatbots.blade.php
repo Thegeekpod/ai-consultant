@@ -2,15 +2,35 @@
 
 @section('content')
 
-      <section class="tp-breadcrumb-area">
-        <div class="tp-container">
-          <div class="tp-breadcrumb-wrapper">
-            <img src="{{ asset('assets/imgs/hero/project-details.jpg') }}" alt="Image">
-            <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title"> AI Chatbots to Help, Convert, & Scale</h1>
-              <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span> </span> AI Chatbots/Virtual Assistants </p>
-            </div>
+      <!-- Hero area start -->
+      <section class="tp-hero5-area">
+        <div class="container">
+          <div class="tp-hero5-content">
+            <div class="subtitle"><span>New</span> Talk Smart. Grow Fast</div>
+            <h1 class="title elastic-anim"> Smarter Ai <br> <span> Chatbot </span> Solution </h1>
+            <form action="#">
+              <input type="text" name="search" placeholder="Enter Email Address">
+              <button type="submit" class="submit">Get’s Started
+                <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.94827 4.93104C6.08311 4.93104 5.37931 5.63484 5.37931 6.5C5.37931 7.36516 6.08311 8.06896 6.94827 8.06896C7.81343 8.06896 8.51723 7.36516 8.51723 6.5C8.51723 5.63484 7.81343 4.93104 6.94827 4.93104ZM4.25862 5.60346C5.12378 5.60346 5.82758 4.89965 5.82758 4.03449C5.82758 3.16933 5.12378 2.46553 4.25862 2.46553C3.39346 2.46553 2.68965 3.16933 2.68965 4.03449C2.68965 4.89965 3.39346 5.60346 4.25862 5.60346ZM1.56896 3.13793C2.43412 3.13793 3.13793 2.43412 3.13793 1.56896C3.13793 0.703803 2.43412 0 1.56896 0C0.703803 0 0 0.703803 0 1.56896C0 2.43412 0.703803 3.13793 1.56896 3.13793ZM4.25862 7.39654C3.39346 7.39654 2.68965 8.10035 2.68965 8.96551C2.68965 9.83067 3.39346 10.5345 4.25862 10.5345C5.12378 10.5345 5.82758 9.83067 5.82758 8.96551C5.82758 8.10035 5.12378 7.39654 4.25862 7.39654ZM1.56896 9.86207C0.703803 9.86207 0 10.5659 0 11.431C0 12.2962 0.703803 13 1.56896 13C2.43412 13 3.13793 12.2962 3.13793 11.431C3.13793 10.5659 2.43412 9.86207 1.56896 9.86207Z" />
+                </svg>
+              </button>
+              <span class="mover-wrap">
+                <span class="border-move"></span>
+              </span>
+            </form>
+            <ul>
+              <li> <span><i class="fal fa-check"></i></span> 14 days Free Trial</li>
+              <li> <span><i class="fal fa-check"></i></span> No credit card required</li>
+            </ul>
           </div>
+          <div class="hero5-img">
+            <img src="/assets/imgs/home-5/hero-bg.png" alt="Image">
+          </div>
+        </div>
+        <div class="hero5-bg">
+          <img src="/assets/imgs/home-5/color-blur.svg" alt="">
         </div>
       </section>
       <!-- Hero area end -->
