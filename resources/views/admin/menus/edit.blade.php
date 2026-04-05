@@ -252,3 +252,57 @@
         });
     </script>
 @endsection
+
+@push('css')
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendors/select2/select2.min.css') }}">
+    <style>
+        .select2-container .select2-selection--single {
+            height: auto;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #CED4DA;
+            border-radius: 4px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            line-height: 1.5;
+            padding-left: 0;
+            color: #495057;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            height: 100%;
+            top: 0;
+            right: 0.75rem;
+        }
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+            background-color: #4B49AC;
+        }
+        /* Render FontAwesome icon font for custom options if needed */
+        .select2-results__option i, .select2-selection__rendered i {
+            width: 20px;
+            text-align: center;
+        }
+    </style>
+@endpush
+
+@push('scripts')
+    <script src="{{ asset('admin/assets/vendors/select2/select2.min.js') }}"></script>
+    <script>
+        $(document).ready(function() {
+            function formatIcon(icon) {
+                if (!icon.id) {
+                    return icon.text;
+                }
+                var $icon = $(
+                    '<span><i class="' + icon.id + ' me-2 text-primary"></i> ' + icon.text + '</span>'
+                );
+                return $icon;
+            };
+
+            $('#icon').select2({
+                templateResult: formatIcon,
+                templateSelection: formatIcon,
+                placeholder: 'Select an icon',
+                allowClear: true
+            });
+        });
+    </script>
+@endpush

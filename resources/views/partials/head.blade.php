@@ -3,20 +3,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-@if(isset($seo_settings) && $seo_settings->is_active)
-    @if($seo_settings->title)
+@if (isset($seo_settings) && $seo_settings->is_active)
+    @if ($seo_settings->title)
         <title>{{ $seo_settings->title }}</title>
     @else
         <title>@yield('title', 'AI Consultant - AI Agency & Technology')</title>
+        <meta name="robots" content="noindex, nofollow">
     @endif
 
-    @if($seo_settings->meta_description)
+    @if ($seo_settings->meta_description)
         <meta name="description" content="{{ $seo_settings->meta_description }}">
     @else
         <meta name="description" content="AI Consultant - AI Agency & Technology">
     @endif
 
-    @if($seo_settings->other_tags)
+    @if ($seo_settings->other_tags)
         {!! $seo_settings->other_tags !!}
     @endif
 @else
