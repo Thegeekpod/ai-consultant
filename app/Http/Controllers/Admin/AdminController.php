@@ -5,6 +5,11 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+use App\Models\Blog;
+use App\Models\BlogCategory;
+use App\Models\ContactLead;
+use Carbon\Carbon;
+
 class AdminController extends Controller
 {
     /**
@@ -14,6 +19,11 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.dashboard');
+        $totalBlogs = Blog::count();
+        $totalCategories = BlogCategory::count();
+        $totalLeads = ContactLead::count();
+        $recentLeads = ContactLead::where('created_at', '>=', Carbon::today())->count();
+
+        return view('admin.dashboard', compact('totalBlogs', 'totalCategories', 'totalLeads', 'recentLeads'));
     }
 }

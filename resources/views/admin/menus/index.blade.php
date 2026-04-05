@@ -42,178 +42,200 @@
 
         <div class="card">
             <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Order</th>
-                                <th>Name</th>
-                                <th>Type</th>
-                                <th>URL</th>
-                                <th>Status</th>
-                                <th>Children</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @forelse($menus as $menu)
-                                <tr>
-                                    <td>{{ $menu->order }}</td>
-                                    <td>
-                                        @if ($menu->icon)
-                                            <i class="{{ $menu->icon }}"></i>
-                                        @endif
-                                        <strong>{{ $menu->name }}</strong>
-                                    </td>
-                                    <td><span class="badge bg-info">{{ $menu->menu_type }}</span></td>
-                                    <td>
-                                        @if ($menu->url)
-                                            <small class="text-muted">{{ Str::limit($menu->url, 30) }}</small>
-                                        @else
-                                            <small class="text-muted">-</small>
-                                        @endif
-                                    </td>
-                                    <td>
-                                        @if ($menu->is_active)
-                                            <span class="badge bg-success">Active</span>
-                                        @else
-                                            <span class="badge bg-secondary">Inactive</span>
-                                        @endif
-                                    </td>
-                                    <td>
-                                        @if ($menu->children->count() > 0)
-                                            <span class="badge bg-primary">{{ $menu->children->count() }}</span>
-                                        @else
-                                            -
-                                        @endif
-                                    </td>
-                                    <td>
-                                        <a href="{{ route('admin.menus.edit', $menu) }}" class="btn btn-sm btn-warning">
-                                            <i class="fa fa-edit"></i>
-                                        </a>
-                                        <form action="{{ route('admin.menus.destroy', $menu) }}" method="POST"
-                                            class="d-inline"
-                                            onsubmit="return confirm('Are you sure you want to delete this menu item?');">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="btn btn-sm btn-danger">
-                                                <i class="fa fa-trash"></i>
-                                            </button>
-                                        </form>
-                                    </td>
-                                </tr>
+                <p class="text-muted"><i class="fa fa-info-circle"></i> Drag and drop the handle (<i class="fa fa-arrows-v"></i>) to reorder the menu items. Changes are saved automatically.</p>
+                <div class="menu-list-wrapper mt-3">
+                    @if($menus->isEmpty())
+                        <div class="text-center py-4">
+                            <p class="text-muted mb-0">No menu items found.</p>
+                        </div>
+                    @else
+                        {{-- Macro for rendering recursive menu items --}}
+                        <ul class="list-group sortable-list" id="main-menu-list">
+                            @foreach($menus as $menu)
+                                <li class="list-group-item mb-2 border rounded" data-id="{{ $menu->id }}">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <span class="handle me-3 text-muted" style="cursor: grab;"><i class="fa fa-arrows-v fs-5"></i></span>
+                                            <div>
+                                                @if ($menu->icon)
+                                                    <i class="{{ $menu->icon }} me-1"></i>
+                                                @endif
+                                                <strong>{{ $menu->name }}</strong>
+                                                <span class="badge bg-info ms-2">{{ $menu->menu_type }}</span>
+                                                @if ($menu->is_active)
+                                                    <span class="badge bg-success ms-1">Active</span>
+                                                @else
+                                                    <span class="badge bg-secondary ms-1">Inactive</span>
+                                                @endif
+                                                <div class="text-muted small mt-1">
+                                                    @if ($menu->url)
+                                                        <i class="fa fa-link form-text me-1"></i>{{ Str::limit($menu->url, 40) }}
+                                                    @endif
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex gap-2">
+                                            <a href="{{ route('admin.menus.edit', $menu) }}" class="btn btn-sm btn-outline-primary" title="Edit">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <form action="{{ route('admin.menus.destroy', $menu) }}" method="POST" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this menu item?');">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete">
+                                                    <i class="fa fa-trash"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
 
-                                @if ($menu->children->count() > 0)
-                                    @foreach ($menu->children as $child)
-                                        <tr class="table-secondary">
-                                            <td class="ps-4">{{ $child->order }}</td>
-                                            <td class="ps-4">
-                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
-                                                @if ($child->icon)
-                                                    <i class="{{ $child->icon }}"></i>
-                                                @endif
-                                                {{ $child->name }}
-                                            </td>
-                                            <td><span class="badge bg-secondary">{{ $child->menu_type }}</span></td>
-                                            <td>
-                                                @if ($child->url)
-                                                    <small class="text-muted">{{ Str::limit($child->url, 30) }}</small>
-                                                @else
-                                                    <small class="text-muted">-</small>
-                                                @endif
-                                            </td>
-                                            <td>
-                                                @if ($child->is_active)
-                                                    <span class="badge bg-success">Active</span>
-                                                @else
-                                                    <span class="badge bg-secondary">Inactive</span>
-                                                @endif
-                                            </td>
-                                            <td>
-                                                @if ($child->children->count() > 0)
-                                                    <span class="badge bg-primary">{{ $child->children->count() }}</span>
-                                                @else
-                                                    -
-                                                @endif
-                                            </td>
-                                            <td>
-                                                <a href="{{ route('admin.menus.edit', $child) }}"
-                                                    class="btn btn-sm btn-warning">
-                                                    <i class="fa fa-edit"></i>
-                                                </a>
-                                                <form action="{{ route('admin.menus.destroy', $child) }}" method="POST"
-                                                    class="d-inline" onsubmit="return confirm('Are you sure?');">
-                                                    @csrf
-                                                    @method('DELETE')
-                                                    <button type="submit" class="btn btn-sm btn-danger">
-                                                        <i class="fa fa-trash"></i>
-                                                    </button>
-                                                </form>
-                                            </td>
-                                        </tr>
+                                    @if ($menu->children->count() > 0)
+                                        <ul class="list-group sortable-list mt-3 ms-4">
+                                            @foreach ($menu->children as $child)
+                                                <li class="list-group-item mb-2 border rounded" data-id="{{ $child->id }}">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="d-flex align-items-center">
+                                                            <span class="handle me-3 text-muted" style="cursor: grab;"><i class="fa fa-arrows-v fs-5"></i></span>
+                                                            <div>
+                                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
+                                                                @if ($child->icon)
+                                                                    <i class="{{ $child->icon }} me-1"></i>
+                                                                @endif
+                                                                <strong>{{ $child->name }}</strong>
+                                                                <span class="badge bg-secondary ms-2">{{ $child->menu_type }}</span>
+                                                                @if ($child->is_active)
+                                                                    <span class="badge bg-success ms-1">Active</span>
+                                                                @else
+                                                                    <span class="badge bg-secondary ms-1">Inactive</span>
+                                                                @endif
+                                                                <div class="text-muted small mt-1">
+                                                                    @if ($child->url)
+                                                                        <i class="fa fa-link form-text me-1"></i>{{ Str::limit($child->url, 40) }}
+                                                                    @endif
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex gap-2">
+                                                            <a href="{{ route('admin.menus.edit', $child) }}" class="btn btn-sm btn-outline-primary" title="Edit">
+                                                                <i class="fa fa-edit"></i>
+                                                            </a>
+                                                            <form action="{{ route('admin.menus.destroy', $child) }}" method="POST" class="d-inline" onsubmit="return confirm('Are you sure?');">
+                                                                @csrf
+                                                                @method('DELETE')
+                                                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
 
-                                        @if ($child->children->count() > 0)
-                                            @foreach ($child->children as $grandchild)
-                                                <tr class="table-light">
-                                                    <td class="ps-5">{{ $grandchild->order }}</td>
-                                                    <td class="ps-5">
-                                                        <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
-                                                        <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
-                                                        @if ($grandchild->icon)
-                                                            <i class="{{ $grandchild->icon }}"></i>
-                                                        @endif
-                                                        {{ $grandchild->name }}
-                                                    </td>
-                                                    <td><span
-                                                            class="badge bg-light text-dark">{{ $grandchild->menu_type }}</span>
-                                                    </td>
-                                                    <td>
-                                                        @if ($grandchild->url)
-                                                            <small
-                                                                class="text-muted">{{ Str::limit($grandchild->url, 30) }}</small>
-                                                        @else
-                                                            <small class="text-muted">-</small>
-                                                        @endif
-                                                    </td>
-                                                    <td>
-                                                        @if ($grandchild->is_active)
-                                                            <span class="badge bg-success">Active</span>
-                                                        @else
-                                                            <span class="badge bg-secondary">Inactive</span>
-                                                        @endif
-                                                    </td>
-                                                    <td>-</td>
-                                                    <td>
-                                                        <a href="{{ route('admin.menus.edit', $grandchild) }}"
-                                                            class="btn btn-sm btn-warning">
-                                                            <i class="fa fa-edit"></i>
-                                                        </a>
-                                                        <form action="{{ route('admin.menus.destroy', $grandchild) }}"
-                                                            method="POST" class="d-inline"
-                                                            onsubmit="return confirm('Are you sure?');">
-                                                            @csrf
-                                                            @method('DELETE')
-                                                            <button type="submit" class="btn btn-sm btn-danger">
-                                                                <i class="fa fa-trash"></i>
-                                                            </button>
-                                                        </form>
-                                                    </td>
-                                                </tr>
+                                                    @if ($child->children->count() > 0)
+                                                        <ul class="list-group sortable-list mt-3 ms-4">
+                                                            @foreach ($child->children as $grandchild)
+                                                                <li class="list-group-item mb-2 border rounded bg-light" data-id="{{ $grandchild->id }}">
+                                                                    <div class="d-flex justify-content-between align-items-center">
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span class="handle me-3 text-muted" style="cursor: grab;"><i class="fa fa-arrows-v fs-5"></i></span>
+                                                                            <div>
+                                                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
+                                                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
+                                                                                @if ($grandchild->icon)
+                                                                                    <i class="{{ $grandchild->icon }} me-1"></i>
+                                                                                @endif
+                                                                                <strong>{{ $grandchild->name }}</strong>
+                                                                                <span class="badge bg-dark ms-2">{{ $grandchild->menu_type }}</span>
+                                                                                @if ($grandchild->is_active)
+                                                                                    <span class="badge bg-success ms-1">Active</span>
+                                                                                @else
+                                                                                    <span class="badge bg-secondary ms-1">Inactive</span>
+                                                                                @endif
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex gap-2">
+                                                                            <a href="{{ route('admin.menus.edit', $grandchild) }}" class="btn btn-sm btn-outline-primary" title="Edit">
+                                                                                <i class="fa fa-edit"></i>
+                                                                            </a>
+                                                                            <form action="{{ route('admin.menus.destroy', $grandchild) }}" method="POST" class="d-inline" onsubmit="return confirm('Are you sure?');">
+                                                                                @csrf
+                                                                                @method('DELETE')
+                                                                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete">
+                                                                                    <i class="fa fa-trash"></i>
+                                                                                </button>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            @endforeach
+                                                        </ul>
+                                                    @endif
+                                                </li>
                                             @endforeach
-                                        @endif
-                                    @endforeach
-                                @endif
-                            @empty
-                                <tr>
-                                    <td colspan="7" class="text-center py-4">
-                                        <p class="text-muted mb-0">No menu items found.</p>
-                                    </td>
-                                </tr>
-                            @endforelse
-                        </tbody>
-                    </table>
+                                        </ul>
+                                    @endif
+                                </li>
+                            @endforeach
+                        </ul>
+                    @endif
                 </div>
             </div>
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    <!-- SortableJS for drag and drop -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = '{{ csrf_token() }}';
+            
+            // Function to handle saving the order
+            function updateOrder(listArray) {
+                fetch('{{ route('admin.menus.update-order') }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': token
+                    },
+                    body: JSON.stringify({ items: listArray })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if(data.success) {
+                        // Optional: show a small toast or notification
+                        console.log('Order updated successfully!');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error saving order:', error);
+                    alert('An error occurred while saving the menu order.');
+                });
+            }
+
+            // Initialize Sortable on all lists
+            const sortables = document.querySelectorAll('.sortable-list');
+            sortables.forEach(list => {
+                new Sortable(list, {
+                    handle: '.handle', 
+                    animation: 150,
+                    ghostClass: 'bg-light',
+                    onEnd: function (evt) {
+                        // When drag ends, we get the current state of this specific list
+                        const listItems = evt.to.querySelectorAll(':scope > li');
+                        const orderData = [];
+                        
+                        listItems.forEach((item, index) => {
+                            orderData.push({
+                                id: item.getAttribute('data-id'),
+                                order: index + 1
+                            });
+                        });
+                        
+                        if(orderData.length > 0) {
+                            updateOrder(orderData);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+@endpush

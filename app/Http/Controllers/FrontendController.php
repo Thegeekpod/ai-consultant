@@ -32,7 +32,7 @@ class FrontendController extends Controller
 
     public function blog()
     {
-        $blogs = Blog::with('category')->where('is_active', true)->latest()->paginate(5);
+        $blogs = Blog::with('category')->where(['is_active' => true])->latest()->paginate(5);
         $latestPosts = Blog::where('is_active', true)->latest()->take(3)->get();
         $categories = BlogCategory::where('is_active', true)->orderBy('name')->get();
         return view('blog', compact('blogs', 'latestPosts', 'categories'));
@@ -84,7 +84,7 @@ class FrontendController extends Controller
 
     public function blogDetails($slug)
     {
-        $blog = Blog::with('category')->where('slug', $slug)->where('is_active', true)->firstOrFail();
+        $blog = Blog::with('category')->where(['slug' => $slug, 'is_active' => true])->firstOrFail();
         $latestPosts = Blog::where('is_active', true)->where('id', '!=', $blog->id)->latest()->take(2)->get();
         return view('blog-details', compact('blog', 'latestPosts'));
     }
@@ -376,7 +376,9 @@ class FrontendController extends Controller
 
     public function dynamicPage($category, $slug)
     {
-        $viewPath = "{$category}.{$slug}";
+        $cat = (string) $category;
+        $slg = (string) $slug;
+        $viewPath = "{$cat}.{$slg}";
 
         if (view()->exists($viewPath)) {
             return view($viewPath);
