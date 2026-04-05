@@ -99,14 +99,62 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mb-3">
-                                <label for="icon" class="form-label">Icon Class</label>
-                                <input type="text" class="form-control @error('icon') is-invalid @enderror"
-                                    id="icon" name="icon" value="{{ old('icon') }}"
-                                    placeholder="e.g., fa fa-home">
+                                <label for="icon" class="form-label">Icon</label>
+                                @php
+                                    $icons = [
+                                        '' => 'None',
+                                        'fal fa-analytics' => 'Analytics',
+                                        'fal fa-arrow-right' => 'Arrow Right',
+                                        'fal fa-boxes' => 'Boxes',
+                                        'fal fa-brain' => 'Brain',
+                                        'fal fa-building' => 'Building',
+                                        'fal fa-bullseye' => 'Bullseye',
+                                        'fal fa-chalkboard' => 'Chalkboard',
+                                        'fal fa-chalkboard-teacher' => 'Chalkboard Teacher',
+                                        'fal fa-chart-area' => 'Chart Area',
+                                        'fal fa-chart-line' => 'Chart Line',
+                                        'fal fa-clipboard-check' => 'Clipboard Check',
+                                        'fal fa-code' => 'Code',
+                                        'fal fa-cogs' => 'Cogs',
+                                        'fal fa-comments' => 'Comments',
+                                        'fal fa-exclamation-triangle' => 'Exclamation Triangle',
+                                        'fal fa-eye' => 'Eye',
+                                        'fal fa-graduation-cap' => 'Graduation Cap',
+                                        'fal fa-heartbeat' => 'Heartbeat',
+                                        'fal fa-industry' => 'Industry',
+                                        'fal fa-industry-alt' => 'Industry Alt',
+                                        'fal fa-laptop-code' => 'Laptop Code',
+                                        'fal fa-life-ring' => 'Life Ring',
+                                        'fal fa-lock' => 'Lock',
+                                        'fal fa-map-marked-alt' => 'Map',
+                                        'fal fa-microchip' => 'Microchip',
+                                        'fal fa-microphone' => 'Microphone',
+                                        'fal fa-plug' => 'Plug',
+                                        'fal fa-project-diagram' => 'Project Diagram',
+                                        'fal fa-robot' => 'Robot',
+                                        'fal fa-rocket' => 'Rocket',
+                                        'fal fa-search-plus' => 'Search Plus',
+                                        'fal fa-shield' => 'Shield',
+                                        'fal fa-shield-check' => 'Shield Check',
+                                        'fal fa-sliders-h' => 'Sliders',
+                                        'fal fa-shopping-cart' => 'Shopping Cart',
+                                        'fal fa-stethoscopes' => 'Stethoscopes',
+                                        'fal fa-thumbs-up' => 'Thumbs Up',
+                                        'fal fa-university' => 'University',
+                                        'fal fa-user-friends' => 'User Friends',
+                                        'fal fa-user-headset' => 'User Headset',
+                                    ];
+                                @endphp
+                                <select class="form-select @error('icon') is-invalid @enderror" id="icon" name="icon">
+                                    @foreach($icons as $class => $name)
+                                        <option value="{{ $class }}" {{ old('icon') == $class ? 'selected' : '' }}>
+                                            {{ $name }}
+                                        </option>
+                                    @endforeach
+                                </select>
                                 @error('icon')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
-                                <small class="text-muted">Font Awesome icon class</small>
                             </div>
                         </div>
 

@@ -22,9 +22,9 @@ class AppServiceProvider extends ServiceProvider
         // Share menu data with header and offcanvas views
         \Illuminate\Support\Facades\View::composer(['partials.header', 'partials.offcanvas'], function ($view) {
             $menus = \App\Models\Menu::with(['children' => function ($query) {
-                $query->orderBy('order');
+                $query->where('is_active', true)->orderBy('order');
             }, 'children.children' => function ($query) {
-                $query->orderBy('order');
+                $query->where('is_active', true)->orderBy('order');
             }])
                 ->whereNull('parent_id')
                 ->where('is_active', true)
