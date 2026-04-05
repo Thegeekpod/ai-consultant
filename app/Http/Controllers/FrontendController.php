@@ -63,6 +63,25 @@ class FrontendController extends Controller
         return view('service-details');
     }
 
+    // Individual Service Pages
+    public function serviceAiDevelopment() { return view('services.ai-development'); }
+    public function serviceAiIntegrationOps() { return view('services.ai-integration-ops'); }
+    public function serviceAiMonitoring() { return view('services.ai-monitoring'); }
+    public function serviceAiReadinessAssessment() { return view('services.ai-readiness-assessment'); }
+    public function serviceAiRoadmapPlanning() { return view('services.ai-roadmap-planning'); }
+    public function serviceAiTrainingTeams() { return view('services.ai-training-teams'); }
+    public function serviceApiSystemIntegration() { return view('services.api-system-integration'); }
+    public function serviceCustomAiModel() { return view('services.custom-ai-model'); }
+    public function serviceDigitalTransformation() { return view('services.digital-transformation'); }
+    public function serviceGenerativeAi() { return view('services.generative-ai'); }
+    public function serviceMachineLearning() { return view('services.machine-learning'); }
+    public function serviceMlopsDeployment() { return view('services.mlops-deployment'); }
+    public function serviceModelFineTuning() { return view('services.model-fine-tuning'); }
+    public function serviceNlpComputerVision() { return view('services.nlp-computer-vision'); }
+    public function serviceOngoingSupport() { return view('services.ongoing-support'); }
+    public function serviceStrategyConsulting() { return view('services.strategy-consulting'); }
+    public function serviceTrainingSupport() { return view('services.training-support'); }
+
     public function blogDetails($slug)
     {
         $blog = Blog::with('category')->where('slug', $slug)->where('is_active', true)->firstOrFail();
@@ -212,6 +231,7 @@ class FrontendController extends Controller
             // Using gemini-2.5-flash - verified as the active model for this API key
             $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={$apiKey}";
 
+            /** @var \Illuminate\Http\Client\Response $response */
             $response = Http::withHeaders([
                 'Content-Type' => 'application/json',
             ])->post($apiUrl, [
@@ -315,6 +335,28 @@ class FrontendController extends Controller
         return view('service');
     }
 
+    // Individual Solution Pages
+    public function solutionAiChatbots() { return view('solutions.ai-chatbots'); }
+    public function solutionAnomalyDetection() { return view('solutions.anomaly-detection'); }
+    public function solutionAutomation() { return view('solutions.automation'); }
+    public function solutionCustomerExperience() { return view('solutions.customer-experience'); }
+    public function solutionDemandForecasting() { return view('solutions.demand-forecasting'); }
+    public function solutionFraudDetection() { return view('solutions.fraud-detection'); }
+    public function solutionInventoryOptimization() { return view('solutions.inventory-optimization'); }
+    public function solutionIpa() { return view('solutions.ipa'); }
+    public function solutionLeadScoring() { return view('solutions.lead-scoring'); }
+    public function solutionMarketingAnalytics() { return view('solutions.marketing-analytics'); }
+    public function solutionMarketingSales() { return view('solutions.marketing-sales'); }
+    public function solutionOperations() { return view('solutions.operations'); }
+    public function solutionPersonalizationEngines() { return view('solutions.personalization-engines'); }
+    public function solutionQualityControl() { return view('solutions.quality-control'); }
+    public function solutionRecommendationSystems() { return view('solutions.recommendation-systems'); }
+    public function solutionRiskAssessment() { return view('solutions.risk-assessment'); }
+    public function solutionRpa() { return view('solutions.rpa'); }
+    public function solutionSecurityCompliance() { return view('solutions.security-compliance'); }
+    public function solutionVoiceAi() { return view('solutions.voice-ai'); }
+    public function solutionWorkflowAutomation() { return view('solutions.workflow-automation'); }
+
     public function industries()
     {
         if (view()->exists('industries')) {
@@ -322,6 +364,15 @@ class FrontendController extends Controller
         }
         return view('index');
     }
+
+    // Individual Industry Pages
+    public function industryEducation() { return view('industries.education'); }
+    public function industryFinanceBanking() { return view('industries.finance-banking'); }
+    public function industryHealthcare() { return view('industries.healthcare'); }
+    public function industryManufacturing() { return view('industries.manufacturing'); }
+    public function industryRealEstate() { return view('industries.real-estate'); }
+    public function industryRetailEcommerce() { return view('industries.retail-ecommerce'); }
+    public function industryTechnology() { return view('industries.technology'); }
 
     public function dynamicPage($category, $slug)
     {

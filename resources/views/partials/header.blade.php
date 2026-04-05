@@ -6,7 +6,8 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="tp-main__logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/imgs/logo/logo-dark.svg') }}" alt="" style="max-width: 100%; height: auto;">
+                            <img src="{{ asset('assets/imgs/logo/logo-dark.svg') }}" alt=""
+                                style="max-width: 100%; height: auto;">
                         </a>
                     </div>
                 </div>
@@ -28,7 +29,7 @@
                                                         {{ $menu->slug == 'services' ? 'Expertise' : 'Categories' }}
                                                     </span>
                                                     @foreach ($menu->children as $index => $child)
-                                                        <a href="#"
+                                                        <a href="{{ $child->url }}"
                                                             class="tp-megamenu__sidebar-item {{ $index === 0 ? 'active' : '' }}"
                                                             data-target="{{ $child->slug }}">
                                                             @if ($child->icon)
@@ -224,7 +225,9 @@
 
             // Also handle click just in case
             item.addEventListener('click', function(e) {
-                e.preventDefault(); // Prevent jump
+                if (this.getAttribute('href') === '#' || this.getAttribute('href') === '') {
+                    e.preventDefault(); // Prevent jump
+                }
             });
         });
     });
