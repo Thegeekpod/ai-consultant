@@ -6,7 +6,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="tp-main__logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/imgs/logo/logo-dark.svg') }}" alt=""
+                            <img src="{{ asset('assets/imgs/logo/logo-dark.png') }}" alt=""
                                 style="max-width: 100%; height: auto;">
                         </a>
                     </div>

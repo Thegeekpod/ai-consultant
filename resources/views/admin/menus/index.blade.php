@@ -96,7 +96,6 @@
                                                         <div class="d-flex align-items-center">
                                                             <span class="handle me-3 text-muted" style="cursor: grab;"><i class="fa fa-arrows-v fs-5"></i></span>
                                                             <div>
-                                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
                                                                 @if ($child->icon)
                                                                     <i class="{{ $child->icon }} me-1"></i>
                                                                 @endif
@@ -136,8 +135,6 @@
                                                                         <div class="d-flex align-items-center">
                                                                             <span class="handle me-3 text-muted" style="cursor: grab;"><i class="fa fa-arrows-v fs-5"></i></span>
                                                                             <div>
-                                                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
-                                                                                <i class="fa fa-level-up fa-rotate-90 text-muted me-2"></i>
                                                                                 @if ($grandchild->icon)
                                                                                     <i class="{{ $grandchild->icon }} me-1"></i>
                                                                                 @endif
