@@ -186,6 +186,12 @@
                         <span class="menu-title">SEO Settings</span>
                     </a>
                 </li>
+                <li class="nav-item {{ Request::is('admin/global-scripts*') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{ route('admin.global-scripts.index') }}">
+                        <i class="fa fa-code menu-icon"></i>
+                        <span class="menu-title">Global Scripts</span>
+                    </a>
+                </li>
                 </ul>
             </nav>
             <!-- partial -->

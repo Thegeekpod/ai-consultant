@@ -33,5 +33,11 @@ class AppServiceProvider extends ServiceProvider
 
             $view->with('menus', $menus);
         });
+
+        // Share global scripts across all views
+        if (\Illuminate\Support\Facades\Schema::hasTable('global_scripts')) {
+            $globalScripts = \App\Models\GlobalScript::first();
+            \Illuminate\Support\Facades\View::share('global_scripts', $globalScripts);
+        }
     }
 }

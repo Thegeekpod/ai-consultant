@@ -21,10 +21,8 @@
     @endif
 @else
     <meta name="description" content="AI Consultant - AI Agency & Technology">
-    <!-- Site Title -->
     <title>@yield('title', 'AI Consultant - AI Agency & Technology')</title>
     <meta name="robots" content="noindex, nofollow">
-
 @endif
 
 <!-- Site Favicon -->
@@ -42,3 +40,7 @@
 <link rel="stylesheet" href="{{ asset('style.css') }}">
 
 @stack('css')
+
+@if(isset($global_scripts) && $global_scripts->header_scripts)
+    {!! $global_scripts->header_scripts !!}
+@endif

@@ -6,6 +6,9 @@
 </head>
 
 <body>
+    @if(isset($global_scripts) && $global_scripts->body_scripts)
+        {!! $global_scripts->body_scripts !!}
+    @endif
 
     {{-- @include('partials.preloader') --}}
 
@@ -25,6 +28,9 @@
     @include('partials.scripts')
     @include('partials.lead-popup')
 
+    @if(isset($global_scripts) && $global_scripts->footer_scripts)
+        {!! $global_scripts->footer_scripts !!}
+    @endif
 </body>
 
 </html>

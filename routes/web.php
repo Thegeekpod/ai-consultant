@@ -107,6 +107,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
 
     // SEO Settings
     Route::resource('seo-settings', \App\Http\Controllers\Admin\SeoSettingController::class);
+
+    // Global Scripts
+    Route::get('global-scripts', [\App\Http\Controllers\Admin\GlobalScriptController::class, 'index'])->name('global-scripts.index');
+    Route::post('global-scripts', [\App\Http\Controllers\Admin\GlobalScriptController::class, 'update'])->name('global-scripts.update');
 });
 
 // Dynamic catch-all — must be LAST so it doesn't intercept admin/auth routes
