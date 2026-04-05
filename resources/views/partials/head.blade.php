@@ -8,7 +8,6 @@
         <title>{{ $seo_settings->title }}</title>
     @else
         <title>@yield('title', 'AI Consultant - AI Agency & Technology')</title>
-        <meta name="robots" content="noindex, nofollow">
     @endif
 
     @if ($seo_settings->meta_description)
@@ -24,6 +23,8 @@
     <meta name="description" content="AI Consultant - AI Agency & Technology">
     <!-- Site Title -->
     <title>@yield('title', 'AI Consultant - AI Agency & Technology')</title>
+    <meta name="robots" content="noindex, nofollow">
+
 @endif
 
 <!-- Site Favicon -->
