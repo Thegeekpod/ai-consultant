@@ -2534,10 +2534,9 @@ img {
 
 .tp-hero-wrapper-2 .title {
   font-weight: 500;
-  font-size: 145px;
+  font-size: 85px;
   line-height: 0.9;
   text-align: center;
-  text-transform: uppercase;
   color: var(--black-2);
   max-width: 990px;
   margin: 0 auto;

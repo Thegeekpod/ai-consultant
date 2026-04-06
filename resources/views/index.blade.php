@@ -162,8 +162,8 @@
         <div class="cta-btn tp-btn-animate">
             <a href="{{ route('contact') }}" class="tp-btn-one">
                 <span class="btn-wrap">
-                    <span class="text-one">Book a Free Strategy Call</span>
-                    <span class="text-two">Book a Free Strategy Call</span>
+                    <span class="text-one">Talk to AI Consultant</span>
+                    <span class="text-two">Talk to AI Consultant</span>
                 </span>
                 <span class="btn-icon">
                     <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
@@ -219,9 +219,8 @@
     <!-- Brand area end -->
 
 
-
     <!-- Capability area start -->
-    <section class="tp-capability2-area pt-120">
+    <section class="tp-capability2-area pt-120" style="margin-bottom:40px;">
         <div class="tp-container-1715">
             <div class="tp-capability-titlebox">
                 <h2 class="sec-title-2">Our Core AI Capabilities</h2>
@@ -473,6 +472,7 @@
     </section>
     <!-- Capability area end -->
 
+
     <section class="tp-service-area pb-120 pt-120 plr-50">
         <div class="tp-service-inner">
             <div class="title-wrap">
@@ -618,43 +618,68 @@
     </section>
     <!-- Service area end -->
 
-    <!-- Text slider start -->
-    <div class="tp--marquee-text-style-2 pb-110 pt-130">
-        <div class="text-wrapper">
-            <p>Start Your AI Transformation! <a href="/contact">Talk to AI Consultants
-                    <span class="icon">
-                        <svg width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M9.18948 4.93104C8.32432 4.93104 7.62052 5.63484 7.62052 6.5C7.62052 7.36516 8.32432 8.06896 9.18948 8.06896C10.0546 8.06896 10.7584 7.36516 10.7584 6.5C10.7584 5.63484 10.0546 4.93104 9.18948 4.93104ZM6.49983 5.60346C7.36499 5.60346 8.06879 4.89965 8.06879 4.03449C8.06879 3.16933 7.36499 2.46553 6.49983 2.46553C5.63467 2.46553 4.93087 3.16933 4.93087 4.03449C4.93087 4.89965 5.63467 5.60346 6.49983 5.60346ZM3.81017 3.13793C4.67533 3.13793 5.37914 2.43412 5.37914 1.56896C5.37914 0.703803 4.67533 0 3.81017 0C2.94501 0 2.24121 0.703803 2.24121 1.56896C2.24121 2.43412 2.94501 3.13793 3.81017 3.13793ZM6.49983 7.39654C5.63467 7.39654 4.93087 8.10035 4.93087 8.96551C4.93087 9.83067 5.63467 10.5345 6.49983 10.5345C7.36499 10.5345 8.06879 9.83067 8.06879 8.96551C8.06879 8.10035 7.36499 7.39654 6.49983 7.39654ZM3.81017 9.86207C2.94501 9.86207 2.24121 10.5659 2.24121 11.431C2.24121 12.2962 2.94501 13 3.81017 13C4.67533 13 5.37914 12.2962 5.37914 11.431C5.37914 10.5659 4.67533 9.86207 3.81017 9.86207Z" />
-                        </svg>
-                    </span>
-                </a></p>
-        </div>
 
-        <div class="tp--marquee-text-area">
-            <div class="tp--marquee-text-inner inner-2" aria-hidden="true">
-                <div class="tp--marquee-text-2">Voice & Call Automation</div>
-                <div class="tp--marquee-text-2">Virtual AI Assistants</div>
-                <div class="tp--marquee-text-2">Lead Capture & Follow-Ups</div>
-                <div class="tp--marquee-text-2">AI-Powered Chatbots</div>
-                <div class="tp--marquee-text-2">AI SEO Automation</div>
-                <div class="tp--marquee-text-2">Smart Landing Pages</div>
-                <div class="tp--marquee-text-2">AI Agentic Workflows</div>
-                <div class="tp--marquee-text-2">CRM & WhatsApp Automation</div>
-                <div class="tp--marquee-text-2">Appointment Scheduling AI</div>
-                <div class="tp--marquee-text-2">Sales & Support Automation</div>
-                <div class="tp--marquee-text-2">Business Process Automation</div>
-                <div class="tp--marquee-text-2">AI Integration & Setup</div>
-                <div class="tp--marquee-text-2">AI Strategy Consulting</div>
-                <div class="tp--marquee-text-2">AI Audit & Optimization</div>
+              <!-- About us area start -->
+      <section class="tp-about-area-2 pt-150 esf-pl-50 esf-pr-50" style="margin-bottom:60px;">
+        <div class="tp-container">
+          <div class="tp-about-wrapper-2">
+            <div class="tp-about-left-2">
+              <div class="image-wrap">
+                <img src="assets/imgs/about/img-3.jpg" alt="Image">
+                <div class="popup-wrapper">
+                  <a href="https://www.youtube.com/" class="tp-video-popup"><i
+                      class="fal fa-play"></i></a>
+                </div>
+              </div>
             </div>
+            <div class="tp-about-right-2">
+              <h2 class="sec-title-3 actova-lines">We’re AI Consultant- specialising in
+                <span>design & development of Advanced AI Solutions.</span>
+              </h2>
+              <div class="customer-wrapper">
+                <div class="tp-counter-wrapper-2">
+                  <h3 class="tp-counter-active number">200 <span class="suffix">+</span></h3>
+                  <p class="text">AI solution for our customers</p>
+                </div>
+                <div class="tp-user-box">
+                  <div class="images">
+                    <img src="assets/imgs/about/man-2.png" alt="User">
+                    <img src="assets/imgs/about/man.png" alt="User">
+                    <img src="assets/imgs/about/plus.png" alt="User">
+                  </div>
+                  <div class="text">
+                    <p><span>5K+</span> active users in world-wide.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="rating-wrapper">
+                <a href="about.html" class="actova-btn-secondary tp-btn-hover">
+                  Discover More
+                  <svg width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.18965 4.93104C6.32449 4.93104 5.62069 5.63484 5.62069 6.5C5.62069 7.36516 6.32449 8.06896 7.18965 8.06896C8.05481 8.06896 8.75861 7.36516 8.75861 6.5C8.75861 5.63484 8.05481 4.93104 7.18965 4.93104ZM4.5 5.60346C5.36516 5.60346 6.06896 4.89965 6.06896 4.03449C6.06896 3.16933 5.36516 2.46553 4.5 2.46553C3.63484 2.46553 2.93103 3.16933 2.93103 4.03449C2.93103 4.89965 3.63484 5.60346 4.5 5.60346ZM1.81034 3.13793C2.6755 3.13793 3.3793 2.43412 3.3793 1.56896C3.3793 0.703803 2.6755 0 1.81034 0C0.945181 0 0.241379 0.703803 0.241379 1.56896C0.241379 2.43412 0.945181 3.13793 1.81034 3.13793ZM4.5 7.39654C3.63484 7.39654 2.93103 8.10035 2.93103 8.96551C2.93103 9.83067 3.63484 10.5345 4.5 10.5345C5.36516 10.5345 6.06896 9.83067 6.06896 8.96551C6.06896 8.10035 5.36516 7.39654 4.5 7.39654ZM1.81034 9.86207C0.945181 9.86207 0.241379 10.5659 0.241379 11.431C0.241379 12.2962 0.945181 13 1.81034 13C2.6755 13 3.3793 12.2962 3.3793 11.431C3.3793 10.5659 2.6755 9.86207 1.81034 9.86207Z" />
+                  </svg>
+                  <span></span>
+                </a>
+                <div class="tp-testimonial-ratings">
+                  <div class="rating-logo">
+                    <img src="assets/imgs/testimonial/logo-2.png" alt="Brand Logo">
+                  </div>
+                  <div class="ratings">
+                    <img src="assets/imgs/testimonial/ratings.png" alt="Ratings">
+                    <p>5.0 Rating, 24 Reviews</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- Text slider end -->
+      </section><br><br>
+      <!-- About us area end -->
 
 
     <!-- Feature area start -->
-    <section class="tp-feature2-area">
+    <!--<section class="tp-feature2-area">
         <div class="tp-container-1715">
             <div class="tp-feature2-titlebox">
                 <h2 class="sec-title-2">AI Revolution <br> for Modern Businesses</h2>
@@ -722,11 +747,11 @@
                 </div>
             </div>
         </div>
-    </section><br></br><br></br>
+    </section><br></br><br></br>-->
     <!-- Feature area end -->
 
                 <!-- Service section Start -->
-      <section class="tp-service-area-3">
+      <section class="tp-service-area-3" style="margin-top:20px;">
         <div class="tp-container">
           <div class="tp-service-inner-3">
             <div class="title-wrap">
