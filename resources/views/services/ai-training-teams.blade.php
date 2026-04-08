@@ -2,18 +2,65 @@
 
 @section('content')
 
-      <section class="tp-breadcrumb-area">
-        <div class="tp-container">
-          <div class="tp-breadcrumb-wrapper">
-            <img src="{{ asset('assets/imgs/hero/service-bg.jpg') }}" alt="Image">
-            <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title">AI Training for Teams</h1>
-              <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span></span> AI Training for Teams </p>
+      <!-- Hero area start -->
+      <section class="tp-hero-area-2" id="tp-wave-animation">
+        <div class="tp-hero-wrapper-2">
+          <div class="content">
+            <h1 class="title">AI Corporate Training Programme</h1>
+            <div class="btn-wrapper">
+              <a class="actova-btn-primary tp-btn-hover" href="mailto:info@actovagmail.com">info@ai-consultant.agency
+                <span></span></a>
+              <a class="actova-btn-secondary tp-btn-hover" href="/contact">Contact Now<span></span></a>
             </div>
           </div>
         </div>
+
+        <img src="/assets/imgs/hero/hero-2-shape.png" alt="Shape" class="hero-2-shape">
+        <canvas id="tp-wave-canva"></canvas>
       </section>
       <!-- Hero area end -->
+
+    <!-- Brand area start -->
+    <section class="tp-brand-area-4 pt-130">
+        <div class="tp-container-1715">
+            <div class="tp-brand-inner">
+                <div class="title-wrap">
+                    <h2 class="title">We’re the Preferred AI Consulting Partner for 100+ Businesses</h2>
+                </div>
+                <div class="tp-brand-slider">
+                    <div class="tp-brand-logo-4">
+                        <a href="#">
+                            <img src="{{ asset('assets/imgs/brand/logo-1.png') }}" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#">
+                            <img src="{{ asset('assets/imgs/brand/logo-2.png') }}" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-3.png') }}" alt="Logo"></a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-4.png') }}" alt="Logo"></a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-5.png') }}" alt="Logo"></a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-6.png') }}" alt="Logo"></a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-1.png') }}" alt="Logo"></a>
+                    </div>
+                    <div class="tp-brand-logo-4">
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-2.png') }}" alt="Logo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand area end -->
 
 
       <!-- Service area start -->
@@ -21,9 +68,9 @@
         <div class="tp-service-details-header">
           <div class="container">
             <div class="title-wrap">
-              <h2 class="sub-title">AI Custom Solution</h2>
+              <h2 class="sub-title">AI Training for Teams</h2>
               <h3 class="sec-title-3 actova-word">
-                Custom Neural Architecture Design is the process <span>of building AI models from the ground up</span>
+                Equip your workforce with the AI skills <span>needed to lead in a data-driven world.</span>
               </h3>
             </div>
             <div class="what-we-offer">What We Offer</div>
@@ -32,18 +79,18 @@
 
         <div class="tp-service-faq-wrapper">
           <div class="tp-service-faq-list">
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">1. Neural Architecture</h3>
+                <h3 class="tp-service-faq-title">1. AI Literacy & Awareness Training</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We deliver accessible, jargon-free AI training for non-technical business teams, covering the fundamentals of machine learning, generative AI, and data-driven decision making, helping your entire organisation understand and confidently engage with AI in their roles.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">500+</h3>
+                        <p class="text">Professionals Trained</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -54,18 +101,18 @@
                 </div>
               </div>
             </div>
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">2. Model Optimization & Pruning</h3>
+                <h3 class="tp-service-faq-title">2. Hands-On Technical AI Workshops</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We run practical, project-based workshops for data scientists, engineers, and developers covering model development, NLP, computer vision, MLOps, and responsible AI practices using real tools such as Python, TensorFlow, PyTorch, and cloud AI platforms.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">92%</h3>
+                        <p class="text">Learner Satisfaction Rate</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -76,18 +123,18 @@
                 </div>
               </div>
             </div>
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">3. Multi-Modal AI Design</h3>
+                <h3 class="tp-service-faq-title">3. Custom AI Upskilling Programmes</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We design bespoke multi-week upskilling programmes tailored to your industry, team structure, and AI maturity level, covering everything from data strategy and model evaluation to deployment pipelines and AI governance, structured around your specific business objectives.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">100%</h3>
+                        <p class="text">Bespoke Curriculum</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -98,18 +145,18 @@
                 </div>
               </div>
             </div>
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">4. Scalable Cloud AI Solutions</h3>
+                <h3 class="tp-service-faq-title">4. AI Leadership & Strategy Coaching</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We coach executives, heads of product, and senior decision-makers on how to build and lead AI-driven organisations, covering AI strategy, responsible adoption, vendor evaluation, ROI measurement, and how to foster a data-literate culture from the top down.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">200+</h3>
+                        <p class="text">Leaders Coached</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -120,6 +167,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
@@ -130,9 +178,7 @@
               <img src="{{ asset('assets/imgs/service/service-details-4.jpg') }}" alt="">
             </div>
             <h2 class="title">Use Cases</h2>
-            <p>Custom Neural Architecture Design is the process of building AI models from the ground up, specifically
-              tailored to your business needs. Instead of relying only on pre-trained or generic models, Actova
-              engineers and optimizes neural networks that match your data, objectives, and industry challenges.</p>
+            <p>AI Corporate Training empowers businesses to close the AI skills gap from within. Whether you are upskilling a team of developers to work with modern ML frameworks, training business analysts to interpret AI-driven insights, or preparing leadership to make confident AI investment decisions, we deliver structured, practical, and outcome-focused learning programmes that create lasting capability across your organisation.</p>
           </div>
         </div>
       </section>
@@ -145,43 +191,41 @@
           <div class="title-wrap">
             <h2 class="sub-title">How We Work</h2>
             <h3 class="sec-title-2 esf actova-word">
-              AI solutions, delivered with <span>speed and clarity.</span>
+              AI training, delivered with <span>purpose and impact.</span>
             </h3>
           </div>
 
           <div class="tp-how-work-steps">
             <div class="tp-how-work-step">
               <div class="step">Step-01</div>
-              <h3 class="title">Discovery & Strategy</h3>
+              <h3 class="title">Discover</h3>
               <p>
-                We dive deep into your business goals, existing systems, and
-                data readiness to define the valuable AI use cases.
+                We assess your team's current AI knowledge, identify skills gaps, and align training objectives with your broader business goals and AI adoption roadmap.
               </p>
             </div>
             <div class="tp-how-work-step">
               <div class="step">Step-02</div>
-              <h3 class="title">Full System Build</h3>
+              <h3 class="title">Design & Build</h3>
               <p>
-                Once validated, we engineer the end-to-end solution — from
-                data pipelines to model training and front-end integration.
+                We design a tailored training curriculum covering the right topics, formats, and difficulty levels for each team, from executive workshops to hands-on technical deep dives.
               </p>
             </div>
             <div class="tp-how-work-step">
               <div class="step">Step-03</div>
-              <h3 class="title">Deployment & Handoff</h3>
+              <h3 class="title">Optimise</h3>
               <p>
-                Post-launch, we stay involved to fine-tune, retrain, and
-                improve performance as your data and business evolve.
+                We gather feedback, measure learning outcomes, and refine the programme over time to ensure your teams continue to grow their AI capabilities as the technology evolves.
               </p>
             </div>
           </div>
+
           <div class="tp-watch-video">
             <div class="text-wrap">
               <p>Watch Full Process Video -</p>
             </div>
             <div class="video-wrap">
               <div class="tp-video-popup-wrapper">
-                <a href="https://www.youtube.com/watch?v=CGpJtO914zY" class="tp-video-popup"><i
+                <a href="https://www.youtube.com/" class="tp-video-popup"><i
                     class="fal fa-play"></i></a>
               </div>
             </div>
@@ -208,51 +252,49 @@
             </div>
             <div class="tp-faq-wrapper-2">
               <div class="tp-faq-list">
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What is Actova AI?</h3>
+                  <h3 class="tp-faq-title">Who is AI Corporate Training suitable for?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>Our training programmes are designed for all levels of an organisation, from non-technical business teams and analysts who need AI literacy, to data scientists and engineers requiring advanced technical skills, and senior leaders who need strategic AI knowledge to drive adoption and investment decisions confidently.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Who can use Actova AI?</h3>
+                  <h3 class="tp-faq-title">Can training be customised to our industry and tools?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>Yes. Every programme we deliver is tailored to your industry context, team roles, and the specific AI tools and frameworks your organisation uses or plans to adopt. We avoid generic content and focus on practical, relevant learning that your teams can apply immediately in their day-to-day work.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
+                  <h3 class="tp-faq-title">Do you offer both in-person and remote training?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>Yes. We deliver training in-person at your offices, fully remote via live virtual sessions, or in a hybrid format depending on your team's location and preferences. All formats are interactive and include hands-on exercises, real-world case studies, and post-session resources for continued learning.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
+                  <h3 class="tp-faq-title">How long does a typical corporate AI training programme take?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>Programme length varies depending on the scope and depth required. We offer focused one-day workshops for awareness-level training, multi-day intensives for technical teams, and structured multi-week upskilling programmes for organisations looking to build lasting internal AI capability across departments.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
+                  <h3 class="tp-faq-title">Will participants receive certifications or learning materials?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>Yes. All participants receive comprehensive learning materials, practical exercises, and reference guides they can use beyond the training. For structured programmes, we also issue certificates of completion that participants can use to demonstrate their AI skills development professionally.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
+                  <h3 class="tp-faq-title">How do you measure the impact of the training?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>We assess learning outcomes before and after each programme using knowledge checks, practical assessments, and participant feedback surveys. For longer engagements, we also work with your team to track how newly acquired AI skills are being applied on the job and where further development may be needed.</p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -261,5 +303,4 @@
       <!-- FAQ area end -->
 
 
-      
 @endsection

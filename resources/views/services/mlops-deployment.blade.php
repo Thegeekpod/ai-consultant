@@ -2,16 +2,22 @@
 
 @section('content')
 
-      <section class="tp-breadcrumb-area">
-        <div class="tp-container">
-          <div class="tp-breadcrumb-wrapper">
-            <img src="{{ asset('assets/imgs/hero/service-bg.jpg') }}" alt="Image">
-            <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title">MLOps & Model Deployment</h1>
-              <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span></span> MLOps & Model Deployment </p>
+
+      <!-- Hero area start -->
+      <section class="tp-hero-area-2" id="tp-wave-animation">
+        <div class="tp-hero-wrapper-2">
+          <div class="content">
+            <h1 class="title">MLOps & Model Deployment<br> Services for Businesses</h1>
+            <div class="btn-wrapper">
+              <a class="actova-btn-primary tp-btn-hover" href="mailto:info@actovagmail.com">info@ai-consultant.agency
+                <span></span></a>
+              <a class="actova-btn-secondary tp-btn-hover" href="/contact">Contact Now<span></span></a>
             </div>
           </div>
         </div>
+
+        <img src="/assets/imgs/hero/hero-2-shape.png" alt="Shape" class="hero-2-shape">
+        <canvas id="tp-wave-canva"></canvas>
       </section>
       <!-- Hero area end -->
 
@@ -21,9 +27,9 @@
         <div class="tp-service-details-header">
           <div class="container">
             <div class="title-wrap">
-              <h2 class="sub-title">AI Custom Solution</h2>
+              <h2 class="sub-title">MLOps Solutions</h2>
               <h3 class="sec-title-3 actova-word">
-                Custom Neural Architecture Design is the process <span>of building AI models from the ground up</span>
+                From experiment to production, <span>we deploy and manage AI models that perform at scale.</span>
               </h3>
             </div>
             <div class="what-we-offer">What We Offer</div>
@@ -32,18 +38,18 @@
 
         <div class="tp-service-faq-wrapper">
           <div class="tp-service-faq-list">
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">1. Neural Architecture</h3>
+                <h3 class="tp-service-faq-title">1. CI/CD Pipelines for ML Models</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We build automated CI/CD pipelines tailored for machine learning, enabling continuous training, testing, versioning, and deployment of models with minimal manual intervention and maximum reliability.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">10x</h3>
+                        <p class="text">Faster Deployments</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -54,18 +60,18 @@
                 </div>
               </div>
             </div>
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">2. Model Optimization & Pruning</h3>
+                <h3 class="tp-service-faq-title">2. Model Monitoring & Drift Detection</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We implement real-time monitoring systems that track model performance, detect data drift, and trigger automated retraining workflows to keep your models accurate and production-ready over time.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">99%</h3>
+                        <p class="text">Model Uptime</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -76,18 +82,18 @@
                 </div>
               </div>
             </div>
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">3. Multi-Modal AI Design</h3>
+                <h3 class="tp-service-faq-title">3. Model Versioning & Experiment Tracking</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We set up end-to-end experiment tracking and model registry systems using tools like MLflow and Weights and Biases, giving your team full visibility into every training run, metric, and model version across the lifecycle.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">100%</h3>
+                        <p class="text">Version Traceability</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -98,18 +104,18 @@
                 </div>
               </div>
             </div>
+
             <div class="tp-service-faq-item">
               <div class="container">
-                <h3 class="tp-service-faq-title">4. Scalable Cloud AI Solutions</h3>
+                <h3 class="tp-service-faq-title">4. Scalable Cloud & Edge Deployment</h3>
                 <div class="tp-service-faq-body">
-                  <p>Automated exploration of architectures to find the most efficient and accurate model for your use
-                    case.</p>
+                  <p>We deploy models to cloud platforms including AWS SageMaker, Azure ML, and GCP Vertex AI, as well as edge environments for low-latency use cases, ensuring your AI operates reliably wherever it is needed most.</p>
                   <div class="body-content">
                     <div class="left-content">
                       <div class="icon"><img src="{{ asset('assets/imgs/service/service-icon-12.png') }}" alt="Icon"></div>
                       <div class="tp-service-faq-counter">
-                        <h3 class="tp-counter-active number">98%</h3>
-                        <p class="text">Accurate Accuracy</p>
+                        <h3 class="tp-counter-active number">&lt;40ms</h3>
+                        <p class="text">Inference Latency</p>
                       </div>
                     </div>
                     <div class="right-content">
@@ -120,6 +126,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
@@ -130,9 +137,7 @@
               <img src="{{ asset('assets/imgs/service/service-details-4.jpg') }}" alt="">
             </div>
             <h2 class="title">Use Cases</h2>
-            <p>Custom Neural Architecture Design is the process of building AI models from the ground up, specifically
-              tailored to your business needs. Instead of relying only on pre-trained or generic models, Actova
-              engineers and optimizes neural networks that match your data, objectives, and industry challenges.</p>
+            <p>MLOps and Model Deployment bridges the gap between <a href="/services/ai-development" style="text-decoration: underline; font-weight: 600;">AI development</a> and real-world business value. Whether you are deploying a fraud detection model, a demand forecasting system, or a computer vision pipeline for quality control, we ensure your models are production-grade, continuously monitored, and built to scale with your business over time.</p>
           </div>
         </div>
       </section>
@@ -145,43 +150,41 @@
           <div class="title-wrap">
             <h2 class="sub-title">How We Work</h2>
             <h3 class="sec-title-2 esf actova-word">
-              AI solutions, delivered with <span>speed and clarity.</span>
+              MLOps, delivered with <span>structure and scale.</span>
             </h3>
           </div>
 
           <div class="tp-how-work-steps">
             <div class="tp-how-work-step">
               <div class="step">Step-01</div>
-              <h3 class="title">Discovery & Strategy</h3>
+              <h3 class="title">Discover</h3>
               <p>
-                We dive deep into your business goals, existing systems, and
-                data readiness to define the valuable AI use cases.
+                We assess your existing model development workflows, infrastructure, and deployment gaps to define a clear MLOps strategy aligned with your production requirements.
               </p>
             </div>
             <div class="tp-how-work-step">
               <div class="step">Step-02</div>
-              <h3 class="title">Full System Build</h3>
+              <h3 class="title">Design & Build</h3>
               <p>
-                Once validated, we engineer the end-to-end solution — from
-                data pipelines to model training and front-end integration.
+                We engineer your full MLOps stack, including training pipelines, model registries, CI/CD automation, and deployment infrastructure across cloud or edge environments.
               </p>
             </div>
             <div class="tp-how-work-step">
               <div class="step">Step-03</div>
-              <h3 class="title">Deployment & Handoff</h3>
+              <h3 class="title">Optimise</h3>
               <p>
-                Post-launch, we stay involved to fine-tune, retrain, and
-                improve performance as your data and business evolve.
+                We continuously monitor model health, detect performance degradation, and retrain or redeploy as needed to keep your AI systems accurate, stable, and business-ready.
               </p>
             </div>
           </div>
+
           <div class="tp-watch-video">
             <div class="text-wrap">
               <p>Watch Full Process Video -</p>
             </div>
             <div class="video-wrap">
               <div class="tp-video-popup-wrapper">
-                <a href="https://www.youtube.com/watch?v=CGpJtO914zY" class="tp-video-popup"><i
+                <a href="https://www.youtube.com/" class="tp-video-popup"><i
                     class="fal fa-play"></i></a>
               </div>
             </div>
@@ -208,51 +211,49 @@
             </div>
             <div class="tp-faq-wrapper-2">
               <div class="tp-faq-list">
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What is Actova AI?</h3>
+                  <h3 class="tp-faq-title">What is MLOps and why does it matter?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>MLOps combines machine learning with DevOps principles to streamline the deployment, monitoring, and management of AI models in production. It ensures your models remain reliable, reproducible, and continuously improving rather than degrading silently after launch.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Who can use Actova AI?</h3>
+                  <h3 class="tp-faq-title">Which MLOps tools and platforms do you work with?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>We work with a wide range of MLOps tools including MLflow, Kubeflow, Weights and Biases, DVC, and cloud-native services such as AWS SageMaker, Azure Machine Learning, and Google Vertex AI, selecting the right stack based on your team and infrastructure.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can I upgrade or downgrade my plan later?</h3>
+                  <h3 class="tp-faq-title">How do you handle model degradation over time?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>We implement automated monitoring for data drift, concept drift, and performance degradation. When thresholds are breached, our pipelines trigger alerts and can initiate automated retraining and redeployment workflows to restore model accuracy without manual intervention.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Do you offer custom pricing for enterprises?</h3>
+                  <h3 class="tp-faq-title">Can you deploy models to both cloud and on-premise environments?</h3>
                   <div class="tp-faq-body">
-                    <p>Actova is a next-generation AI solution built to empower businesses of every size. Actova helps
-                      automate repetitive workflows, generate high-quality content in multiple formats, deliver deep
-                      data insights, and provide real-time decision support.</p>
+                    <p>Yes. We support cloud, on-premise, hybrid, and edge deployment depending on your latency, data governance, and infrastructure requirements. Our team designs the deployment architecture during the discovery phase to match your operational constraints.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can Actova integrate with my existing tools?</h3>
+                  <h3 class="tp-faq-title">Do you support model retraining and lifecycle management?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>Yes. We design full model lifecycle management systems covering data ingestion, retraining schedules, A/B testing of new model versions, and controlled rollouts, ensuring your models evolve safely and continuously improve with new data.</p>
                   </div>
                 </div>
+
                 <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Where can I find tutorials and guides?</h3>
+                  <h3 class="tp-faq-title">What level of involvement do we need from our internal team?</h3>
                   <div class="tp-faq-body">
-                    <p>We design and develop <strong>CNNs,</strong> RNNs, LSTMs, GANs, Transformers, and custom hybrid
-                      architectures based on the use case—vision, speech, language, or forecasting.</p>
+                    <p>We work flexibly depending on your team capacity. We can operate as a fully embedded MLOps partner, a project-based delivery team, or in an advisory capacity to upskill and support your internal data science team throughout the engagement.</p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -261,5 +262,4 @@
       <!-- FAQ area end -->
 
 
-      
 @endsection

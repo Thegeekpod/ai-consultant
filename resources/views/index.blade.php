@@ -771,7 +771,7 @@
               <div class="tp-service-card-3 tp-fade-animation">
                 <a href="#">
                   <img src="{{ asset("/assets/imgs/service/service-icon-7.png") }}" alt="Icon">
-                  <h3 class="title">AI Workflow Automation</h3>
+                  <h3 class="title">Workflow Automation</h3>
                   <p>
                     Our AI developers seamlessly integrate AI solutions using NLP and machine learning with your existing systems for smarter operations.
                   </p>

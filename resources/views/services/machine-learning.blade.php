@@ -20,7 +20,7 @@
       </section>
       <!-- Hero area end -->
 
-          <!-- Brand area start -->
+    <!-- Brand area start -->
     <section class="tp-brand-area-4 pt-130">
         <div class="tp-container-1715">
             <div class="tp-brand-inner">

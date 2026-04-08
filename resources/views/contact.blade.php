@@ -39,22 +39,22 @@
                     <div class="tp-contact-type">
                         <div class="icon"><i class="fal fa-phone"></i></div>
                         <div class="info">
-                            <p>Phone (Primary)</p>
+                            <p>Phone</p>
                             <a href="tel:+919635462491">+91 96354 62491</a>
                         </div>
                     </div>
                     <div class="tp-contact-type">
-                        <div class="icon"><i class="fal fa-phone"></i></div>
+                        <div class="icon"><i class="fal fa-envelope"></i></div>
                         <div class="info">
-                            <p>Phone (Secondary)</p>
-                            <a href="tel:+917044690945">+91 70446 90945</a>
+                            <p>Mail</p>
+                            <a href="mailto:info@ai-consultant.agency">info@ai-consultant.agency</a>
                         </div>
                     </div>
                     <div class="tp-contact-type">
                         <div class="icon"><i class="fal fa-location"></i></div>
                         <div class="info">
-                            <p>Location</p>
-                            <a href="#">Durgapur, West Bengal, India</a>
+                            <p>Location (India)</p>
+                            <a href="https://share.google/oBZ9aFpq0KKioZCW2">AI Consultant, Plot DN-52, Sector-V, Kolkata -700091</a>
                         </div>
                     </div>
                 </div>
@@ -67,9 +67,9 @@
                         <div class="tp-contact-location">
                             <div class="icon"><i class="fal fa-location"></i></div>
                             <div class="info">
-                                <p>Office</p>
-                                <a href="#">AI Consultant,
-                                    Durgapur, West Bengal, India</a>
+                                <p>Location (USA)</p>
+                                <a href="https://share.google/oBZ9aFpq0KKioZCW2">AI Consultant, 1600 Amphitheatre Parkway Mountain View, CA - 94043, USA
+                                    </a>
                             </div>
                         </div>
                         <div class="tp-contact-location">
@@ -77,7 +77,7 @@
                             <div class="info">
                                 <p>Call Us</p>
                                 <a href="tel:+919635462491">+91 96354 62491</a><br>
-                                <a href="tel:+917044690945">+91 70446 90945</a>
+                                <a href="mailto:info@ai-consultant.agency">info@ai-consultant.agency</a>
                             </div>
                         </div>
                         <div class="tp-live-chat">

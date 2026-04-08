@@ -243,80 +243,171 @@
       <!-- Counter area end -->
 
 
-      <!-- Testimonial area start -->
-      <section class="tp-testimonial-area">
-        <div class="tp-testimonial-inner row">
-          <div class="col-xl-6 col-lg-5 col-12">
-            <div class="tp-testimonial-image">
-              <div class="img-reveal">
-                <img src="{{ asset("assets/imgs/testimonial/testimonial.jpg") }}" alt="Image">
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-7 col-12">
-            <div class="tp-testimonial-wrapper">
-              <div class="swiper tp-testimonial-active">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="tp-testimonial-slide">
-                      <div class="reason">“ Reliable, Fast ”</div>
-                      <p>
-                        Their team guided us from idea to deployment in just 6
-                        weeks. The LLM integration reduced our
-                        <span>manual work by over 60%</span>, and their MLOps
-                        setup saved us serious technical debt.
-                      </p>
-                      <div class="author-info-wrap">
-                        <div class="author-img">
-                          <span class="icon">
-                            <svg width="30" height="24" viewBox="0 0 30 24" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M17.6408 0.750001V10.9387H20.7231C23.0579 10.9387 25.226 12.4961 25.4109 14.8944C25.4785 15.7722 25.452 16.64 25.2329 17.3099C24.5267 20.19 22.0548 20.4906 22.0548 20.4906V23.25C22.0548 23.25 30 22.17 30 13.53V0.750003L17.6408 0.750001ZM0.750001 0.75L0.75 10.9387H3.83229C6.16701 10.9387 8.33511 12.4961 8.51997 14.8944C8.58765 15.7722 8.56115 16.64 8.34207 17.3099C7.6358 20.19 5.16399 20.4906 5.16399 20.4906V23.25C5.16399 23.25 13.1092 22.17 13.1092 13.53V0.750001L0.750001 0.75Z" />
-                            </svg>
-                          </span>
-                          <img src="{{ asset("assets/imgs/testimonial/author.png") }}" alt="Author">
-                        </div>
-                        <div class="author-info">
-                          <h4 class="name">Jason Roy</h4>
-                          <h4 class="designation">Director of Gentech</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tp-testimonial-footer">
-                  <div class="tp-testimonial-ratings">
-                    <div class="rating-logo">
-                      <img src="{{ asset("assets/imgs/testimonial/logo-2.png") }}" alt="Brand Logo">
-                    </div>
-                    <div class="ratings">
-                      <img src="{{ asset("assets/imgs/testimonial/ratings.png") }}" alt="Ratings">
-                      <p>5.0 Rating, 24 Reviews</p>
-                    </div>
-                  </div>
-                  <div class="tp-testimonial-navigation">
-                    <div class="tp-tsm-prev">
-                      <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M2.68961 6.06897C3.75443 6.06897 4.62064 6.93519 4.62064 8C4.62064 9.06481 3.75443 9.93103 2.68961 9.93103C1.6248 9.93103 0.75858 9.06481 0.75858 8C0.75858 6.93519 1.6248 6.06897 2.68961 6.06897ZM5.99996 6.89656C4.93514 6.89656 4.06892 6.03034 4.06892 4.96553C4.06892 3.90072 4.93514 3.0345 5.99996 3.0345C7.06477 3.0345 7.93099 3.90072 7.93099 4.96553C7.93099 6.03034 7.06477 6.89656 5.99996 6.89656ZM9.3103 3.86206C8.24549 3.86206 7.37927 2.99584 7.37927 1.93103C7.37927 0.866219 8.24549 0 9.3103 0C10.3751 0 11.2413 0.866219 11.2413 1.93103C11.2413 2.99584 10.3751 3.86206 9.3103 3.86206ZM5.99996 9.10344C7.06477 9.10344 7.93099 9.96966 7.93099 11.0345C7.93099 12.0993 7.06477 12.9655 5.99996 12.9655C4.93514 12.9655 4.06892 12.0993 4.06892 11.0345C4.06892 9.96966 4.93514 9.10344 5.99996 9.10344ZM9.3103 12.1379C10.3751 12.1379 11.2413 13.0042 11.2413 14.069C11.2413 15.1338 10.3751 16 9.3103 16C8.24549 16 7.37927 15.1338 7.37927 14.069C7.37927 13.0041 8.24549 12.1379 9.3103 12.1379Z" />
-                      </svg>
-                    </div>
-                    <div class="tp-tsm-next">
-                      <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M9.31039 6.06897C8.24557 6.06897 7.37936 6.93519 7.37936 8C7.37936 9.06481 8.24557 9.93103 9.31039 9.93103C10.3752 9.93103 11.2414 9.06481 11.2414 8C11.2414 6.93519 10.3752 6.06897 9.31039 6.06897ZM6.00004 6.89656C7.06486 6.89656 7.93107 6.03034 7.93107 4.96553C7.93107 3.90072 7.06486 3.0345 6.00004 3.0345C4.93523 3.0345 4.06901 3.90072 4.06901 4.96553C4.06901 6.03034 4.93523 6.89656 6.00004 6.89656ZM2.6897 3.86206C3.75451 3.86206 4.62073 2.99584 4.62073 1.93103C4.62073 0.866219 3.75451 0 2.6897 0C1.62489 0 0.758667 0.866219 0.758667 1.93103C0.758667 2.99584 1.62489 3.86206 2.6897 3.86206ZM6.00004 9.10344C4.93523 9.10344 4.06901 9.96966 4.06901 11.0345C4.06901 12.0993 4.93523 12.9655 6.00004 12.9655C7.06486 12.9655 7.93107 12.0993 7.93107 11.0345C7.93107 9.96966 7.06486 9.10344 6.00004 9.10344ZM2.6897 12.1379C1.62489 12.1379 0.758667 13.0042 0.758667 14.069C0.758667 15.1338 1.62489 16 2.6897 16C3.75451 16 4.62073 15.1338 4.62073 14.069C4.62073 13.0041 3.75451 12.1379 2.6897 12.1379Z" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- Testimonial slider start -->
+<div class="tp-testimonial-area-4 pb-130">
+    <div class="container">
+        <div class="tp-testimonial-titlebox">
+            <p>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.9634 5.09658C13.9185 4.95809 13.834 4.83583 13.7202 4.74498C13.6064 4.65413 13.4685 4.5987 13.3235 4.58557L9.2821 4.21867L7.68493 0.479344C7.56699 0.204616 7.29869 0.0273438 7.00004 0.0273438C6.70138 0.0273438 6.43297 0.204616 6.3158 0.479344L4.71863 4.21867L0.676602 4.58557C0.380273 4.61292 0.129362 4.81362 0.036665 5.09658C-0.0085039 5.2352 -0.0120174 5.38402 0.0265597 5.52461C0.0651368 5.6652 0.14411 5.79139 0.253696 5.88754L3.30868 8.56629L2.40793 12.5336C2.34203 12.8253 2.45523 13.127 2.69729 13.3019C2.82406 13.3941 2.97684 13.4438 3.13362 13.4437C3.26801 13.4437 3.39988 13.4072 3.51515 13.3381L7.00004 11.2544L10.4843 13.3381C10.6093 13.4129 10.7535 13.4493 10.899 13.4429C11.0445 13.4365 11.1849 13.3874 11.3028 13.3019C11.5448 13.127 11.6581 12.8253 11.5922 12.5336L10.6914 8.56632L13.7464 5.88757C13.856 5.79142 13.935 5.66524 13.9735 5.52464C14.0121 5.38405 14.0086 5.23522 13.9634 5.09661V5.09658Z"
+                        fill="#A1FF75" />
+                </svg>
+                4.5 Average Rating
+            </p>
+            <h2 class="sec-title-2">Trusted by Top Global Businesses</h2>
         </div>
-      </section>
-      <!-- Testimonial area end -->
+        <div class="tp-testimonial-inner-4">
+            <div class="tp-testimonial-wrapper-4">
+                <div class="swiper tp-testimonial4-active">
+                    <div class="swiper-wrapper">
 
+                        <!-- Indian 1 -->
+                        <div class="swiper-slide swiper-slide--one">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" We hired them as our <span>AI consultant for our fintech platform</span> and the results were beyond expectations. Their AI consulting process was structured, transparent, and delivered a fraud detection model that cut false positives by 47% within the first quarter."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Arjun Mehta</h4>
+                                        <h4 class="designation">CTO, PaySmart India</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Indian 2 -->
+                        <div class="swiper-slide swiper-slide--two">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" As a healthcare startup, we needed an <span>AI consultant who truly understood our domain.</span> Their AI consulting team mapped our entire patient data workflow and built a predictive diagnosis tool that our doctors now rely on daily."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Priya Nair</h4>
+                                        <h4 class="designation">Co-Founder, MediAI Solutions</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Indian 3 -->
+                        <div class="swiper-slide swiper-slide--three">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" Their <span>AI consulting services helped us automate our entire supply chain reporting</span> process. What used to take our team 3 days every week now runs automatically overnight. The AI consultant assigned to us was knowledgeable, responsive, and results-driven."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Rahul Singhania</h4>
+                                        <h4 class="designation">Head of Operations, LogiNext Technologies</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Indian 4 -->
+                        <div class="swiper-slide swiper-slide--four">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" We approached them with zero AI experience and a very specific business problem. Their <span>AI consultant walked us through every step</span> — from data readiness to model deployment. The AI consulting engagement paid for itself within two months."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Sneha Kulkarni</h4>
+                                        <h4 class="designation">Director of Growth, RetailEdge India</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- US 1 -->
+                        <div class="swiper-slide swiper-slide--five">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" Finding the right <span>AI consultant for an enterprise-level NLP project</span> is not easy. This team stood out immediately. Their AI consulting methodology was rigorous — they audited our existing data, identified gaps, and built a solution that reduced customer support tickets by 55%."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Daniel Carter</h4>
+                                        <h4 class="designation">VP of Engineering, NovaBridge Inc.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- US 2 -->
+                        <div class="swiper-slide swiper-slide--six">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" We had worked with two other vendors before finding this team. The difference was night and day. <span>Their AI consulting approach actually started with our business outcomes</span>, not the technology. Our AI consultant delivered a recommendation engine that increased our average order value by 34%."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Michelle Torres</h4>
+                                        <h4 class="designation">Chief Product Officer, ShopStream US</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- US 3 -->
+                        <div class="swiper-slide swiper-slide--seven">
+                            <div class="tp-testimonial-slide-4">
+                                <div class="reason">(AI Consulting)</div>
+                                <p>" I was skeptical about outsourcing something as critical as AI strategy, but their <span>AI consultant quickly earned our trust</span> with deep technical knowledge and clear communication. The AI consulting engagement resulted in a computer vision QA system that eliminated 80% of manual inspection on our production line."</p>
+                                <div class="author-info-wrap">
+                                    <div class="author-img">
+                                        <img src="{{ asset('assets/imgs/testimonial/author.png') }}" alt="Author">
+                                    </div>
+                                    <div class="author-info">
+                                        <h4 class="name">Robert Haines</h4>
+                                        <h4 class="designation">Plant Manager, PrecisionTech</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Add Navigation  -->
+            <div class="tp-testimonial-navigation-4">
+                <div class="tsm4-btn-next">
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.31051 6.06897C8.2457 6.06897 7.37948 6.93519 7.37948 8C7.37948 9.06481 8.2457 9.93103 9.31051 9.93103C10.3753 9.93103 11.2415 9.06481 11.2415 8C11.2415 6.93519 10.3753 6.06897 9.31051 6.06897ZM6.00016 6.89656C7.06498 6.89656 7.9312 6.03034 7.9312 4.96553C7.9312 3.90072 7.06498 3.0345 6.00016 3.0345C4.93535 3.0345 4.06913 3.90072 4.06913 4.96553C4.06913 6.03034 4.93535 6.89656 6.00016 6.89656ZM2.68982 3.86206C3.75463 3.86206 4.62085 2.99584 4.62085 1.93103C4.62085 0.866219 3.75463 0 2.68982 0C1.62501 0 0.758789 0.866219 0.758789 1.93103C0.758789 2.99584 1.62501 3.86206 2.68982 3.86206ZM6.00016 9.10344C4.93535 9.10344 4.06913 9.96966 4.06913 11.0345C4.06913 12.0993 4.93535 12.9655 6.00016 12.9655C7.06498 12.9655 7.9312 12.0993 7.9312 11.0345C7.9312 9.96966 7.06498 9.10344 6.00016 9.10344ZM2.68982 12.1379C1.62501 12.1379 0.758789 13.0042 0.758789 14.069C0.758789 15.1338 1.62501 16 2.68982 16C3.75463 16 4.62085 15.1338 4.62085 14.069C4.62085 13.0041 3.75463 12.1379 2.68982 12.1379Z"
+                            fill="#020202" />
+                    </svg>
+                </div>
+                <div class="tsm4-btn-prev">
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.68949 6.06897C3.7543 6.06897 4.62052 6.93519 4.62052 8C4.62052 9.06481 3.7543 9.93103 2.68949 9.93103C1.62468 9.93103 0.758458 9.06481 0.758458 8C0.758458 6.93519 1.62468 6.06897 2.68949 6.06897ZM5.99983 6.89656C4.93502 6.89656 4.0688 6.03034 4.0688 4.96553C4.0688 3.90072 4.93502 3.0345 5.99983 3.0345C7.06465 3.0345 7.93087 3.90072 7.93087 4.96553C7.93087 6.03034 7.06465 6.89656 5.99983 6.89656ZM9.31018 3.86206C8.24537 3.86206 7.37915 2.99584 7.37915 1.93103C7.37915 0.866219 8.24537 0 9.31018 0C10.375 0 11.2412 0.866219 11.2412 1.93103C11.2412 2.99584 10.375 3.86206 9.31018 3.86206ZM5.99983 9.10344C7.06465 9.10344 7.93087 9.96966 7.93087 11.0345C7.93087 12.0993 7.06465 12.9655 5.99983 12.9655C4.93502 12.9655 4.0688 12.0993 4.0688 11.0345C4.0688 9.96966 4.93502 9.10344 5.99983 9.10344ZM9.31018 12.1379C10.375 12.1379 11.2412 13.0042 11.2412 14.069C11.2412 15.1338 10.375 16 9.31018 16C8.24537 16 7.37915 15.1338 7.37915 14.069C7.37915 13.0041 8.24537 12.1379 9.31018 12.1379Z"
+                            fill="#020202" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial slider end -->
 
           <!-- Team area start -->
       <section class="tp-team-area pt-140 pb-140">
@@ -423,14 +514,14 @@
             <div class="tp-contact-btns tp-btn-animate">
               <a href="mailto:infoactova@gmail.com" class="tp-btn-one">
                 <span class="btn-wrap">
-                  <span class="text-one">tapspal09@gmail.com</span>
-                  <span class="text-two">tapspal09@gmail.com</span>
+                  <span class="text-one">info@ai-consultant.agency</span>
+                  <span class="text-two">info@ai-consultant.agency</span>
                 </span>
               </a>
-              <a href="tel:92354657678" class="tp-btn-one esf">
+              <a href="https://ai-consultant.agency/contact" class="tp-btn-one esf">
                 <span class="btn-wrap">
-                  <span class="text-one">+91 7044690945</span>
-                  <span class="text-two">+91 7044690945</span>
+                  <span class="text-one">Talk to Experts</span>
+                  <span class="text-two">talk to Experts</span>
                 </span>
               </a>
             </div>
