@@ -41,7 +41,7 @@
             <div class="content-wrap">
               <div class="tp-counter-wrapper-2">
                 <h3 class="tp-counter-active number">
-                  8<span class="suffix">+</span>
+                  4<span class="suffix">+</span>
                 </h3>
                 <p class="text">
                   Years of commitment & excellence to quality services.

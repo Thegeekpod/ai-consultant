@@ -3,7 +3,7 @@
     <div class="tp-footer-inner">
         <div class="tp-footer-top-2">
             <div class="tp-footer-widget logo-widget">
-                <img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="Footer Logo">
+                <img src="{{ asset('assets/imgs/logo/logo-2.png') }}" alt="AI Consultant Logo">
                 <p>We’re Global AI Agency with Masterpiece.</p>
                 <ul class="tp-social-media">
                     <li>

@@ -6,7 +6,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="tp-main__logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/imgs/logo/logo-dark.png') }}" alt=""
+                            <img src="{{ asset('assets/imgs/logo/logo-1.png') }}" alt="AI Consultant Logo"
                                 style="max-width: 100%; height: auto;">
                         </a>
                     </div>
@@ -102,7 +102,7 @@
                                                     @endforeach
                                                 </div>
 
-                                                <!-- Right Side: Featured Card (Kept Static as designed, or could be dynamic later) -->
+                                                <!-- Right Side: Featured Card (Kept Static as designed, or could be dynamic later) 
                                                 <div class="tp-megamenu-industries__featured">
                                                     <span class="tp-megamenu-industries__featured-top">Highlight</span>
                                                     <div class="tp-megamenu-industries__card">
@@ -115,7 +115,7 @@
                                                     <a href="#" class="tp-megamenu-industries__link">
                                                         Industry 4.0 Report <i class="far fa-long-arrow-right"></i>
                                                     </a>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </li>
                                     @else

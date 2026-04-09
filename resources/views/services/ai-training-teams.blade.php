@@ -20,7 +20,7 @@
       </section>
       <!-- Hero area end -->
 
-    <!-- Brand area start -->
+                <!-- Brand area start -->
     <section class="tp-brand-area-4 pt-130">
         <div class="tp-container-1715">
             <div class="tp-brand-inner">
@@ -30,31 +30,31 @@
                 <div class="tp-brand-slider">
                     <div class="tp-brand-logo-4">
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/brand/logo-1.png') }}" alt="Logo">
+                            <img src="{{ asset('assets/imgs/brand/brand-6.png') }}" alt="Strengthen Numbers- Our Client from USA">
                         </a>
                     </div>
                     <div class="tp-brand-logo-4">
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/brand/logo-2.png') }}" alt="Logo">
+                            <img src="{{ asset('assets/imgs/brand/brand-1.png') }}" alt="Oye Monkey- Our Client from India">
                         </a>
                     </div>
                     <div class="tp-brand-logo-4">
-                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-3.png') }}" alt="Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/brand-2.png') }}" alt="DIRECTV- Our Client from USA"></a>
                     </div>
                     <div class="tp-brand-logo-4">
-                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-4.png') }}" alt="Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/brand-3.png') }}" alt="Warner Music Group- Our Client from USA"></a>
                     </div>
                     <div class="tp-brand-logo-4">
-                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-5.png') }}" alt="Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/brand-4.png') }}" alt="Brand Extract- Our Client from USA"></a>
                     </div>
                     <div class="tp-brand-logo-4">
-                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-6.png') }}" alt="Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/brand-5.png') }}" alt="Verizon- Our Client from USA"></a>
                     </div>
                     <div class="tp-brand-logo-4">
-                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-1.png') }}" alt="Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/brand-7.png') }}" alt="Weberads- Our Client from India"></a>
                     </div>
                     <div class="tp-brand-logo-4">
-                        <a href="#"><img src="{{ asset('assets/imgs/brand/logo-2.png') }}" alt="Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/imgs/brand/brand-8.png') }}" alt="Stands Web- Our Client from India"></a>
                     </div>
                 </div>
             </div>
