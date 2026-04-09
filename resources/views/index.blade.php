@@ -1190,45 +1190,7 @@
         </div>
       </section>
 
-      <script>
-        function openConsultantPopup(name) {
-            const popup = document.getElementById('leadPopup');
-            const form = document.getElementById('leadPopupForm');
-            const msgInput = document.querySelector('input[name="message"]');
-            
-            if (popup) {
-                if (msgInput) {
-                    msgInput.value = "Consultation request for expert: " + name;
-                }
-                
-                const title = popup.querySelector('.title');
-                if (title) {
-                    title.innerHTML = "Contact " + name;
-                }
-                
-                if(form && form.dataset.submitted === 'true') {
-                    form.reset();
-                    if (msgInput) msgInput.value = "Consultation request for expert: " + name;
-                    form.dataset.submitted = 'false';
-                    const statusMsg = document.getElementById('popupFormMessage');
-                    if (statusMsg) {
-                        statusMsg.innerHTML = '';
-                        statusMsg.className = 'popup-status-message';
-                    }
-                    const submitBtn = document.getElementById('popupSubmitBtn');
-                    if (submitBtn) {
-                        submitBtn.disabled = false;
-                        submitBtn.style.opacity = '1';
-                    }
-                }
-                
-                popup.style.display = 'flex';
-                setTimeout(() => {
-                    popup.classList.add('active');
-                }, 10);
-            }
-        }
-      </script>
+      
       <!-- Team area end -->
 
 

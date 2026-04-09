@@ -422,15 +422,10 @@
               <div class="tp-team-card tp-fade-animation" data-delay="0.6">
                 <div class="image">
                   <img src="{{ asset("assets/imgs/team/tapas-d-paul.webp") }}" alt="Team Member">
-                  <ul class="social-media">
-                    <li>
-                      <a href="https://www.facebook.com/tapas.pal.773981">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/tapas-pal-b37854223/">
-                        <i class="fab fa-linkedin-in"></i>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Tapas Paul')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
                       </a>
                     </li>
                   </ul>
@@ -441,15 +436,10 @@
               <div class="tp-team-card tp-fade-animation" data-delay="0.8">
                 <div class="image">
                   <img src="{{ asset("assets/imgs/team//supriyo-day.webp") }}" alt="AI Consultant">
-                  <ul class="social-media">
-                    <li>
-                      <a href="https://www.linkedin.com/in/supriyo-kumar-dey-07b2771b4/">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/supriyo-kumar-dey-07b2771b4/">
-                        <i class="fab fa-linkedin-in"></i>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Supriyo Dey')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
                       </a>
                     </li>
                   </ul>
@@ -460,15 +450,10 @@
               <div class="tp-team-card tp-fade-animation" data-delay="1">
                 <div class="image">
                   <img src="{{ asset("assets/imgs/team/pradipta-bhuia.webp") }}" alt="AI Developer">
-                  <ul class="social-media">
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
                       </a>
                     </li>
                   </ul>
@@ -479,15 +464,10 @@
               <div class="tp-team-card tp-fade-animation" data-delay="1.2">
                 <div class="image">
                   <img src="{{ asset("assets/imgs/team/jyoti-mishra.webp") }}" alt="AI Consultant">
-                  <ul class="social-media">
-                    <li>
-                      <a href="https://www.facebook.com/profile.php?id=100071993373063">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/jyoti-mishra-535a28243/">
-                        <i class="fab fa-linkedin-in"></i>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Jyoti Mishra')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
                       </a>
                     </li>
                   </ul>
@@ -499,7 +479,6 @@
           </div>
         </div>
       </section>
-      <!-- Team area end -->
 
 
       <!-- Contact area start -->
