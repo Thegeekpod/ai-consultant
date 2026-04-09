@@ -27,7 +27,7 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/services/ai-roadmap-planning', 'serviceAiRoadmapPlanning')->name('services.ai-roadmap-planning');
     Route::get('/services/ai-training-teams', 'serviceAiTrainingTeams')->name('services.ai-training-teams');
     Route::get('/services/api-system-integration', 'serviceApiSystemIntegration')->name('services.api-system-integration');
-    Route::get('/services/custom-ai-model', 'serviceCustomAiModel')->name('services.custom-ai-model');
+    // Route::get('/services/custom-ai-model', 'serviceCustomAiModel')->name('services.custom-ai-model');
     Route::get('/services/digital-transformation', 'serviceDigitalTransformation')->name('services.digital-transformation');
     Route::get('/services/generative-ai', 'serviceGenerativeAi')->name('services.generative-ai');
     Route::get('/services/machine-learning', 'serviceMachineLearning')->name('services.machine-learning');

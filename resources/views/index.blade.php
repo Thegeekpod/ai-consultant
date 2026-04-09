@@ -891,7 +891,7 @@
                     <div class="tp-integration-mid">
                         <div class="int-box">
                             <div class="int-box-inner">
-                                <img src="{{ asset('assets/imgs/integration/actova.svg') }}" alt="Actova">
+                                <img src="{{ asset('assets/imgs/integration/ai-consultant.png') }}" alt="AI Consultant">
                             </div>
                         </div>
 
