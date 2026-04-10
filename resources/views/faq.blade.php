@@ -7,7 +7,7 @@
           <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset("assets/imgs/hero/about-bg.jpg") }}" alt="Image">
             <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title">FAQ’s</h1>
+              <h1 class="tp-breadcrumb-title">Frequently Asked Questions</h1>
               <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> FAQ’s</p>
             </div>
           </div>
@@ -33,43 +33,155 @@
             </div>
             <div class="tp-faq-wrapper-2">
               <div class="tp-faq-list">
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What is AI Consultant?</h3>
-                  <div class="tp-faq-body">
-                    <p>AI Consultant is a next-generation AI agency and technology provider built to empower businesses of every size. We help automate repetitive workflows, generate high-quality content, deliver deep data insights, and provide real-time decision support.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Who can benefit from AI Consultant services?</h3>
-                  <div class="tp-faq-body">
-                    <p>Our services are designed for startups, SMEs, and enterprises looking to leverage artificial intelligence for growth. Whether you need process automation, custom AI models, or strategic consulting, we have a solution for you.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">What technologies do you specialize in?</h3>
-                  <div class="tp-faq-body">
-                    <p>We specialize in state-of-the-art AI architectures including Transformers (LLMs), CNNs for vision, RNNs for time-series, and custom Generative AI solutions tailored to specific business needs.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Do you offer custom pricing?</h3>
-                  <div class="tp-faq-body">
-                    <p>Yes, we provide flexible pricing models based on the complexity and scale of the project. Contact us for a personalized quote or a free strategy call.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">Can AI Consultant integrate with my existing tools?</h3>
-                  <div class="tp-faq-body">
-                    <p>Absolutely. Our AI solutions are designed to be "interoperable," meaning they can integrate seamlessly with your existing CRM, ERP, and communication platforms like Slack, Gmail, and Discord.</p>
-                  </div>
-                </div>
-                <div class="tp-faq-item style-2">
-                  <h3 class="tp-faq-title">How do I get started?</h3>
-                  <div class="tp-faq-body">
-                    <p>You can start by booking a free strategy call through our contact page. Our experts will analyze your needs and provide a roadmap for your AI transformation journey.</p>
-                  </div>
-                </div>
-              </div>
+            Here are 20 FAQs in your format, with contextual anchor links styled bold and underlined:
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">What AI consulting services do you offer?</h3>
+            <div class="tp-faq-body">
+              <p>We offer a comprehensive range of AI services spanning strategy, development, and long-term operations. This includes <a href="https://ai-consultant.agency/services/ai-readiness-assessment" style="font-weight:bold;text-decoration:underline;">AI readiness assessments</a>, <a href="https://ai-consultant.agency/services/ai-roadmap-planning" style="font-weight:bold;text-decoration:underline;">AI roadmap planning</a>, <a href="https://ai-consultant.agency/services/machine-learning" style="font-weight:bold;text-decoration:underline;">machine learning</a>, <a href="https://ai-consultant.agency/services/generative-ai" style="font-weight:bold;text-decoration:underline;">generative AI</a>, <a href="https://ai-consultant.agency/services/mlops-deployment" style="font-weight:bold;text-decoration:underline;">MLOps & model deployment</a>, and <a href="https://ai-consultant.agency/services/ai-monitoring" style="font-weight:bold;text-decoration:underline;">AI monitoring</a> all tailored to your business goals and technical maturity.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">How do I know if my business is ready to adopt AI?</h3>
+            <div class="tp-faq-body">
+              <p>Readiness depends on your data quality, existing infrastructure, team capabilities, and strategic alignment. Our <a href="https://ai-consultant.agency/services/ai-readiness-assessment" style="font-weight:bold;text-decoration:underline;">AI readiness assessment</a> gives you a clear, honest picture of where you stand today and what steps are needed to move forward with confidence without wasted investment.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Where do I start if I have no existing AI strategy?</h3>
+            <div class="tp-faq-body">
+              <p>The best starting point is a structured planning engagement. Our <a href="https://ai-consultant.agency/services/ai-roadmap-planning" style="font-weight:bold;text-decoration:underline;">AI roadmap planning service</a> helps you identify high-impact use cases, prioritise initiatives, set realistic timelines, and build a phased implementation plan aligned to your business objectives so every AI investment has a clear purpose and measurable outcome.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Can you help us with a large-scale digital transformation involving AI?</h3>
+            <div class="tp-faq-body">
+              <p>Yes. AI is a core enabler of modern digital transformation. Our <a href="https://ai-consultant.agency/services/digital-transformation" style="font-weight:bold;text-decoration:underline;">digital transformation service</a> helps organisations redesign processes, modernise legacy systems, and embed AI-driven capabilities at scale ensuring technology change translates into genuine operational and commercial value.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">What types of AI models and systems can you build for us?</h3>
+            <div class="tp-faq-body">
+              <p>We design and build a wide range of AI systems from predictive and classification models to recommendation engines and autonomous agents. Our <a href="https://ai-consultant.agency/services/ai-development" style="font-weight:bold;text-decoration:underline;">AI development service</a> covers the full build lifecycle, and our <a href="https://ai-consultant.agency/services/machine-learning" style="font-weight:bold;text-decoration:underline;">machine learning service</a> handles everything from data preparation through to production-grade model delivery.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Can you build generative AI solutions and LLM-powered applications?</h3>
+            <div class="tp-faq-body">
+              <p>Absolutely. Our <a href="https://ai-consultant.agency/services/generative-ai" style="font-weight:bold;text-decoration:underline;">generative AI service</a> covers LLM selection, prompt engineering, RAG pipelines, AI agent development, and secure enterprise deployment. If you need a model tailored specifically to your domain or brand voice, our <a href="https://ai-consultant.agency/services/model-fine-tuning" style="font-weight:bold;text-decoration:underline;">model fine-tuning service</a> can adapt foundation models directly on your proprietary data.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Do you offer NLP and computer vision capabilities?</h3>
+            <div class="tp-faq-body">
+              <p>Yes. Our <a href="https://ai-consultant.agency/services/nlp-computer-vision" style="font-weight:bold;text-decoration:underline;">NLP & computer vision service</a> covers a broad range of use cases including document intelligence, sentiment analysis, entity recognition, image classification, object detection, and video analytics all built and deployed to production standards with your compliance requirements in mind.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Can you integrate AI into our existing software and business systems?</h3>
+            <div class="tp-faq-body">
+              <p>Yes seamless integration is central to how we work. Our <a href="https://ai-consultant.agency/services/ai-integration-ops" style="font-weight:bold;text-decoration:underline;">AI integration & ops service</a> connects AI capabilities to your existing platforms, workflows, and data sources, while our <a href="https://ai-consultant.agency/services/api-system-integration" style="font-weight:bold;text-decoration:underline;">API & system integration service</a> ensures those connections are robust, scalable, and production-ready from day one.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">How do you take AI models from experiment into production reliably?</h3>
+            <div class="tp-faq-body">
+              <p>Getting a model into production and keeping it there requires robust engineering and operational discipline. Our <a href="https://ai-consultant.agency/services/mlops-deployment" style="font-weight:bold;text-decoration:underline;">MLOps & model deployment service</a> covers CI/CD pipeline design, automated training and deployment workflows, model registries, containerisation, canary and blue/green deployment strategies, and full ML lifecycle governance built for scale and compliance.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">How will we know if our AI models are still performing well after deployment?</h3>
+            <div class="tp-faq-body">
+              <p>AI models degrade over time as real-world data patterns shift a problem known as model drift. Our <a href="https://ai-consultant.agency/services/ai-monitoring" style="font-weight:bold;text-decoration:underline;">AI monitoring service</a> provides continuous performance tracking, data and concept drift detection, alerting pipelines, output quality auditing, and full production observability so issues are caught and resolved before they affect your business.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Can you fine-tune an existing AI model on our own data?</h3>
+            <div class="tp-faq-body">
+              <p>Yes. Our <a href="https://ai-consultant.agency/services/model-fine-tuning" style="font-weight:bold;text-decoration:underline;">model fine-tuning service</a> adapts foundation models including GPT, LLaMA, Mistral, and Gemma to your specific domain, terminology, tone, and compliance requirements using techniques such as supervised fine-tuning (SFT), RLHF, DPO, LoRA, and QLoRA. We also handle all dataset curation, benchmarking, and post-tuning evaluation.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Do you provide training to help our teams understand and use AI effectively?</h3>
+            <div class="tp-faq-body">
+              <p>Yes. We offer two distinct training offerings depending on your needs. Our <a href="https://ai-consultant.agency/services/ai-training-teams" style="font-weight:bold;text-decoration:underline;">AI training for teams service</a> delivers structured, role-based upskilling programmes, hands-on workshops, and custom learning pathways for your workforce. For broader enablement alongside post-deployment support, our <a href="https://ai-consultant.agency/services/training-support" style="font-weight:bold;text-decoration:underline;">training & support service</a> combines onboarding, coaching, and technical assistance in one engagement.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">What does your ongoing AI support service include?</h3>
+            <div class="tp-faq-body">
+              <p>Our <a href="https://ai-consultant.agency/services/ongoing-support" style="font-weight:bold;text-decoration:underline;">ongoing AI support service</a> is a retainer-based partnership that covers scheduled health checks, proactive model retraining, system updates, SLA-backed incident response, compliance monitoring, and continuous performance optimisation giving you a dedicated AI expert team without the overhead of hiring in-house.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Do you work with businesses that have no in-house data science or AI team?</h3>
+            <div class="tp-faq-body">
+              <p>Yes and this is where we add the most value. We act as your external AI partner, handling strategy through to delivery. We typically begin with an <a href="https://ai-consultant.agency/services/ai-readiness-assessment" style="font-weight:bold;text-decoration:underline;">AI readiness assessment</a> and <a href="https://ai-consultant.agency/services/ai-roadmap-planning" style="font-weight:bold;text-decoration:underline;">roadmap planning</a>, then move through development, deployment, and <a href="https://ai-consultant.agency/services/ongoing-support" style="font-weight:bold;text-decoration:underline;">ongoing support</a> embedding AI capability into your organisation at every stage.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">How do you ensure compliance with GDPR and HIPAA regulations?</h3>
+            <div class="tp-faq-body">
+              <p>Compliance is built into every engagement, not bolted on at the end. Across our <a href="https://ai-consultant.agency/services/ai-development" style="font-weight:bold;text-decoration:underline;">AI development</a>, <a href="https://ai-consultant.agency/services/mlops-deployment" style="font-weight:bold;text-decoration:underline;">MLOps & deployment</a>, <a href="https://ai-consultant.agency/services/model-fine-tuning" style="font-weight:bold;text-decoration:underline;">model fine-tuning</a>, and <a href="https://ai-consultant.agency/services/ai-monitoring" style="font-weight:bold;text-decoration:underline;">AI monitoring</a> services, we apply privacy-first data handling, audit trails, explainability frameworks, and governance controls aligned to GDPR, HIPAA, SOC 2, and sector-specific requirements.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Can you help us choose the right AI tools and platforms for our needs?</h3>
+            <div class="tp-faq-body">
+              <p>Yes. Tool and platform selection is a key part of our <a href="https://ai-consultant.agency/services/ai-roadmap-planning" style="font-weight:bold;text-decoration:underline;">AI roadmap planning</a> and <a href="https://ai-consultant.agency/services/ai-readiness-assessment" style="font-weight:bold;text-decoration:underline;">readiness assessment</a> engagements. We evaluate options across cloud providers (AWS, Azure, Google Cloud), ML frameworks, MLOps tooling, and LLM platforms recommending what genuinely fits your use case, budget, and team, rather than defaulting to the most popular option.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Is fine-tuning always the right approach, or are there alternatives?</h3>
+            <div class="tp-faq-body">
+              <p>Not always. Before recommending fine-tuning, we assess whether prompt engineering, retrieval-augmented generation (RAG), or a combination approach better suits your use case and budget. Our <a href="https://ai-consultant.agency/services/model-fine-tuning" style="font-weight:bold;text-decoration:underline;">model fine-tuning service</a> always begins with this evaluation because the right technique depends entirely on your data availability, accuracy requirements, and operational constraints.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">How long does it typically take to go from strategy to a deployed AI solution?</h3>
+            <div class="tp-faq-body">
+              <p>Timelines vary by scope and complexity. A focused proof of concept can be validated in four to eight weeks. A full-scale solution covering <a href="https://ai-consultant.agency/services/ai-roadmap-planning" style="font-weight:bold;text-decoration:underline;">roadmap planning</a>, <a href="https://ai-consultant.agency/services/ai-development" style="font-weight:bold;text-decoration:underline;">development</a>, <a href="https://ai-consultant.agency/services/api-system-integration" style="font-weight:bold;text-decoration:underline;">integration</a>, and <a href="https://ai-consultant.agency/services/mlops-deployment" style="font-weight:bold;text-decoration:underline;">production deployment</a> typically ranges from three to six months. We define milestones and deliverables upfront so you always have visibility on progress.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Do you offer executive-level AI education and leadership briefings?</h3>
+            <div class="tp-faq-body">
+              <p>Yes. Our <a href="https://ai-consultant.agency/services/ai-training-teams" style="font-weight:bold;text-decoration:underline;">AI training for teams service</a> includes dedicated executive and C-suite AI education programmes designed to give leadership the strategic literacy needed to make informed AI investment decisions, govern AI responsibly, and champion adoption across the organisation without requiring deep technical knowledge.</p>
+            </div>
+          </div>
+
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">What makes AI Consultant Agency different from other AI consulting firms?</h3>
+            <div class="tp-faq-body">
+              <p>We cover the full AI lifecycle under one roof from initial <a href="https://ai-consultant.agency/services/ai-readiness-assessment" style="font-weight:bold;text-decoration:underline;">readiness assessment</a> and <a href="https://ai-consultant.agency/services/ai-roadmap-planning" style="font-weight:bold;text-decoration:underline;">strategic planning</a>, through <a href="https://ai-consultant.agency/services/ai-development" style="font-weight:bold;text-decoration:underline;">development</a>, <a href="https://ai-consultant.agency/services/mlops-deployment" style="font-weight:bold;text-decoration:underline;">deployment</a>, and <a href="https://ai-consultant.agency/services/ai-monitoring" style="font-weight:bold;text-decoration:underline;">monitoring</a>, to <a href="https://ai-consultant.agency/services/ai-training-teams" style="font-weight:bold;text-decoration:underline;">team training</a> and <a href="https://ai-consultant.agency/services/ongoing-support" style="font-weight:bold;text-decoration:underline;">long-term managed support</a>. You get a single accountable partner across the entire journey with no handoffs, no gaps, and no vendor lock-in.</p>
+            </div>
+          </div>
+          <div class="tp-faq-item style-2">
+            <h3 class="tp-faq-title">Which locations do you serve, and can you work with our team remotely?</h3>
+            <div class="tp-faq-body">
+              <p>We serve clients across all major cities and regions in India and the United States with 100+ clients already working with us across both countries. Whether you are based in Mumbai, Delhi, Bangalore, Hyderabad, or Chennai, or operating out of New York, San Francisco, Chicago, Austin, or anywhere in between, our team delivers every engagement fully remotely with no compromise on quality, communication, or turnaround. From initial <a href="https://ai-consultant.agency/services/ai-readiness-assessment" style="font-weight:bold;text-decoration:underline;">AI readiness assessments</a> to <a href="https://ai-consultant.agency/services/ongoing-support" style="font-weight:bold;text-decoration:underline;">long-term managed AI support</a>, our delivery model is built for distributed collaboration so your location is never a barrier to accessing world-class AI consulting expertise.</p>
+            </div>
+          </div>
+                  
+            
+            </div>
             </div>
           </div>
         </div>
