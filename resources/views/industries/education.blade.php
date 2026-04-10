@@ -7,7 +7,7 @@
         <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset('assets/imgs/hero/about-bg.jpg') }}" alt="Image">
             <div class="tp-breadcrumb-content">
-                <h1 class="tp-breadcrumb-title">AI for Education & EdTech</h1>
+                <h1 class="tp-breadcrumb-title">Coming Soon</h1>
                 <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span></span> AI for Education & EdTech</p>
             </div>
         </div>
@@ -26,9 +26,9 @@
             </defs>
         </svg>
     </div>
-</section>
+</section><br><br>
 
-<!-- Industry Overview -->
+<!--
 <section class="tp-about-area pt-150">
     <div class="tp-about-wrapper">
         <div class="tp-about-top plr-50">
@@ -83,7 +83,7 @@
     </div>
 </section>
 
-<!-- Animated Marquee -->
+
 <div class="tp--marquee-text-area image-trail-animation pt-120 pb-120">
     <div class="tp--marquee-text-inner" aria-hidden="true">
         <div class="tp--marquee-text">AI for Education & EdTech</div>
@@ -113,7 +113,7 @@
     </div>
 </div>
 
-<!-- Industry Solutions Grid -->
+
 <section class="tp-service-area-3">
     <div class="tp-container">
         <div class="tp-service-inner-3">
@@ -179,7 +179,7 @@
     </div>
 </section>
 
-<!-- Video Section -->
+
 <div class="tp-about-full-image">
     <div class="content">
         <p class="text-left">Education & EdTech</p>
@@ -190,7 +190,7 @@
     </div>
 </div>
 
-<!-- Industry Stats -->
+
 <section class="tp-counter-area plr-50 pt-140 pb-120">
     <div class="tp-counter-inner">
         <h3 class="title">
@@ -238,7 +238,7 @@
     </div>
 </section>
 
-<!-- Testimonials -->
+
 <section class="tp-testimonial-area">
     <div class="tp-testimonial-inner row">
         <div class="col-xl-6 col-lg-5 col-12">
@@ -295,7 +295,7 @@
     </div>
 </section>
 
-<!-- CTA Section -->
+
 <section class="tp-contact-area">
     <div class="tp-container">
         <div class="tp-contact-inner">
@@ -319,5 +319,6 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
+
 @endsection

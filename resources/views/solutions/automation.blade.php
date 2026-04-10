@@ -7,16 +7,16 @@
           <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset('assets/imgs/hero/project-details.jpg') }}" alt="Image">
             <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title"> Automation Solutions </h1>
+              <h1 class="tp-breadcrumb-title"> Coming Soon </h1>
               <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span> </span> Automation Solutions </p>
             </div>
           </div>
         </div>
-      </section>
+      </section><br><br>
       <!-- Hero area end -->
 
 
-      <!-- Project overview area -->
+      <!-- 
       <section class="tp-project-overview-area pb-140 pt-140">
         <div class="container">
           <div class="tp-project-overview-header">
@@ -161,10 +161,10 @@
           </div>
         </div>
       </section>
-      <!-- Project overview area end -->
+      
 
 
-      <!-- How we work area start -->
+    
       <section class="tp-how-work-area plr-50 project-page pt-110 pb-110">
         <div class="tp-how-work-inner">
           <div class="title-wrap">
@@ -212,10 +212,10 @@
           </div>
         </div>
       </section>
-      <!-- How we work area end -->
+      
 
 
-      <!-- Result section start -->
+   
       <section class="tp-project-result-area pt-140 pb-140">
         <div class="container">
           <div class="tp-project-result">
@@ -253,10 +253,10 @@
           </div>
         </div>
       </section>
-      <!-- Result section end -->
+     
 
 
-      <!-- Testimonial slider start -->
+      
       <div class="tp-testimonial-area-4 pt-120 pb-130">
         <div class="container">
           <div class="tp-testimonial-titlebox">
@@ -360,7 +360,7 @@
                 </div>
               </div>
             </div>
-            <!-- Add Navigation  -->
+            
             <div class="tp-testimonial-navigation-4">
               <div class="tsm4-btn-next">
                 <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -380,10 +380,10 @@
           </div>
         </div>
       </div>
-      <!-- Testimonial slider end -->
+     
 
 
-      <!-- Fun Fact area start -->
+    
       <section class="tp-funfact-area-2">
         <div class="container">
           <div class="tp-funfact-items-2">
@@ -408,10 +408,10 @@
           </div>
         </div>
       </section>
-      <!-- Fun Fact area end -->
+   
 
 
-      <!-- FAQ area start -->
+      
       <section class="tp-faq-area-2 pt-140 pb-140">
         <div class="container">
           <div class="tp-faq-inner-2">
@@ -478,7 +478,7 @@
           </div>
         </div>
       </section>
-      <!-- FAQ area end -->
+      -->
 
 
       

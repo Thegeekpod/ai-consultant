@@ -1,9 +1,0 @@
-<svg width="460" height="60" viewBox="0 0 360 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&amp;display=swap');
-      .logo-text { font-family: 'Space Grotesk', sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: -1.5px; }
-    </style>
-  </defs>
-  <text x="0" y="48" class="logo-text" font-size="47" fill="#FFFFFF">AI <tspan fill="#A1FF75">CONSULTANT</tspan></text>
-</svg>

@@ -4,7 +4,7 @@
         <div class="tp-footer-top-2">
             <div class="tp-footer-widget logo-widget">
                 <img src="{{ asset('assets/imgs/logo/logo-2.png') }}" alt="AI Consultant Logo">
-                <p>We’re AI Consultant- A Global AI Consulting and Development Agency.</p>
+                <p>We’re AI Consultant- A Global AI <br>Consulting and Development Agency.</p>
                 <ul class="tp-social-media">
                     <li>
                         <a href="#">
