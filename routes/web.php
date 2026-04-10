@@ -17,7 +17,7 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/projects', 'projects')->name('projects');
     Route::get('/team', 'team')->name('team');
     Route::get('/faq', 'faq')->name('faq');
-    Route::get('/service-details', 'serviceDetails')->name('service-details');
+    // Route::get('/service-details', 'serviceDetails')->name('service-details');
 
     // Individual Service Pages
     Route::get('/services/ai-development', 'serviceAiDevelopment')->name('services.ai-development');

@@ -30,7 +30,7 @@
                         style="background-image: url('assets/imgs/service/shape-7.png');">
                         <div class="content">
                             <img src="{{ asset('assets/imgs/service/service-icon-11.png') }}" alt="Image" class="icon">
-                            <h3 class="title"><a href="{{ route('service-details') }}">AI Strategy & Consulting</a></h3>
+                            <h3 class="title"><a href="/">AI Strategy & Consulting</a></h3>
                             <p>
                                 We help businesses identify high-impact AI use cases, audit their data readiness, and create
                                 a comprehensive AI transformation roadmap.
@@ -52,7 +52,7 @@
                     <div class="tp-service-card-2 card-2 tp-fade-animation" data-fade-from="right" data-delay="0.7"
                         style="background-image: url('assets/imgs/service/shape-8.png');">
                         <div class="content">
-                            <h3 class="title"><a href="{{ route('service-details') }}">Generative AI & LLMs</a></h3>
+                            <h3 class="title"><a href="/services/generative-ai">Generative AI & LLMs</a></h3>
                             <p>
                                 Custom LLM development, fine-tuning, and RAG implementation for intelligent search,
                                 chatbots, and automated content generation.
@@ -74,7 +74,7 @@
                         <div class="tp-service-card-2 card-3 tp-fade-animation" data-delay="0.9"
                             style="background-image: url('assets/imgs/service/shape-4.png');">
                             <div class="content">
-                                <h3 class="title"><a href="{{ route('service-details') }}">Predictive Analytics</a></h3>
+                                <h3 class="title"><a href="/services/ai-development">AI Development</a></h3>
                             </div>
                             <div class="service-btn">
                                 <a href="{{ route('contact') }}" class="actova-btn-light tp-btn-hover">
@@ -94,16 +94,16 @@
                             <div class="content">
                                 <img src="{{ asset('assets/imgs/service/service-icon-6.png') }}" alt="Image"
                                     class="shape">
-                                <h3 class="title"><a href="{{ route('service-details') }}">Computer Vision & OCR</a></h3>
+                                <h3 class="title"><a href="/services/ai-integration-ops">AI Integration & Ops</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tp-service-step">
                     <ul>
-                        <li><a href="{{ route('service-details') }}">AI Workflow Automation</a></li>
-                        <li><a href="{{ route('service-details') }}">Custom AI Model Training</a></li>
-                        <li><a href="{{ route('service-details') }}">Data Engineering & Governance</a></li>
+                        <li><a href="/solutions/automation">AI Workflow Automation</a></li>
+                        <li><a href="/solutions/customer-experience">AI Customer Experience</a></li>
+                        <li><a href="/solutions/marketing-sales">AI Marketing Automation</a></li>
                     </ul>
                     <p>To get free consultation our industries expert <a href="{{ route('contact') }}">Get’s Started <svg
                                 width="9" height="13" viewBox="0 0 9 13" xmlns="http://www.w3.org/2000/svg">
