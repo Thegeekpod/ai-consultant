@@ -15,7 +15,7 @@
             <div class="tp-offcanvas__top mb-50 d-flex justify-content-between align-items-center">
                 <div class="tp-offcanvas__logo">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/imgs/logo/logo-dark.svg') }}" alt="logo">
+                        <img src="{{ asset('assets/imgs/logo/logo-1.png') }}" alt="logo">
                     </a>
                 </div>
             </div>

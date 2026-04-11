@@ -497,7 +497,7 @@
             </div>
             <div class="tp-service-grid">
                 <div class="tp-service-card tp-fade-animation" data-delay="0.6">
-                    <div class="card-inner" data-background="assets/imgs/service/shape-1.png">
+                    <div class="card-inner">
                         <div class="content">
                             <img src="assets/imgs/service/service-icon-1.png" alt="Image" class="icon">
                             <h3 class="title">
@@ -526,7 +526,7 @@
                     </div>
                 </div>
                 <div class="tp-service-card tp-fade-animation" data-delay="0.8">
-                    <div class="card-inner" data-background="assets/imgs/service/service-icon-2.png">
+                    <div class="card-inner">
                         <div class="content">
                             <h3 class="title">
                                 <a href="/services/custom-ai-model">Custom AI <br>
@@ -585,7 +585,7 @@
                     </div>
                 </div>
                 <div class="tp-service-card tp-fade-animation" data-delay="1.2">
-                    <div class="card-inner" data-background="assets/imgs/service/service-icon-4.png">
+                    <div class="card-inner">
                         <div class="content">
                             <img src="assets/imgs/service/shape-2.png" alt="Image" class="shape">
                             <h3 class="title">
