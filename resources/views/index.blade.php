@@ -769,7 +769,7 @@
             </div>
             <div class="tp-service-grid-3">
               <div class="tp-service-card-3 tp-fade-animation">
-                <a href="#">
+                <a href="/solutions/workflow-automation">
                   <img src="{{ asset("/assets/imgs/service/service-icon-7.png") }}" alt="Icon">
                   <h3 class="title">Workflow Automation</h3>
                   <p>
@@ -778,7 +778,7 @@
                 </a>
               </div>
               <div class="tp-service-card-3 tp-fade-animation" data-delay="0.7">
-                <a href="#">
+                <a href="/services/ai-integration-ops">
                   <img src="{{ asset("/assets/imgs/service/service-icon-8.png") }}" alt="Icon">
                   <h3 class="title">AI Integration</h3>
                   <p>
@@ -790,18 +790,18 @@
               <div class="tp-service-card-3 tp-fade-animation" data-delay="0.9">
                 <a href="#">
                   <img src="{{ asset("/assets/imgs/service/service-icon-9.png") }}" alt="Icon">
-                  <h3 class="title">Data Intelligence</h3>
+                  <h3 class="title">NLP & Computer Vision</h3>
                   <p>
-                    Leverage predictive analytics and machine learning to turn data into actionable insights for faster decision-making for businesses.
+                    Transform unstructured text and visual data into actionable insights using advanced NLP and Computer Vision- enabling smarter decisions.
                   </p>
                 </a>
               </div>
               <div class="tp-service-card-3 tp-fade-animation" data-delay="1.1">
-                <a href="#">
+                <a href="/services/training-support">
                   <img src="{{ asset("/assets/imgs/service/service-icon-10.png") }}" alt="Icon">
-                  <h3 class="title">AI Deployment</h3>
+                  <h3 class="title">Training & Support</h3>
                   <p>
-                    Deploy future-proof agentic AI solutions powered by deep learning, NLP, and predictive analytics for scalable real-world performance.
+                    We provide corporate training and ongoing support for AI solutions- ensuring seamless adoption, optimized performance, and scalability.
                   </p>
                 </a>
               </div>
