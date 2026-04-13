@@ -304,7 +304,7 @@
             <div class="tp-feature-content">
               <div class="title-wrap">
                 <h2 class="sub-title-2">AI Consulting</h2>
-                <h3 class="sec-title-2 actova-lines">What AI Consultant Do for You- From Strategy to Delivering<br> Results.</h3>
+                <h3 class="sec-title-2 actova-lines">What AI Consultant Do for You- From Strategy to Delivering Results.</h3>
               </div>
               <div class="text-wrap">
                 <p>We help businesses move beyond guesswork by turning ideas into practical, scalable solutions. From strategy to deployment, we design, build, and implement AI that delivers real, measurable impact.</p>
