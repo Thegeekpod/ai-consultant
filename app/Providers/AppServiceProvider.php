@@ -19,6 +19,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if (config('app.env') === 'production') {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
+
         // Share menu data with header and offcanvas views
         \Illuminate\Support\Facades\View::composer(['partials.header', 'partials.offcanvas'], function ($view) {
             $menus = \App\Models\Menu::with(['children' => function ($query) {
