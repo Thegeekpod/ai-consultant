@@ -264,7 +264,7 @@
                   d="M8.59375 6.25C8.80095 6.25 8.99966 6.33231 9.14618 6.47882C9.29269 6.62534 9.375 6.82405 9.375 7.03125V23.4375C9.375 23.6447 9.29269 23.8434 9.14618 23.9899C8.99966 24.1364 8.80095 24.2188 8.59375 24.2188C8.38655 24.2188 8.18784 24.1364 8.04132 23.9899C7.89481 23.8434 7.8125 23.6447 7.8125 23.4375V7.03125C7.8125 6.82405 7.89481 6.62534 8.04132 6.47882C8.18784 6.33231 8.38655 6.25 8.59375 6.25ZM2.34375 8.98438C2.34375 8.77717 2.26144 8.57846 2.11493 8.43195C1.96841 8.28544 1.7697 8.20312 1.5625 8.20312C1.3553 8.20312 1.15659 8.28544 1.01007 8.43195C0.86356 8.57846 0.78125 8.77717 0.78125 8.98438V21.4844C0.78125 21.6916 0.86356 21.8903 1.01007 22.0368C1.15659 22.1833 1.3553 22.2656 1.5625 22.2656C1.7697 22.2656 1.96841 22.1833 2.11493 22.0368C2.26144 21.8903 2.34375 21.6916 2.34375 21.4844V8.98438ZM5.85938 10.5469C5.85938 10.3397 5.77706 10.141 5.63055 9.99445C5.48404 9.84794 5.28533 9.76562 5.07812 9.76562C4.87092 9.76562 4.67221 9.84794 4.5257 9.99445C4.37919 10.141 4.29688 10.3397 4.29688 10.5469V19.9219C4.29688 20.1291 4.37919 20.3278 4.5257 20.4743C4.67221 20.6208 4.87092 20.7031 5.07812 20.7031C5.28533 20.7031 5.48404 20.6208 5.63055 20.4743C5.77706 20.3278 5.85938 20.1291 5.85938 19.9219V10.5469ZM12.8906 9.375C12.8906 9.1678 12.8083 8.96909 12.6618 8.82257C12.5153 8.67606 12.3166 8.59375 12.1094 8.59375C11.9022 8.59375 11.7035 8.67606 11.5569 8.82257C11.4104 8.96909 11.3281 9.1678 11.3281 9.375V21.0938C11.3281 21.301 11.4104 21.4997 11.5569 21.6462C11.7035 21.7927 11.9022 21.875 12.1094 21.875C12.3166 21.875 12.5153 21.7927 12.6618 21.6462C12.8083 21.4997 12.8906 21.301 12.8906 21.0938V9.375ZM15.625 11.3281C15.8322 11.3281 16.0309 11.4104 16.1774 11.5569C16.3239 11.7035 16.4062 11.9022 16.4062 12.1094V18.3594C16.4062 18.5666 16.3239 18.7653 16.1774 18.9118C16.0309 19.0583 15.8322 19.1406 15.625 19.1406C15.4178 19.1406 15.2191 19.0583 15.0726 18.9118C14.9261 18.7653 14.8438 18.5666 14.8438 18.3594V12.1094C14.8438 11.9022 14.9261 11.7035 15.0726 11.5569C15.2191 11.4104 15.4178 11.3281 15.625 11.3281Z"
                   fill="#020202" />
               </svg>
-              Powering Business Growth Through AI
+              Empowering Business with AI
             </p>
           </div>
           <div class="tp-funfact-items-2">
@@ -303,11 +303,11 @@
             </div>
             <div class="tp-feature-content">
               <div class="title-wrap">
-                <h2 class="sub-title-2">AI Consulting</h2>
-                <h3 class="sec-title-2 actova-lines">What AI Consultant Do for You- From Strategy to Delivering Results.</h3>
+                <h2 class="sub-title-2">What We Do</h2>
+                <h3 class="sec-title-2 actova-lines">AI Consulting: From AI Strategy <br>to Working Product</h3>
               </div>
               <div class="text-wrap">
-                <p>We help businesses move beyond guesswork by turning ideas into practical, scalable solutions. From strategy to deployment, we design, build, and implement AI that delivers real, measurable impact.</p>
+                <p>We help businesses move beyond guesswork by turning ideas into practical, scalable solutions. From strategy to deployment, we design, build, and implement AI that delivers real, measurable impact. Our artificial intelligence consulting and development services simplify AI complexity, turning business challenges into scalable, ROI-driven solutions.</p>
               </div>
               <ul class="tp-feature-list">
                 <li><span><i class="fal fa-check"></i></span> Strategy: AI Roadmaps Aligned to Business Goals.</li>
@@ -1029,7 +1029,7 @@
                                 <div class="tp-faq-item style-2">
                                 <h3 class="tp-faq-title">What is an AI Consultant?</h3>
                                 <div class="tp-faq-body">
-                                    <p>An Artificial Intelligence (AI) Consultant bridges the gap between complex AI technologies and business goals, enabling companies to adopt AI for efficiency, revenue growth, and innovation. Rather than simply building AI tools, an AI consultant first analyzes where AI can create the most value in your business- whether that's reducing costs, improving customer experience, or automating manual processes and then designs a practical roadmap from strategy to execution.</p>
+                                    <p>AI Consultant bridges the gap between complex AI technologies and business goals. Rather than just building tools, they analyze where AI creates the most value- reducing costs, improving customer experience, or automating processes, then design a clear roadmap from strategy to execution.</p>
                                     <p>AI consultants typically bring expertise across three areas: technical knowledge (machine learning, data engineering, model deployment), business strategy (ROI analysis, process mapping, change management), and industry context (understanding the regulations, risks, and competitive dynamics of your sector). They act as a bridge between your business leadership and your technical teams- or serve as your technical team entirely if you don't have one in-house.</p>
                                     <p>Businesses work with AI consultants at different stages: during initial exploration ("Is AI right for us?"), during vendor or tool evaluation ("Which solution should we choose?"), or during active development and deployment ("How do we build and launch this correctly?"). The engagement can be short-term advisory or long-term embedded partnership depending on your needs.</p>
                                 </div>

@@ -3,11 +3,11 @@
     <div class="tp-footer-inner">
         <div class="tp-footer-top-2">
             <div class="tp-footer-widget logo-widget">
-                <img src="{{ asset('assets/imgs/logo/logo-2.png') }}" alt="AI Consultant Logo">
+                <img src="{{ asset('assets/imgs/logo/ai-consultant-logo-2.webp') }}" alt="AI Consultant Logo">
                 <p>We’re AI Consultant- A Global AI <br>Consulting and Development Agency.</p>
                 <ul class="tp-social-media">
                     <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/aiconsultant007/">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>

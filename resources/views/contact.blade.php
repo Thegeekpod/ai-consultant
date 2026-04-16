@@ -40,7 +40,7 @@
                         <div class="icon"><i class="fal fa-phone"></i></div>
                         <div class="info">
                             <p>Phone</p>
-                            <a href="tel:+919635462491">+91 96354 62491</a>
+                            <a href="tel:+919635462491">+91 97336 55185</a>
                         </div>
                     </div>
                     <div class="tp-contact-type">
@@ -76,7 +76,7 @@
                             <div class="icon"><i class="fal fa-phone"></i></div>
                             <div class="info">
                                 <p>Call Us</p>
-                                <a href="tel:+919635462491">+91 96354 62491</a><br>
+                                <a href="tel:+919635462491">+91 97336 55185</a><br>
                                 <a href="mailto:info@ai-consultant.agency">info@ai-consultant.agency</a>
                             </div>
                         </div>
