@@ -478,8 +478,260 @@
     </section>
     <!-- Service area end -->
 
+              <!-- Capability area start -->
+    <section class="tp-capability2-area pt-120" style="margin-bottom:40px;">
+        <div class="tp-container-1715">
+            <div class="tp-capability-titlebox">
+                <h2 class="sec-title-2">Our Core AI Capabilities</h2>
+                <p>At AI Consultant, we deliver high-performance, neural-optimized AI services tailored to your industry,
+                    your data, and your business objectives.</p>
+            </div>
 
-          <!-- Text Slider Start -->
+            <div class="tp-capability2-grid">
+                <div class="card-wrap wrap-1">
+                    <div class="tp-capability2-card card-1">
+                        <div class="integrate-wrap">
+                            <div class="integrate-icon">
+                                <img src="{{ asset('assets/imgs/capability/icon-5.png') }}" alt="Icon">
+                            </div>
+                            <div class="switch-icon">
+                                <img src="{{ asset('assets/imgs/capability/icon-6.png') }}" alt="Icon">
+                            </div>
+                            <div class="integrate-icon">
+                                <img src="{{ asset('assets/imgs/capability/icon-4.png') }}" alt="Icon">
+                            </div>
+                        </div>
+                        <div class="feature-list">
+                            <ul>
+                                <li><a href="#">Augment</a></li>
+                                <li><a href="#">CoThink</a></li>
+                                <li><a href="#">Assist</a></li>
+                                <li><a href="#">Navigate</a></li>
+                                <li><a href="#">Augment</a></li>
+                                <li><a href="#">Empower</a></li>
+                                <li><a href="#">Adapt</a></li>
+                            </ul>
+                        </div>
+                        <h3 class="title">Agentic AI Development.</h3>
+                        <p>We design and deploy Agentic AI systems that plan, act, adapt, and automate enterprise workflows.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-wrap wrap-2">
+                    <div class="tp-capability2-card card-2">
+                        <img src="{{ asset('assets/imgs/capability/voice.gif') }}" alt="">
+                        <h3 class="title">Voice & NLP Solutions</h3>
+                    </div>
+                    <div class="tp-capability2-card card-3">
+                        <p>Innovation</p>
+                        <h3 class="text">AI</h3>
+                        <img src="{{ asset('assets/imgs/capability/img-4.png') }}" alt="Image">
+                    </div>
+                </div>
+                <div class="card-wrap wrap-3">
+                    <div class="tp-capability2-card card-4">
+                        <div class="img-wrap">
+                            <img src="{{ asset('assets/imgs/capability/img-5.png') }}" alt="Image">
+                            <div class="templates">150+</div>
+                            <div class="feature one">Enterprise-Grade AI</div>
+                            <div class="feature two">Workflow-Centric</div>
+                        </div>
+                        <h3 class="title">Applied AI Integration.</h3>
+                        <p>We integrate applied AI across enterprise platforms and workflows for secure, scalable
+                            operations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-capability2-grid-2">
+                <div class="tp-capability2-card card-5">
+                    <div class="content-wrap">
+                        <div class="content-item">
+                            <span class="icon">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4.54998 16.9854H13.4535C15.3961 16.9854 16.976 15.4052 16.976 13.4629V4.55877C16.976 2.59645 15.3958 1 13.4535 1H4.54998C2.58766 1 0.991211 2.59645 0.991211 4.55877V13.4629C0.991211 15.4052 2.58766 16.9854 4.54998 16.9854ZM2.22209 4.55877C2.22209 3.25342 3.24464 2.23088 4.54998 2.23088H13.4535C14.717 2.23088 15.7451 3.27527 15.7451 4.55877V13.4629C15.7451 14.7264 14.717 15.7545 13.4535 15.7545H4.54998C3.26648 15.7545 2.22209 14.7264 2.22209 13.4629V4.55877Z"
+                                        fill="#020202" />
+                                    <path
+                                        d="M10.2917 13.6784C10.4549 13.6784 10.6114 13.6136 10.7269 13.4981C10.8423 13.3827 10.9071 13.2262 10.9071 13.063V4.92257C10.9071 4.75934 10.8423 4.6028 10.7269 4.48739C10.6114 4.37197 10.4549 4.30713 10.2917 4.30713C10.1285 4.30713 9.97192 4.37197 9.8565 4.48739C9.74109 4.6028 9.67625 4.75934 9.67625 4.92257V13.063C9.67625 13.2262 9.74109 13.3827 9.8565 13.4981C9.97192 13.6136 10.1285 13.6784 10.2917 13.6784ZM5.09493 13.6784C5.25815 13.6784 5.41469 13.6136 5.53011 13.4981C5.64553 13.3827 5.71037 13.2262 5.71037 13.063V10.3009C5.71037 10.1377 5.64553 9.98111 5.53011 9.86569C5.41469 9.75028 5.25815 9.68544 5.09493 9.68544C4.93171 9.68544 4.77517 9.75028 4.65975 9.86569C4.54433 9.98111 4.47949 10.1377 4.47949 10.3009V13.063C4.47949 13.2262 4.54433 13.3827 4.65975 13.4981C4.77517 13.6136 4.93171 13.6784 5.09493 13.6784ZM7.71146 13.6784C7.87469 13.6784 8.03123 13.6136 8.14664 13.4981C8.26206 13.3827 8.3269 13.2262 8.3269 13.063V7.75696C8.3269 7.59374 8.26206 7.4372 8.14664 7.32178C8.03123 7.20637 7.87469 7.14153 7.71146 7.14153C7.54824 7.14153 7.3917 7.20637 7.27628 7.32178C7.16087 7.4372 7.09602 7.59374 7.09602 7.75696V13.063C7.09602 13.2262 7.16087 13.3827 7.27628 13.4981C7.3917 13.6136 7.54824 13.6784 7.71146 13.6784ZM12.8722 13.6784C13.0354 13.6784 13.192 13.6136 13.3074 13.4981C13.4228 13.3827 13.4877 13.2262 13.4877 13.063V9.28294C13.4877 9.11972 13.4228 8.96318 13.3074 8.84776C13.192 8.73234 13.0354 8.6675 12.8722 8.6675C12.709 8.6675 12.5525 8.73234 12.437 8.84776C12.3216 8.96318 12.2568 9.11972 12.2568 9.28294V13.063C12.2568 13.2262 12.3216 13.3827 12.437 13.4981C12.5525 13.6136 12.709 13.6784 12.8722 13.6784Z"
+                                        fill="#020202" />
+                                </svg>
+                            </span>
+                            <p>Workflow AI Automation</p>
+                        </div>
+                        <div class="item-group group-1">
+                            <div class="content-item">
+                                <span class="icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2478_1278)">
+                                            <mask id="mask0_2478_1278" style="mask-type:luminance"
+                                                maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
+                                                <path d="M17.5 17.5V0.5H0.5V17.5H17.5Z" fill="white" stroke="white" />
+                                            </mask>
+                                            <g mask="url(#mask0_2478_1278)">
+                                                <path
+                                                    d="M15.7783 10.6947C15.7783 13.0324 14.8294 15.1506 13.2958 16.6848L7.30566 10.6947H15.7783Z"
+                                                    stroke="#020202" stroke-miterlimit="10" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M7.30545 10.6946L12.0974 15.4865C10.8703 16.7136 9.17579 17.4727 7.30545 17.4727C3.5648 17.4727 0.527344 14.4352 0.527344 10.6946C0.527344 6.95387 3.5648 3.91645 7.30545 3.91645V10.6946Z"
+                                                    stroke="#020202" stroke-miterlimit="10" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M7.30566 0.527422C12.9174 0.527422 17.4728 5.08289 17.4728 10.6946H7.30566V0.527422Z"
+                                                    stroke="#020202" stroke-miterlimit="10" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2478_1278">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <p>Accuracy Rate 99.9%</p>
+                            </div>
+                            <div class="content-item">
+                                <span class="icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2478_1290)">
+                                            <path
+                                                d="M16.7093 7.36729C16.9111 6.76131 16.9811 6.11922 16.9147 5.48399C16.8482 4.84876 16.6468 4.23506 16.324 3.68397C15.3418 1.97393 13.3674 1.09415 11.4391 1.50818C11.0152 1.03051 10.4942 0.648875 9.91085 0.388795C9.32754 0.128716 8.69541 -0.00380976 8.05676 8.33519e-05C6.08573 -0.00441665 4.33688 1.26462 3.73047 3.14003C3.10456 3.26817 2.51324 3.52852 1.99608 3.90366C1.47892 4.27879 1.04785 4.76006 0.731712 5.31525C-0.257726 7.02079 -0.0321631 9.1707 1.28975 10.6332C1.08794 11.2392 1.01792 11.8813 1.08437 12.5165C1.15082 13.1518 1.35221 13.7655 1.67506 14.3166C2.65722 16.0266 4.63163 16.9064 6.55992 16.4923C6.98377 16.9701 7.50481 17.3517 8.08815 17.6117C8.67149 17.8717 9.30366 18.0041 9.9423 17.9999C11.9145 18.0049 13.6639 16.7348 14.2703 14.8577C14.8962 14.7295 15.4875 14.4692 16.0047 14.0941C16.5218 13.7189 16.9529 13.2376 17.269 12.6825C18.2574 10.9769 18.0313 8.8287 16.7099 7.36616L16.7093 7.36729ZM9.94342 16.8237C9.15428 16.8249 8.38984 16.5485 7.78395 16.0429C7.81994 16.0239 7.85539 16.0038 7.89026 15.9827L11.4746 13.9127C11.5646 13.8615 11.6394 13.7873 11.6912 13.6976C11.743 13.6079 11.77 13.5061 11.7693 13.4025V8.34941L13.2842 9.22413C13.3005 9.23201 13.3112 9.24776 13.3134 9.26576V13.4503C13.3112 15.3111 11.8042 16.8197 9.94342 16.8237ZM2.696 13.7282C2.30065 13.0454 2.15826 12.2453 2.29381 11.468C2.32025 11.4838 2.36693 11.5125 2.40012 11.5316L5.98444 13.6016C6.07379 13.6538 6.17542 13.6814 6.27891 13.6814C6.3824 13.6814 6.48403 13.6538 6.57338 13.6016L10.9492 11.0748V12.8242C10.9496 12.8331 10.9479 12.842 10.9442 12.8501C10.9404 12.8583 10.9348 12.8654 10.9278 12.8709L7.30466 14.9629C5.69082 15.8921 3.62978 15.3397 2.69656 13.7281L2.696 13.7282ZM1.75268 5.90419C2.14627 5.22055 2.76772 4.69707 3.50828 4.42534C3.50828 4.45628 3.50659 4.51084 3.50659 4.54909V8.68976C3.50604 8.79316 3.533 8.89485 3.58469 8.9844C3.63639 9.07395 3.71097 9.14815 3.80078 9.19938L8.17657 11.7256L6.66173 12.6003C6.65426 12.6053 6.64565 12.6083 6.63671 12.6091C6.62776 12.6099 6.61876 12.6084 6.61054 12.6048L2.98684 10.5112C1.37637 9.57851 0.823997 7.51804 1.75212 5.90475L1.75268 5.90419ZM14.1988 8.80057L9.82301 6.27375L11.3379 5.39963C11.3453 5.39464 11.3539 5.39162 11.3629 5.39083C11.3718 5.39005 11.3808 5.39152 11.389 5.39513L15.0127 7.4871C16.626 8.41916 17.179 10.483 16.2469 12.0963C15.8527 12.7791 15.2317 13.3022 14.4919 13.5746V9.3102C14.4927 9.20694 14.466 9.10533 14.4146 9.01578C14.3632 8.92622 14.2889 8.85195 14.1994 8.80057H14.1988ZM15.7063 6.53138C15.6799 6.51506 15.6332 6.48694 15.6 6.46781L12.0157 4.39778C11.9264 4.34556 11.8247 4.31804 11.7212 4.31804C11.6177 4.31804 11.5161 4.34556 11.4268 4.39778L7.05098 6.92456V5.17515C7.05056 5.16623 7.05228 5.15734 7.056 5.14922C7.05972 5.14109 7.06532 5.13398 7.07235 5.12847L10.6955 3.03818C12.3093 2.10721 14.3726 2.66131 15.303 4.27572C15.6962 4.95762 15.8385 5.75559 15.7052 6.53138H15.7063ZM6.22748 9.64938L4.71207 8.7747C4.70409 8.77076 4.69724 8.76489 4.69213 8.75762C4.68702 8.75035 4.68382 8.74191 4.68282 8.73307V4.54853C4.68394 2.68549 6.19542 1.17571 8.05845 1.17683C8.84651 1.17683 9.6093 1.45358 10.2151 1.95758C10.1792 1.97678 10.1437 1.99685 10.1088 2.01777L6.52448 4.08784C6.43447 4.1389 6.3597 4.21304 6.30789 4.30262C6.25608 4.3922 6.2291 4.49398 6.22973 4.59747L6.22748 9.64826V9.64938ZM7.05042 7.87522L8.99951 6.74963L10.9486 7.87466V10.1253L8.99951 11.2503L7.05042 10.1253V7.87522Z"
+                                                fill="#020202" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2478_1290">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <p>Powered by Top LLMs</p>
+                            </div>
+                        </div>
+                        <div class="ai-item">
+                            <p>AI</p>
+                        </div>
+                        <div class="item-group group-2">
+                            <div class="content-item">
+                                <span class="icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.64062 2.67188V4.47187C3.26531 4.84453 2.25 6.10172 2.25 7.59375V14.625C2.25 16.4081 3.70125 17.8594 5.48438 17.8594H12.5156C14.2987 17.8594 15.75 16.4081 15.75 14.625V7.59375C15.75 6.10172 14.7347 4.84453 13.3594 4.47187V2.67188C13.3594 1.27547 12.2231 0.140625 10.8281 0.140625H7.17188C5.77688 0.140625 4.64062 1.27547 4.64062 2.67188ZM5.48438 2.67188C5.48438 1.74094 6.24094 0.984375 7.17188 0.984375H10.8281C11.7591 0.984375 12.5156 1.74094 12.5156 2.67188V4.35938H5.48438V2.67188ZM12.5156 5.20312C13.8333 5.20312 14.9062 6.27609 14.9062 7.59375V14.625C14.9062 15.9427 13.8333 17.0156 12.5156 17.0156H5.48438C4.16672 17.0156 3.09375 15.9427 3.09375 14.625V7.59375C3.09375 6.27609 4.16672 5.20312 5.48438 5.20312H12.5156Z"
+                                            fill="#020202" />
+                                        <path
+                                            d="M5.34375 10.8281C6.28312 10.8281 6.89062 10.1109 6.89062 9C6.89062 7.88906 6.28312 7.17188 5.34375 7.17188C4.40438 7.17188 3.79688 7.88906 3.79688 9C3.79688 10.1109 4.40438 10.8281 5.34375 10.8281ZM5.34375 8.01562C5.66437 8.01562 6.04688 8.18578 6.04688 9C6.04688 9.81422 5.66437 9.98438 5.34375 9.98438C5.02313 9.98438 4.64062 9.81422 4.64062 9C4.64062 8.18578 5.02313 8.01562 5.34375 8.01562ZM5.48438 13.2188C5.48438 14.3297 6.09188 15.0469 7.03125 15.0469C7.97062 15.0469 8.57812 14.3297 8.57812 13.2188C8.57812 12.1078 7.97062 11.3906 7.03125 11.3906C6.09188 11.3906 5.48438 12.1078 5.48438 13.2188ZM7.03125 12.2344C7.35188 12.2344 7.73438 12.4045 7.73438 13.2188C7.73438 14.033 7.35188 14.2031 7.03125 14.2031C6.71062 14.2031 6.32812 14.033 6.32812 13.2188C6.32812 12.4045 6.71062 12.2344 7.03125 12.2344ZM10.9688 15.0469C11.9081 15.0469 12.5156 14.3297 12.5156 13.2188C12.5156 12.1078 11.9081 11.3906 10.9688 11.3906C10.0294 11.3906 9.42188 12.1078 9.42188 13.2188C9.42188 14.3297 10.0294 15.0469 10.9688 15.0469ZM10.9688 12.2344C11.2894 12.2344 11.6719 12.4045 11.6719 13.2188C11.6719 14.033 11.2894 14.2031 10.9688 14.2031C10.6481 14.2031 10.2656 14.033 10.2656 13.2188C10.2656 12.4045 10.6481 12.2344 10.9688 12.2344ZM10.9688 10.8281C11.9081 10.8281 12.5156 10.1109 12.5156 9C12.5156 7.88906 11.9081 7.17188 10.9688 7.17188C10.0294 7.17188 9.42188 7.88906 9.42188 9C9.42188 10.1109 10.0294 10.8281 10.9688 10.8281ZM10.9688 8.01562C11.2894 8.01562 11.6719 8.18578 11.6719 9C11.6719 9.81422 11.2894 9.98438 10.9688 9.98438C10.6481 9.98438 10.2656 9.81422 10.2656 9C10.2656 8.18578 10.6481 8.01562 10.9688 8.01562ZM8.15625 10.8281C8.38969 10.8281 8.57812 10.6397 8.57812 10.4062V7.59375C8.57812 7.36031 8.38969 7.17188 8.15625 7.17188C7.92281 7.17188 7.73438 7.36031 7.73438 7.59375V10.4062C7.73438 10.6397 7.92281 10.8281 8.15625 10.8281ZM4.21875 15.0469C4.45219 15.0469 4.64062 14.8584 4.64062 14.625V11.8125C4.64062 11.5791 4.45219 11.3906 4.21875 11.3906C3.98531 11.3906 3.79688 11.5791 3.79688 11.8125V14.625C3.79688 14.8584 3.98531 15.0469 4.21875 15.0469ZM13.7812 10.8281C14.0147 10.8281 14.2031 10.6397 14.2031 10.4062V7.59375C14.2031 7.36031 14.0147 7.17188 13.7812 7.17188C13.5478 7.17188 13.3594 7.36031 13.3594 7.59375V10.4062C13.3594 10.6397 13.5478 10.8281 13.7812 10.8281ZM13.7812 15.0469C14.0147 15.0469 14.2031 14.8584 14.2031 14.625V11.8125C14.2031 11.5791 14.0147 11.3906 13.7812 11.3906C13.5478 11.3906 13.3594 11.5791 13.3594 11.8125V14.625C13.3594 14.8584 13.5478 15.0469 13.7812 15.0469Z"
+                                            fill="#020202" />
+                                    </svg>
+                                </span>
+                                <p>Real-Time Intelligence</p>
+                            </div>
+                            <div class="content-item">
+                                <span class="icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.64062 2.67188V4.47187C3.26531 4.84453 2.25 6.10172 2.25 7.59375V14.625C2.25 16.4081 3.70125 17.8594 5.48438 17.8594H12.5156C14.2987 17.8594 15.75 16.4081 15.75 14.625V7.59375C15.75 6.10172 14.7347 4.84453 13.3594 4.47187V2.67188C13.3594 1.27547 12.2231 0.140625 10.8281 0.140625H7.17188C5.77688 0.140625 4.64062 1.27547 4.64062 2.67188ZM5.48438 2.67188C5.48438 1.74094 6.24094 0.984375 7.17188 0.984375H10.8281C11.7591 0.984375 12.5156 1.74094 12.5156 2.67188V4.35938H5.48438V2.67188ZM12.5156 5.20312C13.8333 5.20312 14.9062 6.27609 14.9062 7.59375V14.625C14.9062 15.9427 13.8333 17.0156 12.5156 17.0156H5.48438C4.16672 17.0156 3.09375 15.9427 3.09375 14.625V7.59375C3.09375 6.27609 4.16672 5.20312 5.48438 5.20312H12.5156Z"
+                                            fill="#020202" />
+                                        <path
+                                            d="M5.34375 10.8281C6.28312 10.8281 6.89062 10.1109 6.89062 9C6.89062 7.88906 6.28312 7.17188 5.34375 7.17188C4.40438 7.17188 3.79688 7.88906 3.79688 9C3.79688 10.1109 4.40438 10.8281 5.34375 10.8281ZM5.34375 8.01562C5.66437 8.01562 6.04688 8.18578 6.04688 9C6.04688 9.81422 5.66437 9.98438 5.34375 9.98438C5.02313 9.98438 4.64062 9.81422 4.64062 9C4.64062 8.18578 5.02313 8.01562 5.34375 8.01562ZM5.48438 13.2188C5.48438 14.3297 6.09188 15.0469 7.03125 15.0469C7.97062 15.0469 8.57812 14.3297 8.57812 13.2188C8.57812 12.1078 7.97062 11.3906 7.03125 11.3906C6.09188 11.3906 5.48438 12.1078 5.48438 13.2188ZM7.03125 12.2344C7.35188 12.2344 7.73438 12.4045 7.73438 13.2188C7.73438 14.033 7.35188 14.2031 7.03125 14.2031C6.71062 14.2031 6.32812 14.033 6.32812 13.2188C6.32812 12.4045 6.71062 12.2344 7.03125 12.2344ZM10.9688 15.0469C11.9081 15.0469 12.5156 14.3297 12.5156 13.2188C12.5156 12.1078 11.9081 11.3906 10.9688 11.3906C10.0294 11.3906 9.42188 12.1078 9.42188 13.2188C9.42188 14.3297 10.0294 15.0469 10.9688 15.0469ZM10.9688 12.2344C11.2894 12.2344 11.6719 12.4045 11.6719 13.2188C11.6719 14.033 11.2894 14.2031 10.9688 14.2031C10.6481 14.2031 10.2656 14.033 10.2656 13.2188C10.2656 12.4045 10.6481 12.2344 10.9688 12.2344ZM10.9688 10.8281C11.9081 10.8281 12.5156 10.1109 12.5156 9C12.5156 7.88906 11.9081 7.17188 10.9688 7.17188C10.0294 7.17188 9.42188 7.88906 9.42188 9C9.42188 10.1109 10.0294 10.8281 10.9688 10.8281ZM10.9688 8.01562C11.2894 8.01562 11.6719 8.18578 11.6719 9C11.6719 9.81422 11.2894 9.98438 10.9688 9.98438C10.6481 9.98438 10.2656 9.81422 10.2656 9C10.2656 8.18578 10.6481 8.01562 10.9688 8.01562ZM8.15625 10.8281C8.38969 10.8281 8.57812 10.6397 8.57812 10.4062V7.59375C8.57812 7.36031 8.38969 7.17188 8.15625 7.17188C7.92281 7.17188 7.73438 7.36031 7.73438 7.59375V10.4062C7.73438 10.6397 7.92281 10.8281 8.15625 10.8281ZM4.21875 15.0469C4.45219 15.0469 4.64062 14.8584 4.64062 14.625V11.8125C4.64062 11.5791 4.45219 11.3906 4.21875 11.3906C3.98531 11.3906 3.79688 11.5791 3.79688 11.8125V14.625C3.79688 14.8584 3.98531 15.0469 4.21875 15.0469ZM13.7812 10.8281C14.0147 10.8281 14.2031 10.6397 14.2031 10.4062V7.59375C14.2031 7.36031 14.0147 7.17188 13.7812 7.17188C13.5478 7.17188 13.3594 7.36031 13.3594 7.59375V10.4062C13.3594 10.6397 13.5478 10.8281 13.7812 10.8281ZM13.7812 15.0469C14.0147 15.0469 14.2031 14.8584 14.2031 14.625V11.8125C14.2031 11.5791 14.0147 11.3906 13.7812 11.3906C13.5478 11.3906 13.3594 11.5791 13.3594 11.8125V14.625C13.3594 14.8584 13.5478 15.0469 13.7812 15.0469Z"
+                                            fill="#020202" />
+                                    </svg>
+                                </span>
+                                <p>Scalable AI Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="title">We Solve Real Business Problems</h3>
+                    <p>Applying practical AI to solve business challenges and improve efficiency..</p>
+                </div>
+                <div class="tp-capability2-card card-6">
+                    <div class="content-wrap">
+                        <div class="swiper vertical-card-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <span class="icon">
+                                            <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
+                                        </span>
+                                        <div class="content">
+                                            <h4 class="text">AI Strategy Roadmap</h4>
+                                            <p>Aligned AI strategy & roadmap for growth.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <span class="icon">
+                                            <img src="{{ asset('assets/imgs/capability/icon-8.png') }}" alt="Icon">
+                                        </span>
+                                        <div class="content">
+                                            <h4 class="text">Process Automation</h4>
+                                            <p>Automate repetitive tasks to improve efficiency.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <span class="icon">
+                                            <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
+                                        </span>
+                                        <div class="content">
+                                            <h4 class="text">Custom AI Development</h4>
+                                            <p>Tailored AI solutions for unique business needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <span class="icon">
+                                            <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
+                                        </span>
+                                        <div class="content">
+                                            <h4 class="text">AI Integration</h4>
+                                            <p>Seamlessly integrate AI into existing workflows.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <span class="icon">
+                                            <img src="{{ asset('assets/imgs/capability/icon-8.png') }}" alt="Icon">
+                                        </span>
+                                        <div class="content">
+                                            <h4 class="text">AI Audit & Optimization</h4>
+                                            <p>Improve existing AI systems for better performance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <span class="icon">
+                                            <img src="{{ asset('assets/imgs/capability/icon-7.png') }}" alt="Icon">
+                                        </span>
+                                        <div class="content">
+                                            <h4 class="text">Training & Enablement</h4>
+                                            <p>Empower your team with AI skills and knowledge.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="title">End-to-End AI Consulting</h3>
+                    <p>From strategy to implementation, we support your AI journey at every stage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Capability area end -->
+
+    <!-- Text Slider Start -->
       <div class="tp--marquee-text-area pt-110" style="margin-bottom: 60px;">
         <div class="tp--marquee-text-inner" aria-hidden="true">
           <div class="tp--marquee-text">AI Readiness</div>
@@ -503,7 +755,8 @@
 
 
 
-                <!-- Service section Start -->
+
+    <!-- Service section Start -->
       <section class="tp-service-area-3" style="margin-top:60px;">
         <div class="tp-container">
           <div class="tp-service-inner-3">
@@ -572,7 +825,6 @@
         </div>
       </section><br><br>
       <!-- Service section end -->
-
 
 
     <!-- Integration area start -->
@@ -894,7 +1146,7 @@
                   </ul>
                 </div>
                 <h3 class="title"><a href="{{ route("team-details") }}">Tapas Paul</a></h3>
-                <p>AI Consultant</p>
+                <p><b>AI consultant specializing</b> in practical business automation solutions.</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="0.8">
                 <div class="image">
@@ -908,9 +1160,25 @@
                   </ul>
                 </div>
                 <h3 class="title"><a href="{{ route("team-details") }}">Supriyo Dey</a></h3>
-                <p>AI Consultant</p>
+                <p><b>AI consultant specializing</b> in AI development & integration solutions.</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <a href="https://www.linkedin.com/in/iavick/" target="_blank" rel="noopener noreferrer nofollow">
+                    <img src="{{ asset('assets/imgs/team/avick-kr-dey.webp') }}" alt="Avick Kr Dey">
+                    </a>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Avick Kr Dey</a></h3>
+                <p><b>AI consultant and educator</b> with expertise in building scalable AI systems.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
                 <div class="image">
                   <img src="{{ asset("assets/imgs/team/pradipta-bhuia.webp") }}" alt="AI Developer">
                   <ul class="social-media" style="width: 160px; border-radius: 30px;">
@@ -922,7 +1190,7 @@
                   </ul>
                 </div>
                 <h3 class="title"><a href="{{ route("team-details") }}">Pradipta Bhuian</a></h3>
-                <p>AI Consultant</p>
+                <p><b>AI consultant and developer</b> with expertise in building scalable AI systems.</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="1.2">
                 <div class="image">
@@ -936,7 +1204,53 @@
                   </ul>
                 </div>
                 <h3 class="title"><a href="{{ route("team-details") }}">Jyoti Mishra</a></h3>
-                <p>AI Consultant</p>
+                <p><b>>AI consultant helping</b> businesses leverage AI for growth and productivity.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/abhijit-bag.webp") }}" alt="AI Developer">
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Abhijit Bag</a></h3>
+                <p><b>AI consultant skilled</b> in applying AI to solve real-world business problems.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <a href="https://www.linkedin.com/in/dmartell/" target="_blank" rel="noopener noreferrer nofollow">
+                    <img src="{{ asset('assets/imgs/team/dam-martell.webp') }}" alt="Dan Martell">
+                    </a>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Dan Martell</a></h3>
+                <p>Widely recognized <b>entrepreneur and AI consultant</b>, helping businesses scale with smart technology and systems.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <a href="https://www.instagram.com/realrileybrown" target="_blank" rel="noopener noreferrer nofollow">
+                    <img src="{{ asset('assets/imgs/team/riley-brown.webp') }}" alt="Riley Brown">
+                    </a>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Riley Brown</a></h3>
+                <p>Popular <b>AI educator and entrepreneur</b> known for helping people build apps and businesses using AI tools.</p>
               </div>
             </div>
           </div>
