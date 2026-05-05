@@ -89,6 +89,17 @@ class FrontendController extends Controller
         return view('blog-details', compact('blog', 'latestPosts'));
     }
 
+    public function authorDetails($name)
+    {
+        $authorName = str_replace('-', ' ', $name);
+        $authorName = ucwords($authorName);
+        
+        // Fetch blogs (simulating author filter)
+        $blogs = Blog::where('is_active', true)->latest()->paginate(6);
+        
+        return view('author', compact('authorName', 'blogs'));
+    }
+
     public function terms()
     {
         return view('terms');

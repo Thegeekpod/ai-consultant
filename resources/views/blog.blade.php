@@ -5,7 +5,7 @@
 @section('content')
 
       <section class="tp-breadcrumb-area">
-        <div class="tp-container">
+        <div class="container-fluid">
           <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset("assets/imgs/hero/about-bg.jpg") }}" alt="Image">
             <div class="tp-breadcrumb-content">

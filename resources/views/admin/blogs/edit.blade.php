@@ -92,14 +92,29 @@
 @endsection
 
 @push('scripts')
-<script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+<!-- Summernote CSS -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<!-- Summernote JS -->
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 <script>
-    if(document.getElementById('description')) {
-        CKEDITOR.replace('description', {
-            height: 400,
-            removeButtons: 'PasteFromWord'
-        });
-    }
+    $(document).ready(function() {
+        if($('#description').length > 0) {
+            $('#description').summernote({
+                placeholder: 'Write your blog content here...',
+                tabsize: 2,
+                height: 400,
+                toolbar: [
+                    ['style', ['style']],
+                    ['font', ['bold', 'underline', 'clear']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['table', ['table']],
+                    ['insert', ['link', 'picture', 'video']],
+                    ['view', ['fullscreen', 'codeview', 'help']]
+                ]
+            });
+        }
+    });
 
     function previewImage(event) {
         var reader = new FileReader();
