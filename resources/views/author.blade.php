@@ -241,7 +241,7 @@
                     <h1 class="author-name-title">{{ $authorName }}</h1>
                     <div class="author-designation">AI Consulting & Research Expert (PhD)</div>
                     <p class="author-biography">
-                        {{ $authorName }} is a digital strategy expert with over 10 years of experience in AI-driven marketing and content automation. He focuses on helping enterprises scale their digital presence through innovative technologies. Connect with him to stay updated on the latest trends in the tech world.
+                        {{ $authorName }} is an AI enthusiast with over 4+ years of experience in AI development and applied AI solutions. He helps enterprises leverage artificial intelligence to scale their digital presence and automate workflows. Connect with him to stay updated on the latest trends in AI and technology.
                     </p>
                 </div>
             </div>
