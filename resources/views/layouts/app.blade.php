@@ -26,7 +26,9 @@
     @include('partials.footer')
 
     @include('partials.scripts')
-    @include('partials.lead-popup')
+    @if(!Route::is('blog') && !Route::is('blog-details'))
+        @include('partials.lead-popup')
+    @endif
 
     @if(isset($global_scripts) && $global_scripts->footer_scripts)
         {!! $global_scripts->footer_scripts !!}
