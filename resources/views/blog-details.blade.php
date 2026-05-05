@@ -320,13 +320,13 @@
 
                 <!-- Main Content -->
                 <main class="main-blog-content-wrapper">
-                    <div class="summary-box">
+                    {{-- <div class="summary-box">
                         <div class="summary-content">
                             <h4>Want a Quick Summary?</h4>
                             <p>Summarize this article instantly with AI.</p>
                         </div>
                         <button class="btn-summarize">Summarize with AI</button>
-                    </div>
+                    </div> --}}
 
                     <div class="main-blog-content" id="blog-article-content">
                         {!! $blog->description !!}
