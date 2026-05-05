@@ -1,123 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
     <loc>https://ai-consultant.agency</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>1.0</priority>
   </url>
+
+  <!-- Core Pages -->
   <url>
     <loc>https://ai-consultant.agency/about</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai-consultant.agency/service</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/ai-readiness-assessment</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/ai-roadmap-planning</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/digital-transformation</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/machine-learning</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/generative-ai</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/nlp-computer-vision</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/api-system-integration</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/mlops-deployment</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/ai-monitoring</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/ai-training-teams</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/model-fine-tuning</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ai-consultant.agency/services/ongoing-support</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai-consultant.agency/contact</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://ai-consultant.agency/services/ai-readiness-assessment</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/ai-roadmap-planning</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/digital-transformation</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/machine-learning</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/generative-ai</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/nlp-computer-vision</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/api-system-integration</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/mlops-deployment</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/ai-monitoring</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/ai-training-teams</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/model-fine-tuning</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/services/ongoing-support</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai-consultant.agency/services/ai-development</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai-consultant.agency/services/ai-integration-ops</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai-consultant.agency/services/training-support</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ai-consultant.agency/services/custom-ai-model</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
+
+  <!-- Blog Pages -->
+  <url>
+    <loc>https://ai-consultant.agency/blog/what-is-an-ai-consant-everything-you-need-to-know</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/blog/how-to-hire-an-ai-consultant-a-step-by-step-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ai-consultant.agency/blog/ai-consulting-for-small-businesses-where-to-start</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
