@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $authorName . ' - Expert Profile')
+@section('title', $authorName . ' - AI Consultant Profile')
 
 @section('content')
 
@@ -239,9 +239,9 @@
                 </div>
                 <div class="author-info">
                     <h1 class="author-name-title">{{ $authorName }}</h1>
-                    <div class="author-designation">Web Development Expert & Content Creator</div>
+                    <div class="author-designation">AI Consulting & Research Expert (PhD)</div>
                     <p class="author-biography">
-                        {{ $authorName }} is a passionate web development professional with deep expertise in building scalable, high-performance web applications. With a keen eye for design and a strong technical background, he shares valuable insights on modern web technologies, best practices, and digital strategy. Connect with him to stay updated on the latest trends in the tech world.
+                        {{ $authorName }} is a digital strategy expert with over 10 years of experience in AI-driven marketing and content automation. He focuses on helping enterprises scale their digital presence through innovative technologies. Connect with him to stay updated on the latest trends in the tech world.
                     </p>
                 </div>
             </div>

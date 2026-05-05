@@ -329,7 +329,7 @@
                     <span class="hero-tag">Blog</span>
                     <h1 class="hero-title">{{ $blog->title }}</h1>
                     <div class="hero-meta">
-                        by <a href="{{ route('author-details', 'Avick-Kr-Dey') }}"><strong>Avick Kr Dey</strong></a> • Published: {{ $blog->created_at->format('M d, Y') }}
+                        by <a href="{{ route('author-details', 'Avick-Kr-Dey') }}"><strong>Dr. Avick Kr Dey</strong></a> • Published: {{ $blog->created_at->format('M d, Y') }}
                     </div>
                 </div>
                 <div class="col-lg-5">
