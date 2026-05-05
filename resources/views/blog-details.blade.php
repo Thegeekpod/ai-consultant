@@ -391,14 +391,14 @@
                         </a>
                          <div class="author-social mb-10">
                              <a href="{{ route('author-details', 'Avick-Kr-Dey') }}">
-                                <h3 class="author-name">Dr. Avick Kr Dey</h3>
+                                <h3 class="author-name">Avick Kr Dey</h3>
                              </a>
 
                             <a href="https://www.linkedin.com/in/iavick/" target="_blank" class="mr-10"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                         </div>
                         <p class="author-bio">
-                            Avick Kr Dey is an AI enthusiast with over 4+ of experience in AI development and applied AI solutions. He helps enterprises leverage artificial intelligence to scale their digital presence and automate workflows. Connect with him to stay updated on the latest trends in AI and technology.
+                            Dr. Avick Kr Dey is an AI enthusiast with over 4+ of experience in AI development and applied AI solutions. He helps enterprises leverage artificial intelligence to scale their digital presence and automate workflows. Connect with him to stay updated on the latest trends in AI and technology.
                         </p>
                        
                     </div>
