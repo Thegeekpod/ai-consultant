@@ -7,7 +7,7 @@
     <style>
         .blog-details-hero-new {
             background: #6345ED;
-                padding: 150px 0px 50px;
+                padding: 130px 0px 50px;
             color: #fff;
             position: relative;
             overflow: hidden;
@@ -243,41 +243,81 @@
         }
         @media (max-width: 1200px) {
             .blog-content-layout {
-                grid-template-columns: 240px 1fr 280px;
-                gap: 40px;
-            }
-        }
-        @media (max-width: 1200px) {
-            .blog-content-layout {
                 grid-template-columns: 1fr 320px;
+                gap: 40px;
             }
             .toc-sidebar {
                 display: none;
             }
         }
         @media (max-width: 991px) {
+            .blog-details-hero-new {
+                padding: 100px 0 40px;
+            }
             .blog-content-layout {
                 grid-template-columns: 1fr;
-                margin-top: -60px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+            .main-blog-content-wrapper {
+                order: 1;
+            }
+            .toc-sidebar {
+                order: 2;
+                display: block !important; /* Show TOC at the end on mobile */
+            }
+            .author-sidebar {
+                order: 3;
             }
             .toc-sidebar, .author-sidebar, .sidebar-widget {
                 position: static !important;
                 height: auto !important;
+                width: 100% !important;
             }
             .author-sidebar {
-                order: -1;
                 margin-bottom: 40px;
             }
             .hero-title {
                 font-size: 32px;
                 margin-bottom: 20px;
+                line-height: 1.2;
             }
             .hero-meta {
                 flex-wrap: wrap;
                 font-size: 15px;
+                gap: 10px;
             }
             .main-blog-content {
                 padding: 30px 20px;
+                border-radius: 15px;
+            }
+            .author-bio {
+                text-align: center;
+            }
+            .author-social {
+                justify-content: center;
+            }
+            .main-blog-content table {
+                display: block;
+                width: 100% !important;
+                overflow-x: auto; /* Scroll inside the table only */
+                -webkit-overflow-scrolling: touch;
+                border: 1px solid #eee;
+            }
+            .main-blog-content-wrapper {
+                overflow-x: visible; /* Prevent the whole page from scrolling */
+            }
+            .main-blog-content th, .main-blog-content td {
+                min-width: 150px;
+                white-space: normal;
+                word-wrap: break-word;
+            }
+        }
+        @media(max-width:768px){
+            .blog-details-container{
+                padding:0px;
             }
         }
     </style>
@@ -293,7 +333,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="hero-img-wrapper">
+                    <div class="hero-img-wrapper mt-20">
                         @if ($blog->image)
                             <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}">
                         @else
