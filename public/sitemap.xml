@@ -108,5 +108,8 @@
     <loc>https://ai-consultant.agency/blog/ai-consulting-for-small-businesses-where-to-start</loc>
     <priority>0.7</priority>
   </url>
-
+    <url>
+    <loc>https://ai-consultant.agency/blog/ai-consulting-firms-what-they-do-and-how-to-choose-one</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
