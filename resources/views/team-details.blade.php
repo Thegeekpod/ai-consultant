@@ -7,8 +7,8 @@
           <div class="tp-breadcrumb-wrapper">
             <img src="{{ asset("assets/imgs/hero/about-bg.jpg") }}" alt="Image">
             <div class="tp-breadcrumb-content">
-              <h1 class="tp-breadcrumb-title">Team Single</h1>
-              <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> Team Single</p>
+              <h1 class="tp-breadcrumb-title">AI Consulting Experts</h1>
+              <p class="tp-breadcrumb"><a href="{{ route("home") }}">Home</a> <span></span> Our Team</p>
             </div>
           </div>
         </div>
@@ -21,16 +21,13 @@
         <div class="container">
           <div class="tp-team-details-inner">
             <div class="tp-team-details-img">
-              <img src="{{ asset("assets/imgs/team/team-details.jpg") }}" alt="Image">
+              <img src="{{ asset("assets/imgs/team/avick-kr-dey.webp") }}" alt="Image">
             </div>
             <div class="tp-team-details">
-              <h2 class="name">Mr. Hanry Robertson</h2>
-              <div class="designation">Founder of Actova</div>
-              <p class="quote">“ My mission is to ensure every Actova solution not only meets business needs but also
-                empowers teams to innovate.”</p>
-              <p>I’m Founder at Actova, where leads the development of next-generation AI solutions. With over a decade
-                of experience in machine learning, neural architecture design, & enterprise AI deployment, Sophia
-                ensures that Actova stays ahead of technological innovation.</p>
+              <h2 class="name">Prof. Dr. Avick kr. Dey</h2>
+              <div class="designation">CEO of AI Consultant</div>
+              <p class="quote">“ My mission is to deliver AI solutions that solve real business problems and support practical implementation.”</p>
+              <p>I am the Founder of AI Consultant, specializing in AI consulting, automation, and custom AI development. With over a decade of experience in machine learning and enterprise AI systems, I focus on building solutions that are scalable and impactful for businesses.</p>
               <h3 class="title">Skill & Experiences</h3>
               <ul class="skills-list">
                 <li><a href="#">
@@ -70,52 +67,14 @@
                     AI Ethics & ML Deployment
                   </a></li>
               </ul>
-              <h3 class="title">Achievements</h3>
-              <ul class="tp-list">
-                <li>
-                  <span>
-                    <svg width="22" height="14" viewBox="0 0 22 14" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.006 0.010498C13.5154 0.010498 12.1339 0.478584 10.9977 1.27842C9.8207 0.451317 8.43462 0.010498 6.98492 0.010498C3.13572 0.010498 0 3.14621 0 6.99996C0 10.8537 3.13572 13.9894 6.98947 13.9894C8.43462 13.9894 9.8207 13.5532 11.0023 12.7215C12.1384 13.5168 13.5199 13.9894 15.0105 13.9894C18.8643 13.9894 22 10.8537 22 6.99996C22 3.14621 18.8597 0.010498 15.006 0.010498ZM19.7777 2.15097L10.1615 11.7763C9.93431 11.549 9.72526 11.3036 9.53439 11.0446L19.0461 1.52382C19.3051 1.71469 19.5505 1.92374 19.7777 2.15097ZM18.9006 1.4193L9.42533 10.8901C9.23446 10.6174 9.06631 10.3356 8.91634 10.0357L18.0463 0.910312C18.3417 1.06028 18.628 1.22843 18.9006 1.4193ZM17.8736 0.828511L8.83454 9.86301C8.68457 9.54489 8.56187 9.21314 8.46189 8.87231L16.8829 0.455861C17.2237 0.55584 17.5555 0.678542 17.8736 0.828511ZM16.6784 0.401327L8.40735 8.67235C8.31192 8.29061 8.2483 7.89978 8.21648 7.49986L15.5059 0.210457C15.9058 0.237724 16.2966 0.305892 16.6784 0.401327ZM15.0105 0.192279C15.0923 0.192279 15.1787 0.196823 15.2605 0.196823L8.2074 7.25446C8.20285 7.16811 8.20285 7.08631 8.20285 6.99996C8.20285 6.58641 8.23921 6.18195 8.31192 5.79112L13.8017 0.301347C14.1925 0.228635 14.597 0.192279 15.0105 0.192279ZM13.4745 0.369515L8.37554 5.46846C8.95724 2.94171 10.9523 0.951213 13.4745 0.369515ZM10.2888 11.9035L19.9095 2.28276C20.1322 2.51453 20.3413 2.76448 20.5276 3.02351L11.0295 12.5216C10.7705 12.3352 10.5206 12.1262 10.2888 11.9035ZM11.1841 12.6306L20.6366 3.17803C20.823 3.4507 20.9911 3.74155 21.1365 4.04148L12.0475 13.1305C11.7476 12.9851 11.4613 12.8169 11.1841 12.6306ZM12.2202 13.2078L21.2183 4.21418C21.3638 4.53684 21.4819 4.86859 21.5774 5.21851L13.2245 13.5668C12.8792 13.4714 12.5429 13.3532 12.2202 13.2078ZM13.429 13.6213L21.6273 5.41847C21.7182 5.80476 21.7773 6.20013 21.8 6.60459L14.6152 13.794C14.2107 13.7713 13.8108 13.7122 13.429 13.6213ZM16.692 13.5941L21.6046 8.68144C20.9911 11.0855 19.0915 12.9805 16.692 13.5941ZM21.6773 8.34969L16.3557 13.6713C15.9194 13.7577 15.4695 13.8076 15.006 13.8076C14.9605 13.8076 14.9106 13.8076 14.8606 13.8031L21.8137 6.85454V6.99996C21.8137 7.4635 21.7682 7.91341 21.6773 8.34969Z"
-                        fill="#404040" />
-                    </svg>
-                  </span>
-                  Spearheaded the launch of Actova’s Next-Gen AI Engine.
-                </li>
-                <li>
-                  <span>
-                    <svg width="22" height="14" viewBox="0 0 22 14" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.006 0.010498C13.5154 0.010498 12.1339 0.478584 10.9977 1.27842C9.8207 0.451317 8.43462 0.010498 6.98492 0.010498C3.13572 0.010498 0 3.14621 0 6.99996C0 10.8537 3.13572 13.9894 6.98947 13.9894C8.43462 13.9894 9.8207 13.5532 11.0023 12.7215C12.1384 13.5168 13.5199 13.9894 15.0105 13.9894C18.8643 13.9894 22 10.8537 22 6.99996C22 3.14621 18.8597 0.010498 15.006 0.010498ZM19.7777 2.15097L10.1615 11.7763C9.93431 11.549 9.72526 11.3036 9.53439 11.0446L19.0461 1.52382C19.3051 1.71469 19.5505 1.92374 19.7777 2.15097ZM18.9006 1.4193L9.42533 10.8901C9.23446 10.6174 9.06631 10.3356 8.91634 10.0357L18.0463 0.910312C18.3417 1.06028 18.628 1.22843 18.9006 1.4193ZM17.8736 0.828511L8.83454 9.86301C8.68457 9.54489 8.56187 9.21314 8.46189 8.87231L16.8829 0.455861C17.2237 0.55584 17.5555 0.678542 17.8736 0.828511ZM16.6784 0.401327L8.40735 8.67235C8.31192 8.29061 8.2483 7.89978 8.21648 7.49986L15.5059 0.210457C15.9058 0.237724 16.2966 0.305892 16.6784 0.401327ZM15.0105 0.192279C15.0923 0.192279 15.1787 0.196823 15.2605 0.196823L8.2074 7.25446C8.20285 7.16811 8.20285 7.08631 8.20285 6.99996C8.20285 6.58641 8.23921 6.18195 8.31192 5.79112L13.8017 0.301347C14.1925 0.228635 14.597 0.192279 15.0105 0.192279ZM13.4745 0.369515L8.37554 5.46846C8.95724 2.94171 10.9523 0.951213 13.4745 0.369515ZM10.2888 11.9035L19.9095 2.28276C20.1322 2.51453 20.3413 2.76448 20.5276 3.02351L11.0295 12.5216C10.7705 12.3352 10.5206 12.1262 10.2888 11.9035ZM11.1841 12.6306L20.6366 3.17803C20.823 3.4507 20.9911 3.74155 21.1365 4.04148L12.0475 13.1305C11.7476 12.9851 11.4613 12.8169 11.1841 12.6306ZM12.2202 13.2078L21.2183 4.21418C21.3638 4.53684 21.4819 4.86859 21.5774 5.21851L13.2245 13.5668C12.8792 13.4714 12.5429 13.3532 12.2202 13.2078ZM13.429 13.6213L21.6273 5.41847C21.7182 5.80476 21.7773 6.20013 21.8 6.60459L14.6152 13.794C14.2107 13.7713 13.8108 13.7122 13.429 13.6213ZM16.692 13.5941L21.6046 8.68144C20.9911 11.0855 19.0915 12.9805 16.692 13.5941ZM21.6773 8.34969L16.3557 13.6713C15.9194 13.7577 15.4695 13.8076 15.006 13.8076C14.9605 13.8076 14.9106 13.8076 14.8606 13.8031L21.8137 6.85454V6.99996C21.8137 7.4635 21.7682 7.91341 21.6773 8.34969Z"
-                        fill="#404040" />
-                    </svg>
-                  </span>
-                  Published 12+ research papers on deep learning and applied AI.
-                </li>
-                <li>
-                  <span>
-                    <svg width="22" height="14" viewBox="0 0 22 14" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.006 0.010498C13.5154 0.010498 12.1339 0.478584 10.9977 1.27842C9.8207 0.451317 8.43462 0.010498 6.98492 0.010498C3.13572 0.010498 0 3.14621 0 6.99996C0 10.8537 3.13572 13.9894 6.98947 13.9894C8.43462 13.9894 9.8207 13.5532 11.0023 12.7215C12.1384 13.5168 13.5199 13.9894 15.0105 13.9894C18.8643 13.9894 22 10.8537 22 6.99996C22 3.14621 18.8597 0.010498 15.006 0.010498ZM19.7777 2.15097L10.1615 11.7763C9.93431 11.549 9.72526 11.3036 9.53439 11.0446L19.0461 1.52382C19.3051 1.71469 19.5505 1.92374 19.7777 2.15097ZM18.9006 1.4193L9.42533 10.8901C9.23446 10.6174 9.06631 10.3356 8.91634 10.0357L18.0463 0.910312C18.3417 1.06028 18.628 1.22843 18.9006 1.4193ZM17.8736 0.828511L8.83454 9.86301C8.68457 9.54489 8.56187 9.21314 8.46189 8.87231L16.8829 0.455861C17.2237 0.55584 17.5555 0.678542 17.8736 0.828511ZM16.6784 0.401327L8.40735 8.67235C8.31192 8.29061 8.2483 7.89978 8.21648 7.49986L15.5059 0.210457C15.9058 0.237724 16.2966 0.305892 16.6784 0.401327ZM15.0105 0.192279C15.0923 0.192279 15.1787 0.196823 15.2605 0.196823L8.2074 7.25446C8.20285 7.16811 8.20285 7.08631 8.20285 6.99996C8.20285 6.58641 8.23921 6.18195 8.31192 5.79112L13.8017 0.301347C14.1925 0.228635 14.597 0.192279 15.0105 0.192279ZM13.4745 0.369515L8.37554 5.46846C8.95724 2.94171 10.9523 0.951213 13.4745 0.369515ZM10.2888 11.9035L19.9095 2.28276C20.1322 2.51453 20.3413 2.76448 20.5276 3.02351L11.0295 12.5216C10.7705 12.3352 10.5206 12.1262 10.2888 11.9035ZM11.1841 12.6306L20.6366 3.17803C20.823 3.4507 20.9911 3.74155 21.1365 4.04148L12.0475 13.1305C11.7476 12.9851 11.4613 12.8169 11.1841 12.6306ZM12.2202 13.2078L21.2183 4.21418C21.3638 4.53684 21.4819 4.86859 21.5774 5.21851L13.2245 13.5668C12.8792 13.4714 12.5429 13.3532 12.2202 13.2078ZM13.429 13.6213L21.6273 5.41847C21.7182 5.80476 21.7773 6.20013 21.8 6.60459L14.6152 13.794C14.2107 13.7713 13.8108 13.7122 13.429 13.6213ZM16.692 13.5941L21.6046 8.68144C20.9911 11.0855 19.0915 12.9805 16.692 13.5941ZM21.6773 8.34969L16.3557 13.6713C15.9194 13.7577 15.4695 13.8076 15.006 13.8076C14.9605 13.8076 14.9106 13.8076 14.8606 13.8031L21.8137 6.85454V6.99996C21.8137 7.4635 21.7682 7.91341 21.6773 8.34969Z"
-                        fill="#404040" />
-                    </svg>
-                  </span>
-                  Recognized as Top 50 Women in AI by Tech Leaders Journal (2024).
-                </li>
-              </ul>
+              
               <h3 class="title">Social Media</h3>
               <ul class="tp-social-media">
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/in/iavick/"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-behance"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/iavick/"><i class="fab fa-linkedin-in"></i></a>
                 </li>
               </ul>
             </div>
@@ -123,6 +82,124 @@
         </div>
       </section>
       <!-- Team details area end -->
+
+                <!-- Team area start -->
+      <section class="tp-team-area pb-140">
+        <div class="tp-container">
+          <div class="tp-team-inner">
+            <div class="tp-ap-team-title-wrap">
+              <h3 class="sec-title-2 actova-word">
+                Meet AI Consulting Experts
+              </h3>
+            </div>
+            <div class="tp-team-grid">
+              <div class="tp-team-card tp-fade-animation" data-delay="0.6">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/tapas-d-paul.webp") }}" alt="Team Member">
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Tapas Paul')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Tapas Paul</a></h3>
+                <p><b>AI consultant specializing</b> in practical business automation solutions.</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="0.8">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team//supriyo-day.webp") }}" alt="AI Consultant">
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Supriyo Dey')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Supriyo Dey</a></h3>
+                <p><b>AI consultant specializing</b> in AI development & integration solutions.</p>
+              </div>
+
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/pradipta-bhuia.webp") }}" alt="AI Developer">
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Pradipta Bhuian</a></h3>
+                <p><b>AI consultant and developer</b> with expertise in building scalable AI systems.</p>
+              </div>
+              <div class="tp-team-card tp-fade-animation" data-delay="1.2">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/jyoti-mishra.webp") }}" alt="AI Consultant">
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Jyoti Mishra')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Jyoti Mishra</a></h3>
+                <p><b>>AI consultant helping</b> businesses leverage AI for growth and productivity.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <img src="{{ asset("assets/imgs/team/abhijit-bag.webp") }}" alt="AI Developer">
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Abhijit Bag</a></h3>
+                <p><b>AI consultant skilled</b> in applying AI to solve real-world business problems.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <a href="https://www.linkedin.com/in/dmartell/" target="_blank" rel="noopener noreferrer nofollow">
+                    <img src="{{ asset('assets/imgs/team/dam-martell.webp') }}" alt="Dan Martell">
+                    </a>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Dan Martell</a></h3>
+                <p>Widely recognized <b>entrepreneur and AI consultant</b>, helping businesses scale with smart technology and systems.</p>
+              </div>
+                <div class="tp-team-card tp-fade-animation" data-delay="1">
+                <div class="image">
+                  <a href="https://www.instagram.com/realrileybrown" target="_blank" rel="noopener noreferrer nofollow">
+                    <img src="{{ asset('assets/imgs/team/riley-brown.webp') }}" alt="Riley Brown">
+                    </a>
+                  <ul class="social-media" style="width: 160px; border-radius: 30px;">
+                    <li style="width: 100%; height: 40px;">
+                      <a href="javascript:void(0)" onclick="openConsultantPopup('Pradipta Bhuian')" style="width: 100%; height: 100%; border-radius: 30px; font-size: 14px; font-weight: 600;">
+                        Contact Expert
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="title"><a href="{{ route("team-details") }}">Riley Brown</a></h3>
+                <p>Popular <b>AI educator and entrepreneur</b> known for helping people build apps and businesses using AI tools.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       <!-- Footer area start -->
