@@ -233,15 +233,14 @@
                     <img src="{{ asset('assets/imgs/avick-kr-dey.webp') }}" alt="{{ $authorName }}">
                     <div class="author-social-links">
                         <a href="https://www.linkedin.com/in/iavick/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://ieeexplore.ieee.org/author/37089742321"><i class="fas fa-globe-americas"></i></a>
                     </div>
                 </div>
                 <div class="author-info">
                     <h1 class="author-name-title">{{ $authorName }}</h1>
                     <div class="author-designation">AI Consulting & Research Expert (PhD)</div>
                     <p class="author-biography">
-                        {{ $authorName }} is an AI enthusiast with over 4+ years of experience in AI development and applied AI solutions. He helps enterprises leverage artificial intelligence to scale their digital presence and automate workflows. Connect with him to stay updated on the latest trends in AI and technology.
+                        {{ $authorName }} is an AI enthusiast with over 4+ years of experience in AI development and applied AI solutions. He helps enterprises leverage artificial intelligence to scale their digital presence and automate workflows. Connect with him to stay updated on the latest trends in AI and technology (<a href="https://scholar.google.com/citations?user=MrZiOykAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><strong>Google Scholar</strong></a>).
                     </p>
                 </div>
             </div>
