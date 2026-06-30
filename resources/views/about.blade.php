@@ -430,7 +430,7 @@
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Tapas Paul</a></h3>
+                <h3 class="title"><a href="{{ route("ai-consultants") }}">Tapas Paul</a></h3>
                 <p>AI Consultant</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="0.8">
@@ -444,7 +444,7 @@
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Supriyo Dey</a></h3>
+                <h3 class="title"><a href="{{ route("ai-consultants") }}">Supriyo Dey</a></h3>
                 <p>AI Consultant</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="1">
@@ -458,7 +458,7 @@
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Pradipta Bhuian</a></h3>
+                <h3 class="title"><a href="{{ route("ai-consultants") }}">Pradipta Bhuian</a></h3>
                 <p>AI Consultant</p>
               </div>
               <div class="tp-team-card tp-fade-animation" data-delay="1.2">
@@ -472,7 +472,7 @@
                     </li>
                   </ul>
                 </div>
-                <h3 class="title"><a href="{{ route("team-details") }}">Jyoti Mishra</a></h3>
+                <h3 class="title"><a href="{{ route("ai-consultants") }}">Jyoti Mishra</a></h3>
                 <p>AI Consultant</p>
               </div>
             </div>
