@@ -16,8 +16,13 @@
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://ai-consultant.agency/team-details</loc>
+<loc>https://ai-consultant.agency/ai-consultants</loc>
 <lastmod>2026-05-19T18:04:34+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ai-consultant.agency/research-and-development</loc>
+<lastmod>2026-06-30T18:04:34+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
@@ -113,6 +118,11 @@
 <url>
 <loc>https://ai-consultant.agency/blog/how-to-hire-an-ai-consultant-a-step-by-step-guide</loc>
 <lastmod>2026-05-19T18:04:34+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ai-consultant.agency/blog/top-10-ai-consulting-firms-in-2026</loc>
+<lastmod>2026-06-30T18:04:34+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
