@@ -33,7 +33,7 @@
                 <ul>
                     <li><a href="{{ route('about') }}">Company</a></li>
                     <li><a href="{{ route('service') }}">Services</a></li>
-                    <li><a href="#">Integrations</a></li>
+                    <li><a href="/research-and-development">Research & Dev.</a></li>
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 </ul>
             </div>
