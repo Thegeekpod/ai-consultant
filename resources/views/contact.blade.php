@@ -54,7 +54,7 @@
                         <div class="icon"><i class="fal fa-location"></i></div>
                         <div class="info">
                             <p>Location (India)</p>
-                            <a href="https://share.google/oBZ9aFpq0KKioZCW2">AI Consultant, Plot DN-52, Sector-V, Kolkata -700091</a>
+                            <a href="https://share.google/oBZ9aFpq0KKioZCW2">2nd Floor, S.S.B, Bhimpalashri Sarani, Durgapur, West Bengal- 713212</a>
                         </div>
                     </div>
                 </div>

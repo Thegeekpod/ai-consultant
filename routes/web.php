@@ -73,7 +73,7 @@ Route::controller(FrontendController::class)->group(function () {
 
     // Industries Pages
     Route::get('/industries', 'industries')->name('industries');
-    Route::get('/industries/education', 'industryEducation')->name('industries.education');
+    Route::get('/industries/ai-consulting-edtech', 'industryEducation')->name('industries.education');
     Route::get('/industries/finance-banking', 'industryFinanceBanking')->name('industries.finance-banking');
     Route::get('/industries/healthcare', 'industryHealthcare')->name('industries.healthcare');
     Route::get('/industries/manufacturing', 'industryManufacturing')->name('industries.manufacturing');

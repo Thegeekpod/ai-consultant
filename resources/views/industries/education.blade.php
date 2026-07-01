@@ -5,10 +5,10 @@
 <section class="tp-breadcrumb-area" style="position: relative; overflow: hidden;">
     <div class="tp-container">
         <div class="tp-breadcrumb-wrapper">
-            <img src="{{ asset('assets/imgs/hero/about-bg.jpg') }}" alt="Image">
+            <img src="{{ asset('assets/imgs/hero/service-bg.jpg') }}" alt="Image">
             <div class="tp-breadcrumb-content">
-                <h1 class="tp-breadcrumb-title">Coming Soon</h1>
-                <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span></span> AI for Education & EdTech</p>
+                <h1 class="tp-breadcrumb-title">AI for Education & EdTech</h1>
+                <p class="tp-breadcrumb"><a href="{{ route('home') }}">Home</a> <span></span>Advanced AI Solutions</p>
             </div>
         </div>
     </div>
@@ -28,8 +28,43 @@
     </div>
 </section><br><br>
 
-<!--
-<section class="tp-about-area pt-150">
+ <!-- Brand area start -->
+      <div class="tp-brand-area-2 pb-150">
+        <div class="tp-container">
+          <div class="tp-brand-inner">
+            <div class="tp-brand-slider">
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/brand-6.png') }}" alt="Strengthen Numbers- Our Client from USA"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"> <img src="{{ asset('assets/imgs/brand/brand-1.png') }}" alt="Oye Monkey- Our Client from India"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/logo-3.png') }}" alt="Findme- Our beloved Client from USA"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/logo-4.png') }}" alt="NobelPay- Our client from USA"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/brand-2.png') }}" alt="DIRECTV- Our Client from USA"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/brand-3.png') }}" alt="Warner Music Group- Our Client from USA"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/brand-5.png') }}" alt="Verizon- Our Client from USA"></a>
+              </div>
+              <div class="tp-brand-logo">
+                <a href="#"><img src="{{ asset('assets/imgs/brand/brand-7.png') }}" alt="Weberads- Our Client from India"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Brand area end -->
+
+
+<section class="tp-about-area">
     <div class="tp-about-wrapper">
         <div class="tp-about-top plr-50">
             <h2 class="sub-title" style="color: #A1FF75;">Industry Focus</h2>
