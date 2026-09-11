@@ -18,6 +18,7 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/projects', 'projects')->name('projects');
     Route::get('/team', 'team')->name('team');
     Route::get('/faq', 'faq')->name('faq');
+    Route::get('/research-and-development', 'researchDevelopment')->name('researchDevelopment');
     // Route::get('/service-details', 'serviceDetails')->name('service-details');
 
     // Individual Service Pages
@@ -38,7 +39,7 @@ Route::controller(FrontendController::class)->group(function () {
     Route::get('/services/ongoing-support', 'serviceOngoingSupport')->name('services.ongoing-support');
     Route::get('/services/strategy-consulting', 'serviceStrategyConsulting')->name('services.strategy-consulting');
     Route::get('/services/training-support', 'serviceTrainingSupport')->name('services.training-support');
-    Route::get('/team-details', 'teamDetails')->name('team-details');
+    Route::get('/ai-consultants', 'teamDetails')->name('ai-consultants');
     Route::get('/projects-details', 'projectsDetails')->name('projects-details');
     Route::get('/terms', 'terms')->name('terms');
     Route::get('/privacy', 'privacy')->name('privacy');
@@ -72,7 +73,7 @@ Route::controller(FrontendController::class)->group(function () {
 
     // Industries Pages
     Route::get('/industries', 'industries')->name('industries');
-    Route::get('/industries/education', 'industryEducation')->name('industries.education');
+    Route::get('/industries/ai-consulting-edtech', 'industryEducation')->name('industries.education');
     Route::get('/industries/finance-banking', 'industryFinanceBanking')->name('industries.finance-banking');
     Route::get('/industries/healthcare', 'industryHealthcare')->name('industries.healthcare');
     Route::get('/industries/manufacturing', 'industryManufacturing')->name('industries.manufacturing');

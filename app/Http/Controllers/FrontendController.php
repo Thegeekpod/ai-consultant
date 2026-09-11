@@ -63,6 +63,11 @@ class FrontendController extends Controller
         return view('service-details');
     }
 
+    public function researchDevelopment()
+    {
+        return view('research-and-development');
+    }
+
     // Individual Service Pages
     public function serviceAiDevelopment() { return view('services.ai-development'); }
     public function serviceAiIntegrationOps() { return view('services.ai-integration-ops'); }
@@ -134,7 +139,7 @@ class FrontendController extends Controller
 
     public function teamDetails()
     {
-        return view('team-details');
+        return view('ai-consultants');
     }
 
     public function projectsDetails()

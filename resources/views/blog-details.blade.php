@@ -329,7 +329,7 @@
                     <span class="hero-tag">Blog</span>
                     <h1 class="hero-title">{{ $blog->title }}</h1>
                     <div class="hero-meta">
-                        by <a href="{{ route('author-details', 'Avick-Kr-Dey') }}"><strong>Avick Kr Dey</strong></a> • Published: {{ $blog->created_at->format('M d, Y') }}
+                        by <a href="{{ route('author-details', 'Avick-Kr-Dey') }}"><strong>Dr. Avick Kr Dey</strong></a> • Published: {{ $blog->created_at->format('M d, Y') }}
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -395,10 +395,10 @@
                              </a>
 
                             <a href="https://www.linkedin.com/in/iavick/" target="_blank" class="mr-10"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://ieeexplore.ieee.org/author/37089742321"><i class="fas fa-globe-americas"></i></a>
                         </div>
                         <p class="author-bio">
-                            Avick Kr Dey is a digital strategy expert with over 10 years of experience in AI-driven marketing and content automation. He focuses on helping enterprises scale their digital presence through innovative technologies.
+                            Dr. Avick Kr Dey is an AI enthusiast with over 4+ of experience in AI development and applied AI solutions. He helps enterprises leverage artificial intelligence to scale their digital presence and automate workflows. Connect with him to stay updated on the latest trends in AI and technology (<a href="https://scholar.google.com/citations?user=MrZiOykAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><strong>Google Scholar</strong></a>). 
                         </p>
                        
                     </div>

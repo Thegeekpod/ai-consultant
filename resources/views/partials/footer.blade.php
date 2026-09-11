@@ -33,7 +33,7 @@
                 <ul>
                     <li><a href="{{ route('about') }}">Company</a></li>
                     <li><a href="{{ route('service') }}">Services</a></li>
-                    <li><a href="#">Integrations</a></li>
+                    <li><a href="/research-and-development">Research & Dev.</a></li>
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 </ul>
             </div>
@@ -50,7 +50,7 @@
                 <h2 class="title-2">Contact Info</h2>
                 <ul>
                     <li><a href="mailto:info@ai-conultant.agency">info@ai-conultant.agency</a></li>
-                    <li><a href="https://share.google/oBZ9aFpq0KKioZCW2">AI Consultant, Plot DN-52, Sector-V, Kolkata -700091</a></li>
+                    <li><a href="https://share.google/oBZ9aFpq0KKioZCW2">2nd Floor, S.S.B, Bhimpalashri Sarani, Durgapur, West Bengal- 713212</a></li>
                     <li><a href="https://share.google/oBZ9aFpq0KKioZCW2">AI Consultant, 1600 Amphitheatre Parkway Mountain View, CA - 94043</a></li>
                 </ul>
             </div>
